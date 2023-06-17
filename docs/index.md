@@ -10,7 +10,7 @@ This tutorial serves as a starting point for beginners who may wish to create
 their own Interactive CYOA, as well as a reference for more experienced
 creators.
 
-When you are ready to start, continue over to the [Introduction].
+[Continue to the Introduction]{ .md-button .md-button-primary }
 
 ## Useful links
 
@@ -30,13 +30,15 @@ Credits to these tutorials for helping me make this tutorial.
 
 * [How to guide on making interactive CYOAs for a first time creator. (Reddit)]
 – This guide shows you how to upload your finished Interactive CYOAs to
-Neocities, which is also covered in this tutorial
+Neocities, which is also covered in *this* tutorial
 [here](./publishing/#uploading-your-project).
+
+    Direct links:
     * [Imgur](https://imgur.com/a/QV36Ix8)
     * [Google Slides][1]
 * [Tips and Pitfalls for Interactive CYOA Creators]
 
-### Feedback
+## Feedback
 If you have any questions, concerns, corrections, or anything else, feel free
 to [contact me][5]. Otherwise, leave a comment
 below.
@@ -45,6 +47,6 @@ below.
 [3]: https://meandelay.itch.io/interactive-cyoa-creator
 [5]: https://upasadena.github.io/#social-media-and-contact
 
-[Introduction]: ./introduction/
+[Continue to the Introduction]: ./introduction/
 [How to guide on making interactive CYOAs for a first time creator. (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
 [Tips and Pitfalls for Interactive CYOA Creators]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
