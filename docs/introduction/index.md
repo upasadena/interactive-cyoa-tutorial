@@ -35,3 +35,56 @@ tutorial, but you may wish to check it out anyway.
 
 ### The Sidebar
 The sidebar is how you manoeuvre around the creator.
+
+![](../images/0g_sidebar_full.png)
+
+#### Return To Menu
+This takes you back to the [start][2].
+
+#### Create New Row
+This is how you create rows. See more [here][1].
+
+#### Open Row List
+This lists all the rows inside of the interactive. It lists them with their ID
+by default, but, if given a title, it will use that instead.
+
+![](../images/0h_row_list.png)
+
+You can select individual rows to expand them and see choices:
+
+![](../images/0i_row_list_expanded.png)
+
+#### Open Features
+Pressing _Open Features_ will present you with one of the most important menus
+in the creator. It grants you access to a lot of the mechanics, such as
+[points], [defaults], the [Backpack and Choice Import], and
+[image compression].
+
+All these features will be elaborated later on, and so need not be talked about
+in detail here.
+
+![](../images/0j_features.png)
+
+#### Modify Design
+The _Modify Design_ button will open up the key to designing your CYOA. This is
+quite important if you wish for your CYOA to be approachable and appealing
+visually. You can learn more about it [here](../styling/).
+
+![](../images/0k_modify_design.png)
+
+#### Save/Load Project
+
+#### Clean Selected Choices
+
+#### See ID/Title List
+
+#### Use Alternate Menu
+
+
+[1]: ../mechanics/rows/#creating-rows
+[2]: ./#launching-the-creator
+
+[points]: ../mechanics/points-and-scores/
+[defaults]: ../mechanics/defaults
+[Backpack and Choice Import]: ../mechanics/backpack-and-choice-import
+[image compression]: ../mechanics/images/#image-compression
