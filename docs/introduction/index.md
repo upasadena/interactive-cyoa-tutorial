@@ -21,9 +21,12 @@ This is what a complete CYOA would look like in this menu:
 ![](../images/0c_full_creator.png)
 
 ### Open Image-CYOA Viewer
-This is where you can preview CYOAs before you upload them. You can play them,
-but options selected in the viewer will persist in the editor, so make sure you
-[reset the options](../mechanics/choices.md#Resetting choices).
+This is where you can preview CYOAs before you upload them.
+
+!!! warning
+
+    Options selected in the viewer will persist in the editor, so make sure you
+    [reset the options](../mechanics/choices/#resetting-choices).
 
 ![](../images/0d_viewer.png)
 
@@ -34,7 +37,8 @@ tutorial, but you may wish to check it out anyway.
 ![](../images/0e_help_and_instructions.gif)
 
 ### The Sidebar
-The sidebar is how you manoeuvre around the creator.
+The sidebar is how you manoeuvre around the creator. Please note that the
+sidebar is only accessible if you hover over it.
 
 ![](../images/0g_sidebar_full.png)
 
@@ -67,19 +71,77 @@ in detail here.
 
 #### Modify Design
 The _Modify Design_ button will open up the key to designing your CYOA. This is
-quite important if you wish for your CYOA to be approachable and appealing
-visually. You can learn more about it [here](../styling/).
+quite important if you wish for your CYOA to be approachable and visually
+appealing. You can learn more about it [here](../styling/).
 
 ![](../images/0k_modify_design.png)
 
 #### Save/Load Project
+This menu is a place you'll become quite familiar with when creating CYOAs,
+as this is where you will go to save, load, and export your project.
+
+![](../images/0la_save_load.png)
+
+* **To save a project**, simply press _Save Project_, and save the
+`project.json` somewhere convenient. This should be its own folder, and in the
+same place as your Viewer files.
+* **To load a project**, simply press the input labelled _Load Project_ with
+the placeholder text _Select your project_. This will open a file dialogue
+where you can select a previous `project.json`.
+* **To export a project**, press
+_Download Finished Project with Separate Images_. This will give you the option
+to save a `hello.zip` containing your CYOA. Rename it at your leisure.
+
+    After you've saved it somewhere, extract it. You will notice that, if your
+    project was large enough, the `project.json` is much smaller than before.
+    This is because it separated the images from the project.json, allowing for
+    faster loading times.
+
+    If you have lots of images, then exporting might not be your best option.
+    As the creator itself says:
+
+    !!! quote
+
+        If the project has a lot of images then they might end
+        up not showing when someone loads on the page, if so then just use the
+        normal way, and use Image Compression in features to reduce the size of
+        the project file.
+
+---
+
+This menu also allows you to see the stats of your project, such as character,
+choice, image, and row count.
+
+![](../images/0lb_stats.png)
 
 #### Clean Selected Choices
+As warned above, if you've used the Viewer and selected choices whilst
+developing at the same time, then when you go back into the creator, you may
+notice that the choices are still selected.
+
+This button provides an easy way to clear selected choices.
 
 #### See ID/Title List
+This button provides a quick reference to the titles, choices, and what [IDs]
+each of them have. This is **incredibly** powerful, especially in conjunction
+with ++ctrl+f++ / ++cmd+f++, as it allows you an overview of your entire
+project without having to open all rows and objects.
+
+You can use this to find the ID of an object using its title, and vice versa.
+
+![](../images/0m_id_title_list.png)
 
 #### Use Alternate Menu
+The Alternate Menu is an alternate way of displaying the sidebar, this time at
+the top of the creator rather than the side.
 
+![](../images/0na_alternate_menu.png)
+
+If you ever go into this menu and wish to return back to the default
+appearance, simply press the three-line button between _De-Select Choices_ and
+_New Row_, as shown here:
+
+![](../images/0nb_alternate_menu_close.png)
 
 [1]: ../mechanics/rows/#creating-rows
 [2]: ./#launching-the-creator
@@ -88,3 +150,4 @@ visually. You can learn more about it [here](../styling/).
 [defaults]: ../mechanics/defaults
 [Backpack and Choice Import]: ../mechanics/backpack-and-choice-import
 [image compression]: ../mechanics/images/#image-compression
+[IDs]: ../mechanics/ids-and-requirements/

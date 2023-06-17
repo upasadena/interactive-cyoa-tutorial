@@ -57,6 +57,7 @@ nav:
     - Mechanics:
       - mechanics/index.md
       - Rows: mechanics/rows.md
+      - Choices: mechanics/choices.md
     - Styling:
       - styling/index.md
     - Publishing:

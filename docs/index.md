@@ -6,7 +6,11 @@ comments: true
 This is a complete and comprehensive guide to using the
 **Interactive CYOA Creator** by **MeanDelay**.
 
-When you are ready to start, continue over to the [Introduction][4].
+This tutorial serves as a starting point for beginners who may wish to create
+their own Interactive CYOA, as well as a reference for more experienced
+creators.
+
+When you are ready to start, continue over to the [Introduction].
 
 ## Useful links
 
@@ -24,20 +28,23 @@ CYOAs, but interactive are accepted if you link the static)
 ### Other Tutorials and Info
 Credits to these tutorials for helping me make this tutorial.
 
-* [How to guide on making interactive CYOAs for a first time creator.][1]
+* [How to guide on making interactive CYOAs for a first time creator. (Reddit)]
 – This guide shows you how to upload your finished Interactive CYOAs to
 Neocities, which is also covered in this tutorial
 [here](./publishing/#uploading-your-project).
     * [Imgur](https://imgur.com/a/QV36Ix8)
-    * [Google Slides][2]
+    * [Google Slides][1]
+* [Tips and Pitfalls for Interactive CYOA Creators]
 
 ### Feedback
 If you have any questions, concerns, corrections, or anything else, feel free
 to [contact me][5]. Otherwise, leave a comment
 below.
 
-[1]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
-[2]: https://docs.google.com/presentation/d/18wSgIooZxM_uA3I90KmZICl9guaQMeVIuqCpV-UffJA/edit
+[1]: https://docs.google.com/presentation/d/18wSgIooZxM_uA3I90KmZICl9guaQMeVIuqCpV-UffJA/edit
 [3]: https://meandelay.itch.io/interactive-cyoa-creator
-[4]: ./introduction/
 [5]: https://upasadena.github.io/#social-media-and-contact
+
+[Introduction]: ./introduction/
+[How to guide on making interactive CYOAs for a first time creator. (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
+[Tips and Pitfalls for Interactive CYOA Creators]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
