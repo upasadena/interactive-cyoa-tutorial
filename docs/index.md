@@ -10,7 +10,7 @@ This tutorial serves as a starting point for beginners who may wish to create
 their own Interactive CYOA, as well as a reference for more experienced
 creators who are looking for a refresher.
 
-[Continue to the Introduction]{ .md-button .md-button-primary }
+[Continue to the Introduction]{ .md-button }
 
 ## Useful links
 
