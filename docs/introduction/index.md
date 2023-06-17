@@ -1,4 +1,6 @@
 # Introduction
+This section of the tutorial will be focused on familiarizing you with the
+interface.
 
 ## Launching the Creator
 When you launch the creator for the first time, you will be greeted with this
@@ -32,4 +34,4 @@ tutorial, but you may wish to check it out anyway.
 ![](../images/0e_help_and_instructions.gif)
 
 ### The Sidebar
-TODO
+The sidebar is how you manoeuvre around the creator.

@@ -27,11 +27,17 @@ Credits to these tutorials for helping me make this tutorial.
 * [How to guide on making interactive CYOAs for a first time creator.][1]
 – This guide shows you how to upload your finished Interactive CYOAs to
 Neocities, which is also covered in this tutorial
-[here](./publishing/index.md#Uploading Your Project).
+[here](./publishing/#uploading-your-project).
     * [Imgur](https://imgur.com/a/QV36Ix8)
     * [Google Slides][2]
+
+### Feedback
+If you have any questions, concerns, corrections, or anything else, feel free
+to [contact me][5]. Otherwise, leave a comment
+below.
 
 [1]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
 [2]: https://docs.google.com/presentation/d/18wSgIooZxM_uA3I90KmZICl9guaQMeVIuqCpV-UffJA/edit
 [3]: https://meandelay.itch.io/interactive-cyoa-creator
-[4]: ./introduction/index.md
+[4]: ./introduction/
+[5]: https://upasadena.github.io/#social-media-and-contact
