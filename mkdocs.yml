@@ -25,7 +25,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.indexes
@@ -48,9 +48,24 @@ plugins:
   # - offline
 
 nav:
-  - Home: ../
-  - CYOAs: ../cyoas/
-  - Interactive CYOA Tutorial: index.md
+  - Home: https://upasadena.github.io/
+  - CYOAs: https://upasadena.github.io/cyoas/
+  - Interactive CYOA Tutorial:
+    - index.md
+    - Introduction:
+      - introduction/index.md
+    - Mechanics:
+      - mechanics/index.md
+      - Rows: mechanics/rows.md
+    - Styling:
+      - styling/index.md
+    - Publishing:
+      - publishing/index.md
+      - Static: publishing/static.md
+      - Github: publishing/github.md
+      - Neocities: publishing/neocities.md
+    - Extending Your CYOA:
+      - extending-your-cyoa/index.md
 
 extra:
   social:
@@ -66,8 +81,8 @@ extra:
 
 copyright: The source code of this website and the content therein are subject to the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.
 
-repo_url: https://github.com/upasadena/upasadena.github.io
-repo_name: upasadena/upasadena.github.io
+repo_url: https://github.com/upasadena/interactive-cyoa-tutorial
+repo_name: upasadena/interactive-cyoa-tutorial
 edit_uri: edit/main/docs/
 
 markdown_extensions:
