@@ -1,5 +1,6 @@
 *[ICC]: Interactive CYOA Creator
 *[ICYOA]: Interactive CYOA
+*[ICYOAs]: Interactive CYOAs
 *[object]: choice
 *[Object]: Choice
 *[objects]: choices

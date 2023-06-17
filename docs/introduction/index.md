@@ -68,14 +68,18 @@ By pressing on the arrows, you can quickly move Objects around.
 
 ![](../images/0ib_row_list_sort.gif)
 
+By dragging on the Rows, you can quickly move Rows around.
+
+![](../images/0ic_row_list_sort2.gif)
+
 ### Open Features
 Pressing _Open Features_ will present you with one of the most important menus
 in the creator. It grants you access to a lot of the mechanics, such as
 [points], [defaults], the [Backpack and Choice Import], and
 [image compression].
 
-All these features will be elaborated later on, and so won't be talked about
-in detail here.
+All of these features will be elaborated later on, so they won't be talked
+about in detail here.
 
 ![](../images/0j_features.png)
 

@@ -28,7 +28,7 @@ Create a Row by opening up the sidebar and pressing _Create New Row_.
 
 ![](../images/5_delete_row.gif)
 
-## Editing a Row
+## Editing Rows
 !!! note ""
 
     ![](../images/6_edit_row.png){ align=left }
