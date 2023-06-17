@@ -77,15 +77,16 @@ that later (to skip ahead, see [here][dynamic_allowed_choices]).
 ![](../images/10b_allowed_choices.gif)
 
 ## Selected Choices (Input)
-The _Selected Choices_ field will show how many choices are currently selected, and 
-should normally be 0. An exception would be choices that are selected by
+The _Selected Choices_ field will show how many choices are currently selected, 
+and should normally be 0. An exception would be choices that are selected by
 default.
 
 !!! danger
 
     **You should not change this value unless you know what you're doing.**
 
-If it is something else and no choices are selected, then something has gone wrong. You can fix this by changing the value to 0.
+If it is something else and no choices are selected, then something has gone 
+wrong. You can fix this by changing the value to 0.
 
 ![](../images/11_selected_choices.gif)
 

@@ -16,7 +16,7 @@ creators who are looking for a refresher.
 
 ### Interactive CYOA Creator
 * [Online version](https://intcyoacreator.onrender.com/)
-* [Offline version at itch.io (one-time purchase of at least 2.50 USD)][3]
+* [Offline version at itch.io (one-time purchase of 2.50 USD or more)][3]
 
 ### Subreddits
 * [r/InteractiveCYOA](https://www.reddit.com/r/InteractiveCYOA/) – A subreddit
