@@ -30,13 +30,15 @@ This is where you can preview CYOAs before you upload them.
     playtest your CYOAs using a separate instance, or by launching it with the
     official Viewer html files.
 
-    Use this fact to your advantage by selecting default choices.
+    You can use this fact to your advantage by selecting default choices.
 
 ![](../images/0d_viewer.png)
 
 ### Help and Instructions
 A small tutorial made by the author themself. It should be redundant with this
 tutorial, but you may wish to check it out anyway.
+
+Parts of that tutorial will be quoted throughout this one.
 
 ![](../images/0e_help_and_instructions.gif)
 
@@ -54,13 +56,17 @@ This is how you create rows. See more [here][1].
 
 ### Open Row List
 This lists all the rows inside of the interactive. It lists them with their ID
-by default, but, if given a title, it will use that instead.
+by default, but if given a title, it will use that instead.
 
 ![](../images/0h_row_list.png)
 
 You can select individual rows to expand them and see choices:
 
-![](../images/0i_row_list_expanded.png)
+![](../images/0ia_row_list_expanded.png)
+
+By pressing on the arrows, you can quickly move Objects around.
+
+![](../images/0ib_row_list_sort.gif)
 
 ### Open Features
 Pressing _Open Features_ will present you with one of the most important menus
@@ -68,7 +74,7 @@ in the creator. It grants you access to a lot of the mechanics, such as
 [points], [defaults], the [Backpack and Choice Import], and
 [image compression].
 
-All these features will be elaborated later on, and so need not be talked about
+All these features will be elaborated later on, and so won't be talked about
 in detail here.
 
 ![](../images/0j_features.png)
@@ -83,6 +89,15 @@ appealing. You can learn more about it [here](../styling/).
 ### Save/Load Project
 This menu is a place you'll become quite familiar with when creating CYOAs,
 as this is where you will go to save, load, and export your project.
+
+!!! tip
+
+    **Save and save often!**
+
+    Crashes during creation are not unheard of, and the chance increases the
+    larger your `project.json` is. Make sure you save often. It is also
+    advisable to keep backups, either on the cloud or with a different name
+    locally.
 
 ![](../images/0la_save_load.png)
 
@@ -131,7 +146,7 @@ each of them have. This is **incredibly** powerful, especially in conjunction
 with ++ctrl+f++ / ++cmd+f++, as it allows you an overview of your entire
 project without having to open all rows and objects.
 
-You can use this to find the ID of an object using its title, and vice versa.
+You can use this to find the ID of an Object using its title, and vice versa.
 
 ![](../images/0m_id_title_list.png)
 

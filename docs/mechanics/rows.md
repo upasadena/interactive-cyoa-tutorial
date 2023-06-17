@@ -77,7 +77,7 @@ that later (to skip ahead, see [here][dynamic_allowed_choices]).
 ![](../images/10b_allowed_choices.gif)
 
 ## Selected Choices (Input)
-The _Selected Choices_ field will show how many choices are currently selected, 
+The _Selected Choices_ field will show how many choices are currently selected,
 and should normally be 0. An exception would be choices that are selected by
 default.
 
@@ -85,13 +85,13 @@ default.
 
     **You should not change this value unless you know what you're doing.**
 
-If it is something else and no choices are selected, then something has gone 
-wrong. You can fix this by changing the value to 0.
+If it is something other than 0 and no choices are selected, then something has
+gone wrong. You can fix this by changing the value to 0.
 
 ![](../images/11_selected_choices.gif)
 
 ## Objects Per Row
-The _Objects Per Row_ option allows you to determine how many Objects are
+The _Objects Per Row_ option allows you to specify how many Objects should be
 present within an Object row.
 
 === "1 per Row"
@@ -132,12 +132,12 @@ could have five Objects take up the entire row by setting their
 **Object Widths** to **5 per Row**.
 
 Objects have an **Object Width** of **Row** by default, and that means that 
-their width is equal to whatever is set by the **Objects per Row**. This is 
-convenient in that you don't need to go into each and every choice width and 
-update it, instead only updating the **Objects per Row** once.
+their width is equal to whatever is set by the **Objects per Row** setting. 
+This is convenient in that you don't need to go into each and every choice 
+width and update it, instead only updating the **Objects per Row** once.
 
-If you have changed an individual Object's **Object Width**, then setting back 
-to **Row** resets it back to the default. 
+If you have changed an individual Object's **Object Width**, then setting back
+to **Row** resets it back to the default width.
 
 ## Non-Activatable?
 This option can be used when you just want to supply information using Objects 
@@ -148,8 +148,8 @@ chunks, each with an image being able to be attatched.
 
 !!! quote "Help and Instructions"
 
-    The third button will make it impossible for a player to change any of the 
-    choices, if one is selected then it will stay selected and vice versa. Good 
+    The third button will make it impossible for a player to change any of the
+    choices, if one is selected then it will stay selected and vice versa. Good
     to use when the user should be given information or story, and not choices.
 
 ![](../images/14_non_activatable.gif)
@@ -158,6 +158,11 @@ chunks, each with an image being able to be attatched.
 The **Selected Choices?** switch enables a whole host of other options that 
 have to do with the Objects in the Row.
 
+Options here can do two things:
+
+1. They display choices you've already selected, and
+2. They can change something about all Objects in the Row
+
 !!! quote "Help and Instructions"
 
     The middle button named 'Selected Choices?' can be used to make the row 
@@ -165,13 +170,111 @@ have to do with the Objects in the Row.
     project to let the player see the choices they have made. A private row 
     design should be used to make filters invisible.
 
+By default a Row with this on will collect all choices that are selected.
+You can use the below switch to filter this into only the Objects from the Row
+you want Alternatively, if you don't make a group by Row, and instead
+_Add To Group_ on Objects manually, you can further refine your selection.
+
 ### Selected Choices from Group Id
-### Deselect choices when Row lacks requirements?
+The _Selected Choices from Group Id_ switch displays selected choices, but only
+if they are a part of the same Group.
+
+!!! note
+
+    * Rows can be a part of as many Groups as you want
+    * You can select multiple Groups for this option
+
+Although the _Process_ tab shows how to set up a Group for this demonstration, 
+it is not fully detailed. In-depth detail on Groups is provided [here][groups]. 
+
+=== "Result"
+
+    ![](../images/15a_scfgi_result.gif)
+
+=== "Process"
+
+    ![](../images/15b_scfgi_process.gif)
+
 ### Choices will all be 'Template Top' and Row Width
+This will set it so that each choice that appears in a _Selected Choices_ Row
+will be normalized. Every image will be at the very top, and it will have Row
+Width by default (see [here][row_width] for an in-depth discussion on that).
+
+=== "On"
+
+    ![](../images/16a_choice_normalize_on.gif)
+
+=== "Off"
+
+    ![](../images/16b_choice_normalize_off.gif)
+
 ### Remove the text of the choices
+This will, as it explains, remove the body text/description from choices,
+leaving only the title and images.
+
+!!! warning
+
+    It is advisable that you also select
+    **Choices will all be 'Template Top' and Row Width** as well, since this
+    option will only remove the text of choices that have an image at the top.
+
+=== "Normalized Images"
+
+    ![](../images/17a_no_text_normalized.gif)
+
+=== "Default"
+
+    ![](../images/17b_no_text_default.gif)
+
 ### Show the title of the row in the choice.
+Another self-explanatory one, it will display the title of the Row above the
+choice's title. This is quite useful in cases where you have a list of choices
+that occur from more than one section, so that you can tell choices apart.
+
+![](../images/18_show_title.gif)
 
 ## Half of the Screen?
+This switch will allow you to have two Rows, each on one half of the screen.
+This option can be quite useful.
+
+![](../images/19_half_of_the_screen.gif)
+
+## Deselect choices when Row lacks requirements?
+This switch deselects all the selected choices if the Row itself lacks
+requirements (and thus is most likely invisible).
+
+If this option is off, then selected choices are preserved.
+
+=== "Deselect on"
+
+    ![](../images/!NA_deselect_choices.gif)
+
+=== "Default behaviour"
+
+    ![](../images/!NA_dont_deselect_choices.gif)
+
+## Row List (Side Menu)
+See [here](../../introduction/#open-row-list).
+
+## Sort The Choices In The Row (Row Settings)
+This option allows you to change the order of the choices within the Row. This
+can be quite a useful option. It is found within the Row's settings.
+
+Open Row Settings → Choose an option for sorting → Press 'Sort'.
+
+![](../images/20_sort_choices.gif)
+
+The options are:
+
+* Object Width - Biggest to Smallest.
+* Object Width - Smallest to Biggest.
+* Text Length - Longest to Shortest.
+* Text Length - Shortest to Longest.
+
+**Object Width** sorts by how much space in a row Objects take, whereas
+**Text Length** sorts by how much text is within the **Object Text** field.
 
 [private styling]: ../../styling/#private-styling
-[dynamic_allowed_choices]: ../objects/adds-or-takes-away-a-rows-allowed-choices
+[dynamic_allowed_choices]: ../objects/#adds-or-takes-away-a-rows-allowed-choices
+[groups]: ../../mechanics/groups/
+[row_width]: ./#row-objects-per-row
