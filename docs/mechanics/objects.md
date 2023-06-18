@@ -114,8 +114,8 @@ You cannot go above this threshold.
 
 !!! info
 
-    It's worth noting that number used for the threshold relates to how many
-    times you can press the buttons for increasing or decreasing.
+    It's worth noting that the number used for the threshold relates to how
+    many times you can press the buttons for increasing or decreasing.
 
     It will also stop you from going down or up if you lack the points
     required, and the Point type has the property 

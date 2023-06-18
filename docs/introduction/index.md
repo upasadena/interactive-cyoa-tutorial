@@ -99,9 +99,11 @@ as this is where you will go to save, load, and export your project.
     **Save and save often!**
 
     Crashes during creation are not unheard of, and the chance increases the
-    larger your `project.json` is. Make sure you save often. It is also
-    advisable to keep backups, either on the cloud or with a different name
-    locally.
+    larger your `project.json` is. Make sure you save often.
+    
+    It is also advisable to keep backups, either on the cloud or with a
+    different name locally. If you save an irreversible or time-consuming
+    mistake, then it's easier to save from a previous version.
 
 ![](../images/0la_save_load.png)
 
@@ -133,7 +135,7 @@ to save a `hello.zip` containing your CYOA. Rename it at your leisure.
 ---
 
 This menu also allows you to see the stats of your project, such as character,
-choice, image, and row count.
+choice, image, and row count. Access this by selected **Project Stats**.
 
 ![](../images/0lb_stats.png)
 
