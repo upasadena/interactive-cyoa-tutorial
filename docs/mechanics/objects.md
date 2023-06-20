@@ -158,7 +158,7 @@ Objects, but it will not deactivate any Objects that were selected beforehand.
     According to the creator of the ICC, this option works poorly if more than
     one Object possesses the same ID, or if a target has requirements attached.
 
-    ??? quote "ICC Quote"
+    ???+ quote "ICC Quote"
 
         Works badly if multiple of these have the same ID, or if the target has
         requirements attached. You can use comma to activate multiple
