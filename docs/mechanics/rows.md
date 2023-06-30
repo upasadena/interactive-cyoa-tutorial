@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Rows
 The basic building block of Interactive CYOAs made with this creator is the 
 Row. Rows are not only the sections that divide the CYOA up, but it is only 

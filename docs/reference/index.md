@@ -1,9 +1,33 @@
+---
+comments: true
+---
+
 # Reference
 This is the reference for Interactive CYOA creators. 
 
 While the rest of the tutorial focuses on individual concepts within the
 creator, this section focuses on real issues and desired outcomes, and walks
 you through how to achieve it.
+
+## Whole CYOA
+### Changing the page title
+In order to change the title of the tab in the browser, simply edit
+`index.html`.
+
+Look for:
+```html
+<title>CYOA</title>
+```
+and replace "CYOA" with whatever you want the title to be.
+
+One title format is `{CYOA name}: Interactive`, but whatever works for you is
+fine.
+
+### Table of Contents / Tab Menu
+
+## Rows
+### Hide Rows behind a Choice
+Use a [Selected Choice] requirement.
 
 ## Choices
 ### You may only pick X options
@@ -53,9 +77,6 @@ Functioning as a XOR gate.
 
 ### Making discounts
 <!-- TODO -->
-
-## CYOA Design
-### Table of Contents / Tab Menu
 
 [Selected Choice]: ../mechanics/ids-and-requirements/#selected-choice
 [AND]: ./#all-of-these-are-selected-requirement

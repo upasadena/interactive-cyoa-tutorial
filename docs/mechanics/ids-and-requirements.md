@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # IDs & Requirements
 
 ## IDs – Unique Identifiers
@@ -197,11 +201,16 @@ If you have some choices that have prerequisites/requirements, then having
 them require them will enforce that users don't cheat, and follow the rules.
 
 #### Making Choices Invisible
-!!! warning
-
-    Before you use private styling, make sure you've read and understood
-    [this](../../styling/#important-advice).
-
 Choices that don't have their requirements can be made invisible using filters.
+
+!!! tip
+    
+    !!! warning
+
+        Before you use private styling, make sure you've read and understood
+        [this](../../styling/#important-advice).
+    
+    Unless your CYOA constantly and consistently wants to hide every choice
+    that doesn't have its 
 
 [^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)

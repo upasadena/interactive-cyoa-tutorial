@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Objects
 **Objects**, also referred to as **Choices**, are _the_ most important element
 of not just Interactive CYOAs, but CYOAs as a whole. Without Choice, you are

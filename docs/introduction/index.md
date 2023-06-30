@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Introduction
 This section of the tutorial will be focused on familiarizing you with the
 interface.

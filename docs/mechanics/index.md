@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Mechanics
 In this section you will learn about the core mechanics of the Interactive
 CYOA Creator.

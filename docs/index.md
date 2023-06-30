@@ -46,7 +46,8 @@ Neocities, which is also covered in *this* tutorial
     * [Imgur](https://imgur.com/a/QV36Ix8)
     * [Google Slides][1]
     
-* [Tips and Pitfalls for Interactive CYOA Creators]
+* [Tips and Pitfalls for Interactive CYOA Creators (Reddit)] – Contributed
+a fair amount to this tutorial.
 
 ## Feedback
 If you have any questions, concerns, corrections, or anything else, feel free
@@ -60,5 +61,5 @@ Otherwise, please leave a comment below.
 
 [Continue to the Introduction]: ./introduction/
 [How to guide on making interactive CYOAs for a first time creator. (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
-[Tips and Pitfalls for Interactive CYOA Creators]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
+[Tips and Pitfalls for Interactive CYOA Creators (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
 [export it as a static]: ./publishing/static/
