@@ -25,7 +25,8 @@ For knowledge on how to achieve a specific outcome, go to the
 
 ### Subreddits
 * [r/InteractiveCYOA](https://www.reddit.com/r/InteractiveCYOA/) – A subreddit
-for Interactive CYOAs. If you make an Interactive, feel free to showcase it here!
+for Interactive CYOAs. If you make an Interactive, feel free to showcase it
+here!
 * [r/makeyourchoice](https://www.reddit.com/r/makeyourchoice/) – The original
 CYOA subreddit. Interactives are accepted but only if you link the static.
 If you are creating an original interactive, either [export it as a static] or
@@ -49,11 +50,14 @@ Neocities, which is also covered in *this* tutorial
 * [Tips and Pitfalls for Interactive CYOA Creators (Reddit)] – Contributed
 a fair amount to this tutorial.
 
-## Feedback
-If you have any questions, concerns, corrections, or anything else, feel free
-to [contact me][5].
+## Feedback and Contributing
+If you have any questions, concerns, corrections, or anything else, please
+comment below, either here or under the specific section of the tutorial.
 
-Otherwise, please leave a comment below.
+If you want to contribute to this tutorial directly, open a pull request
+[here](https://github.com/upasadena/interactive-cyoa-tutorial/pulls).
+
+Otherwise, feel free to [contact me][5].
 
 [1]: https://docs.google.com/presentation/d/18wSgIooZxM_uA3I90KmZICl9guaQMeVIuqCpV-UffJA/edit
 [3]: https://meandelay.itch.io/interactive-cyoa-creator

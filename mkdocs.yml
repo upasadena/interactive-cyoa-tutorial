@@ -23,7 +23,9 @@ theme:
 
   features:
     - navigation.instant
-    - navigation.tracking
+    # navigation.tracking / anchor tracking is the setting that automatically
+    # updates the URL when scrolling
+    # - navigation.tracking
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.sections

@@ -109,6 +109,20 @@ once.
     
     Therefore, it's easier to just use a simple variable every time.
 
+    !!! warning
+
+        However, should you use a simple point type, you will be unable to
+        attach a requirement to each press.
+
+        According to the official author:
+
+        ???+ quote
+
+            The function that allows for a choice to be selected multiple times
+            does no longer need a point-type, but without using one the number
+            of times it has been pressed will not be possible to use in a
+            requirement.
+
 You will be presented with two input fields:
 
 * **Number where the minus will stop working:** This is your 'minimum' number.

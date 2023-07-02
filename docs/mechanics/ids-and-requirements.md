@@ -6,12 +6,12 @@ comments: true
 
 ## IDs – Unique Identifiers
 IDs are unique identifiers that allow the ICC to directly 
-access any object, whether that be Rows, Objects, Points, or Groups.
+access any object, whether that be Rows, Choices, Points, or Groups.
 
 They are particularly useful in situations where you have many choices that 
 have requirements, meaning that if you assigned IDs according to regular, 
 predictable rules, you would not need to contantly check for the IDs of those
-Objects.
+choices.
 
 When you create any object, whether a Row, Choice, Point type, etc, they will
 be assigned a random 4-digit hex ID.
@@ -71,17 +71,45 @@ When the **Add Selected Choice Requirement** option is selected, it means that
 the Choice with the corresponding ID **MUST** be selected in order for that
 requirement to be satisfied.
 
-It acts as an IF conditional. IF this Choice is selected THEN allow this object
-to be selected, or allow this Row to be shown.
+It acts as an IF conditional:
+
+* IF this Choice is selected THEN allow this object to be selected, or allow 
+this Row to be shown.
+
+=== "After"
+
+    ![](../images/34_selected_choice_after.gif)
+
+=== "Before"
+
+    ![](../images/34_selected_choice_before.gif)
+
+=== "Process"
+
+    ![](../images/34_selected_choice_process.gif)
 
 #### Non-selected Choice
 When the **Add Non-selected Choice Requirement** option is selected, it means
 that the Choice with the corresponding ID must **NOT** be selected in order for
 the requirement to be satisfied.
 
-This option is the inverse of the above, acting as an IF-NOT conditional.
-IF a Choice is NOT selected, then allow this object to be selected or
+This option is the inverse of the above, acting as an IF-NOT conditional:
+
+* IF a Choice is NOT selected, then allow this object to be selected or
 shown.
+* IF a Choice IS selected, do NOT allow this object to be selected or shown.
+
+=== "After"
+
+    ![](../images/35_non_sc_after.gif)
+
+=== "Before"
+
+    ![](../images/35_non_sc_before.gif)
+
+=== "Process"
+
+    ![](../images/35_non_sc_process.gif)
 
 #### 'One of these is selected' requirement
 When this requirement is selected, you must provide the creator with a number
@@ -93,7 +121,10 @@ dynamically change this number. Instead, in the menu you have to change the
 number in the **Number of requirements** field below the button, before
 creating a new requirement on the object.
 
-This requirement functions as an OR logic gate.
+This requirement functions as an OR logic gate:
+
+* If X or Y or Z (etc) is selected, then allow this object to be selected or 
+shown.
 
 !!! tip
 
@@ -112,16 +143,50 @@ This requirement functions as an OR logic gate.
     If you want an **All of these are selected** requirement, please see
     [here](../../reference/#all-of-these-are-selected-requirement).
 
-#### 'One of these is not selected' requirement
-The inverse of the above requirement, in order for this requirement to be
-satisfied, as it says, one of the Choice IDs must not be selected.
 
-This requirement functions as a NAND gate.
+=== "After"
+
+    ![](../images/36_one_selected_after.gif)
+
+=== "Before"
+
+    ![](../images/36_one_selected_before.gif)
+
+=== "Process"
+
+    ![](../images/36_one_selected_process.gif)
+
+#### 'One of these is not selected' requirement
+<!-- The inverse of the above requirement, in order for this requirement to be
+satisfied, as it says, one of the Choice IDs must not be selected. -->
+
+<!-- This requirement functions as a NAND gate. -->
+
+Contrary to the name and not exactly the inverse of the above requirement, in 
+order for this requirement to be satisfied, ==ALL== of the Choice IDs 
+must **not** be selected.
+
+This requirement functions as a NOR gate:
+
+* If ALL objects are NOT selected, then allow the choice to be selected or row
+to be shown.
 
 !!! note
 
     If you want a **None of these are selected** requirement, see
     [here](../../reference/#none-of-these-are-selected-requirement)
+
+=== "After"
+
+    ![](../images/37_not_one_s_after.gif)
+
+=== "Before"
+
+    ![](../images/37_not_one_s_before.gif)
+
+=== "Process"
+
+    ![](../images/37_not_one_s_process.gif)
 
 #### Combining Multiple Requirements
 Chaining multiple requirements onto one object means that you require all of
@@ -167,7 +232,7 @@ Orphaned Rows occur when a chain of Nested Rows aren't set up so that closing
 the topmost parent Row closes not just any Rows that depend on it, but also
 Rows that depend on the topmost Row's dependent, and so on and so forth.
 
-u/Traveller-81 goes into more detail here:
+[u/Traveller-81] goes into more detail here:
 
 ??? quote "Tips and Pitfalls for Interactive CYOA Creators (Reddit)"
 
@@ -198,7 +263,8 @@ u/Traveller-81 goes into more detail here:
 
 ### Disabled Choices via Selected Choice
 If you have some choices that have prerequisites/requirements, then having
-them require them will enforce that users don't cheat, and follow the rules.
+them require those requirements will enforce that users don't cheat, and 
+follow the rules.
 
 #### Making Choices Invisible
 Choices that don't have their requirements can be made invisible using filters.
@@ -213,4 +279,34 @@ Choices that don't have their requirements can be made invisible using filters.
     Unless your CYOA constantly and consistently wants to hide every choice
     that doesn't have its 
 
+### Show Requirement
+The **Show Requirement** checkbox allows the user to see the requirements just 
+under the choice title. This is incredibly useful and much less tedious than
+writing requirements underneath each choice manually.
+
+=== "Checked"
+
+    ![](../images/38_show_req_off.png)
+
+=== "Not checked"
+
+    ![](../images/38_show_req_on.png)
+
+---
+
+![](../images/38_show_req_box.png)
+
+**Text Before:** This is what shows before the Choice(s).
+
+**Text After:** As you can imagine, this shows after the Choice(s).
+
+**Selected Id:** The ID(s) relevant to the requirement. It will display the
+Row/Choice title if one exists.
+
+<!-- References -->
+
 [^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)
+
+<!-- URLs -->
+
+[u/Traveller-81]: https://www.reddit.com/user/Traveller-81
