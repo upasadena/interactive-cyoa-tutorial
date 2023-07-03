@@ -1,4 +1,4 @@
-![ci]
+[![ci]][ci_link]
 
 # Interactive CYOA Tutorial
 A complete and comprehensive guide to using the Interactive CYOA Creator by
@@ -30,5 +30,5 @@ each time and without mkdocs.
 
 
 [ci]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml/badge.svg
-[![ci]]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml
+[ci_link]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml
 [oxen]: https://en.wikipedia.org/wiki/Oxford_spelling

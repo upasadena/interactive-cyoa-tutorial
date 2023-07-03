@@ -28,13 +28,24 @@ be assigned a random 4-digit hex ID.
     starts getting large and convoluted, making the various interactions
     **much** easier to understand and track.[^1]
 
-    An example of a format is:
+    An example of a format is sorting based on object type:
 
     | Object type       | ID Format        | Example              |
     | ----------------- | ---------------- | -------------------- |
     | **Row**           | `row_{title}`    | `row_perks`          |
     | **Choice/Object** | `choice_{title}` | `choice_immortality` |
     | **Point type**    | `point_{title}`  | `point_companions`   |
+
+    Or perhaps sorting by row/section type:
+
+    | Section name      | ID Format           | Example              |
+    | ----------------- | ------------------- | -------------------- |
+    | **Perks**         | `perk_{title}`      | `perk_noctis_cape`   |
+    | **Drawbacks**     | `drawback_{title}`  | `drawback_powerless` |
+    | **Powers**        | `power_{title}`     | `power_alexandria`   |
+    | **Companions**    | `companion_{title}` | `companion_taylor`   |
+    | **{Section/Row}** | `section_{title}`   | `section_perks`      |
+    | **{Point}**       | `point_{title}`     | `point_companions`   |
 
 ## Requirements
 Requirements are conditions that a Row must fulfil before it is shown and an
@@ -296,12 +307,16 @@ writing requirements underneath each choice manually.
 
 ![](../images/38_show_req_box.png)
 
-**Text Before:** This is what shows before the Choice(s).
-
-**Text After:** As you can imagine, this shows after the Choice(s).
-
-**Selected Id:** The ID(s) relevant to the requirement. It will display the
+* **Text Before:** This is what shows before the Choice(s).
+* **Text After:** As you can imagine, this shows after the Choice(s).
+* **Selected Id:** The ID(s) relevant to the requirement. It will display the
 Row/Choice title if one exists.
+
+### Navigation with ID / Title list
+ID / Title list as helpful way of navigating your way through a large CYOA – showcase JRPG Traitor 
+
+### Reusing IDs
+Interesting fact: Setting multiple things to the same ID allows you to activate one through the other 
 
 <!-- References -->
 

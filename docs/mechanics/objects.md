@@ -122,6 +122,9 @@ once.
             does no longer need a point-type, but without using one the number
             of times it has been pressed will not be possible to use in a
             requirement.
+        
+        Therefore, you should make an exclusive Point-type if a requirement is
+        necessary.
 
 You will be presented with two input fields:
 
