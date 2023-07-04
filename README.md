@@ -29,7 +29,7 @@ To build this tutorial locally, first install `mkdocs-material` (visit
 [here](https://squidfunk.github.io/mkdocs-material/getting-started/) to learn
 more about installing it):
 
-```bash
+```sh
 pip install mkdocs-material
 ```
 

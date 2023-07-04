@@ -42,6 +42,12 @@ collaborate and see what they've changed, much like Wikipedia.
 You can learn about Git [here](https://rogerdudler.github.io/git-guide/).
 
 ## Versioning
+!!! note
+
+    This is entirely optional, and mostly relevant to users who decide to host
+    their interactive in a Git repository, such as on sites like GitHub and
+    GitLab.
+
 It may be useful to users to have a consistent versioning scheme. I recommend
 reading about [semantic versioning](https://semver.org/).
 
@@ -55,9 +61,25 @@ The basic summary is as follows:
     * MINOR version when you add functionality in a backward compatible manner
     * PATCH version when you make backward compatible bug fixes
 
-For example:
+### Initial development
+!!! quote
+
+    Major version zero (0.y.z) is for initial development. Anything MAY change
+    at any time. The public API SHOULD NOT be considered stable.
+
+Projects start at version `0.1.0` when being initially developed, and stay in
+Major version 0 until ready for public release.
+
+
 
 * `0.1.0` is the very first version that you create
+* `1.0.0` is your first official working version released to the public
+* Before you reach `1.0.0`, anything goes, but when making breaking changes,
+increment the MINOR number: `0.1.0` → `0.2.0` → `0.3.0` etc, when making
+additions or bugfixes, increment the patch number: `0.2.0` → `0.2.1` → `0.2.2`
+etc.
+* After you reach `1.0.0`, only increment the MAJOR number for breaking
+changes.
 * Bug fixes and minor changes increment the PATCH number: `0.1.1`, `0.1.2`, and
 so on and so forth
 * Adding new choices, rows, et cetera would increment the MINOR number:

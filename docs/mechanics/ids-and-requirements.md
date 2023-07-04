@@ -30,13 +30,13 @@ be assigned a random 4-digit hex ID.
 
     An example of a format is sorting based on object type:
 
-    | Object type       | ID Format        | Example              |
-    | ----------------- | ---------------- | -------------------- |
-    | **Row**           | `row_{title}`    | `row_perks`          |
-    | **Choice/Object** | `choice_{title}` | `choice_immortality` |
-    | **Point type**    | `point_{title}`  | `point_companions`   |
+    | Object type    | ID Format        | Example              |
+    | -------------- | ---------------- | -------------------- |
+    | **Row**        | `row_{title}`    | `row_perks`          |
+    | **Choice**     | `choice_{title}` | `choice_immortality` |
+    | **Point type** | `point_{title}`  | `point_companions`   |
 
-    Or perhaps sorting by row/section type:
+    Or perhaps sorting by row/section name:
 
     | Section name      | ID Format           | Example              |
     | ----------------- | ------------------- | -------------------- |
@@ -84,8 +84,8 @@ requirement to be satisfied.
 
 It acts as an IF conditional:
 
-* IF this Choice is selected THEN allow this object to be selected, or allow 
-this Row to be shown.
+* IF a Choice with this ID is selected, THEN allow this object to be
+selected, or allow this Row to be shown.
 
 === "After"
 
@@ -106,9 +106,10 @@ the requirement to be satisfied.
 
 This option is the inverse of the above, acting as an IF-NOT conditional:
 
-* IF a Choice is NOT selected, then allow this object to be selected or
-shown.
-* IF a Choice IS selected, do NOT allow this object to be selected or shown.
+* IF a Choice with this ID is NOT selected, then allow this object to be
+selected or shown.
+* IF a Choice with this ID IS selected, do NOT allow this object to be
+selected or shown.
 
 === "After"
 

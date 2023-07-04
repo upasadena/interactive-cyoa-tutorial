@@ -39,7 +39,7 @@ _Released on 2022-06-17 at 13:40:35 UTC_
 
 ## Licence
 All original content (text, images, source code, etc.) in this tutorial is
-licensed under the [AGLPv3] licence.
+licensed under the [AGPLv3] licence.
 
 To summarize:
 
@@ -71,4 +71,4 @@ To summarize:
     warranty.
 
 <!-- URLs -->
-[AGLPv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
+[AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
