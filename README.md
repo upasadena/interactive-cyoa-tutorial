@@ -8,6 +8,16 @@ View it live at one of these links:
 * https://icctutorial.pages.dev/
 * https://upasadena.github.io/interactive-cyoa-tutorial/
 
+## TODO
+- [] Finish the base tutorial
+    - [x] Finish the Introduction section
+    - [ ] Finish the Mechanics section
+    - [ ] Finish the Styling section
+    - [ ] Finish the Publishing section
+    - [ ] Finish the Reference section
+- [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
+subdomains.
+
 ## Contributing
 To contribute to this, simply fork this repository and open a pull request.
 
