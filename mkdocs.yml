@@ -72,6 +72,8 @@ nav:
       - extending-your-cyoa/index.md
     - Reference:
       - reference/index.md
+    - About:
+      - about/index.md
 
 extra:
   social:
