@@ -9,20 +9,21 @@ world at large.
 As Interactive CYOAs made in the ICC do not need 
 
 ## Where should I publish?
-There are many possible sites to host and formats to publish
-your Interactive in, and we'll go over how to do so in this section.
+There are many possible sites to host and formats to publish your Interactive
+in, and we'll go over how to do so in this section.
 
 There are quite a few sites that will publish your Interactive. In this
 tutorial we'll only be discussing options that cost no money whatsoever.
 
-Many people use either [Neocities] or [GitHub]. I recommend using GitHub, as
-it allows you to make an unlimited amount of sites from the same account, with
+Many people use either [Neocities] or [GitHub]. I recommend using GitHub, as it
+allows you to make an unlimited amount of sites from the same account, with
 each site having a larger free size limit.
 
 In the end, it's up to you to choose whichever site works best for your use
 case.
 
 ### Table of Comparison
+
 | Website                | Site Limit    | Size Limit                                                                                                      | Bandwidth Limit (per month)         | Bandwidth Speed                       | File limits                                                                                             | Other notes                                       |
 | ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | [Cloudflare Pages]     | Unlimited     | Depends on GitHub or GitLab                                                                                     | - Unlimited                         |                                       | As much as GitHub or GitLab will allow                                                                  | - 1 build at a time<br>- **500 builds per month** |
@@ -48,7 +49,10 @@ You can learn about Git [here](https://rogerdudler.github.io/git-guide/).
     their interactive in a Git repository, such as on sites like GitHub and
     GitLab.
 
-It may be useful to users to have a consistent versioning scheme. I recommend
+    However, you may find this useful if you're interested in learning how to
+    standardize your versions.
+
+It may be useful for users to have a consistent versioning scheme. I recommend
 reading about [semantic versioning](https://semver.org/).
 
 The basic summary is as follows:
@@ -61,6 +65,9 @@ The basic summary is as follows:
     * MINOR version when you add functionality in a backward compatible manner
     * PATCH version when you make backward compatible bug fixes
 
+Whenever a major or minor version is incremented, the following versions must
+be reset to 0: `1.2.3` → `1.3.0` → `1.3.1` → `2.0.0`, and so on.
+
 ### Initial development
 !!! quote
 
@@ -68,9 +75,31 @@ The basic summary is as follows:
     at any time. The public API SHOULD NOT be considered stable.
 
 Projects start at version `0.1.0` when being initially developed, and stay in
-Major version 0 until ready for public release.
+major version 0 until ready for public release.
+
+Anything goes in the initial development phase, but you should:
+
+* Increment the minor number when making breaking changes: `0.1.3` → `0.2.0` →
+`0.3.0`, and so on.
+* Increment the patch number when adding either backward-compatible
+functionality or bug fixes: `0.3.0` → `0.3.1` → `0.3.2`, and so on.
+
+### Post-release
+When you are finally ready to release your Interactive CYOA to the public, the
+version becomes `1.0.0`.
+
+<!-- ??? quote
+
+    Patch version Z (x.y.Z | x > 0) MUST be incremented if only backward
+    compatible bug fixes are introduced. A bug fix is defined as an internal
+    change that fixes incorrect behavior. -->
+
+After adding only bug fixes, increment the patch version: `1.0.0` → `1.0.1` →
+`1.0.2`, and so on.
 
 
+
+---
 
 * `0.1.0` is the very first version that you create
 * `1.0.0` is your first official working version released to the public
@@ -95,8 +124,8 @@ warrant incrementing the MAJOR number: `1.0.0`, `2.0.0`, and so on
         choices and expect the same result.
         * Changing requirements for existing choices.
     * Because of this predictable behaviour, users can judge whether they would
-    be able to use previous builds, or if they should either make a new one,
-    or import their old one and see what
+    be able to use previous builds, or if they should either make a new one, or
+    import their old one and see what
 
 !!! note
 

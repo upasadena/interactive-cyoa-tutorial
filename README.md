@@ -21,8 +21,7 @@ subdomains.
 ## Contributing
 To contribute to this, simply fork this repository and open a pull request.
 
-This tutorial was written in [Oxford English spelling][oxen] (British English
-with -ize and -yse endings), so please adhere to that.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for specifics.
 
 ## Building locally
 To build this tutorial locally, first install `mkdocs-material` (visit
@@ -38,7 +37,6 @@ Then run:
 * `mkdocs build` to build a static version which can be run without serving
 each time and without mkdocs.
 
-
+<!-- URLs -->
 [ci]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml/badge.svg
 [ci_link]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml
-[oxen]: https://en.wikipedia.org/wiki/Oxford_spelling
