@@ -6,6 +6,7 @@ comments: true
 
 ## Usage Limits
 GitHub has these limits:
+
 * A recommended limit of 1 GB per repository
 * A *soft* bandwidth limit of 100 GB per month
 * A *soft* build limit of 10 builds per hour, if using the default GitHub

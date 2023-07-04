@@ -4,10 +4,14 @@ comments: true
 
 # Publishing
 Now that your CYOA has been build, we need to discuss how to publish it to the
-world at large. There are many possible sites to host and formats to publish
-your Interactive in, and we'll go over how to do so in this section.
+world at large. 
+
+As Interactive CYOAs made in the ICC do not need 
 
 ## Where should I publish?
+There are many possible sites to host and formats to publish
+your Interactive in, and we'll go over how to do so in this section.
+
 There are quite a few sites that will publish your Interactive. In this
 tutorial we'll only be discussing options that cost no money whatsoever.
 
@@ -28,7 +32,14 @@ case.
 
 ## What is Git?
 Git is a **version control system** (VCS). It is a program that tracks changes
+within files and folders. Using Git, we can create snapshots of changes for
+each version, meaning if we add irreversable changes to our project, we can
+simply revert back to a previous version.
 
+We can also compare changes between versions, and can invite others to
+collaborate and see what they've changed, much like Wikipedia.
+
+You can learn about Git [here](https://rogerdudler.github.io/git-guide/).
 
 ## Versioning
 It may be useful to users to have a consistent versioning scheme. I recommend

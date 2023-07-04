@@ -2,6 +2,18 @@
 Thank you for viewing this tutorial! This page isn't a part of the tutorial,
 but rather a general information page about the status of the tutorial.
 
+## Authors
+Authors are people who have directly contributed to the Git repository for this
+site.
+
+* [upasadena](https://github.com/upasadena), the original creator
+
+## Contributors
+Contributors are those who are credited and acknowledged as having contributed
+to this tutorial from the type of its official release.
+
+* None
+
 ## Changelog
 ### v0.3.0
 _Released on 2022-06-17 at 19:48:21 UTC_
