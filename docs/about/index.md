@@ -1,18 +1,22 @@
+---
+comments: true
+---
+
 # About
 Thank you for viewing this tutorial! This page isn't a part of the tutorial,
-but rather a general information page about the status of the tutorial.
+but rather a general information page about the tutorial itself.
 
 ## Authors
-Authors are people who have directly contributed to the Git repository for this
-site.
+Authors are people who have directly contributed to the text, via the Git
+repository for this site.
 
 * [upasadena](https://github.com/upasadena), the original creator
 
 ## Contributors
 Contributors are those who are credited and acknowledged as having contributed
-to this tutorial from the type of its official release.
+to this tutorial from the time of its official release.
 
-* None
+* None as of yet
 
 ## Changelog
 ### v0.3.0
@@ -39,7 +43,7 @@ licensed under the [AGLPv3] licence.
 
 To summarize:
 
-* **Permissions**
+* **Permissions:**
     * **Commercial use:** The licensed material and derivatives may be used for
     commerical purposes.
     * **Distribution:** The licensed material may be distributed.
