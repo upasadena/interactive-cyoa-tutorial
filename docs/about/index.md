@@ -17,14 +17,19 @@ to this tutorial from the type of its official release.
 ## Changelog
 ### v0.3.0
 _Released on 2022-06-17 at 19:48:21 UTC_
+
 * Added first revision of the Objects page
 * Tidied up previous stuff
+
 ### v0.2.0
 _Released on 2022-06-17 at 17:37:11 UTC_
+
 * Finished first revision of the Rows page
 * Updated previous Introduction and other miscellaneous changes
+
 ### v0.1.0
 _Released on 2022-06-17 at 13:40:35 UTC_
+
 * Initial release
 * Completed first revision of the **Introduction** section
 
