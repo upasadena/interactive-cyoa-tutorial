@@ -2,7 +2,8 @@
 
 ## Licence
 By submitting content to this repository, you hereby agree that your
-contributions will be made under the strong copyleft [AGPLv3 licence].
+contributions will be made under the [CC BY-SA 4.0][licence]. If you are not
+aware of what that entails, please see [here][licence-details].
 
 ## Acknowledgements
 I may not have time or I may simply forget to credit or acknowledge everyone
@@ -66,5 +67,6 @@ quoted.
 
 <!-- URLs -->
 [Oxford English spelling]: https://en.wikipedia.org/wiki/Oxford_spelling
-[AGPLv3 licence]: ./LICENSE
+[licence]: ./LICENSE-CONTENT
+[licence-details]: https://icctutorial.pages.dev/about/#content
 [Oxford comma]: https://en.wikipedia.org/wiki/Serial_comma

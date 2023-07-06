@@ -38,8 +38,41 @@ _Released on 2022-06-17 at 13:40:35 UTC_
 * Completed first revision of the **Introduction** section
 
 ## Licence
-All original content (text, images, source code, etc.) in this tutorial is
-licensed under the [AGPLv3] licence.
+This site is dual-licensed under the [AGPLv3] and [CC BY-SA 4.0] licences.
+
+### Content
+All original content (text, images, etc) in this tutorial is licensed under
+the [CC BY-SA 4.0] licence.
+
+To summarize:
+
+* **Permissions:**
+    * **Commercial use:** The licensed material and derivatives may be used for
+    commerical purposes.
+    * **Distribution:** The licensed material may be distributed.
+    * **Modification:** The licensed material may be modified.
+    * **Private use:** The licensed material may be used and modified in
+    private.
+* **Conditions:**
+    * **License and copyright notice:** A copy of the licence and copyright
+    notice must be included with the licensed material.
+    * **Same licence:** Modifications must be released under the same licence
+    when distributing the licensed material. In some cases a similar or
+    related licence may be used.
+    * **State changes:** Changes made to the licensed material must be
+    documented.
+* **Limitations:**
+    * **Liability:** This licence includes a limitation of liability.
+    * **Patent use:** This licence explicitly states that it does NOT grant any
+    rights in the patents of contributors.
+    * **Trademark use:** This licence explicitly states that it does NOT grant
+    trademark rights, even though licences without such a statement probably do
+    not grant any implicit trademark rights.
+    * **Warranty:** This licence explicitly states that it does NOT provide any
+    warranty.
+
+### Source Code
+The source code for this tutorial is licensed under the [AGPLv3] licence.
 
 To summarize:
 
@@ -72,3 +105,4 @@ To summarize:
 
 <!-- URLs -->
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
