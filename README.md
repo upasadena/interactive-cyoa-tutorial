@@ -32,7 +32,8 @@ View it live at one of these links:
 CYOA.
 
 ## Contributing
-To contribute to this, simply fork this repository and open a pull request.
+To contribute to this, simply fork this repository, make your changes, and
+open a pull request.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for specifics.
 
