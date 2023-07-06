@@ -41,13 +41,13 @@ rather than the masculine default **he/him** to refer to them.
 Always prefer **they/them** to **he or she** (or vice versa) or **s(he)**,
 as this excludes non-binary people or people who prefer to use other pronouns.
 
-#### Puncutation
+#### Punctuation
 Use the [Oxford comma]:
 
 * **DO** this: Tom, Dick<b>,</b> and Harry
 * **DON'T** do this: Tom, Dick and Harry
 
-### Markdown
+#### Line length limit
 In Markdown files, you'll quickly notice that words do not go past 79 lines.
 This is to ensure clear reading on smaller monitors, a stylistic choice, and a
 way to ensure that code is readable and not spread out.

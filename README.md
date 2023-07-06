@@ -9,7 +9,7 @@ View it live at one of these links:
 * https://upasadena.github.io/interactive-cyoa-tutorial/
 
 ## TODO
-- [] Finish the base tutorial
+- [ ] Finish the base tutorial
     - [x] Finish the Introduction section
     - [ ] Finish the Mechanics section
     - [ ] Finish the Styling section
@@ -17,8 +17,7 @@ View it live at one of these links:
     - [ ] Finish the Reference section
 - [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
-CYOA
-subdomains.
+CYOA.
 
 ## Contributing
 To contribute to this, simply fork this repository and open a pull request.
