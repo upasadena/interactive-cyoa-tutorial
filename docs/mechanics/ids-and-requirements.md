@@ -232,6 +232,8 @@ to open a Row, you would need to select a choice.
     This can be used to create a 'Tabs' / Table of Contents menu, which is gone
     into more detail about [here](../../reference/#table-of-contents-tab-menu).
 
+
+
 #### Nested Rows
 While nested Rows can be useful, especially for long ICYOAs which require a
 **lot** of scrolling, there can be a couple of downsides.
@@ -244,11 +246,16 @@ Orphaned Rows occur when a chain of Nested Rows aren't set up so that closing
 the topmost parent Row closes not just any Rows that depend on it, but also
 Rows that depend on the topmost Row's dependent, and so on and so forth.
 
+To do this, use [Selected Choice][sc] requirements for each nesting level.
+
+=== "After"
+
+    ![](../images/39_nested_rows_after.gif)
 
 === "Before"
 
     ![](../images/39_nested_rows_before.gif)
-    
+
 === "Process"
 
     ![](../images/39_nested_rows_process.gif)
@@ -335,3 +342,4 @@ Interesting fact: Setting multiple things to the same ID allows you to activate 
 <!-- URLs -->
 
 [u/Traveller-81]: https://www.reddit.com/user/Traveller-81
+[sc]: #selected-choice
