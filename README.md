@@ -12,6 +12,18 @@ View it live at one of these links:
 - [ ] Finish the base tutorial
     - [x] Finish the Introduction section
     - [ ] Finish the Mechanics section
+        - [x] Rows
+        - [x] Objects / Choices
+        - [ ] IDs & Requirements
+        - [ ] Points & Scores
+        - [ ] Images
+        - [ ] Defaults
+        - [ ] Addons
+        - [ ] Copying
+        - [ ] Words
+        - [ ] Buttons & Variables
+        - [ ] Groups
+        - [ ] Backpack & Choice Import
     - [ ] Finish the Styling section
     - [ ] Finish the Publishing section
     - [ ] Finish the Reference section

@@ -244,6 +244,15 @@ Orphaned Rows occur when a chain of Nested Rows aren't set up so that closing
 the topmost parent Row closes not just any Rows that depend on it, but also
 Rows that depend on the topmost Row's dependent, and so on and so forth.
 
+
+=== "Before"
+
+    ![](../images/39_nested_rows_before.gif)
+    
+=== "Process"
+
+    ![](../images/39_nested_rows_process.gif)
+
 [u/Traveller-81] goes into more detail here:
 
 ??? quote "Tips and Pitfalls for Interactive CYOA Creators (Reddit)"
