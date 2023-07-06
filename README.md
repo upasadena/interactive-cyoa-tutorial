@@ -16,6 +16,8 @@ View it live at one of these links:
     - [ ] Finish the Publishing section
     - [ ] Finish the Reference section
 - [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
+- [ ] Add a End-of-tutorial Project where there's a step by step remake of a
+CYOA
 subdomains.
 
 ## Contributing
