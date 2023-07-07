@@ -3,16 +3,62 @@ comments: true
 ---
 
 # Introduction
-This section of the tutorial will be focused on familiarizing you with the
-interface.
+## Preface
+Hello, and welcome to the Interactive CYOA Creator Tutorial!
 
-## Launching the Creator
+If you would like to jump straight into the tutorial, press the button below,
+or (if your screen is wide enough) there will be a Table of Contents to the
+right. You can use that to navigate where you wish.
+
+Otherwise, I'll be doing some advance discussion on the Interactive CYOA
+Creator and this tutorial in the rest of this Preface.
+
+[Jump to the Tutorial]{ .md-button }
+
+### Purpose
+The reason I created this tutorial to start with is due to the amount of
+questions I would see in the [r/InteractiveCYOA] subreddit asking "How do I do
+X?" and "Why isn't Y working?", and so on. I decided to create a single,
+localized repository of information containing all there is to know about the
+ICC, so that nobody would ever need to reasonably ask 99% of the time, should
+they have read this tutorial.
+
+### Clarity
+I have endeavoured to make this tutorial as straightforward to follow as
+possible, and to that end most examples have a gif, image, or video
+accompanying the text in order to more properly understand how the creator
+works.
+
+### Sharing
+
+
+### Limitations
+The ICC is an incredible tool which has vastly improved the quality of
+Interactive CYOAs. However, it would be remiss of me not to acknowledge that it
+too has limitations.
+
+First, the Creator is no longer being actively maintained. It was last updated
+on 28 February 2021. This means no new features are likely to be added, no bugs
+will be fixed, and one far off day, the program may not longer be compatible
+with our current technologies.
+
+Second, the project is not open-source. This ties into the first point, being
+that if it were open-source, the community could fork the repository, and
+continue to develop it, adding new features and fixing bugs. As it is not,
+our only options are to create a new one (unlikely any time soon) or to
+continue to use this tool.
+
+## The Creator
+This section of the tutorial will be focused on familiarizing you with the
+basics.
+
+### Launching the Creator
 When you launch the creator for the first time, you will be greeted with this
 screen:
 
 ![](../images/0a_start.png)
 
-### Open Image-CYOA Creator
+#### Open Image-CYOA Creator
 This is where you go to create **Interactive CYOAs**.
 
 When you first open it, you will be greeted with a blank screen and a minimized
@@ -24,7 +70,7 @@ This is what a complete CYOA would look like in this menu:
 
 ![](../images/0c_full_creator.png)
 
-### Open Image-CYOA Viewer
+#### Open Image-CYOA Viewer
 This is where you can preview CYOAs before you upload them.
 
 !!! warning
@@ -38,7 +84,7 @@ This is where you can preview CYOAs before you upload them.
 
 ![](../images/0d_viewer.png)
 
-### Help and Instructions
+#### Help and Instructions
 A small tutorial made by the author themself. It should be redundant with this
 tutorial, but you may wish to check it out anyway.
 
@@ -46,19 +92,19 @@ Parts of that tutorial will be quoted throughout this one.
 
 ![](../images/0e_help_and_instructions.gif)
 
-## The Sidebar
+### The Sidebar
 The sidebar is how you manoeuvre around the creator. Please note that the
 sidebar is only accessible if you hover over it.
 
 ![](../images/0g_sidebar_full.png)
 
-### Return To Menu
+#### Return To Menu
 This takes you back to the [start][2].
 
-### Create New Row
+#### Create New Row
 This is how you create rows. See more [here][1].
 
-### Open Row List
+#### Open Row List
 This lists all the rows inside of the interactive. It lists them with their ID
 by default, but if given a title, it will use that instead.
 
@@ -76,27 +122,27 @@ By dragging on the Rows, you can quickly move Rows around.
 
 ![](../images/0ic_row_list_sort2.gif)
 
-### Open Features
+#### Open Features
 Pressing _Open Features_ will present you with one of the most important menus
 in the creator. It grants you access to a lot of the mechanics, such as
-[points], [defaults], the [Backpack and Choice Import], and
-[image compression].
+[points], [defaults], the [Backpack and Choice Import], and [image
+compression].
 
 All of these features will be elaborated later on, so they won't be talked
 about in detail here.
 
 ![](../images/0j_features.png)
 
-### Modify Design
+#### Modify Design
 The _Modify Design_ button will open up the key to designing your CYOA. This is
 quite important if you wish for your CYOA to be approachable and visually
 appealing. You can learn more about it [here](../styling/).
 
 ![](../images/0k_modify_design.png)
 
-### Save/Load Project
-This menu is a place you'll become quite familiar with when creating CYOAs,
-as this is where you will go to save, load, and export your project.
+#### Save/Load Project
+This menu is a place you'll become quite familiar with when creating CYOAs, as
+this is where you will go to save, load, and export your project.
 
 !!! tip
 
@@ -117,9 +163,9 @@ same place as your Viewer files.
 * **To load a project**, simply press the input labelled _Load Project_ with
 the placeholder text _Select your project_. This will open a file dialogue
 where you can select a previous `project.json`.
-* **To export a project**, press
-_Download Finished Project with Separate Images_. This will give you the option
-to save a `hello.zip` containing your CYOA. Rename it at your leisure.
+* **To export a project**, press _Download Finished Project with Separate
+Images_. This will give you the option to save a `hello.zip` containing your
+CYOA. Rename it at your leisure.
 
     After you've saved it somewhere, extract it. You will notice that, if your
     project was large enough, the `project.json` is much smaller than before.
@@ -143,14 +189,14 @@ choice, image, and row count. Access this by selected **Project Stats**.
 
 ![](../images/0lb_stats.png)
 
-### Clean Selected Choices
+#### Clean Selected Choices
 As warned above, if you've used the Viewer and selected choices whilst
 developing at the same time, then when you go back into the creator, you may
 notice that the choices are still selected.
 
 This button provides an easy way to clear selected choices.
 
-### See ID/Title List
+#### See ID/Title List
 This button provides a quick reference to the titles, choices, and what [IDs]
 each of them have. This is **incredibly** powerful, especially in conjunction
 with ++ctrl+f++ / ++cmd+f++, as it allows you an overview of your entire
@@ -160,7 +206,7 @@ You can use this to find the ID of an Object using its title, and vice versa.
 
 ![](../images/0m_id_title_list.png)
 
-### Use Alternate Menu
+#### Use Alternate Menu
 The Alternate Menu is an alternate way of displaying the sidebar, this time at
 the top of the creator rather than the side.
 
@@ -172,11 +218,13 @@ _New Row_, as shown here:
 
 ![](../images/0nb_alternate_menu_close.png)
 
+<!-- URLs -->
 [1]: ../mechanics/rows/#creating-rows
 [2]: ./#launching-the-creator
-
 [points]: ../mechanics/points-and-scores/
 [defaults]: ../mechanics/defaults/
 [Backpack and Choice Import]: ../mechanics/backpack-and-choice-import/
 [image compression]: ../mechanics/images/#image-compression
 [IDs]: ../mechanics/ids-and-requirements/
+[r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA
+[Jump to the Tutorial]: #the-creator

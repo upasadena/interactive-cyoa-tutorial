@@ -54,8 +54,10 @@ a fair amount to this tutorial.
 If you have any questions, concerns, corrections, or anything else, please
 comment below, either here or under the specific section of the tutorial.
 
-If you want to contribute to this tutorial directly, open a pull request
-[here](https://github.com/upasadena/interactive-cyoa-tutorial/pulls).
+This project is **Open Source**. If you want to contribute to this tutorial
+directly, fork the repository
+[here](https://github.com/upasadena/interactive-cyoa-tutorial/fork), make your
+changes, and then open a pull request.
 
 Otherwise, feel free to [contact me][5].
 

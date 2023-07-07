@@ -25,17 +25,23 @@ _Released on 2022-06-17 at 19:48:21 UTC_
 * Added first revision of the Objects page
 * Tidied up previous stuff
 
+[Download the source code][dl-0.3.0]{ .md-button }
+
 ### v0.2.0
 _Released on 2022-06-17 at 17:37:11 UTC_
 
 * Finished first revision of the Rows page
 * Updated previous Introduction and other miscellaneous changes
 
+[Download the source code][dl-0.2.0]{ .md-button }
+
 ### v0.1.0
 _Released on 2022-06-17 at 13:40:35 UTC_
 
 * Initial release
 * Completed first revision of the **Introduction** section
+
+[Download the source code][dl-0.1.0]{ .md-button }
 
 ## Licence
 This site is dual-licensed under the [AGPLv3] and [CC BY-SA 4.0] licences.
@@ -44,7 +50,7 @@ This site is dual-licensed under the [AGPLv3] and [CC BY-SA 4.0] licences.
 All original content (text, images, etc) in this tutorial is licensed under
 the [CC BY-SA 4.0] licence.
 
-To summarize:
+[To summarize](https://choosealicense.com/licenses/cc-by-sa-4.0/):
 
 * **Permissions:**
     * **Commercial use:** The licensed material and derivatives may be used for
@@ -74,7 +80,7 @@ To summarize:
 ### Source Code
 The source code for this tutorial is licensed under the [AGPLv3] licence.
 
-To summarize:
+[To summarize](https://choosealicense.com/licenses/agpl-3.0/):
 
 * **Permissions:**
     * **Commercial use:** The licensed material and derivatives may be used for
@@ -106,3 +112,6 @@ To summarize:
 <!-- URLs -->
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+[dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip
+[dl-0.2.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.2.0.zip
+[dl-0.3.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.0.zip

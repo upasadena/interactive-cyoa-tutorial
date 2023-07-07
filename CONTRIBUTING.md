@@ -57,9 +57,21 @@ There *are* exceptions of course, such as URLs (but only at the bottom of a
 page) and tables.
 
 ### Date and Time
-When referring to dates and times, use UTC. If this is not possible at the
-current moment, you can use the date and/or time you have, but please clearly
-mark the timezone in brackets (), or state that the time zone's unknown.
+
+#### Timezone
+The timezone used when writing dates and times should either be UTC, have the
+timezone indicated in brackets (like this), or, when unknown, have (unknown
+timezone) be put after it. 
+
+#### Time Format
+Prefer 24 hours time, like **05:30** and **16:48**, rather than **5:30 a.m.**
+and **4:48p.m.**
+
+#### Date Format
+When writing in long form, write like **20 July 1981**.
+
+When writing numerically, write according to **YYYY-MM-DD**, like
+**1981-07-20**. 
 
 ### Exceptions
 Exceptions to this style guide can be made if it's someone or something being

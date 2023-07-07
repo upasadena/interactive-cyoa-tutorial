@@ -6,7 +6,9 @@ comments: true
 
 ## IDs – Unique Identifiers
 IDs are unique identifiers that allow the ICC to directly 
-access any object, whether that be Rows, Choices, Points, or Groups.
+access any object, whether that be Rows, Choices, Points, or Groups. Think of
+them as a username, and objects within the ICC as a social media profile; in
+order to access an object (a profile), the ICC requires an ID (a username).
 
 They are particularly useful in situations where you have many choices that 
 have requirements, meaning that if you assigned IDs according to regular, 
@@ -232,7 +234,31 @@ to open a Row, you would need to select a choice.
     This can be used to create a 'Tabs' / Table of Contents menu, which is gone
     into more detail about [here](../../reference/#table-of-contents-tab-menu).
 
+=== "After"
 
+    ![](../images/40_hide_rows_after.gif)
+
+=== "Before"
+
+    ![](../images/40_hide_rows_before.gif)
+
+=== "Process"
+
+    ![](../images/40_hide_rows_process.gif)
+
+!!! warning
+
+    If you decide to delete a requirement by removing its text, you may notice
+    that the Row—even though the requirement is empty—does not show. Make sure
+    to press **DELETE** underneath the **Selected Id** input to get the Row
+    working as intended again.
+
+    This can, however, be used on purpose, in order to
+    [make a Row invisible](../../reference/#make-a-row-invisible).
+
+Now, of course, you do not need to use **Selected Choice** to hide rows, and
+can use any number of requirements. It is, however, the most common
+requirement to use.
 
 #### Nested Rows
 While nested Rows can be useful, especially for long ICYOAs which require a

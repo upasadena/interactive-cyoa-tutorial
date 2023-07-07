@@ -30,7 +30,13 @@ and replace "CYOA" with whatever you want the title to be.
 One title format is `{CYOA name}: Interactive`, but whatever works for you is
 fine.
 
+### Changing the page icon
+
+
 ### Table of Contents / Tab Menu
+
+### How do I show a loading progress indicator?
+See [here](../extending-your-cyoa/#progress-indicator).
 
 ## Text
 ### Make specific text a different colour
@@ -50,17 +56,33 @@ For example, this:
     or RGB values.
 
     To learn more, see
-    [here](https://www.w3schools.com/cssref/css_colors_legal.php) and
-    [here](https://www.w3schools.com/cssref/css_colors.php).
+    [CSS Legal Color Values] and [CSS Colors].
 
     If you need help selecting a value, see
-    [this](https://htmlcolorcodes.com/color-picker/) for a simple colour
-    picker, or [this](https://color.adobe.com/create/color-wheel) to easily
-    create complementary colour palettes.
+    [Color Picker](https://htmlcolorcodes.com/color-picker/) for a simple
+    colour picker, or [Color Wheel](https://color.adobe.com/create/color-wheel)
+    to easily create complementary colour palettes.
+
+### Adding hyperlinks to your CYOA
+!!! note
+
+    Credit to [Om1cr0n](https://wormlewdmod.neocities.org/about) for this code.
+
+In the Viewer, replace `js/app.c533aa25.js` with the one from
+[here](../static/fixed-app/app.c533aa25.js). It's a fixed version that doesn't
+santize `href` tags in the HTML.
 
 ## Rows
 ### Hide Rows behind a Choice
 Use a [Selected Choice] requirement.
+
+### Make a row invisible
+If you want to make a Row invisible, simply add a [Selected Choice]
+requirement, but simply don't put any ID in its place. This will permanently
+collapse the Row.
+
+Alternatively, put an ID in there that is guaranteed not to get picked, such as
+`MAKE_ME_INVISIBLE`.
 
 ## Choices
 ### You may only pick X options
@@ -68,6 +90,10 @@ See [here](../mechanics/rows/#allowed-choices).
 
 ### Choice requires anothers Choice
 See [here][choice_requires_another_choice]
+
+### Hide a choice if it doesn't meet the requirements
+Simply use filters.
+<!-- Elaborate, use examples, and link to Styling page when its done -->
 
 ## Requirements
 ### Logic Gates and Requirements
@@ -165,10 +191,12 @@ using the ID of your Point type.
 ## Groups
 
 
-
+<!-- URLs -->
 [Selected Choice]: ../mechanics/ids-and-requirements/#selected-choice
 [AND]: ./#all-of-these-are-selected-requirement
 [OR]: ../mechanics/ids-and-requirements/#one-of-these-is-selected-requirement
 [NOT]: ../mechanics/ids-and-requirements/#non-selected-choice
 [NOR]: ./#none-of-these-are-selected-requirement
 [choice_requires_another_choice]: ../mechanics/ids-and-requirements/#disabled-choices-via-selected-choice
+[CSS Legal Color Values]: https://www.w3schools.com/cssref/css_colors_legal.php
+[CSS Colors]: https://www.w3schools.com/cssref/css_colors.php
