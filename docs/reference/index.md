@@ -362,7 +362,34 @@ Functioning as a XOR gate.
 
 <!-- TODO -->
 
-## Points and Scoring
+## Points and Scores
+
+### Hide Point Types
+Go to the **Sidebar** → **Open Features** → **Manage Points** and find the
+Point Type you want to hide.
+
+In the [Id Needed to Show](../mechanics/points-and-scores/#id-needed-to-show)
+field, type something you would never use as an ID, such as `HIDE_ME`. As an
+object with your chosen ID should never be selected, the Point Type should be
+ID.
+
+!!! tip
+
+    Should you choose the exact same ID for all hidden options, you can have
+    a special button you only activate for debug purposes that allow you to
+    see all the hidden Point Types.
+
+#### Display Hidden Point Types when a Choice is selected
+Do the same as [Hide Point Types](#hide-point-types), but instead of an ID
+that won't be selected, purposely choose the Choice's ID that will show
+the Point Type.
+
+### The Power of Hidden Point Types
+I find it particularly useful in hidden point types that determine how much of
+a thing you’re allowed to select 
+
+Put this is the Choice section "Limit how many of an arbitrary group can be
+selected"
 
 ### (TODO) Making discounts
 <!-- TODO -->

@@ -128,16 +128,160 @@ selected or shown.
     ![](../images/35_non_sc_process.gif)
 
 #### Point Requirements
-##### Equal To
-##### More Than
-##### Less Than
-##### More or Equal
-##### Less or Equal
+These requirements merely require you to have a certain *amount* of a given
+Point Type.
+
+!!! note
+
+    Bear in mind though, that this doesn't take away points when comparing, and
+    if you wanted to do both, you could always combine
+    [a normal Score cost][score-cost] with
+    [a Point Type that cannot go below zero][no-zero].
+
+##### = Equal To
+The **= Equal To** requirement is only satisfied when the specific Point Type
+is equal and ONLY equal to the given value.
+
+=== "After"
+
+    ![](../images/64_equal_after.gif)
+
+=== "Before"
+
+    ![](../images/64_equal_before.gif)
+
+=== "Process"
+
+    ![](../images/64_equal_process.gif)
+
+##### + More Than
+The **+ More Than** requirement is only satisfied when the specific Point Type
+is MORE than the given value.
+
+=== "After"
+
+    ![](../images/65_more_after.gif)
+
+=== "Before"
+
+    ![](../images/65_more_before.gif)
+
+=== "Process"
+
+    ![](../images/65_more_process.gif)
+
+##### - Less Than
+The **- Less Than** requirement is only satisfied when the specific Point Type
+is LESS than the given value.
+
+=== "After"
+
+    ![](../images/66_less_after.gif)
+
+=== "Before"
+
+    ![](../images/66_less_before.gif)
+
+=== "Process"
+
+    ![](../images/66_less_process.gif)
+
+##### += More or Equal
+The **+= More or Equal** requirement is only satisfied when the specific Point
+Type is either:
+
+1. MORE than the given value, or
+2. EQUAL to the given value
+
+It is a combination of the [More Than](#more-than) and [Equal To](#equal-to)
+requirements.
+
+=== "After"
+
+    ![](../images/67_more_equal_after.gif)
+
+=== "Before"
+
+    ![](../images/67_more_equal_before.gif)
+
+=== "Process"
+
+    ![](../images/67_more_equal_process.gif)
+
+##### -= Less or Equal
+The **-= Less or Equal** requirement is only satisfied when the specific Point
+Type is either:
+
+1. LESS than the given value, or
+2. EQUAL to the given value
+
+It is a combination of the [Less Than](#less-than) and [Equal To](#equal-to)
+requirements.
+
+=== "After"
+
+    ![](../images/68_less_equal_after.gif)
+
+=== "Before"
+
+    ![](../images/68_less_equal_before.gif)
+
+=== "Process"
+
+    ![](../images/68_less_equal_process.gif)
 
 #### Point Comparison Requirements
+These requirements compare two or more Point Types between themselves.
+
 ##### This Point-Type is Bigger
+This requirement is satisfied only when a given Point Type has a HIGHER value
+than an other given Point Type.
+
+=== "After"
+
+    ![](../images/69_bigger_after.gif)
+
+=== "Before"
+
+    ![](../images/69_bigger_before.gif)
+
+=== "Process"
+
+    ![](../images/69_bigger_process.gif)
+
 ##### This Point-Type is Bigger or Equal
+This requirement is satisfied only when a given Point Type either:
+
+1. Has a HIGHER value than an other given Point Type, or
+2. Has an EQUAL value with an other given Point Type
+
+=== "After"
+
+    ![](../images/70_bigger_equal_after.gif)
+
+=== "Before"
+
+    ![](../images/70_bigger_equal_before.gif)
+
+=== "Process"
+
+    ![](../images/70_bigger_equal_process.gif)
+
 ##### These Point-Types are Equal
+This requirement is satisfied only when a given Point Type is EQUAL with
+another Point Type.
+
+=== "After"
+
+    ![](../images/71_equal_after.gif)
+
+=== "Before"
+
+    ![](../images/71_equal_before.gif)
+
+=== "Process"
+
+    ![](../images/71_equal_process.gif)
 
 #### 'One of these' Requirements
 ##### 'One of these is selected' requirement
@@ -250,3 +394,5 @@ in the [Reference].
 [id-ref]: ../../reference/#ids
 [req-ref]: ../../reference/#requirements
 [Reference]: ../../reference/
+[score-cost]: ../../mechanics/points-and-scores/#creating-scores
+[no-zero]: ../../mechanics/points-and-scores/#this-score-is-not-allowed-to-go-under-0

@@ -25,14 +25,33 @@ to this tutorial from the time of its official release.
 * None as of yet
 
 ## Changelog
-### v0.5.0
+
+### v0.6.0 (WIP)
 _Released on DATE at TIME UTC_
+
+* TODO
+
+### v0.5.1
+_Released on DATE at TIME UTC_
+
+* Finally completed the **IDs and Requirements** section 
+* Enabled comments for the **Points and Scores** section
+* Updated Mechanics's Table of Contents
+* Added a script `loop_serve.ps1` because mkdocs kept crashing when I moved
+files while it was building the site
+
+[Download the source code][dl-0.5.1]{ .md-button }
+
+### v0.5.0
+_Released on 2023-07-07 at 07:55:19 UTC_
 
 * Added **Points & Scores** section, finished first revision
 * Changed Objects section title from "Objects" to "Objects / Choices"
 * Realized that I had not, in fact, finished **IDs and Requirements**
     * Updated headings but have not finished filling it out
 * Added code block copying functionality
+
+[Download the source code][dl-0.5.0]{ .md-button }
 
 ### v0.4.0
 _Released on 2023-07-07 at 05:12:04 UTC_
@@ -166,3 +185,5 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.3.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.0.zip
 [dl-0.3.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.1.zip
 [dl-0.4.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.4.0.zip
+[dl-0.5.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.0.zip
+[dl-0.5.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.1.zip

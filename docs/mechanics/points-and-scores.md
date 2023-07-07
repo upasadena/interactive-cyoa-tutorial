@@ -1,5 +1,8 @@
-# Points and Scores
+---
+comments: true
+---
 
+# Points and Scores
 ## Points
 !!! quote
 
@@ -82,15 +85,6 @@ The **Text After Number** input is the opposite of above, and is what is shown
 after the Point value.
 
 ![](../images/48_text_after_number.gif)
-
-#### (Ref: Hide Point Types)
-
-### (Move to ref) The Power of Hidden Point Types
-I find it particularly useful in hidden point types that determine how much of
-a thing you’re allowed to select 
-
-Put this is the Choice section "Limit how many of an arbitrary group can be
-selected"
 
 ### Switches
 These are the switches above the fields.
@@ -196,9 +190,6 @@ Type
 | **Before** | `{Icon} Cost: 1 point` | `Cost: 1 point {Icon}` |
 | **After**  | `Cost: {Icon} 1 point` | `Cost: 1 {Icon} point` |
 
-#### (move to ref:) Hide Point Types
-ID needed to show
-
 ## Scores
 Scores are what you apply to choices; they are what allow you to actually gain
 and lose Points.
@@ -283,7 +274,12 @@ E.g. `-25` adds 25 points.
     method of adding, creators have to hack the ICC by using the mathematic
     rule that subtracting a negative produces a positive.
 
+---
+
+Learn more what you can do with Points and Scores in the [Reference].
+
 <!-- URLs -->
 [the Sidebar]: ../../basics/#the-sidebar
 [ids]: ../ids-and-requirements/
 [choice]: ../objects/
+[Reference]: ../reference/#points-and-scores
