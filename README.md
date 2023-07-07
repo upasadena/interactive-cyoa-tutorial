@@ -15,7 +15,7 @@ View it live at one of these links:
     - [ ] Finish the Mechanics section
         - [x] Rows
         - [x] Objects / Choices
-        - [ ] IDs & Requirements
+        - [x] IDs & Requirements
         - [ ] Points & Scores
         - [ ] Images
         - [ ] Defaults
