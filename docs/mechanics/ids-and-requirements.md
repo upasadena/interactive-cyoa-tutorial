@@ -202,27 +202,6 @@ to be shown.
 
     ![](../images/37_not_one_s_process.gif)
 
-#### Combining Multiple Requirements
-Chaining multiple requirements onto one object means that you require all of
-those requirements in order to allow the object to be chosen or shown.
-
-!!! note
-
-    You can use multiple requirements and scoring to make discounts on options.
-
-    An example of this logic in pseudocode would be:
-    
-    * "If this choice that gives a discount is selected, then it costs 5
-        points"
-    * "If this choice that gives a discount is not selected, then it costs
-        10 points"
-
-    You can learn more [here](../../reference/#making-discounts).
-
-#### Nesting Multiple Requirements
-Nesting multiple requirements means to apply requirements onto requirements
-themselves. This type of advanced behaviour can get quite unwieldy.
-
 ### Show Requirement
 The **Show Requirement** checkbox allows the user to see the requirements just 
 under the choice title. This is incredibly useful and much less tedious than
@@ -243,19 +222,16 @@ writing requirements underneath each choice manually.
 * **Text Before:** This is what shows before the Choice(s).
 * **Text After:** As you can imagine, this shows after the Choice(s).
 * **Selected Id:** The ID(s) relevant to the requirement. It will display the
-Row/Choice title if one exists.
+Row/Choice title if one exists, otherwise it will display the ID.
 
-### Navigation with ID / Title list
-ID / Title list as helpful way of navigating your way through a large CYOA – showcase JRPG Traitor 
+---
 
-### Reusing IDs
-Interesting fact: Setting multiple things to the same ID allows you to activate one through the other 
-
-<!-- References -->
-
-[^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)
+Learn more what you can do with [IDs][id-ref] and [Requirements][req-ref]
+in the [Reference].
 
 <!-- URLs -->
-
 [u/Traveller-81]: https://www.reddit.com/user/Traveller-81
 [sc]: #selected-choice
+[id-ref]: ../../reference/#ids
+[req-ref]: ../../reference/#requirements
+[Reference]: ../../reference/

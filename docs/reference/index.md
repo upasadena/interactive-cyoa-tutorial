@@ -264,6 +264,27 @@ To do this, use [Selected Choice][sc] requirements for each nesting level.
     This does become slightly tedious to code the deeper a nested row is,
     however.[^1]
 
+#### Combining Multiple Requirements
+Chaining multiple requirements onto one object means that you require all of
+those requirements in order to allow the object to be chosen or shown.
+
+!!! note
+
+    You can use multiple requirements and scoring to make discounts on options.
+
+    An example of this logic in pseudocode would be:
+    
+    * "If this choice that gives a discount is selected, then it costs 5
+        points"
+    * "If this choice that gives a discount is not selected, then it costs
+        10 points"
+
+    You can learn more [here](../../reference/#making-discounts).
+
+#### Nesting Multiple Requirements
+Nesting multiple requirements means to apply requirements onto requirements
+themselves. This type of advanced behaviour can get quite unwieldy.
+
 ## Choices
 ### You may only pick X options
 See [here](../mechanics/rows/#allowed-choices).
@@ -292,6 +313,18 @@ Choices that don't have their requirements can be made invisible using filters.
     
     Unless your CYOA constantly and consistently wants to hide every choice
     that doesn't have its 
+
+## IDs
+### Navigation with ID / Title list
+ID / Title list as helpful way of navigating your way through a large CYOA –
+showcase JRPG Traitor 
+
+Using the [See ID/Title List] option in [the Sidebar] allows you to quickly
+navigate through your CYOA.
+
+### Reusing IDs
+Interesting fact: Setting multiple things to the same ID allows you to activate
+one through the other 
 
 ## Requirements
 ### Logic Gates and Requirements
@@ -388,6 +421,8 @@ using the ID of your Point type.
 
 ## Groups
 
+<!-- References -->
+[^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)
 
 <!-- URLs -->
 [Selected Choice]: ../mechanics/ids-and-requirements/#selected-choice
@@ -398,3 +433,5 @@ using the ID of your Point type.
 [choice_requires_another_choice]: ../mechanics/ids-and-requirements/#disabled-choices-via-selected-choice
 [CSS Legal Color Values]: https://www.w3schools.com/cssref/css_colors_legal.php
 [CSS Colors]: https://www.w3schools.com/cssref/css_colors.php
+[See ID/Title List]: ../basics/#see-idtitle-list
+[the Sidebar]: ../basics/#the-sidebar

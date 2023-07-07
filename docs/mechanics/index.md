@@ -12,10 +12,10 @@ Table of Contents:
 
 * [Rows](./rows/)
 * [Objects / Choices](./objects/)
+* [IDs & Requirements](./ids-and-requirements/)
 
 TODO:
 
-* [IDs & Requirements](./ids-and-requirements/)
 * [Points & Scores](./points-and-scores/)
 * [Images](./images/)
 * [Defaults](./defaults/)

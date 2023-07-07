@@ -25,9 +25,10 @@ to this tutorial from the time of its official release.
 * None as of yet
 
 ## Changelog
-### v0.4.0 (WIP)
+### v0.4.0
 _Released on DATE at TIME UTC_
 
+* Finished **IDs and Requirements** section
 * Fixed Mechanics' TOC
 * Added previous version's information here
 * Created Basics section and separated the Introduction/Preface from it
@@ -59,7 +60,7 @@ _Released on 2023-07-07 at 02:07:22 UTC_
 ### v0.3.0
 _Released on 2022-06-17 at 19:48:21 UTC_
 
-* Added first revision of the Objects page
+* Added first revision of the **Objects** page
 * Tidied up previous stuff
 
 [Download the source code][dl-0.3.0]{ .md-button }
@@ -67,7 +68,7 @@ _Released on 2022-06-17 at 19:48:21 UTC_
 ### v0.2.0
 _Released on 2022-06-17 at 17:37:11 UTC_
 
-* Finished first revision of the Rows page
+* Finished first revision of the **Rows** page
 * Updated previous Introduction and other miscellaneous changes
 
 [Download the source code][dl-0.2.0]{ .md-button }
