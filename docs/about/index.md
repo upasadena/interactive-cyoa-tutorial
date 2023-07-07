@@ -25,8 +25,13 @@ to this tutorial from the time of its official release.
 * None as of yet
 
 ## Changelog
-### v0.4.0
+### v0.5.0
 _Released on DATE at TIME UTC_
+
+* 
+
+### v0.4.0
+_Released on 2023-07-07 at 05:12:04 UTC_
 
 * Finished **IDs and Requirements** section
 * Fixed Mechanics' TOC
@@ -35,6 +40,8 @@ _Released on DATE at TIME UTC_
 * Added links to the Reference section at the bottom of each section
 * Adjusted CONTRIBUTING.md
 * Other miscellaneous changes
+
+[Download the source code][dl-0.4.0]{ .md-button }
 
 ### v0.3.1
 _Released on 2023-07-07 at 02:07:22 UTC_
@@ -154,3 +161,4 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.2.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.2.0.zip
 [dl-0.3.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.0.zip
 [dl-0.3.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.1.zip
+[dl-0.4.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.4.0.zip

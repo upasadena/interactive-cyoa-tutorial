@@ -209,7 +209,7 @@ Now, of course, you do not need to use **Selected Choice** to hide rows, and
 can use any number of requirements. It is, however, the most common
 requirement to use.
 
-#### Nested Rows
+### Nested Rows
 While nested Rows can be useful, especially for long ICYOAs which require a
 **lot** of scrolling, there can be a couple of downsides.
 
@@ -264,7 +264,7 @@ To do this, use [Selected Choice][sc] requirements for each nesting level.
     This does become slightly tedious to code the deeper a nested row is,
     however.[^1]
 
-#### Combining Multiple Requirements
+### Combining Multiple Requirements
 Chaining multiple requirements onto one object means that you require all of
 those requirements in order to allow the object to be chosen or shown.
 
@@ -281,7 +281,7 @@ those requirements in order to allow the object to be chosen or shown.
 
     You can learn more [here](../../reference/#making-discounts).
 
-#### Nesting Multiple Requirements
+### Nesting Multiple Requirements
 Nesting multiple requirements means to apply requirements onto requirements
 themselves. This type of advanced behaviour can get quite unwieldy.
 
@@ -301,7 +301,7 @@ If you have some choices that have prerequisites/requirements, then having
 them require those requirements will enforce that users don't cheat, and 
 follow the rules.
 
-#### Making Choices Invisible
+### Making Choices Invisible (TODO)
 Choices that don't have their requirements can be made invisible using filters.
 
 !!! tip
