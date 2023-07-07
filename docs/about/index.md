@@ -2,6 +2,12 @@
 comments: true
 ---
 
+<!-- <script src="../js/moment-with-locales.js"></script>
+<script>
+    const a = document.getElementById("v0.1.0");
+    a.textContent = moment([2022, 6, 17]).fromNow();
+</script> -->
+
 # About
 Thank you for viewing this tutorial! This page isn't a part of the tutorial,
 but rather a general information page about the tutorial itself.
@@ -19,6 +25,37 @@ to this tutorial from the time of its official release.
 * None as of yet
 
 ## Changelog
+### v0.4.0 (WIP)
+_Released on DATE at TIME UTC_
+
+* Fixed Mechanics' TOC
+* Added previous version's information here
+* Created Basics section and separated the Introduction/Preface from it
+* Added links to the Reference section at the bottom of each section
+* Adjusted CONTRIBUTING.md
+* Other miscellaneous changes
+
+### v0.3.1
+_Released on 2023-07-07 at 02:07:22 UTC_
+
+* Created a CONTRIBUTING.md so contributors know what they need to
+* Switched from AGPLv3 for the entire project to AGPLv3 for the source only,
+  and CC BY-SA 4.0 for the content
+* Added massive TODO check list in the README.MD
+* Added building instructions
+* Added an About page with information on the tutorial itself
+* Added comment sections to all pages, not just the very front page
+* Added a lot of images to the IDs & Requirements sections, with it nearly
+  being done
+* Added a table of contents to the Mechanics section, I'll do it to all places
+  from now on
+* Did a lot of work to the Publishing section
+* Filled in a lot of the Reference section
+* Updated abbreviations list
+* Updated Manual of Style to include time and date formats
+
+[Download the source code][dl-0.3.1]{ .md-button }
+
 ### v0.3.0
 _Released on 2022-06-17 at 19:48:21 UTC_
 
@@ -115,3 +152,4 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip
 [dl-0.2.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.2.0.zip
 [dl-0.3.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.0.zip
+[dl-0.3.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.1.zip

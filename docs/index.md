@@ -49,6 +49,7 @@ Neocities, which is also covered in *this* tutorial
     
 * [Tips and Pitfalls for Interactive CYOA Creators (Reddit)] – Contributed
 a fair amount to this tutorial.
+* [MeanDelay's Interactive CYOA Creator Tutorial][pgmstut] – Made by PixelGMS
 
 ## Feedback and Contributing
 If you have any questions, concerns, corrections, or anything else, please
@@ -57,7 +58,8 @@ comment below, either here or under the specific section of the tutorial.
 This project is **Open Source**. If you want to contribute to this tutorial
 directly, fork the repository
 [here](https://github.com/upasadena/interactive-cyoa-tutorial/fork), make your
-changes, and then open a pull request.
+changes, and then open a pull request. Please see [CONTRIBUTING.md] for
+writing guidelines.
 
 Otherwise, feel free to [contact me][5].
 
@@ -69,3 +71,5 @@ Otherwise, feel free to [contact me][5].
 [How to guide on making interactive CYOAs for a first time creator. (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
 [Tips and Pitfalls for Interactive CYOA Creators (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
 [export it as a static]: ./publishing/static/
+[pgmstut]: https://docs.google.com/presentation/d/1WposnAdGbhDw1Yf11v1Fs-nKq4i500qvaCGlcd2xgrU/edit
+[CONTRIBUTING.md]: https://github.com/upasadena/interactive-cyoa-tutorial/blob/main/CONTRIBUTING.md

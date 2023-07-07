@@ -278,7 +278,12 @@ The options are:
 **Object Width** sorts by how much space in a row Objects take, whereas
 **Text Length** sorts by how much text is within the **Object Text** field.
 
+---
+
+Learn more about what you can do with Rows in the [Reference].
+
 [private styling]: ../../styling/#private-styling
 [dynamic_allowed_choices]: ../objects/#adds-or-takes-away-a-rows-allowed-choices
 [groups]: ../../mechanics/groups/
 [row_width]: ./#row-objects-per-row
+[Reference]: ../../reference/#rows

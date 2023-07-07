@@ -6,10 +6,8 @@ contributions will be made under the [CC BY-SA 4.0][licence]. If you are not
 aware of what that entails, please see [here][licence-details].
 
 ## Acknowledgements
-I may not have time or I may simply forget to credit or acknowledge everyone
-who contributes to this tutorial, so you may feel free to include yourself in
-[the Authors list](./docs/about/index.md) in your pull request, and if your
-pull request is accepted you'll end up adding yourself.
+Feel free to include yourself in [the Authors list](./docs/about/index.md)
+in your pull request, and if your pull request is merged you will be added.
 
 ## Manual of Style
 Please adhere to this style guide when editing the tutorial content.
@@ -54,7 +52,7 @@ This is to ensure clear reading on smaller monitors, a stylistic choice, and a
 way to ensure that code is readable and not spread out.
 
 There *are* exceptions of course, such as URLs (but only at the bottom of a
-page) and tables.
+page), quotes (that cannot be broken up), and tables.
 
 ### Date and Time
 

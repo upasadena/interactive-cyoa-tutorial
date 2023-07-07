@@ -11,6 +11,7 @@ View it live at one of these links:
 ## TODO
 - [ ] Finish the base tutorial
     - [x] Finish the Introduction section
+    - [x] Finish the Basics section
     - [ ] Finish the Mechanics section
         - [x] Rows
         - [x] Objects / Choices
@@ -30,6 +31,7 @@ View it live at one of these links:
 - [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
 CYOA.
+- [ ] Add JavaScript to show when, from now, a release happened
 
 ## Contributing
 To contribute to this, simply fork this repository, make your changes, and

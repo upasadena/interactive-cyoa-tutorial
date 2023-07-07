@@ -207,8 +207,13 @@ with no difference.
 ### Clean Selected Choices (Side Menu)
 See [here](../../introduction/#clean-selected-choices).
 
+---
+
+Learn more what you can do with Objects in the [Reference].
+
 [sidebar_clean]: ../../Introduction/#clean-selected-choices
 [Objects per Row]: ../rows/#objects-per-row
 [ropr]: ../rows/#row-objects-per-row
 [score]: ../points-and-scoring/
 [Non-Activatable?]: ../rows/#non-activatable
+[Reference]: ../../reference/#choices

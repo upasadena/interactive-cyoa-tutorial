@@ -56,6 +56,8 @@ nav:
     - index.md
     - Introduction:
       - introduction/index.md
+    - Basics:
+      - basics/index.md
     - Mechanics:
       - mechanics/index.md
       - Rows: mechanics/rows.md
@@ -87,7 +89,7 @@ extra:
       link: https://discord.gg/h9txkD2Tcc
       name: Pasadena's discord server
 
-copyright: The source code of this website and the content therein are subject to the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.
+copyright: The source code of this website is subject to the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.<br>The content of this website is subject to the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt">CC BY-SA 4.0 licence</a>.
 
 repo_url: https://github.com/upasadena/interactive-cyoa-tutorial
 repo_name: upasadena/interactive-cyoa-tutorial
@@ -97,6 +99,9 @@ markdown_extensions:
   - abbr # use abbreviations, like hovertext
   - admonition # note boxes
   - attr_list # add html and css attributes to most stuff
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - def_list # definitions like MediaWiki
   - footnotes # footnotes
   - md_in_html # allow use of markdown in html
@@ -121,3 +126,11 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.tabbed:
       alternate_style: true
+
+watch:
+  - overrides/
+  - includes/
+
+extra_javascript:
+  - js/extra.js
+  - js/moment-with-locales.js
