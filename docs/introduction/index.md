@@ -23,7 +23,7 @@ they have read this tutorial.
 ## Clarity
 I have endeavoured to make this tutorial as straightforward to follow as
 possible, and to that end most examples have a gif, image, or video
-accompanying the text in order to more properly understand how the creator
+accompanying the text in order to more properly explain how the creator
 works.
 
 <!-- ##Sharing -->

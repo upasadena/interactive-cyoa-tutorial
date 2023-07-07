@@ -28,7 +28,11 @@ to this tutorial from the time of its official release.
 ### v0.5.0
 _Released on DATE at TIME UTC_
 
-* 
+* Added **Points & Scores** section, finished first revision
+* Changed Objects section title from "Objects" to "Objects / Choices"
+* Realized that I had not, in fact, finished **IDs and Requirements**
+    * Updated headings but have not finished filling it out
+* Added code block copying functionality
 
 ### v0.4.0
 _Released on 2023-07-07 at 05:12:04 UTC_

@@ -82,13 +82,12 @@ After that, add hyperlinks as normal:
 === "Open in a new window"
 
     ```html
-    Press <a href="https://example.com" target="_blank">here</a> for more information.
+    Visit <a href="https://example.com" target="_blank">here</a>.
     ```
 
     New Window Demo:
     
-    Press <a href="https://example.com" target="_blank">here</a> for more
-    information.
+    Visit <a href="https://example.com" target="_blank">here</a>.
 
 === "Open in current window"
 
@@ -365,8 +364,9 @@ Functioning as a XOR gate.
 
 ## Points and Scoring
 
-### Making discounts
+### (TODO) Making discounts
 <!-- TODO -->
+Discounts can be made using requirements.
 
 ## Images
 
@@ -430,7 +430,7 @@ using the ID of your Point type.
 [OR]: ../mechanics/ids-and-requirements/#one-of-these-is-selected-requirement
 [NOT]: ../mechanics/ids-and-requirements/#non-selected-choice
 [NOR]: ./#none-of-these-are-selected-requirement
-[choice_requires_another_choice]: ../mechanics/ids-and-requirements/#disabled-choices-via-selected-choice
+[choice_requires_another_choice]: #disabled-choices-via-selected-choice
 [CSS Legal Color Values]: https://www.w3schools.com/cssref/css_colors_legal.php
 [CSS Colors]: https://www.w3schools.com/cssref/css_colors.php
 [See ID/Title List]: ../basics/#see-idtitle-list

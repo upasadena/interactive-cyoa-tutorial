@@ -41,6 +41,8 @@ theme:
                           # only shows a blank announcement bar
     - content.action.edit
     - content.action.view
+    # Allows copying of code blocks
+    - content.code.copy
 
 plugins:
   - search:

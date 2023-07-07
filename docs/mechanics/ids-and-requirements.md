@@ -79,7 +79,9 @@ added to objects.
 
 ![](../images/33_create_requirement.png)
 
-#### Selected Choice
+#### Choice Requirements
+
+##### Selected Choice
 When the **Add Selected Choice Requirement** option is selected, it means that
 the Choice with the corresponding ID **MUST** be selected in order for that
 requirement to be satisfied.
@@ -101,7 +103,7 @@ selected, or allow this Row to be shown.
 
     ![](../images/34_selected_choice_process.gif)
 
-#### Non-selected Choice
+##### Non-selected Choice
 When the **Add Non-selected Choice Requirement** option is selected, it means
 that the Choice with the corresponding ID must **NOT** be selected in order for
 the requirement to be satisfied.
@@ -125,7 +127,20 @@ selected or shown.
 
     ![](../images/35_non_sc_process.gif)
 
-#### 'One of these is selected' requirement
+#### Point Requirements
+##### Equal To
+##### More Than
+##### Less Than
+##### More or Equal
+##### Less or Equal
+
+#### Point Comparison Requirements
+##### This Point-Type is Bigger
+##### This Point-Type is Bigger or Equal
+##### These Point-Types are Equal
+
+#### 'One of these' Requirements
+##### 'One of these is selected' requirement
 When this requirement is selected, you must provide the creator with a number
 of IDs. If any of them are selected, then this object is allowed to be selected
 or shown.
@@ -170,7 +185,7 @@ shown.
 
     ![](../images/36_one_selected_process.gif)
 
-#### 'One of these is not selected' requirement
+##### 'One of these is not selected' requirement
 <!-- The inverse of the above requirement, in order for this requirement to be
 satisfied, as it says, one of the Choice IDs must not be selected. -->
 

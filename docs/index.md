@@ -54,6 +54,7 @@ a fair amount to this tutorial.
 ## Feedback and Contributing
 If you have any questions, concerns, corrections, or anything else, please
 comment below, either here or under the specific section of the tutorial.
+Please bear in mind though, that to comment you need a [GitHub] account.
 
 This project is **Open Source**. If you want to contribute to this tutorial
 directly, fork the repository
@@ -73,3 +74,4 @@ Otherwise, feel free to [contact me][5].
 [export it as a static]: ./publishing/static/
 [pgmstut]: https://docs.google.com/presentation/d/1WposnAdGbhDw1Yf11v1Fs-nKq4i500qvaCGlcd2xgrU/edit
 [CONTRIBUTING.md]: https://github.com/upasadena/interactive-cyoa-tutorial/blob/main/CONTRIBUTING.md
+[GitHub]: https://github.com/

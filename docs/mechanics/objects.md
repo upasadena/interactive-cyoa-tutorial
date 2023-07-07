@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# Objects
+# Objects / Choices
 **Objects**, also referred to as **Choices**, are _the_ most important element
 of not just Interactive CYOAs, but CYOAs as a whole. Without Choice, you are
 just left with a story or history.
@@ -214,6 +214,6 @@ Learn more what you can do with Objects in the [Reference].
 [sidebar_clean]: ../../Introduction/#clean-selected-choices
 [Objects per Row]: ../rows/#objects-per-row
 [ropr]: ../rows/#row-objects-per-row
-[score]: ../points-and-scoring/
+[score]: ../points-and-scores/
 [Non-Activatable?]: ../rows/#non-activatable
 [Reference]: ../../reference/#choices
