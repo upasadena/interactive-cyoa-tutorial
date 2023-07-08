@@ -100,8 +100,13 @@ would bring them into the negatives, then the Choice can not be selected.
 This switch, as it says, prepends a positive or minus sign to the score of that
 Point Type.
 
-Now, this does not affect Point Bar in anyway, but it affects the Scores in
-Choices. By default:
+
+!!! note
+
+    This does not affect Point Bar in anyway, but affects the Scores in
+    Choices.
+
+By default:
 
 * If you gain points (i.e. the cost is in the negatives) it prepends a `+`
 sign.
@@ -282,4 +287,4 @@ Learn more what you can do with Points and Scores in the [Reference].
 [the Sidebar]: ../../basics/#the-sidebar
 [ids]: ../ids-and-requirements/
 [choice]: ../objects/
-[Reference]: ../reference/#points-and-scores
+[Reference]: ../../reference/#points-and-scores

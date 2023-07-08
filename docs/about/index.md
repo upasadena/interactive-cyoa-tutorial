@@ -2,12 +2,6 @@
 comments: true
 ---
 
-<!-- <script src="../js/moment-with-locales.js"></script>
-<script>
-    const a = document.getElementById("v0.1.0");
-    a.textContent = moment([2022, 6, 17]).fromNow();
-</script> -->
-
 # About
 Thank you for viewing this tutorial! This page isn't a part of the tutorial,
 but rather a general information page about the tutorial itself.
@@ -30,9 +24,13 @@ to this tutorial from the time of its official release.
 _Released on DATE at TIME UTC_
 
 * TODO
+* Added `(TODO)` and `(WIP)` prefixes to the Reference
+* Added Sharing section back to the Introduction
+* Fixed a few bad links
+* Minor typograpgical fixes
 
 ### v0.5.1
-_Released on DATE at TIME UTC_
+_Released on 2023-07-07 at 09:11:38 UTC_
 
 * Finally completed the **IDs and Requirements** section 
 * Enabled comments for the **Points and Scores** section

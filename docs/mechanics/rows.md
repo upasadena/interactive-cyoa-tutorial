@@ -258,7 +258,7 @@ If this option is off, then selected choices are preserved.
     ![](../images/!NA_dont_deselect_choices.gif)
 
 ## Row List (Side Menu)
-See [here](../../introduction/#open-row-list).
+See [here](../../basics/#open-row-list).
 
 ## Sort The Choices In The Row (Row Settings)
 This option allows you to change the order of the choices within the Row. This

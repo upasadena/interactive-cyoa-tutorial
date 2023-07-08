@@ -38,7 +38,7 @@ following code to your `index.html` file, just below the `<title>` tag:
 <link rel="icon" href="/link/to/icon.jpg">
 ```
 
-### Table of Contents / Tab Menu
+### (TODO) Table of Contents / Tab Menu
 
 ### Show a loading progress indicator
 See [here](../extending-your-cyoa/#progress-indicator).
@@ -220,7 +220,7 @@ Orphaned Rows occur when a chain of Nested Rows aren't set up so that closing
 the topmost parent Row closes not just any Rows that depend on it, but also
 Rows that depend on the topmost Row's dependent, and so on and so forth.
 
-To do this, use [Selected Choice][sc] requirements for each nesting level.
+To do this, use [Selected Choice] requirements for each nesting level.
 
 === "After"
 
@@ -285,22 +285,30 @@ Nesting multiple requirements means to apply requirements onto requirements
 themselves. This type of advanced behaviour can get quite unwieldy.
 
 ## Choices
-### You may only pick X options
-See [here](../mechanics/rows/#allowed-choices).
+### (TODO) You may only pick X options
+Use [Allowed Choices](../mechanics/rows/#allowed-choices).
+
+### (WIP) You may only pick X options from an arbitrary group
+Similar to the above, except these choices are not required to have been from
+the same Row.
+
+You do this buy creating a unique Point Type that is unable to go below 0, and
+is also hidden. Each choice in this arbitrary group costs 1 of these points.
 
 ### Choice requires anothers Choice
 See [here][choice_requires_another_choice]
 
-### Hide a choice if it doesn't meet the requirements
+### (TODO) Hide a choice if it doesn't meet the requirements
 Simply use filters.
 <!-- Elaborate, use examples, and link to Styling page when its done -->
 
-### Disabled Choices via Selected Choice
+### (TODO) Disabled Choices via Selected Choice
+<!-- Elaborate -->
 If you have some choices that have prerequisites/requirements, then having
 them require those requirements will enforce that users don't cheat, and 
 follow the rules.
 
-### Making Choices Invisible (TODO)
+### (TODO) Making Choices Invisible
 Choices that don't have their requirements can be made invisible using filters.
 
 !!! tip
@@ -347,20 +355,14 @@ and it will ensure that you have each and every one selected.
 As above, simply add a [Non-selected Choice][NOT] requirement for each ID that 
 must not be selected.
 
-### 'Not all of these are selected' requirement
+### (TODO) 'Not all of these are selected' requirement
 Functioning as a NAND gate.
 
-<!-- TODO -->
-
-### 'All of these are either selected or non-selected' requirement
+### (TODO) 'All of these are either selected or non-selected' requirement
 Functioning as a XAND gate.
 
-<!-- TODO -->
-
-### 'One of these is selected and another is non-selected' requirement
+### (TODO) 'One of these is selected and another is non-selected' requirement
 Functioning as a XOR gate.
-
-<!-- TODO -->
 
 ## Points and Scores
 
@@ -396,6 +398,38 @@ selected"
 Discounts can be made using requirements.
 
 ## Images
+
+### (TODO) Separate images from the project.json
+You can easily separate images from the `project.json` file.
+
+!!! note
+
+    This only works with [local images].
+
+To do this, you
+simply go into **Save/Load Project** →
+**Download Finished Project With Separate Images**.
+
+This will give you a zip file called `hello.zip`, which you can and should
+rename to something more helpful.
+
+Extract the zip, and inside you should find your `project.json` with a hugely
+reduced size, and all the images you've uploaded separated in an `images/`
+folder.
+
+Next, move the `project.json` file and the `images/` directory into the same
+directory as your Viewer.
+
+??? quote "ICC Quote"
+
+    You can use the button below to save when you have finished your project, 
+    it will keep the images separated from the JSON. Do not overwrite your 
+    project, as the new JSON-file inside the zip this downloads will have no 
+    pictures if loaded into the Creator. Place the JSON into the app-file like 
+    normal, and the images-folder besides the other folders. If the project has 
+    a lot of images then they might end up not showing when someone loads on 
+    the page, if so then just use the normal way, and use Image Compression in 
+    features to reduce the size of the project file. 
 
 ## Defaults
 
@@ -462,3 +496,5 @@ using the ID of your Point type.
 [CSS Colors]: https://www.w3schools.com/cssref/css_colors.php
 [See ID/Title List]: ../basics/#see-idtitle-list
 [the Sidebar]: ../basics/#the-sidebar
+[u/Traveller-81]: https://www.reddit.com/user/Traveller-81
+[local images]: ../mechanics/images/#local-images

@@ -15,7 +15,7 @@ View it live at one of these links:
     - [ ] Finish the Mechanics section
         - [x] Rows
         - [x] Objects / Choices
-        - [ ] IDs & Requirements
+        - [x] IDs & Requirements
         - [x] Points & Scores
         - [ ] Images
         - [ ] Defaults
@@ -32,6 +32,12 @@ View it live at one of these links:
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
 CYOA.
 - [ ] Add JavaScript to show when, from now, a release happened
+- [ ] Delete unneeded JavaScript
+- [ ] Find a way to count words and characters
+- [ ] Delete ideologically-driven information, such as git. The people do not
+need nor want to know that.
+- [ ] After the ICCT is written, go through the main tutorial and add
+everything that is possible into the Mechanics
 
 ## Contributing
 To contribute to this, simply fork this repository, make your changes, and

@@ -9,14 +9,17 @@ CYOA Creator.
 <!-- [Continue to Rows](./rows/){ .md-button } -->
 
 Table of Contents:
+<!-- Leave space below -->
 
 * [Rows](./rows/)
 * [Objects / Choices](./objects/)
-* [IDs & Requirements](./ids-and-requirements/) ~
+* [IDs & Requirements](./ids-and-requirements/)
 * [Points & Scores](./points-and-scores/)
 
 TODO:
-* [Images](./images/)
+<!-- Leave space below -->
+
+* [Images](./images/) ~
 * [Defaults](./defaults/)
 * [Addons](./addons/)
 * [Copying](./copying/)

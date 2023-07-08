@@ -388,6 +388,9 @@ Row/Choice title if one exists, otherwise it will display the ID.
 Learn more what you can do with [IDs][id-ref] and [Requirements][req-ref]
 in the [Reference].
 
+<!-- References -->
+[^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)
+
 <!-- URLs -->
 [u/Traveller-81]: https://www.reddit.com/user/Traveller-81
 [sc]: #selected-choice
