@@ -36,6 +36,7 @@ to this tutorial from the time of its official release.
         - [ ] Groups
         - [ ] Backpack & Choice Import
     - [ ] Finish the Styling section
+        - [ ] Design
     - [ ] Finish the Publishing section
     - [ ] Finish the Reference section
     - [ ] Finish the Troubleshooting section
@@ -66,6 +67,7 @@ _Released on DATE at TIME UTC_
 * Moved the TODO from the README.md to the About page
 * Added **Resources** section.
 * Enabled Task Lists for the TODO section
+* Added the **Design** section under **Styling**
 * Fixed a few bad links
 * Minor typograpgical fixes
 

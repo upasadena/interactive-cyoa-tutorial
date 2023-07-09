@@ -69,6 +69,7 @@ nav:
       - Images: mechanics/images.md
     - Styling:
       - styling/index.md
+      - Design: styling/design.md
     - Publishing:
       - publishing/index.md
       - Static: publishing/static.md

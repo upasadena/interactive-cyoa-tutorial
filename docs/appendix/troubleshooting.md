@@ -9,10 +9,10 @@ how to solve it.
 ## Design
 ### I can't find the option to upload a background image
 This creator is rather buggy at times, and sometimes it hides the options:
-**Upload Background Image**, **Upload TODO Image**, and **Upload TODO Image**
+**Upload Background Image**, **Upload Row Image**, and **Upload Object Image**
 in the **Manage Background Design** section.
 
-Here's an example of what that might look like:
+Here's an example of what that might look like when bugged:
 ![](../images/72_bg_image_bug.png)
 
 There are two methods of fixing this, both of which will be displayed here.
