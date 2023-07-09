@@ -16,6 +16,14 @@ website that runs in its own web browser. Because of this, you can zoom in
 and out of the desktop app by doing ++ctrl+plus++ (++ctrl+shift+equal++) to 
 zoom in, and ++ctrl+minus++ to zoom out.
 
+!!! tip
+
+    If you need to reset your zoom level and you're using the offline app,
+    simply look at the top where it says **View**. Press that, and then
+    **Actual Size**.
+
+    Alternatively, press ++ctrl++ + ++0++.
+
 ## Whole CYOA
 ### Changing the page title
 In order to change the title of the tab in the browser, simply edit
@@ -42,6 +50,22 @@ following code to your `index.html` file, just below the `<title>` tag:
 
 ### Show a loading progress indicator
 See [here](../extending-your-cyoa/#progress-indicator).
+
+### Make the Background completely static
+A static background, as opposed to a continuous or overlapping background, is
+one that scrolls with the user, perfect for backgrounds that do not repeat
+perfectly.
+
+An example of a continuous background is the
+[Worm V3 Revised interactive][worm-v3] (shown below).No matter how far you
+scroll, the background stays in the exact same position. 
+
+It was first used in the
+[Jedi - Guardian of the Republic Interactive CYOA][jedi-cyoa],
+where the background fixes are attributed to
+[u/LOLLOL12344](https://www.reddit.com/user/LOLLOL12344).
+
+![](../images/!NA_static_background_compressed.gif)
 
 ## Text
 ### Make specific text a different colour
@@ -498,3 +522,5 @@ using the ID of your Point type.
 [the Sidebar]: ../basics/#the-sidebar
 [u/Traveller-81]: https://www.reddit.com/user/Traveller-81
 [local images]: ../mechanics/images/#local-images
+[jedi-cyoa]: https://www.reddit.com/r/InteractiveCYOA/comments/w5mick/jedi_guardian_of_the_republic_interactive/
+[worm-v3]: https://upasadena.github.io/cyoas/worm/v3/

@@ -18,6 +18,40 @@ to this tutorial from the time of its official release.
 
 * None as of yet
 
+## TODO
+- [ ] Finish the base tutorial
+    - [x] Finish the Introduction section
+    - [x] Finish the Basics section
+    - [ ] Finish the Mechanics section
+        - [x] Rows
+        - [x] Objects / Choices
+        - [x] IDs & Requirements
+        - [x] Points & Scores
+        - [ ] Images
+        - [ ] Defaults
+        - [ ] Addons
+        - [ ] Copying
+        - [ ] Words
+        - [ ] Buttons & Variables
+        - [ ] Groups
+        - [ ] Backpack & Choice Import
+    - [ ] Finish the Styling section
+    - [ ] Finish the Publishing section
+    - [ ] Finish the Reference section
+    - [ ] Finish the Troubleshooting section
+- [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
+- [ ] Add a End-of-tutorial Project where there's a step by step remake of a
+CYOA.
+- [ ] Add JavaScript to show when, from now, a release happened
+- [ ] Delete unneeded JavaScript
+- [ ] Find a way to count words and characters
+- [ ] Delete ideologically-driven information, such as git. The people do not
+need nor want to know that.
+- [ ] After the ICCT is written, go through the main tutorial and add
+everything that is possible into the Mechanics
+- [ ] Compress all the gifs to limit bandwidth, but not enough such that the
+  gifs lose legibility
+
 ## Changelog
 
 ### v0.6.0 (WIP)
@@ -29,6 +63,7 @@ _Released on DATE at TIME UTC_
   **Appendix**
 * Added `(TODO)` and `(WIP)` prefixes to the Reference
 * Added Sharing section back to the Introduction
+* Moved the TODO from the README.md to the About page
 * Fixed a few bad links
 * Minor typograpgical fixes
 

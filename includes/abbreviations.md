@@ -12,3 +12,5 @@
 *[decrement]: subtract by one
 *[decrements]: subtracts by one
 *[decrementing]: subtracting by one
+*[NSFW]: Not Safe For Work; i.e., inappropriate or adult content
+*[nsfw]: Not Safe For Work; i.e., inappropriate or adult content

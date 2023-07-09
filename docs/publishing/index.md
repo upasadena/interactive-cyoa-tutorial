@@ -19,6 +19,11 @@ Many people use either [Neocities] or [GitHub]. I recommend using GitHub, as it
 allows you to make an unlimited amount of sites from the same account, with
 each site having a larger free size limit.
 
+If you wanted to make or have made an NSFW Interactive however, I recommend
+using [Neocities]. [GitHub]'s [Sexually Obscene Content] policy means that
+pornography cannot be hosted there. [Neocities], on the other hand, has no
+such policy.
+
 In the end, it's up to you to choose whichever site works best for your use
 case.
 
@@ -155,3 +160,4 @@ which can each act as their own site.
 [GitLab]: https://about.gitlab.com/
 [Cloudflare Pages]: https://pages.cloudflare.com/
 [HAI]: http://icctutorial.pages.dev/introduction/#help-and-instructions
+[Sexually Obscene Content]: https://docs.github.com/en/site-policy/acceptable-use-policies/github-sexually-obscene-content

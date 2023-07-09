@@ -9,36 +9,7 @@ View it live at one of these links:
 * https://upasadena.github.io/interactive-cyoa-tutorial/
 
 ## TODO
-- [ ] Finish the base tutorial
-    - [x] Finish the Introduction section
-    - [x] Finish the Basics section
-    - [ ] Finish the Mechanics section
-        - [x] Rows
-        - [x] Objects / Choices
-        - [x] IDs & Requirements
-        - [x] Points & Scores
-        - [ ] Images
-        - [ ] Defaults
-        - [ ] Addons
-        - [ ] Copying
-        - [ ] Words
-        - [ ] Buttons & Variables
-        - [ ] Groups
-        - [ ] Backpack & Choice Import
-    - [ ] Finish the Styling section
-    - [ ] Finish the Publishing section
-    - [ ] Finish the Reference section
-    - [ ] Finish the Troubleshooting section
-- [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
-- [ ] Add a End-of-tutorial Project where there's a step by step remake of a
-CYOA.
-- [ ] Add JavaScript to show when, from now, a release happened
-- [ ] Delete unneeded JavaScript
-- [ ] Find a way to count words and characters
-- [ ] Delete ideologically-driven information, such as git. The people do not
-need nor want to know that.
-- [ ] After the ICCT is written, go through the main tutorial and add
-everything that is possible into the Mechanics
+See [here](./docs/appendix/about.md).
 
 ## Contributing
 To contribute to this, simply fork this repository, make your changes, and
