@@ -216,4 +216,4 @@ Learn more what you can do with Objects in the [Reference].
 [ropr]: ../rows/#row-objects-per-row
 [score]: ../points-and-scores/
 [Non-Activatable?]: ../rows/#non-activatable
-[Reference]: ../../reference/#choices
+[Reference]: /appendix/reference/#choices

@@ -286,4 +286,4 @@ Learn more about what you can do with Rows in the [Reference].
 [dynamic_allowed_choices]: ../objects/#adds-or-takes-away-a-rows-allowed-choices
 [groups]: ../../mechanics/groups/
 [row_width]: ./#row-objects-per-row
-[Reference]: ../../reference/#rows
+[Reference]: /appendix/reference/#rows

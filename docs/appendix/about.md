@@ -55,8 +55,14 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.6.0
+### WIP
 _Released on DATE at TIME UTC_
+
+* 
+* Miscellaneous fixes
+
+### v0.6.0
+_Released on 2023-09-07 at 11:15:46 UTC_
 
 * Finished first revision of the **Image** section
 * Added the Troubleshooting section on the official TODO, made a start on it
@@ -70,6 +76,8 @@ _Released on DATE at TIME UTC_
 * Added the **Design** section under **Styling**
 * Fixed a few bad links
 * Minor typograpgical fixes
+
+[Download the source code][dl-0.6.0]{ .md-button }
 
 ### v0.5.1
 _Released on 2023-07-07 at 09:11:38 UTC_
@@ -227,3 +235,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.4.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.4.0.zip
 [dl-0.5.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.0.zip
 [dl-0.5.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.1.zip
+[dl-0.6.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.6.0.zip
+
+<!-- BUFFER -->

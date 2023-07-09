@@ -394,8 +394,8 @@ in the [Reference].
 <!-- URLs -->
 [u/Traveller-81]: https://www.reddit.com/user/Traveller-81
 [sc]: #selected-choice
-[id-ref]: ../../reference/#ids
-[req-ref]: ../../reference/#requirements
-[Reference]: ../../reference/
-[score-cost]: ../../mechanics/points-and-scores/#creating-scores
-[no-zero]: ../../mechanics/points-and-scores/#this-score-is-not-allowed-to-go-under-0
+[id-ref]: /appendix/reference/#ids
+[req-ref]: /appendix/reference/#requirements
+[Reference]: /appendix/reference/
+[score-cost]: ../points-and-scores/#creating-scores
+[no-zero]: ../points-and-scores/#this-score-is-not-allowed-to-go-under-0

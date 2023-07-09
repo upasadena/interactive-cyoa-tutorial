@@ -287,4 +287,4 @@ Learn more what you can do with Points and Scores in the [Reference].
 [the Sidebar]: ../../basics/#the-sidebar
 [ids]: ../ids-and-requirements/
 [choice]: ../objects/
-[Reference]: ../../reference/#points-and-scores
+[Reference]: /appendix/reference/#points-and-scores
