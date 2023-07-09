@@ -30,10 +30,9 @@ Both of which are very time consuming. It is important to design top-down, so
 to speak.
 
 ### StarDustAnon's Advice
-Below is a snippet from [Some Musings by a CYOA
-Author](https://pastebin.com/qaL8nDD8) by StarDustAnon, a text focused on
-advice for creating static CYOAs. Although for static CYOAs, I believe this
-advice applies no matter the format a CYOA is presented from.
+Below is a snippet from [Some Musings by a CYOA Author] by StarDustAnon, a text
+focused on advice for creating static CYOAs. Although for static CYOAs, I
+believe this advice applies no matter the format a CYOA is presented from.
 
 > I know what I said before: graphics isn't entirely necessary. But ==design
 > isn't the same as graphics. Design encompasses your CYOA no matter what.
@@ -134,3 +133,4 @@ entire page.
 [Contrast Checker]: https://webaim.org/resources/contrastchecker/
 [Link Contrast Checker]: https://webaim.org/resources/linkcontrastchecker/
 [next chapter]: _
+[Some Musings by a CYOA Author]: https://pastebin.com/qaL8nDD8

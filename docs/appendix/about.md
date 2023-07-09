@@ -27,7 +27,7 @@ to this tutorial from the time of its official release.
         - [x] Objects / Choices
         - [x] IDs & Requirements
         - [x] Points & Scores
-        - [ ] Images
+        - [x] Images
         - [ ] Defaults
         - [ ] Addons
         - [ ] Copying
@@ -55,10 +55,10 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.6.0 (WIP)
+### v0.6.0
 _Released on DATE at TIME UTC_
 
-* TODO
+* Finished first revision of the **Image** section
 * Added the Troubleshooting section on the official TODO, made a start on it
 * Moved **Reference**, **About**, and **Troubleshooting** pages into the
   **Appendix**

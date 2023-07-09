@@ -15,11 +15,11 @@ Table of Contents:
 * [Objects / Choices](./objects/)
 * [IDs & Requirements](./ids-and-requirements/)
 * [Points & Scores](./points-and-scores/)
+* [Images](./images/)
 
 TODO:
 <!-- Leave space below -->
 
-* [Images](./images/) ~
 * [Defaults](./defaults/)
 * [Addons](./addons/)
 * [Copying](./copying/)

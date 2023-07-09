@@ -105,6 +105,17 @@ in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 [u/PixelGMS]. It contains 57 entries.
     * [Reddit post][pixel-post]
 
+## Stories
+Websites where you can post stories made by CYOAs.
+
+* [SpaceBattles (SB)](https://forums.spacebattles.com/) – A forum for all sorts
+  of things. The **Creative Writing** section is where you can post and view
+  stories.
+* [Questionable Questing (QQ)](https://questionablequesting.com/) – Like the
+  above, but is more lenient in terms of rules. Allows NSFW content.
+* [Sufficient Velocity (SV)](https://forums.sufficientvelocity.com/) – A
+  splinter of SpaceBattles.
+
 ## Images
 ### General
 
@@ -137,6 +148,8 @@ static CYOA creator, for those who are less graphically-inclined.
 * [Some Musings by a CYOA Author](https://pastebin.com/qaL8nDD8) – A post by
 StarDustAnon. It contains musings and advice on how to create CYOAs in general.
 An excellent read.
+* [ICCT Static Folder](/static) – It's the `static/` directory of this
+  tutorial. It contains a couple of useful things to download.
 
 <!-- URLs -->
 [cyoa-template-dl]: https://www.dropbox.com/scl/fi/cjssl5mk5h6rhr8mz7w1s/Template.json?rlkey=whf28vz69wqrt0d8jjfvitzty&dl=0
