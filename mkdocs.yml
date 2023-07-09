@@ -76,10 +76,11 @@ nav:
       - Neocities: publishing/neocities.md
     - Extending Your CYOA:
       - extending-your-cyoa/index.md
-    - Reference:
-      - reference/index.md
-    - About:
-      - about/index.md
+    - Appendix:
+      - appendix/index.md
+      - Reference: appendix/reference.md
+      - Troubleshooting: appendix/troubleshooting.md
+      - About: appendix/about.md
 
 extra:
   social:

@@ -3,8 +3,9 @@ comments: true
 ---
 
 # Images
+Images are quite easy to add in this Creator, and we'll be going through how to
+insert them.
 
-## Important advice
 !!! tip
 
     It is advisable that you do not upload images until the core mechanics of 
@@ -13,10 +14,25 @@ comments: true
     end PCs. CYOAs over 300 MB are known to have caused issues.
 
 ## Adding Images to Rows
+To add an image to a Row, simply press the **Change Image** button.
 
 ## Adding Images to Choices
 
-## Adding Images to etc.
+
+## Adding Images to Addons
+
+
+## Image Upload Menu
+
+### Uploaded Image or External URL
+This switch allows you to switch between uploading the image yourself (directly
+into the .json file) or using one already on the internet.
+
+### Tooltip That Shows When Hovering over it
+
+### Cropper
+
+### Compress
 
 ## Local vs External Images
 There are pros and cons to using both local and external images for choices.

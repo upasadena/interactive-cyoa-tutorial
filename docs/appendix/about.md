@@ -24,6 +24,9 @@ to this tutorial from the time of its official release.
 _Released on DATE at TIME UTC_
 
 * TODO
+* Added the Troubleshooting section on the official TODO, made a start on it
+* Moved **Reference**, **About**, and **Troubleshooting** pages into the
+  **Appendix**
 * Added `(TODO)` and `(WIP)` prefixes to the Reference
 * Added Sharing section back to the Introduction
 * Fixed a few bad links
