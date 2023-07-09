@@ -45,8 +45,8 @@ CYOA.
 - [ ] Add JavaScript to show when, from now, a release happened
 - [ ] Delete unneeded JavaScript
 - [ ] Find a way to count words and characters
-- [ ] Delete ideologically-driven information, such as git. The people do not
-need nor want to know that.
+- [ ] Delete ideologically-driven information, such as git. The people most
+likely do not need nor want to know that.
 - [ ] After the ICCT is written, go through the main tutorial and add
 everything that is possible into the Mechanics
 - [ ] Compress all the gifs to limit bandwidth, but not enough such that the
@@ -64,6 +64,8 @@ _Released on DATE at TIME UTC_
 * Added `(TODO)` and `(WIP)` prefixes to the Reference
 * Added Sharing section back to the Introduction
 * Moved the TODO from the README.md to the About page
+* Added **Resources** section.
+* Enabled Task Lists for the TODO section
 * Fixed a few bad links
 * Minor typograpgical fixes
 

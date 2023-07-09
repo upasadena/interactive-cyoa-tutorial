@@ -24,6 +24,16 @@ zoom in, and ++ctrl+minus++ to zoom out.
 
     Alternatively, press ++ctrl++ + ++0++.
 
+## General
+
+### Colours
+
+Move the other colour stuff to this section.
+
+#### (TODO) Find out the hex code of a colour
+
+#### (TODO) Generate a colour palette
+
 ## Whole CYOA
 ### Changing the page title
 In order to change the title of the tab in the browser, simply edit
@@ -66,6 +76,26 @@ where the background fixes are attributed to
 [u/LOLLOL12344](https://www.reddit.com/user/LOLLOL12344).
 
 ![](../images/!NA_static_background_compressed.gif)
+
+### (TODO) Change the Scrollbar Colour
+Add this to your `index.html` file, in the `<head>` section:
+
+
+
+```html
+<style>
+    * {
+        scrollbar-width: auto;
+        scrollbar-color: rgba(251, 115, 52, 1) rgb(60, 75, 80);
+    }
+</style>
+```
+
+Alternatively, put it in any `.css` file you have.
+
+!!! note
+
+    Credit to [u/PNG-MAN](https://old.reddit.com/user/PNG-MAN) for this code.
 
 ## Text
 ### Make specific text a different colour

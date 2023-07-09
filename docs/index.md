@@ -3,8 +3,8 @@ comments: true
 ---
 
 # Interactive CYOA Tutorial
-This is a complete and comprehensive guide to using the
-**Interactive CYOA Creator** by **MeanDelay**.
+This is a complete and comprehensive guide to using the **Interactive CYOA
+Creator** by **MeanDelay**.
 
 This tutorial serves as a starting point for beginners who may wish to create
 their own Interactive CYOA, as well as a reference for more experienced
@@ -23,33 +23,14 @@ For knowledge on how to achieve a specific outcome, go to the
 * [Online version](https://intcyoacreator.onrender.com/)
 * [Offline version at itch.io (one-time purchase of 2.50 USD or more)][3]
 
-### Subreddits
-* [r/InteractiveCYOA](https://www.reddit.com/r/InteractiveCYOA/) – A subreddit
-for Interactive CYOAs. If you make an Interactive, feel free to showcase it
-here!
-* [r/makeyourchoice](https://www.reddit.com/r/makeyourchoice/) – The original
-CYOA subreddit. Interactives are accepted but only if you link the static.
-If you are creating an original interactive, either [export it as a static] or
-create a static manually.
-* [r/nsfwcyoa](https://www.reddit.com/r/nsfwcyoa) – A subreddit for NSFW CYOAs.
-
-### Other Tutorials and Info
-Credits to these tutorials and information sources for helping me make this
-tutorial.
-
-* [How to guide on making interactive CYOAs for a first time creator. (Reddit)]
-– This guide shows you how to upload your finished Interactive CYOAs to
-Neocities, which is also covered in *this* tutorial
-[here](./publishing/#uploading-your-project).
-
-    Direct links:
-    
-    * [Imgur](https://imgur.com/a/QV36Ix8)
-    * [Google Slides][1]
-    
-* [Tips and Pitfalls for Interactive CYOA Creators (Reddit)] – Contributed
-a fair amount to this tutorial.
-* [MeanDelay's Interactive CYOA Creator Tutorial][pgmstut] – Made by PixelGMS
+### Appendix
+* [Reference](./appendix/reference/) – Practical knowledge on the Interactive
+CYOA Creator.
+* [Troubleshooting](./appendix/troubleshooting/) – Have a problem? Have a look
+in here for a solution.
+* [Resources](./appendix/resources/) – Resources for CYOAs and Interactive
+CYOAs. Have a look in here for more useful links!
+* [About](./appendix/about/) – Information about this tutorial.
 
 ## Feedback and Contributing
 If you have any questions, concerns, corrections, or anything else, please
@@ -59,19 +40,13 @@ Please bear in mind though, that to comment you need a [GitHub] account.
 This project is **Open Source**. If you want to contribute to this tutorial
 directly, fork the repository
 [here](https://github.com/upasadena/interactive-cyoa-tutorial/fork), make your
-changes, and then open a pull request. Please see [CONTRIBUTING.md] for
-writing guidelines.
+changes, and then open a pull request. Please see [CONTRIBUTING.md] for writing
+guidelines.
 
 Otherwise, feel free to [contact me][5].
 
-[1]: https://docs.google.com/presentation/d/18wSgIooZxM_uA3I90KmZICl9guaQMeVIuqCpV-UffJA/edit
+<!-- URLs -->
 [3]: https://meandelay.itch.io/interactive-cyoa-creator
 [5]: https://upasadena.github.io/#social-media-and-contact
-
-[Continue to the Introduction]: ./introduction/
-[How to guide on making interactive CYOAs for a first time creator. (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
-[Tips and Pitfalls for Interactive CYOA Creators (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
-[export it as a static]: ./publishing/static/
-[pgmstut]: https://docs.google.com/presentation/d/1WposnAdGbhDw1Yf11v1Fs-nKq4i500qvaCGlcd2xgrU/edit
 [CONTRIBUTING.md]: https://github.com/upasadena/interactive-cyoa-tutorial/blob/main/CONTRIBUTING.md
 [GitHub]: https://github.com/

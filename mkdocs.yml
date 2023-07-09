@@ -80,6 +80,7 @@ nav:
       - appendix/index.md
       - Reference: appendix/reference.md
       - Troubleshooting: appendix/troubleshooting.md
+      - Resources: appendix/resources.md
       - About: appendix/about.md
 
 extra:
@@ -131,6 +132,9 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.tabbed:
       alternate_style: true
+  # GitHub-style task lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 watch:
   - overrides/

@@ -172,13 +172,15 @@ you to go back and forth.
 
 ![](../images/86_switch_to_compress.gif)
 
-#### Image Scale
-
-#### Image Quality
-
 #### Compressing an Image
 
+##### Image Scale
+
+##### Image Quality
+
 #### Compressing all Images
+Compressing **all** images requires a different method, however. It is not
+found in 
 
 ## Local vs External Images
 There are pros and cons to using both local and external images. What you
