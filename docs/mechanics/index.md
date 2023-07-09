@@ -20,7 +20,7 @@ Table of Contents:
 TODO:
 <!-- Leave space below -->
 
-* [Defaults](./defaults/)
+* [Defaults](./defaults/) ~
 * [Addons](./addons/)
 * [Copying](./copying/)
 * [Words](./words/)

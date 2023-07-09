@@ -55,14 +55,14 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### WIP
+### v0.7.0
 _Released on DATE at TIME UTC_
 
-* Added **Defaults** section
+* Finished the first revision of the **Defaults** section
 * Miscellaneous fixes
 
 ### v0.6.1
-_Released on 2023-09-07 at 11:15:46 UTC_
+_Released on 2023-09-07 at 11:21:29 UTC_
 
 * Finished first revision of the **Image** section
 * Added the Troubleshooting section on the official TODO, made a start on it
@@ -77,7 +77,8 @@ _Released on 2023-09-07 at 11:15:46 UTC_
 * Fixed a few bad links
 * Minor typograpgical fixes
 
-What happened to `v0.6.0`? I forgot to `push`.
+What happened to `v0.6.0`? I forgot to `push` my changes before making a
+release.
 
 [Download the source code][dl-0.6.1]{ .md-button }
 

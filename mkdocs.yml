@@ -67,6 +67,7 @@ nav:
       - IDs & Requirements: mechanics/ids-and-requirements.md
       - Points & Scores: mechanics/points-and-scores.md
       - Images: mechanics/images.md
+      - Defaults: mechanics/defaults.md
     - Styling:
       - styling/index.md
       - Design: styling/design.md
