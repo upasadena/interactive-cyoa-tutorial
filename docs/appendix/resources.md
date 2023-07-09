@@ -73,7 +73,6 @@ of Interactive CYOAs, containing 406 entries.
 [allsync-latest]: https://cyoa.allsync.com/s/owWor64yLTngDk3
 [png-man-tutorial]: https://old.reddit.com/user/PNG-MAN/comments/y03ftf/interactive_cyoa_tips_tricks_intcyoacreator/
 [1]: https://docs.google.com/presentation/d/18wSgIooZxM_uA3I90KmZICl9guaQMeVIuqCpV-UffJA/edit
-[Continue to the Introduction]: ./introduction/
 [How to guide on making interactive CYOAs for a first time creator. (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/nxrlvm/how_to_guide_on_making_interactive_cyoas_for_a/
 [Tips and Pitfalls for Interactive CYOA Creators (Reddit)]: https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/
 [export it as a static]: ./publishing/static/

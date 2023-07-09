@@ -50,3 +50,4 @@ Otherwise, feel free to [contact me][5].
 [5]: https://upasadena.github.io/#social-media-and-contact
 [CONTRIBUTING.md]: https://github.com/upasadena/interactive-cyoa-tutorial/blob/main/CONTRIBUTING.md
 [GitHub]: https://github.com/
+[Continue to the Introduction]: ./introduction/
