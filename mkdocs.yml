@@ -90,6 +90,7 @@ nav:
       - mechanics/index.md
       - Rows: mechanics/rows.md
       - Objects / Choices: mechanics/objects.md
+      - Addons: mechanics/addons.md
       - IDs & Requirements: mechanics/ids-and-requirements.md
       - Points & Scores: mechanics/points-and-scores.md
       - Images: mechanics/images.md

@@ -61,6 +61,8 @@ _Released on DATE at TIME UTC_
 * Should have fixed the "Last update" not working as intended
 * Fixed missing Viewer file
 * Reordered Mechanics section in TODO
+* Added `authors` section down the bottom, which will show the contributor
+  percentage.
 
 ### v0.7.0
 _Released on 2023-09-07 at 11:40:35 UTC_
