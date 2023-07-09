@@ -25,11 +25,11 @@ to this tutorial from the time of its official release.
     - [ ] Finish the Mechanics section
         - [x] Rows
         - [x] Objects / Choices
+        - [ ] Addons
         - [x] IDs & Requirements
         - [x] Points & Scores
         - [x] Images
-        - [ ] Defaults
-        - [ ] Addons
+        - [x] Defaults
         - [ ] Copying
         - [ ] Words
         - [ ] Buttons & Variables
@@ -55,11 +55,20 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.7.0
+### WIP
 _Released on DATE at TIME UTC_
+
+* Should have fixed the "Last update" not working as intended
+* Fixed missing Viewer file
+* Reordered Mechanics section in TODO
+
+### v0.7.0
+_Released on 2023-09-07 at 11:40:35 UTC_
 
 * Finished the first revision of the **Defaults** section
 * Miscellaneous fixes
+
+[Download the source code][dl-0.7.0]{ .md-button }
 
 ### v0.6.1
 _Released on 2023-09-07 at 11:21:29 UTC_
@@ -78,7 +87,7 @@ _Released on 2023-09-07 at 11:21:29 UTC_
 * Minor typograpgical fixes
 
 What happened to `v0.6.0`? I forgot to `push` my changes before making a
-release.
+release :P
 
 [Download the source code][dl-0.6.1]{ .md-button }
 
@@ -239,5 +248,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.5.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.0.zip
 [dl-0.5.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.1.zip
 [dl-0.6.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.6.1.zip
+[dl-0.7.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.7.0.zip
 
 <!-- BUFFER -->

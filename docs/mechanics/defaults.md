@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Defaults
 What are Defaults? They are the the default text that fills in titles and text
 in objects such as Rows, Choices, and Addons.
@@ -20,7 +24,8 @@ You'll notice something that doesn't quite belong in this section, the
 
 !!! danger
 
-    This is an irreversible manoeuvre, so make sure you save before doing this, just in case you decide you don't like the changes.
+    This is an irreversible manoeuvre, so make sure you save before doing this,
+    just in case you decide you don't like the changes.
 
 What does it do? Well the Creator says:
 

@@ -23,7 +23,7 @@ To build this tutorial locally, first install `mkdocs-material` (visit
 more about installing it):
 
 ```sh
-pip install mkdocs-material
+pip install mkdocs-material mkdocs-minify-plugin mkdocs-git-authors-plugin
 ```
 
 Then run:

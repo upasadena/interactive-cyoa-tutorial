@@ -127,7 +127,7 @@ but takes links into account.
 entire page.
 
 <!-- Footnotes -->
-[^1]: Credit to `spartango` on Discord for this program
+[^1]: Credit to `spartango` on Discord for making me aware of this website
 
 <!-- URLs -->
 [Contrast Checker]: https://webaim.org/resources/contrastchecker/

@@ -1,9 +1,43 @@
-site_name: Pasadena's Site
+# Project information
+site_name: Interactive CYOA Creator
+site_url: https://icctutorial.pages.dev/
+site_author: Pasadena
+site_description: >-
+  A complete and comprehensive guide to using the Interactive CYOA Creator by
+  MeanDelay.
+
+# Repository
+repo_name: upasadena/interactive-cyoa-tutorial
+repo_url: https://github.com/upasadena/interactive-cyoa-tutorial
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: >-
+  The source code of this website is subject to the
+  <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.<br>
+  The content of this website is subject to the
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt">
+  CC BY-SA 4.0 licence</a>.
+
+# Configuration
 theme:
   name: material
-
   custom_dir: overrides
-
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
   palette: 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -21,35 +55,27 @@ theme:
       primary: deep purple
       accent: deep purple
 
-  features:
-    - navigation.instant
-    # navigation.tracking / anchor tracking is the setting that automatically
-    # updates the URL when scrolling
-    # - navigation.tracking
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes
-    - navigation.footer
-    - toc.follow
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - search.share
-    # - announce.dismiss  # only add if you have an announcement, otherwise it
-                          # only shows a blank announcement bar
-    - content.action.edit
-    - content.action.view
-    # Allows copying of code blocks
-    - content.code.copy
-
+# Plugins
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - git-revision-date-localized:
       enable_creation_date: true
-  # - offline
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      show_email_address: false # No need for this
+      fallback_to_empty: false
+      sort_authors_by: contribution
+      authorship_threshold_percent: 0 # Default
+      exclude:
+        - index.md
+      enabled: true
+      strict: true
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
 
 nav:
   - Home: https://upasadena.github.io/
@@ -97,12 +123,6 @@ extra:
       link: https://discord.gg/h9txkD2Tcc
       name: Pasadena's discord server
 
-copyright: The source code of this website is subject to the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.<br>The content of this website is subject to the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt">CC BY-SA 4.0 licence</a>.
-
-repo_url: https://github.com/upasadena/interactive-cyoa-tutorial
-repo_name: upasadena/interactive-cyoa-tutorial
-edit_uri: edit/main/docs/
-
 markdown_extensions:
   - abbr # use abbreviations, like hovertext
   - admonition # note boxes
@@ -142,6 +162,6 @@ watch:
   - overrides/
   - includes/
 
-extra_javascript:
-  - js/extra.js
-  - js/moment-with-locales.js
+# extra_javascript:
+#   - js/extra.js
+#   - js/moment-with-locales.js
