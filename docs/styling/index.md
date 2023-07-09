@@ -2,12 +2,10 @@
 comments: true
 ---
 
-<!-- TO ADD: 
-Check contrast with:
-https://webaim.org/resources/contrastchecker/
-Link contrast:
-https://webaim.org/resources/linkcontrastchecker/
-Credit to discord:spartango for this
--->
-
 # Styling
+This section of the tutorial focuses on making your ICYOA looks presentable and
+nice.
+
+## Table of Comments
+
+* [Design](./design)

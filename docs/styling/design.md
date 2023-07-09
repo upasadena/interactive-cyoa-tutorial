@@ -1,7 +1,7 @@
-# Design
+# Design (TODO LINK)
 This section of the tutorial is not based on the mechanics of the Creator, but
 instead on how to design. If you are not interested in theory, feel free to
-skip ahead.
+skip ahead to the [next chapter].
 
 ## Important Advice
 **BEFORE** styling your CYOA, make your that the core functionality (text,
@@ -104,7 +104,7 @@ which is not what we want as ICYOA creators.
 So how do you tell if your colour palette has too much contrast? Well there are
 tools to help with that. Consider [Contrast Checker]. It is tool where you can
 compare foreground and background colours to see if it has good contrast or
-not.
+not[^1].
 
 Here's an example:
 
@@ -127,6 +127,10 @@ but takes links into account.
 * [WAVE](https://wave.webaim.org/), a tool to check the accessibility of an
 entire page.
 
+<!-- Footnotes -->
+[^1]: Credit to `spartango` on Discord for this program
+
 <!-- URLs -->
 [Contrast Checker]: https://webaim.org/resources/contrastchecker/
 [Link Contrast Checker]: https://webaim.org/resources/linkcontrastchecker/
+[next chapter]: _

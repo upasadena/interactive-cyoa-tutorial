@@ -53,6 +53,16 @@ fair amount to this tutorial.
 * [Interactive CYOA Tips & Tricks (intcyoacreator)][png-man-tutorial] – Made by
 [u/PNG-MAN].
 
+### Static CYOAs
+Resources primarily for Static CYOAs. May still apply to creating Interactives.
+
+* [How to Create a CYOA] – From the official [r/makeyourchoice] subreddit, this
+  guide is focused more on static CYOAs. However, should you create an
+  Interactive from scratch rather than adapating them, this could help you.
+* [Tips and Tricks for CYOA Making] – By Hexall.
+* [Tips for writing descriptions] – A post with many comments to help you write
+  descriptions of your own content.
+
 ## Templates
 
 * CYOA Template by Valmar
@@ -68,14 +78,19 @@ definitive CYOA archive. It contains almost all static CYOAs, taking up a
 whopping total of 103.7 GB as of writing this.
     * [Alternate link][allsync-latest].
     * [The Blog](https://cyoaarchive.blogspot.com/)
-* [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs !!! quote "Message
-    from the creator"
+* [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs
+
+    !!! quote "Message from the creator"
 
         Hello friends, I am the guy who owns the Dropbox linked up top. I added
         a notepad to the dropbox. If you are a CYOA author and wish to see your 
         CYOA in the dropbox, the most expedient way would be emailing my new
         Yahoo! account "Dropboxanon@yahoo.com' with the CYOA. Adding a name
         either in the subject or body attached to the email would be helpful.
+
+* [TokHaar Gol's CYOAs] – For [reasons I won't get into][tok], TokHar Gool's
+CYOAs don't tend to be included in archives. This is his personal Google Drive
+with his CYOAs.
 
 ### Indexes
 Catalogues and links to CYOAs.
@@ -107,6 +122,11 @@ in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 
 * [https://game-icons.net/](https://game-icons.net/)
 
+## Other Resources
+
+* [NSFWCYOA's wiki](https://www.reddit.com/r/nsfwcyoa/wiki/index/)
+* [Image Resources] – From [r/makeyourchoice]
+
 ## Miscellaneous
 
 * [Chooseyourownbooru](https://cyoa.booru.org/) – A booru for CYOAs.
@@ -133,6 +153,12 @@ An excellent read.
 [pixel-post]: https://old.reddit.com/r/InteractiveCYOA/comments/tcy0ds/rinteractivecyoa_cyoa_archive/
 [NSFWCYOA Archive]: https://docs.google.com/spreadsheets/d/1B_VAe36Z85UCyDSTkNTLorAdPK3linniKPI7nw4tR00/edit#gid=1103183908
 [cyoadb]: https://www.dropbox.com/sh/qs4ymgxa5zcj4kt/AABrLbkqxfdUMje3D2ibklh-a?dl=0
+[TokHaar Gol's CYOAs]: https://drive.google.com/drive/folders/0B1CwO4KqTgloRXVUV19DR19hdEk
+[tok]: https://www.reddit.com/r/nsfwcyoa/wiki/profiles/tokhaargol/
+[How to Create a CYOA]: https://www.reddit.com/r/makeyourchoice/wiki/cyoaguide/
+[Tips and Tricks for CYOA Making]: https://pastebin.com/ccCpYHzj
+[Tips for writing descriptions]: https://www.reddit.com/r/makeyourchoice/comments/drhoto/any_tips_for_writing_descriptions/
+[Image Resources]: https://www.reddit.com/r/makeyourchoice/wiki/imageresources/
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/
