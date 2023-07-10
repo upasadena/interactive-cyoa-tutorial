@@ -233,13 +233,7 @@ For example, this:
     to easily create complementary colour palettes.
 
 ### Add hyperlinks to your CYOA
-!!! note
-
-    Credit to [Om1cr0n](https://wormlewdmod.neocities.org/about) for this code.
-
-In your project's `js` folder, replace `app.c533aa25.js` with the one from
-[here](../static/fixed-app/app.c533aa25.js). It's a fixed version that doesn't
-santize `href` tags in the HTML.
+See [here](/extending-your-cyoa/#modded-viewer).
 
 After that, add hyperlinks as normal:
 
@@ -262,69 +256,6 @@ After that, add hyperlinks as normal:
     Current Window Demo:
 
     Press <a href="https://example.com">here</a> for more information.
-
-??? note "How it works"
-
-    How does this work? Well, in the original `app.c533aa25.js` the author made
-    it so that only specfic html tags and attributed were allowed, and anything
-    else would be "sanitized" (removed).
-
-    We can take a deeper look if we run a `git diff` on the two files:
-
-    ```diff
-    diff --git a/pretty_app.js b/pretty_app.js
-    index 6d6a7a6..1d8323a 100644
-    --- a/pretty_app.js
-    +++ b/pretty_app.js
-    @@ -1008,8 +1008,10 @@
-            data: function () {
-            return {
-                sanitizeArg: {
-    -              allowedTags: ["address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4", "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"],
-    +              allowedTags: ["img", "address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4", "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"],
-                allowedAttributes: {
-    +                a: ["href", "target", "rel"],
-    +                img: ["src"],
-                    p: ["style"],
-                    b: ["style"],
-                    span: ["style"],
-    @@ -1018,6 +1020,7 @@
-                allowedStyles: {
-                    "*": {
-                    color: [/^#(0x)?[0-9a-f]+$/i, /^[A-Za-z]+$/, /^rgb\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)$/],
-    +                  content: [/^.*$/],
-                    "text-align": [/^left$/, /^right$/, /^center$/],
-                    "font-size": [/^\d+(?:px|em|%)$/]
-                    },
-    @@ -1191,6 +1194,7 @@
-                sanitizeArg: {
-                allowedTags: ["address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4", "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"],
-                allowedAttributes: {
-    +                a: ["href", "target", "rel"],
-                    p: ["style"],
-                    b: ["style"],
-                    span: ["style"],
-    @@ -1756,6 +1760,7 @@
-                sanitizeArg: {
-                allowedTags: ["address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4", "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"],
-                allowedAttributes: {
-    +                a: ["href", "target", "rel"],
-                    p: ["style"],
-                    b: ["style"],
-                    span: ["style"],
-    @@ -2215,6 +2220,7 @@
-                sanitizeArg: {
-                allowedTags: ["address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4", "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"],
-                allowedAttributes: {
-    +                a: ["href", "target", "rel"],
-                    p: ["style"],
-                    b: ["style"],
-                    span: ["style"],
-    ```
-
-    Here we can see that the new `app.c533aa25.js` file simply adds an
-    exception for `<a>` tags and the `href` attribute, allowing for
-    hyperlinking.
 
 ## Rows
 ### Make a row invisible
@@ -624,10 +555,14 @@ directory as your Viewer.
     it will keep the images separated from the JSON. Do not overwrite your 
     project, as the new JSON-file inside the zip this downloads will have no 
     pictures if loaded into the Creator. Place the JSON into the app-file like 
-    normal, and the images-folder besides the other folders. If the project has 
+    normal, and the images-folder besides the other folders. If the project has
     a lot of images then they might end up not showing when someone loads on 
     the page, if so then just use the normal way, and use Image Compression in 
     features to reduce the size of the project file. 
+
+### Allow &lt;img&gt; tag
+The ICC doesn't allow using `<img>` tags by default, but this is bypassed in
+the modded Viewer, available [here](/extending-your-cyoa/#modded-viewer).
 
 <!-- ## Defaults -->
 

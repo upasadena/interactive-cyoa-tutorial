@@ -40,6 +40,18 @@ The specifics for each compatible object and examples are detailed below.
 
     ![](../images/77_adding_choice_image_process.gif)
 
+### (TODO) Adding to Choices via Player Action
+Players can upload their own images to a Choice if a Choice has that option
+enabled. This can be useful in situations where you want a player to:
+
+* Upload their looks, costume, appearance, etc
+* Upload the looks of another character, such as a custom character they've
+  created
+
+And so on.
+
+
+
 ### Adding to Addons
 === "Result (no styling)"
 
@@ -319,10 +331,6 @@ relative to your Choices.
 === "Image Right"
 
     ![](../images/94_image_right.png)
-
-## Allow the Player to upload Images
-
-
 ---
 
 Learn more about what you can do with Images in the [Reference].

@@ -14,6 +14,21 @@ Cloudflare Pages only supports files up to `26.2 MB` in size. If it's above and
 it's a media file, please compress it. Source files shouldn't be above that
 size to begin with.
 
+## Checking
+Check for dead links by using `mkdocs-linkcheck`.
+
+Install that like so:
+
+```sh
+pip install mkdocs-linkcheck
+```
+
+Use it like so:
+
+```sh
+ mkdocs-linkcheck -r -v .
+```
+
 ## Manual of Style
 Please adhere to this style guide when editing the tutorial content.
 

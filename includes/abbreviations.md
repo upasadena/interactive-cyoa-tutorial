@@ -3,6 +3,8 @@
 *[ICYOAs]: Interactive CYOAs
 *[INTCYOA]: Interactive CYOA
 *[INTCYOAs]: Interactive CYOAs
+*[ICT]: Interactive CYOA Tutorial
+*[ICCT]: Interactive CYOA Creator Tutorial
 *[Object]: Choice
 *[Objects]: Choices
 *[integer]: a whole number, such as 4 or -29

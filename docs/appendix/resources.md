@@ -113,6 +113,8 @@ in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 * [Compilation of all Interactive CYOAs on r/InteractiveCYOA] – By
 [u/PixelGMS]. It contains 57 entries.
     * [Reddit post][pixel-post]
+* [launchcode01dl's Modded CYOAs] – A collection of Modded CYOAs that have
+  effectively infinite points.
 
 ## Stories
 Websites where you can post stories made by CYOAs.
@@ -160,8 +162,9 @@ Websites where you can post stories made by CYOAs.
 
 ### JavaScript
 
-* [https://javascript.info/](https://javascript.info/) – One of the best full
-  courses on JavaScript. Not interactive.
+* [https://javascript.info/](https://javascript.info/) – Not interactive. One
+  of the best full courses on JavaScript. This tutorial actually inspired me a
+  lot to create this tutorial.
 * [freeCodeCamp][fcc-js] – A good interactive JavaScript tutorial.
 * [W3Schools](https://www.w3schools.com/js/default.asp) – A good reference for
   when you want learn specific parts of the language.
@@ -213,7 +216,8 @@ An excellent read.
 [How to make (format) a CYOA post?]: https://www.reddit.com/r/makeyourchoice/comments/ddaqwa/how_to_make_format_a_cyoa_post/
 [fcc-js]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 [fcc-html-css]: https://www.freecodecamp.org/learn/2022/responsive-web-design/
-[Mozilla docs]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+[Mozilla docs]: https://developer.mozilla.org/en-US/docs/Learn
+[launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/

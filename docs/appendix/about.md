@@ -38,6 +38,7 @@ to this tutorial from the time of its official release.
     - [ ] Finish the Styling section
         - [ ] Design
     - [ ] Finish the Publishing section
+    - [x] Finish the Extending Your CYOA section
     - [ ] Finish the Reference section
     - [ ] Finish the Troubleshooting section
     - [x] Finish the Resources section (will it ever be truly finished?)
@@ -57,11 +58,22 @@ everything that is possible into the Mechanics
   tabbed titles
 - [ ] Chill with the quotes, and instead rewrite the quotes into information in
   my own words.
+- [ ] Add my own custom Viewer js file, this time adding:
+    - [ ] `alt` attribute for `<img>`s
+    - [ ] `referrerpolicy` attribute for `<a>` links
 
 ## Changelog
 
+### v0.10.0
+_Released on DATE at TIME_
+
+* Finished the first revision of the **Extending Your CYOA** section
+* Added some abbreviations
+
+[Download the source code][dl-0.10.0]{ .md-button }
+
 ### v0.9.0
-_Released on TIME at DATE_
+_Released on 2023-07-10 at 07:09:35_
 
 * Added and finished **Words** section
 * Ticked Addons of the TODO because I'm dumb
@@ -283,5 +295,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.7.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.7.0.zip
 [dl-0.8.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.8.0.zip
 [dl-0.9.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.9.0.zip
+[dl-0.10.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.10.0.zip
 
 <!-- BUFFER -->
