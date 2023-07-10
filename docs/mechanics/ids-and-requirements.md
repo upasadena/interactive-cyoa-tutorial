@@ -50,8 +50,8 @@ be assigned a random 4-digit hex ID.
     | **{Point}**       | `point_{title}`     | `point_companions`   |
 
 ## Requirements
-Requirements are conditions that a Row must fulfil before it is shown and an
-Object must fulfil before it can be selected.
+Requirements are conditions that Rows and Addons must fulfil before they're
+shown and Objects must fulfil before they can be selected.
 
 !!! quote "ICC Quote"
 
@@ -385,7 +385,7 @@ Row/Choice title if one exists, otherwise it will display the ID.
 
 ---
 
-Learn more what you can do with [IDs][id-ref] and [Requirements][req-ref]
+Learn more about what you can do with [IDs][id-ref] and [Requirements][req-ref]
 in the [Reference].
 
 <!-- References -->

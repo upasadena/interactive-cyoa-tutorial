@@ -77,6 +77,38 @@ where the background fixes are attributed to
 
 ![](../images/!NA_static_background_compressed.gif)
 
+### Making the CYOA embed on sites
+Wanted to know how to make your CYOAs have a little embed that shows
+information when posted to sites such as Discord and Twitter?
+
+You don't need to include all of these, they are all optional.
+
+Simply paste this code in the `<head>` section of your `index.html`:
+
+```html
+<!-- Your username -->
+<meta name="author" content="Your Name">
+<!-- A description of your CYOA or site -->
+<meta name="description" content="Your Description">
+```
+
+See more [here](https://www.w3schools.com/tags/tag_meta.asp).
+
+### Make the CYOA show up on search engines
+SEO—Search engine optimization—is the process of making your site look better
+to search engines, so that it will appear higher in the search results.
+
+I recommend giving *SEO* a Google search if you wanted to know more.
+
+Simply paste this code in the `<head>` section of your `index.html`:
+
+```html
+<!-- Tags for search engines to pick up on -->
+<meta name="keywords" content="CYOA, Interactive CYOA, Living God Interactive">
+```
+
+See more [here](https://www.w3schools.com/tags/tag_meta.asp).
+
 ### (TODO) Change the Scrollbar Colour
 Add this to your `index.html` file, in the `<head>` section:
 
@@ -342,12 +374,16 @@ themselves. This type of advanced behaviour can get quite unwieldy.
 ### (TODO) You may only pick X options
 Use [Allowed Choices](../mechanics/rows/#allowed-choices).
 
+<!-- Add a collapsible example -->
+
 ### (WIP) You may only pick X options from an arbitrary group
 Similar to the above, except these choices are not required to have been from
 the same Row.
 
 You do this buy creating a unique Point Type that is unable to go below 0, and
 is also hidden. Each choice in this arbitrary group costs 1 of these points.
+
+<!-- Add a collapsible example -->
 
 ### Choice requires anothers Choice
 See [here][choice_requires_another_choice]
@@ -485,11 +521,9 @@ directory as your Viewer.
     the page, if so then just use the normal way, and use Image Compression in 
     features to reduce the size of the project file. 
 
-## Defaults
+<!-- ## Defaults -->
 
-## Addons
-
-## Copying
+<!-- ## Addons -->
 
 ## Words
 ### Dynamically display Points inside a Row, Choice, or Addon

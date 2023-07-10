@@ -9,6 +9,11 @@ aware of what that entails, please see [here][licence-details].
 Feel free to include yourself in [the Authors list](./docs/about/index.md)
 in your pull request, and if your pull request is merged you will be added.
 
+## Technical Limits
+Cloudflare Pages only supports files up to `26.2 MB` in size. If it's above and
+it's a media file, please compress it. Source files shouldn't be above that
+size to begin with.
+
 ## Manual of Style
 Please adhere to this style guide when editing the tutorial content.
 

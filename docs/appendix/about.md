@@ -25,12 +25,12 @@ to this tutorial from the time of its official release.
     - [ ] Finish the Mechanics section
         - [x] Rows
         - [x] Objects / Choices
-        - [ ] Addons
+        - [x] Addons
         - [x] IDs & Requirements
         - [x] Points & Scores
         - [x] Images
         - [x] Defaults
-        - [ ] Copying
+        <!-- - [ ] Copying -->
         - [ ] Words
         - [ ] Buttons & Variables
         - [ ] Groups
@@ -52,20 +52,43 @@ likely do not need nor want to know that.
 everything that is possible into the Mechanics
 - [ ] Compress all the gifs to limit bandwidth, but not enough such that the
   gifs lose legibility
+- [ ] Standardize "after"/"result"/"with" and "before"/"without" etc
+  tabbed titles
+- [ ] Chill with the quotes, and instead rewrite the quotes into information in
+  my own words.
+
 
 ## Changelog
 
-### WIP
-_Released on DATE at TIME UTC_
+### v0.9.0
+_Released on TIME at DATE_
 
-* Should have fixed the "Last update" not working as intended
+* Added **Words** section
+* Ticked Addons of the TODO because I'm dumb
+* Added Addons as completed on the Mechanics index
+* Fixed my release dates not following the YYYY-MM-DD format
+* Deleted **Copying** section, will be adding to Rows
+* Added missing functionality to Rows section, adding links to main pages
+* Realized I had skipped some Object functions purely because I was going to
+  address them in their other sections. So I made a title and linked them to
+  where they are actually hosted.
+
+### v0.8.0
+_Released on 2023-07-10 at 00:47:05 UTC_
+
+* Finished the **Addons** section
+* Fixed the "Last update" not working as intended
 * Fixed missing Viewer file
 * Reordered Mechanics section in TODO
 * Added `authors` section down the bottom, which will show the contributor
-  percentage.
+  percentage if there is more than one author.
+* Changed Reference text to make more sense
+* Miscellaneous fixes
+
+[Download the source code][dl-0.8.0]{ .md-button }
 
 ### v0.7.0
-_Released on 2023-09-07 at 11:40:35 UTC_
+_Released on 2023-07-09 at 11:40:35 UTC_
 
 * Finished the first revision of the **Defaults** section
 * Miscellaneous fixes
@@ -73,7 +96,7 @@ _Released on 2023-09-07 at 11:40:35 UTC_
 [Download the source code][dl-0.7.0]{ .md-button }
 
 ### v0.6.1
-_Released on 2023-09-07 at 11:21:29 UTC_
+_Released on 2023-07-09 at 11:21:29 UTC_
 
 * Finished first revision of the **Image** section
 * Added the Troubleshooting section on the official TODO, made a start on it
@@ -251,5 +274,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.5.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.5.1.zip
 [dl-0.6.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.6.1.zip
 [dl-0.7.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.7.0.zip
+[dl-0.8.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.8.0.zip
 
 <!-- BUFFER -->

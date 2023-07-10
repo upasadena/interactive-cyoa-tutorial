@@ -49,9 +49,16 @@ Neocities, which is also covered in *this* tutorial
     
 * [Tips and Pitfalls for Interactive CYOA Creators (Reddit)] – Contributed a
 fair amount to this tutorial.
-* [MeanDelay's Interactive CYOA Creator Tutorial][pgmstut] – Made by PixelGMS
+* [MeanDelay's Interactive CYOA Creator Tutorial][pgmstut] – Made by
+  [u/PixelGMS]
 * [Interactive CYOA Tips & Tricks (intcyoacreator)][png-man-tutorial] – Made by
-[u/PNG-MAN].
+  [u/PNG-MAN].
+* [Uploading Interactive CYOAs onto neocities] – By [u/PixelatedNSFW].
+* [Here's how to put your CYOA onto Neocities] – Also by [u/PixelatedNSFW].
+* [Just curious, how do you start making CYOAs?] – Advice in the comments
+* [Wanna make a cyoa... but how important is the design?] – Advice in the
+comments
+* [How to make (format) a CYOA post?] – Advice in the comments
 
 ### Static CYOAs
 Resources primarily for Static CYOAs. May still apply to creating Interactives.
@@ -65,9 +72,11 @@ Resources primarily for Static CYOAs. May still apply to creating Interactives.
 
 ## Templates
 
-* CYOA Template by Valmar
+* Interactive CYOA Template by Valmar
     * [Preview](https://valmar.neocities.org/cyoas/template/)
     * [Download][cyoa-template-dl]
+* [Static CYOA Template by Pubby](https://github.com/pubby/cyoa-template) –
+An HTML and CSS template for creating 4chan-style CYOAs.
 
 ## CYOAs
 ### Archives
@@ -172,6 +181,11 @@ An excellent read.
 [Tips and Tricks for CYOA Making]: https://pastebin.com/ccCpYHzj
 [Tips for writing descriptions]: https://www.reddit.com/r/makeyourchoice/comments/drhoto/any_tips_for_writing_descriptions/
 [Image Resources]: https://www.reddit.com/r/makeyourchoice/wiki/imageresources/
+[Uploading Interactive CYOAs onto neocities]: https://old.reddit.com/r/nsfwcyoa/comments/14uula6/uploading_interactive_cyoas_onto_neocities/
+[Here's how to put your CYOA onto Neocities]: https://old.reddit.com/r/nsfwcyoa/comments/14uqf2g/emperors_harem/jr9by4e/
+[Just curious, how do you start making CYOAs?]: https://www.reddit.com/r/makeyourchoice/comments/bbu2kv/just_curious_how_do_you_start_making_cyoas/
+[Wanna make a cyoa... but how important is the design?]: https://www.reddit.com/r/makeyourchoice/comments/jvzklw/wanna_make_a_cyoa_but_how_important_is_the_design/
+[How to make (format) a CYOA post?]: https://www.reddit.com/r/makeyourchoice/comments/ddaqwa/how_to_make_format_a_cyoa_post/
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/
@@ -182,6 +196,7 @@ An excellent read.
 [u/PNG-MAN]: https://old.reddit.com/user/PNG-MAN/
 [u/PixelGMS]: https://old.reddit.com/user/PixelGMS
 [u/Infaera]: https://old.reddit.com/user/Infaera/
+[u/PixelatedNSFW]: https://old.reddit.com/user/PixelatedNSFW
 
 <!-- Discord servers -->
 [makeyourchoice]: https://discord.gg/M3sbCY2

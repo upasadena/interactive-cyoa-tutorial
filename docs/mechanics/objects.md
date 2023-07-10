@@ -191,6 +191,18 @@ passed into it.
 
 ![](../images/29_force_deactivate.gif)
 
+### Multiply Points when activated
+See [here](../points-and-scores/#multiply-points).
+
+### Divide Points when activated
+See [here](../points-and-scores/#divide-points).
+
+### Words will be changed to something else at select
+See [here](../words/#changing-words-with-choices).
+
+### Players can upload a picture by pressing this choice
+See [here](../images/#allow-the-player-to-upload-images).
+
 ### Adds or takes away a rows Allowed Choices
 This function can be used to dynamically change what a Row's 
 **Allowed Choices** number is.
@@ -206,6 +218,9 @@ with no difference.
 
 ### Clean Selected Choices (Side Menu)
 See [here](../../introduction/#clean-selected-choices).
+
+### Adds or takes away a rows Allowed Choices
+See [here]
 
 ---
 

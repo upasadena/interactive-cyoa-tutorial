@@ -279,6 +279,19 @@ E.g. `-25` adds 25 points.
     method of adding, creators have to hack the ICC by using the mathematic
     rule that subtracting a negative produces a positive.
 
+### (TODO) Multiply Points
+You can multiply Points using an [Object Function](../objects/#functions).
+
+!!! warning
+
+    According to the Creator:
+
+    > Not to be used on choices with scores.
+    > 
+    > Wont work if the Allowed Choices on the row is bigger than 0.
+
+### (TODO) Divide Points
+
 ---
 
 Learn more what you can do with Points and Scores in the [Reference].

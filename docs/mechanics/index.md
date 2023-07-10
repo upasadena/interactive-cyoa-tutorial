@@ -13,15 +13,15 @@ Table of Contents:
 
 * [Rows](./rows/)
 * [Objects / Choices](./objects/)
+* [Addons](./addons/)
 * [IDs & Requirements](./ids-and-requirements/)
 * [Points & Scores](./points-and-scores/)
 * [Images](./images/)
+* [Defaults](./defaults/)
 
 TODO:
 <!-- Leave space below -->
 
-* [Defaults](./defaults/) ~
-* [Addons](./addons/)
 * [Copying](./copying/)
 * [Words](./words/)
 * [Buttons & Variables](./buttons-and-variables/)

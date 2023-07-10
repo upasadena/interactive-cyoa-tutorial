@@ -47,7 +47,7 @@ Instead, you sould ascribe a personal [ID format][idf].
 
 ---
 
-Learn more what you can do with Defaults in the [Reference].
+Learn more about what you can do with Defaults in the [Reference].
 
 <!-- URLs -->
 [idf]: ../ids-and-requirements/#ids-unique-identifiers

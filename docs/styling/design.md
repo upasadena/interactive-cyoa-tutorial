@@ -1,4 +1,10 @@
-# Design (TODO LINK)
+---
+comments: true
+---
+
+# Design
+
+## (TODO LINK)
 This section of the tutorial is not based on the mechanics of the Creator, but
 instead on how to design. If you are not interested in theory, feel free to
 skip ahead to the [next chapter].

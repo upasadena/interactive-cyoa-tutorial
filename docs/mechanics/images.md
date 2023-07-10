@@ -320,9 +320,12 @@ relative to your Choices.
 
     ![](../images/94_image_right.png)
 
+## Allow the Player to upload Images
+
+
 ---
 
-Learn more what you can do with Images in the [Reference].
+Learn more about what you can do with Images in the [Reference].
 
 <!-- URLs -->
 [Reference]: /appendix/reference/#images

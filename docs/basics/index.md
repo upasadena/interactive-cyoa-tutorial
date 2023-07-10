@@ -170,11 +170,15 @@ You can use this to find the ID of an Object using its title, and vice versa.
 ![](../images/0m_id_title_list.png)
 
 ### Use Alternate Menu
-The Alternate Menu is an alternate way of displaying the sidebar, this time at
-the top of the creator rather than the side.
+The Alternate Menu is an alternative way of displaying the sidebar, this time
+at the top of the creator rather than the side.
+
+It was actually what the sidebar used to look like, before it was changed to
+how it is now.
 
 ![](../images/0na_alternate_menu.png)
 
+#### Returning to the Default Menu
 If you ever go into this menu and wish to return back to the default
 appearance, simply press the three-line button between _De-Select Choices_ and
 _New Row_, as shown here:

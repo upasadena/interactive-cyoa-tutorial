@@ -6,6 +6,19 @@ If you encounter a bug that is not on this list, please comment below. If
 anyone knows of a fix it will be documented here so future creators will know
 how to solve it.
 
+## The Creator
+
+### I'm stuck in the Alternate Menu
+See [here](/basics/#returning-to-the-default-menu).
+
+### There's no sidebar, only a topbar
+You may be in the Alternate Menu. See
+[here](/basics/#returning-to-the-default-menu).
+
+### There's no sidebar or topbar
+Try scrolling up. The Alternate Menu can only be seen at the very top of the
+page. Afterward, See [here](/basics/#returning-to-the-default-menu).
+
 ## Design
 ### I can't find the option to upload a background image
 This creator is rather buggy at times, and sometimes it hides the options:

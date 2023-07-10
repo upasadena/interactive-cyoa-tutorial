@@ -144,11 +144,13 @@ If you have changed an individual Object's **Object Width**, then setting back
 to **Row** resets it back to the default width.
 
 ## Non-Activatable?
-This option can be used when you just want to supply information using Objects 
-and don’t want those Objects to be selectable.
+This option makes it so Objects are unable to be chosen.
+
+This can be used when you just want to supply information using Objects.
 
 Objects are great for this because they allow you to split information into 
-chunks, each with an image being able to be attatched.
+chunks, each with an image able to be attatched, as well as any Addons that
+might be attached to said Objects.
 
 !!! quote "Help and Instructions"
 
@@ -260,11 +262,27 @@ If this option is off, then selected choices are preserved.
 ## Row List (Side Menu)
 See [here](../../basics/#open-row-list).
 
-## Sort The Choices In The Row (Row Settings)
+## Change Image
+This button allows you to upload an image to the Row. See more at [Images].
+
+## Row Settings
+The **Row Settings** menu is a menu accessed from any Row.
+
+To access it, press the button at the very top right inside of the **Edit Row**
+menu.
+
+![](../images/105_open_row_settings.png)
+
+This will open up the **Row Settings** menu:
+
+![](../images/106_row_settings_menu.png)
+
+### Sort The Choices In The Row
 This option allows you to change the order of the choices within the Row. This
 can be quite a useful option. It is found within the Row's settings.
 
-Open Row Settings → Choose an option for sorting → Press 'Sort'.
+To access it, open **Row Settings** → Choose an option for sorting →
+Press **Sort**.
 
 ![](../images/20_sort_choices.gif)
 
@@ -278,12 +296,62 @@ The options are:
 **Object Width** sorts by how much space in a row Objects take, whereas
 **Text Length** sorts by how much text is within the **Object Text** field.
 
+### Copy Choices Into Another Row
+This option allows you to copy all the Choices of one row into another Row.
+
+![](../images/102_copy_choices.png)
+
+#### Copy this row's objects into...
+This is a dropdown menu which lists all of the Rows in your project by their
+title.
+
+![](../images/103_copy_rows_list.png)
+
+#### Copy
+This button copies all of the Choices of the Row whose settings you are in,
+into the Row you've selected in the dropdown list.
+
+#### Copy and Delete
+The same as [copy](#copy), except it deletes the original Row where it came
+from.
+
+!!! warning
+
+    Make sure you do not need whatever else was in the Row, such as the Row
+    title, description, Requirements, etc.
+
+---
+
+Why use this instead of cloning the entire Row? Well, let's say we have three
+Rows:
+
+1. Male Companions
+2. Female Companions
+3. AI Companions
+
+And you had already configured Scores and Requirements, and didn't want to redo
+it all. You *could* clone them separately, but they would not combine into one.
+
+With this method, you can create a new Row named `Companions`, and go to each
+of the Rows and **Copy and Delete** the Choices in each of their Rows,
+effectively combining their Choices, including all of the Scores and
+Requirements therein.
+
+??? example "See it in action"
+
+    ![](../images/104_copy_rows_process.gif)
+
+### (TODO) Group Membership
+This option allows you to add **all** Choices in the Row to any Groups you have
+set up.
+
 ---
 
 Learn more about what you can do with Rows in the [Reference].
 
-[private styling]: ../../styling/#private-styling
-[dynamic_allowed_choices]: ../objects/#adds-or-takes-away-a-rows-allowed-choices
-[groups]: ../../mechanics/groups/
-[row_width]: ./#row-objects-per-row
+[private styling]: /styling/#private-styling
+[dynamic_allowed_choices]: /objects/#adds-or-takes-away-a-rows-allowed-choices
+[groups]: /mechanics/groups/
+[row_width]: #row-objects-per-row
 [Reference]: /appendix/reference/#rows
+[Images]: /mechanics/images/#adding-to-rows
