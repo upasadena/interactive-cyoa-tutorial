@@ -18,12 +18,11 @@ Table of Contents:
 * [Points & Scores](./points-and-scores/)
 * [Images](./images/)
 * [Defaults](./defaults/)
+* [Words](./words/)
 
 TODO:
 <!-- Leave space below -->
 
-* [Copying](./copying/)
-* [Words](./words/)
 * [Buttons & Variables](./buttons-and-variables/)
 * [Groups](./groups/)
 * [Backpack & Choice Import](./backpack-and-choice-import/)

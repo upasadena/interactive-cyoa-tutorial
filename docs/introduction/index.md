@@ -50,15 +50,20 @@ use this tool.
 ## Glossary
 Many terms may produce confusion, so we'll define them here:
 
-* Object – Also known as a "Choice"
+* Object – Also known as a "Choice", they are what players select.
 * object – Any distinct entity made with the Interactive CYOA Creator, such as
-a Row, Choice/Object, Point, etc
+a Row, Choice/Object, Point, etc.
     * To differentiate between generic objects and choice objects, choice
     objects will always be spelt with a capital letter—Objects—or be referred
-    to as Choices
-* ICC – The Interactive CYOA Creator
-* Creator – The Interactive CYOA Creator, always with an uppercase letter
-* creator – Any creator, always with a lowercase letter
+    to as Choices.
+* ICC – The Interactive CYOA Creator.
+* IntCyoaCreator – Another name for the Interactive CYOA Creator.
+* Creator – The Interactive CYOA Creator, always with an uppercase letter.
+* creator – Any creator, always with a lowercase letter.
+* ICT – Interactive CYOA Tutorial, used to refer to this tutorial in the GitHub
+  release page, but can also refer to any ICYOA tutorial.
+* ICCT – Interactive CYOA Creator Tutorial, used to refer to this tutorial, but
+  can refer to any tutorial for the ICC.
 
 ## Conclusion
 With all that said, I hope you enjoy and learn something new from this

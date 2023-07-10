@@ -159,5 +159,5 @@ which can each act as their own site.
 [GitHub]: https://github.com/
 [GitLab]: https://about.gitlab.com/
 [Cloudflare Pages]: https://pages.cloudflare.com/
-[HAI]: http://icctutorial.pages.dev/introduction/#help-and-instructions
+[HAI]: /basics/#help-and-instructions
 [Sexually Obscene Content]: https://docs.github.com/en/site-policy/acceptable-use-policies/github-sexually-obscene-content

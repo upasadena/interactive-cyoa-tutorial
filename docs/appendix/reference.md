@@ -67,7 +67,7 @@ one that scrolls with the user, perfect for backgrounds that do not repeat
 perfectly.
 
 An example of a continuous background is the
-[Worm V3 Revised interactive][worm-v3] (shown below).No matter how far you
+[Worm V3 Revised interactive][worm-v3] (shown below). No matter how far you
 scroll, the background stays in the exact same position. 
 
 It was first used in the
@@ -76,6 +76,84 @@ where the background fixes are attributed to
 [u/LOLLOL12344](https://www.reddit.com/user/LOLLOL12344).
 
 ![](../images/!NA_static_background_compressed.gif)
+
+!!! warning
+
+    It is likely your background will repeat behind Choice and Row backgrounds
+    as well.
+    
+    In order to fix this, you have to go into each and every Row, turn on
+    **Private Styling** → **Manage Background Design** → **Remove Photo**.
+
+    Now, you have the default background colour in the background. You don't
+    have to turn this off, but if you want to: **Private Styling** →
+    **Manage Background Design** → Uncheck **Color of the row backgrounds**
+    and/or **Color of the choice backgrounds**.
+
+    It's probably a good idea to have a background on Choices, however.
+
+#### CSS Method #1
+This is the preferred method.
+
+Download [static_background.css](/static/static_background.css), and put it
+anywhere in your project's folder. I recommend putting it in a folder called
+`css`, which should already exist if you have the Viewer.
+
+Then, put this in your `index.html` in the `<head>` section:
+
+```html
+<link rel="stylesheet" href="./css/static_background.css">
+```
+
+Change the `href` to wherever you've put it.
+
+#### CSS Method #2
+If you don't want to rely on a folder, you can simply put it straight into your
+`index.html` file in `<style>` tags. Put this in the `<head>` section:
+
+```html
+<style>
+  .pb-12 {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+</style>
+```
+
+#### JavaScript method
+This is not the preferred method, but still works regardless.
+
+In order to make a background static, if you don't have the
+[progress indicator] simply add this code to the `<body>`
+section of your `index.html`:
+
+```html
+<div id="indicator">
+<script>
+  {
+    let _XHR = XMLHttpRequest;  XMLHttpRequest = class XHR extends _XHR {
+      constructor () {
+        super();
+        this.addEventListener('progress', e => {indicator.innerText = " Loading data: " + (!e.total ? `${(e.loaded/1024**2).toFixed(1)} MB` : `${(100 * e.loaded / e.total).toFixed(2)}%`)});
+        this.addEventListener('loadend', () => {indicator.innerText = "",document.getElementsByClassName("pb-12")[0].style.cssText += "background-size: cover;background-position: center;background-attachment: fixed;"});
+      }
+    }
+  }
+</script>
+</div>
+```
+
+If you already have the [progress indicator], you can simply add this line
+right after the `this.addEventListener('progress'…)` line:
+
+```html
+this.addEventListener('loadend', () => {indicator.innerText = "",document.getElementsByClassName("pb-12")[0].style.cssText += "background-size: cover;background-position: center;background-attachment: fixed;"});
+```
+
+---
+
+This will modify your background to become static!
 
 ### Making the CYOA embed on sites
 Wanted to know how to make your CYOAs have a little embed that shows
@@ -399,6 +477,27 @@ them require those requirements will enforce that users don't cheat, and
 follow the rules.
 
 ### (TODO) Making Choices Invisible
+There are two ways to make a Choice invisible, depending on what you want:
+
+1. If you want a Choice that is merely meant for functional purposes (i.e., it
+   does some logic in the background), simply make the Choice title and text
+   empty, and it will effectively render it invisible.
+
+    Best used with an invisible Row and at the end of the document.
+
+2. If you want to make choices that don't fit requirements disappear, then you
+   can solve that using filters. We discuss that below.
+   
+    !!! note
+
+        Instead of making choices invisible, consider merely blurring them or
+        dimming them such that they're visibly unable to be selected. This way,
+        users will be able to tell there's a potential Choice there, and they
+        simply need the requirements.
+
+        If you still want to make Choices invisible, continue on ahead. 
+
+<!-- ELABORATE. By God, elaborate. -->
 Choices that don't have their requirements can be made invisible using filters.
 
 !!! tip
@@ -406,10 +505,19 @@ Choices that don't have their requirements can be made invisible using filters.
     !!! warning
 
         Before you use private styling, make sure you've read and understood
-        [this](../../styling/#important-advice).
+        [this](/styling/design/#important-advice).
     
     Unless your CYOA constantly and consistently wants to hide every choice
     that doesn't have its 
+
+#### (WIP) Chaining Invisible Choices
+There may be times where you have to do something like activate a function more
+than once, but the Choice which is selected does not allow that, such as
+wanting to change multiple Words.
+
+A way to bypass that, is 
+
+<!-- Add in-depth collapsible example -->
 
 ## IDs
 ### Navigation with ID / Title list
@@ -526,6 +634,68 @@ directory as your Viewer.
 <!-- ## Addons -->
 
 ## Words
+### Changing Words with Choices
+You can change the **value** of Words using an
+[Object function](/mechanics/objects/#functions).
+
+!!! note
+
+    You can only change one Word at a time using this method. If you want to
+    change more than Word, consider [chaining invisible Choices].
+
+To do so:
+
+1. Go into the **Edit Row** menu
+2. Go down to the Choice you want to change the word
+3. Open the **Functions** drop down menu
+4. Select **Word will be changed to something else at select**
+
+You should have this screen now:
+
+![](../images/114_word_function.png)
+
+#### Id of word that will change
+This is where you select the exact Word that you will change.
+
+![](../images/115_word_id_change.png)
+
+By pressing on this, it will open a dropdown menu of all the Words, so you
+don't need to remember the ID of your Word.
+
+![](../images/116_word_dropdown.png)
+
+#### Will be changed to this on select
+This is what the **value** of the Word will change to when the Choice is
+selected.
+
+![](../images/117_word_changed_to.png)
+
+#### Will be changed to this on deselect
+This is what the **value** of the Word will change to should this Choice be
+deselected.
+
+There are two strategies here:
+
+1. If you want to return to the default one that was set in the **Words** menu,
+   simply put the option here.
+2. If you want to make the change permanent (at least, until something else
+   changes it), then put the same value as the above input in here.
+
+For this tutorial, we are going for the former strategy:
+
+![](../images/118_word_deselect.png)
+
+---
+
+Putting it all together, this is what it looks like:
+
+![](../images/119_word_result.gif)
+
+One thing you could put here instead of a favourite game could be a narrator
+remarking on a player's choice. For example:
+
+> Ooh you picked #choice did you? Very interesting indeed…
+
 ### Dynamically display Points inside a Row, Choice, or Addon
 This is useful if you wanted to remind the user how many points they have,
 and may be useful if you don't desire to have a Points Bar.
@@ -571,6 +741,7 @@ using the ID of your Point type.
 ## Groups
 
 <!-- References -->
+<!-- Heh, References in References -->
 [^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)
 
 <!-- URLs -->
@@ -588,3 +759,7 @@ using the ID of your Point type.
 [local images]: ../mechanics/images/#local-images
 [jedi-cyoa]: https://www.reddit.com/r/InteractiveCYOA/comments/w5mick/jedi_guardian_of_the_republic_interactive/
 [worm-v3]: https://upasadena.github.io/cyoas/worm/v3/
+[chaining invisible Choices]: /appendix/reference/#chaining-invisible-choices
+[progress indicator]: /extending-your-cyoa/#progress-indicator
+
+<!-- BUFFER -->

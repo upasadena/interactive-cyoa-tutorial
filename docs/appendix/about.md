@@ -31,7 +31,7 @@ to this tutorial from the time of its official release.
         - [x] Images
         - [x] Defaults
         <!-- - [ ] Copying -->
-        - [ ] Words
+        - [x] Words
         - [ ] Buttons & Variables
         - [ ] Groups
         - [ ] Backpack & Choice Import
@@ -40,6 +40,7 @@ to this tutorial from the time of its official release.
     - [ ] Finish the Publishing section
     - [ ] Finish the Reference section
     - [ ] Finish the Troubleshooting section
+    - [x] Finish the Resources section (will it ever be truly finished?)
 - [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
 CYOA.
@@ -51,19 +52,18 @@ likely do not need nor want to know that.
 - [ ] After the ICCT is written, go through the main tutorial and add
 everything that is possible into the Mechanics
 - [ ] Compress all the gifs to limit bandwidth, but not enough such that the
-  gifs lose legibility
+  gifs lose legibility. Use `gifsicle` in a python script.
 - [ ] Standardize "after"/"result"/"with" and "before"/"without" etc
   tabbed titles
 - [ ] Chill with the quotes, and instead rewrite the quotes into information in
   my own words.
-
 
 ## Changelog
 
 ### v0.9.0
 _Released on TIME at DATE_
 
-* Added **Words** section
+* Added and finished **Words** section
 * Ticked Addons of the TODO because I'm dumb
 * Added Addons as completed on the Mechanics index
 * Fixed my release dates not following the YYYY-MM-DD format
@@ -72,6 +72,13 @@ _Released on TIME at DATE_
 * Realized I had skipped some Object functions purely because I was going to
   address them in their other sections. So I made a title and linked them to
   where they are actually hosted.
+* Moved a whole section of the Words tutorial to the Reference
+* Added Web Programming resources in Resources
+* Added a bit to the Reference
+* Finished Static Background section
+* Fixed some dead links (have to get a tool to check for that)
+
+[Download the source code][dl-0.9.0]{ .md-button }
 
 ### v0.8.0
 _Released on 2023-07-10 at 00:47:05 UTC_
@@ -275,5 +282,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.6.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.6.1.zip
 [dl-0.7.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.7.0.zip
 [dl-0.8.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.8.0.zip
+[dl-0.9.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.9.0.zip
 
 <!-- BUFFER -->

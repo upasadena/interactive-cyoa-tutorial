@@ -62,10 +62,7 @@ and it would appear as:
 
     ![](../images/113_words_demonstration.gif)
 
-That is the beauty of Words.
-
-## Changing Words with Choices
-
+And that is the beauty of Words.
 
 ---
 

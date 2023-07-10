@@ -147,6 +147,31 @@ Websites where you can post stories made by CYOAs.
 * [NSFWCYOA's wiki](https://www.reddit.com/r/nsfwcyoa/wiki/index/)
 * [Image Resources] – From [r/makeyourchoice]
 
+## Programming Resources
+
+### HTML
+
+* [Programiz](https://www.programiz.com/html) – Easy to understand.
+* [W3Schools](https://www.w3schools.com/html/default.asp) – Good reference.
+
+### CSS
+
+* [W3Schools](https://www.w3schools.com/css/default.asp) – Reference.
+
+### JavaScript
+
+* [https://javascript.info/](https://javascript.info/) – One of the best full
+  courses on JavaScript. Not interactive.
+* [freeCodeCamp][fcc-js] – A good interactive JavaScript tutorial.
+* [W3Schools](https://www.w3schools.com/js/default.asp) – A good reference for
+  when you want learn specific parts of the language.
+
+### Multiple
+
+* [freeCodeCamp][fcc-html-css] – Interactive HTML and CSS.
+* [Mozilla docs] – HTML, CSS, and JavaScript. Comprehensive, but can be hard to
+  follow for beginners.
+
 ## Miscellaneous
 
 * [Chooseyourownbooru](https://cyoa.booru.org/) – A booru for CYOAs.
@@ -186,6 +211,9 @@ An excellent read.
 [Just curious, how do you start making CYOAs?]: https://www.reddit.com/r/makeyourchoice/comments/bbu2kv/just_curious_how_do_you_start_making_cyoas/
 [Wanna make a cyoa... but how important is the design?]: https://www.reddit.com/r/makeyourchoice/comments/jvzklw/wanna_make_a_cyoa_but_how_important_is_the_design/
 [How to make (format) a CYOA post?]: https://www.reddit.com/r/makeyourchoice/comments/ddaqwa/how_to_make_format_a_cyoa_post/
+[fcc-js]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+[fcc-html-css]: https://www.freecodecamp.org/learn/2022/responsive-web-design/
+[Mozilla docs]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/
