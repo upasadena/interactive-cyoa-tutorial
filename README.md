@@ -22,8 +22,17 @@ To build this tutorial locally, first install `mkdocs-material` (visit
 [here](https://squidfunk.github.io/mkdocs-material/getting-started/) to learn
 more about installing it):
 
+### Install mkdocs-material 
+Install the latest beta release:
+
 ```sh
-pip install mkdocs-material mkdocs-minify-plugin mkdocs-git-authors-plugin
+git clone --depth 1 -b 9.2.0b0 https://github.com/squidfunk/mkdocs-material/
+cd mkdocs-material
+pip install -e mkdocs-material
+```
+
+```sh
+pip install mkdocs-minify-plugin mkdocs-git-authors-plugin
 ```
 
 Then run:

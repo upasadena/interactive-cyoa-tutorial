@@ -31,9 +31,22 @@ zoom in, and ++ctrl+minus++ to zoom out.
 Move the other colour stuff to this section.
 
 #### (TODO) Find out the hex code of a colour
+Colour in CSS is set in a variety of different ways, such as by a hex code
+or RGB values.
+
+To learn more, see
+[CSS Legal Color Values] and [CSS Colors].
+
+If you need help selecting a value, see
+[Color Picker](https://htmlcolorcodes.com/color-picker/) for a simple
+colour picker, or [Color Wheel](https://color.adobe.com/create/color-wheel)
+to easily create complementary colour palettes.
 
 #### (TODO) Generate a colour palette
+Use [Color Wheel](https://color.adobe.com/create/color-wheel)
+to easily create complementary colour palettes.
 
+There is also 
 ## Whole CYOA
 ### Changing the page title
 In order to change the title of the tab in the browser, simply edit
@@ -155,7 +168,7 @@ this.addEventListener('loadend', () => {indicator.innerText = "",document.getEle
 
 This will modify your background to become static!
 
-### Making the CYOA embed on sites
+### (TODO) Making the CYOA embed on sites
 Wanted to know how to make your CYOAs have a little embed that shows
 information when posted to sites such as Discord and Twitter?
 
@@ -164,11 +177,13 @@ You don't need to include all of these, they are all optional.
 Simply paste this code in the `<head>` section of your `index.html`:
 
 ```html
-<!-- Your username -->
-<meta name="author" content="Your Name">
 <!-- A description of your CYOA or site -->
 <meta name="description" content="Your Description">
 ```
+
+Combining with a [title](#changing-the-page-title), it will produce this:
+
+![]()
 
 See more [here](https://www.w3schools.com/tags/tag_meta.asp).
 
@@ -181,6 +196,8 @@ I recommend giving *SEO* a Google search if you wanted to know more.
 Simply paste this code in the `<head>` section of your `index.html`:
 
 ```html
+<!-- Your username -->
+<meta name="author" content="Your Name">
 <!-- Tags for search engines to pick up on -->
 <meta name="keywords" content="CYOA, Interactive CYOA, Living God Interactive">
 ```
@@ -221,16 +238,7 @@ For example, this:
 
 !!! note
 
-    Colour in CSS is set in a variety of different ways, such as by a hex code
-    or RGB values.
-
-    To learn more, see
-    [CSS Legal Color Values] and [CSS Colors].
-
-    If you need help selecting a value, see
-    [Color Picker](https://htmlcolorcodes.com/color-picker/) for a simple
-    colour picker, or [Color Wheel](https://color.adobe.com/create/color-wheel)
-    to easily create complementary colour palettes.
+    If you want to learn about how to get hex codes, visit [here](#colours).
 
 ### Add hyperlinks to your CYOA
 See [here](/extending-your-cyoa/#modded-viewer).
@@ -258,7 +266,7 @@ After that, add hyperlinks as normal:
     Press <a href="https://example.com">here</a> for more information.
 
 ## Rows
-### Make a row invisible
+### (EX TODO) Make a Row invisible
 If you want to make a Row invisible, simply add a [Selected Choice]
 requirement, but simply don't put any ID in its place. This will permanently
 collapse the Row.
@@ -266,7 +274,11 @@ collapse the Row.
 Alternatively, put an ID in there that is guaranteed not to get picked, such as
 `MAKE_ME_INVISIBLE`.
 
-### Hiding Rows via Selected Choice
+??? example
+
+    …
+
+### Hide a Row until a Choice is pressed
 Rows can be hidden by using the **Add Selected Choice** requirement. In order
 to open a Row, you would need to select a choice.
 
@@ -277,17 +289,19 @@ to open a Row, you would need to select a choice.
     This can be used to create a 'Tabs' / Table of Contents menu, which is gone
     into more detail about [here](../../reference/#table-of-contents-tab-menu).
 
-=== "After"
+!!! example
 
-    ![](../images/40_hide_rows_after.gif)
+    === "After"
 
-=== "Before"
+        ![](../images/40_hide_rows_after.gif)
 
-    ![](../images/40_hide_rows_before.gif)
+    === "Before"
 
-=== "Process"
+        ![](../images/40_hide_rows_before.gif)
 
-    ![](../images/40_hide_rows_process.gif)
+    === "Process"
+
+        ![](../images/40_hide_rows_process.gif)
 
 !!! warning
 
@@ -358,7 +372,7 @@ To do this, use [Selected Choice] requirements for each nesting level.
     This does become slightly tedious to code the deeper a nested row is,
     however.[^1]
 
-### Combining Multiple Requirements
+### (EX TODO) Combining Multiple Requirements
 Chaining multiple requirements onto one object means that you require all of
 those requirements in order to allow the object to be chosen or shown.
 
@@ -373,24 +387,37 @@ those requirements in order to allow the object to be chosen or shown.
     * "If this choice that gives a discount is not selected, then it costs
         10 points"
 
-    You can learn more [here](../../reference/#making-discounts).
+    You can learn more about making discounts
+    [here](../../reference/#making-discounts).
 
-### Nesting Multiple Requirements
+??? example
+
+    …
+
+### (WIP) Nesting Multiple Requirements
 Nesting multiple requirements means to apply requirements onto requirements
 themselves. This type of advanced behaviour can get quite unwieldy.
 
+<!-- ELABORATE -->
+
 ## Choices
 ### (TODO) You may only pick X options
-Use [Allowed Choices](../mechanics/rows/#allowed-choices).
+Use [Allowed Choices](/mechanics/rows/#allowed-choices).
 
 <!-- Add a collapsible example -->
 
-### (WIP) You may only pick X options from an arbitrary group
+### (EX TODO) You may only pick X options from an arbitrary group
 Similar to the above, except these choices are not required to have been from
 the same Row.
 
 You do this buy creating a unique Point Type that is unable to go below 0, and
 is also hidden. Each choice in this arbitrary group costs 1 of these points.
+
+This can be useful compared to the above if you wanted to have a dynamic 
+
+??? example
+
+    …
 
 <!-- Add a collapsible example -->
 
@@ -449,6 +476,9 @@ wanting to change multiple Words.
 A way to bypass that, is 
 
 <!-- Add in-depth collapsible example -->
+
+### (TODO) Dynamically change Allowed Choices number
+You can dynamically change the 
 
 ## IDs
 ### Navigation with ID / Title list
@@ -510,17 +540,20 @@ ID.
     a special button you only activate for debug purposes that allow you to
     see all the hidden Point Types.
 
-#### Display Hidden Point Types when a Choice is selected
+#### (EX TODO)Display Hidden Point Types when a Choice is selected
 Do the same as [Hide Point Types](#hide-point-types), but instead of an ID
 that won't be selected, purposely choose the Choice's ID that will show
 the Point Type.
 
-### The Power of Hidden Point Types
+??? example
+
+    …
+
+### (TODO) Limit how many of an arbitrary group can be selected
 I find it particularly useful in hidden point types that determine how much of
 a thing you’re allowed to select 
 
-Put this is the Choice section "Limit how many of an arbitrary group can be
-selected"
+This uses hidden Point types.
 
 ### (TODO) Making discounts
 <!-- TODO -->
@@ -674,6 +707,215 @@ using the ID of your Point type.
 ## Variables
 
 ## Groups
+
+## HTML
+### Formatting
+<!-- See old/index.md for examples -->
+
+#### Headings
+
+| Example            | HTML                        | Note                        |
+| ------------------ | --------------------------- | --------------------------- |
+| <h1>Heading 1</h1> | `#!html <h1>Heading 1</h1>` | Used for the title          |
+| <h2>Heading 2</h2> | `#!html <h2>Heading 2</h2>` | Used for top-level sections |
+| <h3>Heading 3</h3> | `#!html <h3>Heading 3</h3>` |                             |
+| <h4>Heading 4</h4> | `#!html <h4>Heading 4</h4>` |                             |
+| <h5>Heading 5</h5> | `#!html <h5>Heading 5</h5>` |                             |
+| <h6>Heading 6</h6> | `#!html <h6>Heading 6</h6>` |                             |
+
+#### Text
+
+| Example                                        | HTML                                                    |
+| ---------------------------------------------- | ------------------------------------------------------- |
+| This is <b>bold</b> text                       | `#!html This is <b>bold</b> text`                       |      
+| This is <i>italicized</i> text                 | `#!html This is <i>italicized</i> text`                 |      
+| This is <i><b>bold and italicized</b></i> text | `#!html This is <i><b>bold and italicized</b></i> text` |      
+| This is <u>underlined</u> text                 | `#!html This is <u>underlined</u> text`                 |      
+| This is <mark>highlighted</mark> text          | `#!hmtl This is <mark>highlighted</mark> text`          |      
+| This is <sup>superscript</sup> text            | `#!html This is <sup>superscript</sup> text`            |      
+| This is <sub>subscript</sub> text              | `#!html This is <sub>subscript</sub> text`              |      
+| This is <big>big</big> text                    | `#!html This is <big>big</big> text`                    |      
+| This is <small>small</small> text              | `#!html This is <small>small</small> text`              |      
+| This is <del>deleted</del> text                | `#!html This is <del>deleted</del> text`                |      
+
+### Allowed HTML tags
+!!! note
+
+    **Remember:** Anything that is not allowed is only not allowed when
+    it is inputted into the Creator itself, not if it is loaded separatedly
+    in the `index.html`!
+
+The following are the default allowed tags that are rendered with the Viewer:
+
+<!-- Curiously, this list mentioned <main> twice -->
+
+??? info
+
+    | Tag                        | Explanation                                                                                         |
+    | -------------------------- | --------------------------------------------------------------------------------------------------- |
+    | [&lt;a&gt;]                | Defines a hyperlink[^1]                                                                             |
+    | [&lt;abbr&gt;]             | Defines an abbreviation or an acronym                                                               |
+    | [&lt;address&gt;]          | Defines contact information for the author/owner of a document                                      |
+    | [&lt;article&gt;]          | Defines an article                                                                                  |
+    | [&lt;aside&gt;]            | Defines content aside from the page content                                                         |
+    | [&lt;b&gt;]                | Defines bold text                                                                                   |
+    | [&lt;bdi&gt;]              | Isolates a part of text that might be formatted in a different direction from other text outside it |
+    | [&lt;bdo&gt;]              | Overrides the current text direction                                                                |
+    | [&lt;br&gt;]               | Defines a single line break                                                                         |
+    | [&lt;blockquote&gt;]       | Defines a section that is quoted from another source                                                |
+    | [&lt;caption&gt;]          | Defines a table caption                                                                             |
+    | [&lt;cite&gt;]             | Defines the title of a work                                                                         |
+    | [&lt;code&gt;]             | Defines a piece of computer code                                                                    |
+    | [&lt;col&gt;]              | Specifies column properties for each column within a &lt;colgroup&gt; element                       |
+    | [&lt;colgroup&gt;]         | Specifies a group of one or more columns in a table for formatting                                  |
+    | [&lt;data&gt;]             | Adds a machine-readable translation of a given content                                              |
+    | [&lt;dd&gt;]               | Defines a description/value of a term in a description list                                         |
+    | [&lt;dfn&gt;]              | Specifies a term that is going to be defined within the content                                     |
+    | [&lt;div&gt;]              | Defines a section in a document                                                                     |
+    | [&lt;dl&gt;]               | Defines a description list                                                                          |
+    | [&lt;dt&gt;]               | Defines a term/name in a description list                                                           |
+    | [&lt;em&gt;]               | Defines emphasized text                                                                             |
+    | [&lt;figcaption&gt;]       | Defines a caption for a &lt;figure&gt; element                                                      |
+    | [&lt;figure&gt;]           | Specifies self-contained content                                                                    |
+    | [&lt;footer&gt;]           | Defines a footer for a document or section                                                          |
+    | [&lt;h1&gt; to &lt;h6&gt;] | Defines HTML headings                                                                               |
+    | [&lt;header&gt;]           | Defines a header for a document or section                                                          |
+    | [&lt;hgroup&gt;]           | Defines a heading and related content                                                               |
+    | [&lt;hr&gt;]               | Defines a thematic change in the content                                                            |
+    | [&lt;i&gt;]                | Defines a part of text in an alternate voice or mood                                                |
+    | [&lt;kbd&gt;]              | Defines keyboard input                                                                              |
+    | [&lt;li&gt;]               | Defines a list item                                                                                 |
+    | [&lt;main&gt;]             | Specifies the main content of a document                                                            |
+    | [&lt;mark&gt;]             | Defines marked/highlighted text                                                                     |
+    | [&lt;nav&gt;]              | Defines navigation links                                                                            |
+    | [&lt;ol&gt;]               | Defines an ordered list                                                                             |
+    | [&lt;p&gt;]                | Defines a paragraph                                                                                 |
+    | [&lt;pre&gt;]              | Defines preformatted text                                                                           |
+    | [&lt;q&gt;]                | Defines a short quotation                                                                           |
+    | [&lt;rb&gt;]               | Defines a ruby base element                                                                         |
+    | [&lt;rp&gt;]               | Defines what to show in browsers that do not support ruby annotations                               |
+    | [&lt;rt&gt;]               | Defines an explanation/pronunciation of characters (for East Asian typography)                      |
+    | [&lt;rtc&gt;]              | Defines a Ruby Text Container                                                                       |
+    | [&lt;ruby&gt;]             | Defines a ruby annotation (for East Asian typography)                                               |
+    | [&lt;s&gt;]                | Defines text that is no longer correct                                                              |
+    | [&lt;samp&gt;]             | Defines sample output from a computer program                                                       |
+    | [&lt;section&gt;]          | Defines a section in a document                                                                     |
+    | [&lt;small&gt;]            | Defines smaller text                                                                                |
+    | [&lt;span&gt;]             | Defines a section in a document                                                                     |
+    | [&lt;strong&gt;]           | Defines important text                                                                              |
+    | [&lt;sub&gt;]              | Defines subscripted text                                                                            |
+    | [&lt;sup&gt;]              | Defines superscripted text                                                                          |
+    | [&lt;table&gt;]            | Defines a table                                                                                     |
+    | [&lt;tbody&gt;]            | Groups the body content in a table                                                                  |
+    | [&lt;td&gt;]               | Defines a cell in a table                                                                           |
+    | [&lt;tfoot&gt;]            | Groups the footer content in a table                                                                |
+    | [&lt;th&gt;]               | Defines a header cell in a table                                                                    |
+    | [&lt;thead&gt;]            | Groups the header content in a table                                                                |
+    | [&lt;time&gt;]             | Defines a specific time (or datetime)                                                               |
+    | [&lt;tr&gt;]               | Defines a row in a table                                                                            |
+    | [&lt;u&gt;]                | Defines some text that is unarticulated and styled differently from normal text                     |
+    | [&lt;ul&gt;]               | Defines an unordered list                                                                           |
+    | [&lt;var&gt;]              | Defines a variable                                                                                  |
+    | [&lt;wbr&gt;]              | Defines a possible line-break                                                                       |
+
+[^1]: The ICC sanitizes hyperlinks by default, use the
+[modded Viewer](#modded-viewer) to enable it.
+
+<!-- HTML tag URLs -->
+[&lt;address&gt;]: https://www.w3schools.com/tags/tag_address.asp
+[&lt;article&gt;]: https://www.w3schools.com/tags/tag_article.asp
+[&lt;aside&gt;]: https://www.w3schools.com/tags/tag_aside.asp
+[&lt;footer&gt;]: https://www.w3schools.com/tags/tag_footer.asp
+[&lt;header&gt;]: https://www.w3schools.com/tags/tag_header.asp
+[&lt;h1&gt; to &lt;h6&gt;]: https://www.w3schools.com/tags/tag_hn.asp
+[&lt;hgroup&gt;]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+[&lt;main&gt;]: https://www.w3schools.com/tags/tag_main.asp
+[&lt;nav&gt;]: https://www.w3schools.com/tags/tag_nav.asp
+[&lt;section&gt;]: https://www.w3schools.com/tags/tag_section.asp
+[&lt;blockquote&gt;]: https://www.w3schools.com/tags/tag_blockquote.asp
+[&lt;dd&gt;]: https://www.w3schools.com/tags/tag_dd.asp
+[&lt;div&gt;]: https://www.w3schools.com/tags/tag_div.asp
+[&lt;dl&gt;]: https://www.w3schools.com/tags/tag_dl.asp
+[&lt;dt&gt;]: https://www.w3schools.com/tags/tag_dt.asp
+[&lt;figcaption&gt;]: https://www.w3schools.com/tags/tag_figcaption.asp
+[&lt;figure&gt;]: https://www.w3schools.com/tags/tag_figure.asp
+[&lt;hr&gt;]: https://www.w3schools.com/tags/tag_hr.asp
+[&lt;li&gt;]: https://www.w3schools.com/tags/tag_li.asp
+[&lt;ol&gt;]: https://www.w3schools.com/tags/tag_ol.asp
+[&lt;p&gt;]: https://www.w3schools.com/tags/tag_p.asp
+[&lt;pre&gt;]: https://www.w3schools.com/tags/tag_pre.asp
+[&lt;ul&gt;]: https://www.w3schools.com/tags/tag_ul.asp
+[&lt;a&gt;]: https://www.w3schools.com/tags/tag_a.asp
+[&lt;abbr&gt;]: https://www.w3schools.com/tags/tag_abbr.asp
+[&lt;b&gt;]: https://www.w3schools.com/tags/tag_b.asp
+[&lt;bdi&gt;]: https://www.w3schools.com/tags/tag_bdi.asp
+[&lt;bdo&gt;]: https://www.w3schools.com/tags/tag_bdo.asp
+[&lt;br&gt;]: https://www.w3schools.com/tags/tag_br.asp
+[&lt;cite&gt;]: https://www.w3schools.com/tags/tag_cite.asp
+[&lt;code&gt;]: https://www.w3schools.com/tags/tag_code.asp
+[&lt;data&gt;]: https://www.w3schools.com/tags/tag_data.asp
+[&lt;dfn&gt;]: https://www.w3schools.com/tags/tag_dfn.asp
+[&lt;em&gt;]: https://www.w3schools.com/tags/tag_em.asp
+[&lt;i&gt;]: https://www.w3schools.com/tags/tag_i.asp
+[&lt;kbd&gt;]: https://www.w3schools.com/tags/tag_kbd.asp
+[&lt;mark&gt;]: https://www.w3schools.com/tags/tag_mark.asp
+[&lt;q&gt;]: https://www.w3schools.com/tags/tag_q.asp
+[&lt;rb&gt;]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb
+[&lt;rp&gt;]: https://www.w3schools.com/tags/tag_rp.asp
+[&lt;rt&gt;]: https://www.w3schools.com/tags/tag_rt.asp
+[&lt;rtc&gt;]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc
+[&lt;ruby&gt;]: https://www.w3schools.com/tags/tag_ruby.asp
+[&lt;s&gt;]: https://www.w3schools.com/tags/tag_s.asp
+[&lt;samp&gt;]: https://www.w3schools.com/tags/tag_samp.asp
+[&lt;small&gt;]: https://www.w3schools.com/tags/tag_small.asp
+[&lt;span&gt;]: https://www.w3schools.com/tags/tag_span.asp
+[&lt;strong&gt;]: https://www.w3schools.com/tags/tag_strong.asp
+[&lt;sub&gt;]: https://www.w3schools.com/tags/tag_sub.asp
+[&lt;sup&gt;]: https://www.w3schools.com/tags/tag_sup.asp
+[&lt;time&gt;]: https://www.w3schools.com/tags/tag_time.asp
+[&lt;u&gt;]: https://www.w3schools.com/tags/tag_u.asp
+[&lt;var&gt;]: https://www.w3schools.com/tags/tag_var.asp
+[&lt;wbr&gt;]: https://www.w3schools.com/tags/tag_wbr.asp
+[&lt;caption&gt;]: https://www.w3schools.com/tags/tag_caption.asp
+[&lt;col&gt;]: https://www.w3schools.com/tags/tag_col.asp
+[&lt;colgroup&gt;]: https://www.w3schools.com/tags/tag_colgroup.asp
+[&lt;table&gt;]: https://www.w3schools.com/tags/tag_table.asp
+[&lt;tbody&gt;]: https://www.w3schools.com/tags/tag_tbody.asp
+[&lt;td&gt;]: https://www.w3schools.com/tags/tag_td.asp
+[&lt;tfoot&gt;]: https://www.w3schools.com/tags/tag_tfoot.asp
+[&lt;th&gt;]: https://www.w3schools.com/tags/tag_th.asp
+[&lt;thead&gt;]: https://www.w3schools.com/tags/tag_thead.asp
+[&lt;tr&gt;]: https://www.w3schools.com/tags/tag_tr.asp
+
+### Allowed attributes
+Attributes provide additional information about HTML elements.
+
+| HTML tag         | Explanation                     | Attribute(s) |
+| ---------------- | ------------------------------- | ------------ |
+| [&lt;b&gt;]      | Defines bold text               | [style]      |
+| [&lt;p&gt;]      | Defines a paragraph             | [style]      |
+| [&lt;span&gt;]   | Defines a section in a document | [style]      |
+| [&lt;strong&gt;] | Defines important text          | [style]      |
+
+<!-- Attributes list -->
+[style]: https://www.w3schools.com/tags/att_style.asp
+
+## CSS
+### Allowed styles
+| CSS Target | Property                               | Explanation                                                                                             |
+| ---------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| *          | [color]<br>[text-align]<br>[font-size] | Sets the color of text<br>Specifies the horizontal alignment of text<br>Specifies the font size of text |
+| p          | [font-size]                            | Specifies the font size of text                                                                         |
+
+<!-- Styles list -->
+[color]: https://www.w3schools.com/cssref/pr_text_color.php
+[text-align]: https://www.w3schools.com/cssref/pr_text_text-align.php
+[font-size]: https://www.w3schools.com/cssref/pr_font_font-size.php
+
+### Allowed style tags
+See the HTML tags that allow the `style` attribute [here](#allowed-attributes).
+
+## JavaScript
 
 <!-- References -->
 <!-- Heh, References in References -->

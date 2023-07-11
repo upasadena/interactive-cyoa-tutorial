@@ -32,11 +32,18 @@ to this tutorial from the time of its official release.
         - [x] Defaults
         <!-- - [ ] Copying -->
         - [x] Words
-        - [ ] Buttons & Variables
+        - [ ] Buttons (& Variables)
         - [ ] Groups
         - [ ] Backpack & Choice Import
     - [ ] Finish the Styling section
-        - [ ] Design
+        - [ ] Design – Basically like, design theory
+        - [ ] Style Templates
+        - [ ] Colour – How you should choose colour, where to put it
+        - [ ] Backgrounds
+            - [ ] Link to static background in Reference, or vice versa
+        - [ ] Text
+        - [ ] Filters
+        - [ ] Private Styling
     - [ ] Finish the Publishing section
     - [x] Finish the Extending Your CYOA section
     - [ ] Finish the Reference section
@@ -61,11 +68,25 @@ everything that is possible into the Mechanics
 - [ ] Add my own custom Viewer js file, this time adding:
     - [ ] `alt` attribute for `<img>`s
     - [ ] `referrerpolicy` attribute for `<a>` links
+- [ ] Make a chapter detailing how to actually *create* ICYOAs
+    - [ ] Section on OCR, including my command line tool, caveats, etc
+    - [ ] Section on finding the text, seeing if there's a Google Doc –
+      Mentioning if 
+    - [ ] Section on handwriting it
+    - [ ] Advice on asking the author if they have a Google Doc of it, so that
+      you can more easily copy it?
 
 ## Changelog
 
+### WIP
+
+* Added more examples (or TODO examples) to the Reference. I expect examples
+  or pictures for every single entry there by `v1.0.0`
+* Moved Allowed HTML tags, Allowed Attributes, and Allowed Styles into the
+  Reference section
+
 ### v0.10.0
-_Released on DATE at TIME_
+_Released on 2023-07-10 11:59:17_
 
 * Finished the first revision of the **Extending Your CYOA** section
 * Added some abbreviations

@@ -217,9 +217,9 @@ Allowed Choice by 1, whilst it naturally simultaneously takes 1 itself, leaving
 with no difference.
 
 ### Clean Selected Choices (Side Menu)
-See [here](../../introduction/#clean-selected-choices).
+See [here](/introduction/#clean-selected-choices).
 
-### Adds or takes away a rows Allowed Choices
+### (TODO) Adds or takes away a rows Allowed Choices
 See [here]
 
 ---

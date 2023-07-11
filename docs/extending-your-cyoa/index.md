@@ -365,178 +365,9 @@ logic and interactivity.
 You can view some resources for learning HTML, CSS, and JavaScript over at
 the [Resources](/appendix/resources/#programming-resources) section.
 
-### Allowed HTML tags
-!!! note
+---
 
-    **Remember:** Anything that is not allowed is only not allowed when
-    it is inputted into the Creator itself, not if it is loaded separatedly
-    in the `index.html`!
-
-The following are the default allowed tags that are rendered with the Viewer:
-
-<!-- Curiously, this list mentioned <main> twice -->
-
-??? info
-
-    | Tag                        | Explanation                                                                                         |
-    | -------------------------- | --------------------------------------------------------------------------------------------------- |
-    | [&lt;a&gt;]                | Defines a hyperlink[^1]                                                                             |
-    | [&lt;abbr&gt;]             | Defines an abbreviation or an acronym                                                               |
-    | [&lt;address&gt;]          | Defines contact information for the author/owner of a document                                      |
-    | [&lt;article&gt;]          | Defines an article                                                                                  |
-    | [&lt;aside&gt;]            | Defines content aside from the page content                                                         |
-    | [&lt;b&gt;]                | Defines bold text                                                                                   |
-    | [&lt;bdi&gt;]              | Isolates a part of text that might be formatted in a different direction from other text outside it |
-    | [&lt;bdo&gt;]              | Overrides the current text direction                                                                |
-    | [&lt;br&gt;]               | Defines a single line break                                                                         |
-    | [&lt;blockquote&gt;]       | Defines a section that is quoted from another source                                                |
-    | [&lt;caption&gt;]          | Defines a table caption                                                                             |
-    | [&lt;cite&gt;]             | Defines the title of a work                                                                         |
-    | [&lt;code&gt;]             | Defines a piece of computer code                                                                    |
-    | [&lt;col&gt;]              | Specifies column properties for each column within a &lt;colgroup&gt; element                       |
-    | [&lt;colgroup&gt;]         | Specifies a group of one or more columns in a table for formatting                                  |
-    | [&lt;data&gt;]             | Adds a machine-readable translation of a given content                                              |
-    | [&lt;dd&gt;]               | Defines a description/value of a term in a description list                                         |
-    | [&lt;dfn&gt;]              | Specifies a term that is going to be defined within the content                                     |
-    | [&lt;div&gt;]              | Defines a section in a document                                                                     |
-    | [&lt;dl&gt;]               | Defines a description list                                                                          |
-    | [&lt;dt&gt;]               | Defines a term/name in a description list                                                           |
-    | [&lt;em&gt;]               | Defines emphasized text                                                                             |
-    | [&lt;figcaption&gt;]       | Defines a caption for a &lt;figure&gt; element                                                      |
-    | [&lt;figure&gt;]           | Specifies self-contained content                                                                    |
-    | [&lt;footer&gt;]           | Defines a footer for a document or section                                                          |
-    | [&lt;h1&gt; to &lt;h6&gt;] | Defines HTML headings                                                                               |
-    | [&lt;header&gt;]           | Defines a header for a document or section                                                          |
-    | [&lt;hgroup&gt;]           | Defines a heading and related content                                                               |
-    | [&lt;hr&gt;]               | Defines a thematic change in the content                                                            |
-    | [&lt;i&gt;]                | Defines a part of text in an alternate voice or mood                                                |
-    | [&lt;kbd&gt;]              | Defines keyboard input                                                                              |
-    | [&lt;li&gt;]               | Defines a list item                                                                                 |
-    | [&lt;main&gt;]             | Specifies the main content of a document                                                            |
-    | [&lt;mark&gt;]             | Defines marked/highlighted text                                                                     |
-    | [&lt;nav&gt;]              | Defines navigation links                                                                            |
-    | [&lt;ol&gt;]               | Defines an ordered list                                                                             |
-    | [&lt;p&gt;]                | Defines a paragraph                                                                                 |
-    | [&lt;pre&gt;]              | Defines preformatted text                                                                           |
-    | [&lt;q&gt;]                | Defines a short quotation                                                                           |
-    | [&lt;rb&gt;]               | Defines a ruby base element                                                                         |
-    | [&lt;rp&gt;]               | Defines what to show in browsers that do not support ruby annotations                               |
-    | [&lt;rt&gt;]               | Defines an explanation/pronunciation of characters (for East Asian typography)                      |
-    | [&lt;rtc&gt;]              | Defines a Ruby Text Container                                                                       |
-    | [&lt;ruby&gt;]             | Defines a ruby annotation (for East Asian typography)                                               |
-    | [&lt;s&gt;]                | Defines text that is no longer correct                                                              |
-    | [&lt;samp&gt;]             | Defines sample output from a computer program                                                       |
-    | [&lt;section&gt;]          | Defines a section in a document                                                                     |
-    | [&lt;small&gt;]            | Defines smaller text                                                                                |
-    | [&lt;span&gt;]             | Defines a section in a document                                                                     |
-    | [&lt;strong&gt;]           | Defines important text                                                                              |
-    | [&lt;sub&gt;]              | Defines subscripted text                                                                            |
-    | [&lt;sup&gt;]              | Defines superscripted text                                                                          |
-    | [&lt;table&gt;]            | Defines a table                                                                                     |
-    | [&lt;tbody&gt;]            | Groups the body content in a table                                                                  |
-    | [&lt;td&gt;]               | Defines a cell in a table                                                                           |
-    | [&lt;tfoot&gt;]            | Groups the footer content in a table                                                                |
-    | [&lt;th&gt;]               | Defines a header cell in a table                                                                    |
-    | [&lt;thead&gt;]            | Groups the header content in a table                                                                |
-    | [&lt;time&gt;]             | Defines a specific time (or datetime)                                                               |
-    | [&lt;tr&gt;]               | Defines a row in a table                                                                            |
-    | [&lt;u&gt;]                | Defines some text that is unarticulated and styled differently from normal text                     |
-    | [&lt;ul&gt;]               | Defines an unordered list                                                                           |
-    | [&lt;var&gt;]              | Defines a variable                                                                                  |
-    | [&lt;wbr&gt;]              | Defines a possible line-break                                                                       |
-
-[^1]: The ICC sanitizes hyperlinks by default, use the
-[modded Viewer](#modded-viewer) to enable it.
-
-<!-- HTML tag URLs -->
-[&lt;address&gt;]: https://www.w3schools.com/tags/tag_address.asp
-[&lt;article&gt;]: https://www.w3schools.com/tags/tag_article.asp
-[&lt;aside&gt;]: https://www.w3schools.com/tags/tag_aside.asp
-[&lt;footer&gt;]: https://www.w3schools.com/tags/tag_footer.asp
-[&lt;header&gt;]: https://www.w3schools.com/tags/tag_header.asp
-[&lt;h1&gt; to &lt;h6&gt;]: https://www.w3schools.com/tags/tag_hn.asp
-[&lt;hgroup&gt;]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
-[&lt;main&gt;]: https://www.w3schools.com/tags/tag_main.asp
-[&lt;nav&gt;]: https://www.w3schools.com/tags/tag_nav.asp
-[&lt;section&gt;]: https://www.w3schools.com/tags/tag_section.asp
-[&lt;blockquote&gt;]: https://www.w3schools.com/tags/tag_blockquote.asp
-[&lt;dd&gt;]: https://www.w3schools.com/tags/tag_dd.asp
-[&lt;div&gt;]: https://www.w3schools.com/tags/tag_div.asp
-[&lt;dl&gt;]: https://www.w3schools.com/tags/tag_dl.asp
-[&lt;dt&gt;]: https://www.w3schools.com/tags/tag_dt.asp
-[&lt;figcaption&gt;]: https://www.w3schools.com/tags/tag_figcaption.asp
-[&lt;figure&gt;]: https://www.w3schools.com/tags/tag_figure.asp
-[&lt;hr&gt;]: https://www.w3schools.com/tags/tag_hr.asp
-[&lt;li&gt;]: https://www.w3schools.com/tags/tag_li.asp
-[&lt;ol&gt;]: https://www.w3schools.com/tags/tag_ol.asp
-[&lt;p&gt;]: https://www.w3schools.com/tags/tag_p.asp
-[&lt;pre&gt;]: https://www.w3schools.com/tags/tag_pre.asp
-[&lt;ul&gt;]: https://www.w3schools.com/tags/tag_ul.asp
-[&lt;a&gt;]: https://www.w3schools.com/tags/tag_a.asp
-[&lt;abbr&gt;]: https://www.w3schools.com/tags/tag_abbr.asp
-[&lt;b&gt;]: https://www.w3schools.com/tags/tag_b.asp
-[&lt;bdi&gt;]: https://www.w3schools.com/tags/tag_bdi.asp
-[&lt;bdo&gt;]: https://www.w3schools.com/tags/tag_bdo.asp
-[&lt;br&gt;]: https://www.w3schools.com/tags/tag_br.asp
-[&lt;cite&gt;]: https://www.w3schools.com/tags/tag_cite.asp
-[&lt;code&gt;]: https://www.w3schools.com/tags/tag_code.asp
-[&lt;data&gt;]: https://www.w3schools.com/tags/tag_data.asp
-[&lt;dfn&gt;]: https://www.w3schools.com/tags/tag_dfn.asp
-[&lt;em&gt;]: https://www.w3schools.com/tags/tag_em.asp
-[&lt;i&gt;]: https://www.w3schools.com/tags/tag_i.asp
-[&lt;kbd&gt;]: https://www.w3schools.com/tags/tag_kbd.asp
-[&lt;mark&gt;]: https://www.w3schools.com/tags/tag_mark.asp
-[&lt;q&gt;]: https://www.w3schools.com/tags/tag_q.asp
-[&lt;rb&gt;]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb
-[&lt;rp&gt;]: https://www.w3schools.com/tags/tag_rp.asp
-[&lt;rt&gt;]: https://www.w3schools.com/tags/tag_rt.asp
-[&lt;rtc&gt;]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc
-[&lt;ruby&gt;]: https://www.w3schools.com/tags/tag_ruby.asp
-[&lt;s&gt;]: https://www.w3schools.com/tags/tag_s.asp
-[&lt;samp&gt;]: https://www.w3schools.com/tags/tag_samp.asp
-[&lt;small&gt;]: https://www.w3schools.com/tags/tag_small.asp
-[&lt;span&gt;]: https://www.w3schools.com/tags/tag_span.asp
-[&lt;strong&gt;]: https://www.w3schools.com/tags/tag_strong.asp
-[&lt;sub&gt;]: https://www.w3schools.com/tags/tag_sub.asp
-[&lt;sup&gt;]: https://www.w3schools.com/tags/tag_sup.asp
-[&lt;time&gt;]: https://www.w3schools.com/tags/tag_time.asp
-[&lt;u&gt;]: https://www.w3schools.com/tags/tag_u.asp
-[&lt;var&gt;]: https://www.w3schools.com/tags/tag_var.asp
-[&lt;wbr&gt;]: https://www.w3schools.com/tags/tag_wbr.asp
-[&lt;caption&gt;]: https://www.w3schools.com/tags/tag_caption.asp
-[&lt;col&gt;]: https://www.w3schools.com/tags/tag_col.asp
-[&lt;colgroup&gt;]: https://www.w3schools.com/tags/tag_colgroup.asp
-[&lt;table&gt;]: https://www.w3schools.com/tags/tag_table.asp
-[&lt;tbody&gt;]: https://www.w3schools.com/tags/tag_tbody.asp
-[&lt;td&gt;]: https://www.w3schools.com/tags/tag_td.asp
-[&lt;tfoot&gt;]: https://www.w3schools.com/tags/tag_tfoot.asp
-[&lt;th&gt;]: https://www.w3schools.com/tags/tag_th.asp
-[&lt;thead&gt;]: https://www.w3schools.com/tags/tag_thead.asp
-[&lt;tr&gt;]: https://www.w3schools.com/tags/tag_tr.asp
-
-### Allowed Attributes
-Attributes provide additional information about HTML elements.
-
-| HTML tag         | Explanation                     | Attribute(s) |
-| ---------------- | ------------------------------- | ------------ |
-| [&lt;b&gt;]      | Defines bold text               | [style]      |
-| [&lt;p&gt;]      | Defines a paragraph             | [style]      |
-| [&lt;span&gt;]   | Defines a section in a document | [style]      |
-| [&lt;strong&gt;] | Defines important text          | [style]      |
-
-<!-- Attributes list -->
-[style]: https://www.w3schools.com/tags/att_style.asp
-
-### Allowed Styles
-| CSS Target | Property                               | Explanation                                                                                             |
-| ---------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| *          | [color]<br>[text-align]<br>[font-size] | Sets the color of text<br>Specifies the horizontal alignment of text<br>Specifies the font size of text |
-| p          | [font-size]                            | Specifies the font size of text                                                                         |
-
-<!-- Styles list -->
-[color]: https://www.w3schools.com/cssref/pr_text_color.php
-[text-align]: https://www.w3schools.com/cssref/pr_text_text-align.php
-[font-size]: https://www.w3schools.com/cssref/pr_font_font-size.php
+Learn more about [HTML], [CSS], and [JavaScript] in the [Reference].
 
 <!-- URLs -->
 [content]: https://www.w3schools.com/cssref/pr_gen_content.php
@@ -546,5 +377,9 @@ Attributes provide additional information about HTML elements.
 [Lt Ouroumov's Worm CYOA V6]: https://ltouroumov.github.io/worm-cyoa-v6-fork/viewer/
 [intcyoaenhancer]: https://greasyfork.org/en/scripts/438947-intcyoaenhancer
 [launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
+[Reference]: /appendix/reference/
+[HTML]: /appendix/reference/#html
+[CSS]: /appendix/reference/#css
+[JavaScript]: /appendix/reference/#javascript
 
 <!-- BUFFER -->
