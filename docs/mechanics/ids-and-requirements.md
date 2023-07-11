@@ -50,6 +50,19 @@ be assigned a random 4-digit hex ID.
     | **{Section/Row}** | `section_{title}`   | `section_perks`      |
     | **{Point}**       | `point_{title}`     | `point_companions`   |
 
+!!! question "Why bother with a prefix?"
+
+    While it's true that for smaller ICYOAs you could easily get away with IDs
+    such as `noctis_cape` and `taylor`, for larger ones you may get
+    complications where two or more Choices or Rows or anything else have the
+    same name.
+
+    Not only that, but keeping the prefix in mind means that when looking
+    through Requirements, you'll be able to tell immediately which Row it comes
+    from.
+
+    All in all though, it's up to you how you format your IDs.
+
 ## Requirements
 Requirements are conditions that Rows and Addons must fulfil before they're
 shown and Objects must fulfil before they can be selected.

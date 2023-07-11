@@ -95,6 +95,12 @@ This switch ensures that the score can **NEVER** go under 0. This means that if
 a user does not have a surplus of that Point, such that using them on a Choice
 would bring them into the negatives, then the Choice can not be selected.
 
+!!! tip
+
+    You should use this option sparingly, many people (myself included) try to
+    get themselves into debt before having to decide on drawbacks to make up
+    for it.
+
 ![](../images/50_positive_score.png)
 
 #### Add a + or - in front of the scores

@@ -223,6 +223,23 @@ See [here](/introduction/#clean-selected-choices).
 ### (TODO) Adds or takes away a rows Allowed Choices
 See [here]
 
+## List of objects
+If you want to get a list of Objects within a Row, simply go into a
+**Edit Row** → **List of objects**. You will find the latter as the second
+button on the top right.
+
+![](../images/128_list_of_objects.png)
+
+Pressing this button will open up a list of Choices.
+
+![](../images/129_list_of_objects_list.png)
+
+This gives a concise list of Choices within that Row. Here, much
+[like you could with Rows](/basics/#open-row-list/), you can reorder the
+Choices how you like.
+
+![](../images/130_reordering_choices.gif)
+
 ---
 
 Learn more what you can do with Objects in the [Reference].

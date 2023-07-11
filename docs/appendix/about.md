@@ -85,7 +85,8 @@ everything that is possible into the Mechanics
   or pictures for every single entry there by `v1.0.0`
 * Moved Allowed HTML tags, Allowed Attributes, and Allowed Styles into the
   Reference section
-* Added Icons to each page in the Navigation Bar
+* Added **Icons** to each page title in the Navigation Bar
+* Found a new tutorial that has a lot of stuff to add
 
 ### v0.10.0
 _Released on 2023-07-10 11:59:17_

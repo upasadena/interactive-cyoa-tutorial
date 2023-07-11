@@ -60,6 +60,8 @@ fair amount to this tutorial.
 * [Wanna make a cyoa... but how important is the design?] – Advice in the
 comments
 * [How to make (format) a CYOA post?] – Advice in the comments
+* [CYOA 101 by Dragon's Whore] – A huge tutorial on how to make Interactive
+  NSFW CYOAs (that I only found half way through completing this tutorial lol)
 
 ### Static CYOAs
 Resources primarily for Static CYOAs. May still apply to creating Interactives.
@@ -219,6 +221,7 @@ An excellent read.
 [fcc-html-css]: https://www.freecodecamp.org/learn/2022/responsive-web-design/
 [Mozilla docs]: https://developer.mozilla.org/en-US/docs/Learn
 [launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
+[CYOA 101 by Dragon's Whore]: https://imgchest.com/p/ej7mkx9qydl
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/

@@ -11,6 +11,10 @@ If you encounter a bug that is not on this list, please comment below. If
 anyone knows of a fix it will be documented here so future creators will know
 how to solve it.
 
+If you encounter a bug, don't find the solution on here, but find a fix, please
+comment below! The more that people know about the solution the less problems
+everyone has.
+
 ## The Creator
 
 ### I'm stuck in the Alternate Menu
@@ -23,6 +27,9 @@ You may be in the Alternate Menu. See
 ### There's no sidebar or topbar
 Try scrolling up. The Alternate Menu can only be seen at the very top of the
 page. Afterward, See [here](/basics/#returning-to-the-default-menu).
+
+## Mechanics
+<!-- Fill this with actual logical troubleshooting -->
 
 ## Design
 ### I can't find the option to upload a background image
@@ -66,6 +73,16 @@ Either:
     If this bug occurs to you, exiting the Creator and coming back in will 
     probably reset the fix, meaning you will have to do this everytime you
     encounter the issue.
+
+### My Row is invisible for some reason
+There could be many possibilities. Here are some:
+
+1. It has some requirement that it's not fulfilling
+    * If there is one and you're sure the requirement *should* be fulfilled,
+    check the IDs again. There could be a mismatch by a typo.
+2. It has an empty title
+    * If this is indeed the case, and you don't want a title but still want the
+    background visible, simply put an empty space ` ` there.
 
 <!-- URLs -->
 [zoom]: ../appendix/reference/#zoom-in-and-out

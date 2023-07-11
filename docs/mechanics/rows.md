@@ -4,9 +4,10 @@ icon: octicons/rows-24
 ---
 
 # Rows
-The basic building block of Interactive CYOAs made with this creator is the 
-Row. Rows are not only the sections that divide the CYOA up, but it is only 
-attached to a Row where Objects can exist. 
+The basic building block of Interactive CYOAs made with this creator is the
+Row. Rows are not only the sections that divide the CYOA up, but it is only
+attached to a Row where Choices can exist. In that way, Rows can be seen as
+groups of Choices.
 
 ## Creating Rows
 Create a Row by opening up the sidebar and pressing _Create New Row_.
