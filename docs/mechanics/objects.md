@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/checkbox-marked-circle-outline
 ---
 
 # Objects / Choices

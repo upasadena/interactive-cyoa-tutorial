@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/arrow-down-drop-circle-outline
 ---
 
 # Addons

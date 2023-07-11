@@ -96,6 +96,7 @@ nav:
       - Images: mechanics/images.md
       - Defaults: mechanics/defaults.md
       - Words: mechanics/words.md
+      - Buttons: mechanics/buttons.md
     - Styling:
       - styling/index.md
       - Design: styling/design.md

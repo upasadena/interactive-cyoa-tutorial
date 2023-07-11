@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/scoreboard-outline
 ---
 
 # Points and Scores

@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: material/wrench
+icon: material/wrench-cog
 ---
 
 # Mechanics

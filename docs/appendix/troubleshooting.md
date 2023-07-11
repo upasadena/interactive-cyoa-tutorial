@@ -1,3 +1,8 @@
+---
+comments: true
+icon: material/alert-octagram-outline
+---
+
 # Troubleshooting
 Welcome to the Troubleshooting section. Have a bug? It should be listed here,
 with any solutions documented.

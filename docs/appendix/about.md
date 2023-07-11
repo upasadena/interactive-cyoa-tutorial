@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/file-question-outline
 ---
 
 # About
@@ -78,12 +79,13 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### WIP
+### v0.11.0
 
 * Added more examples (or TODO examples) to the Reference. I expect examples
   or pictures for every single entry there by `v1.0.0`
 * Moved Allowed HTML tags, Allowed Attributes, and Allowed Styles into the
   Reference section
+* Added Icons to each page in the Navigation Bar
 
 ### v0.10.0
 _Released on 2023-07-10 11:59:17_

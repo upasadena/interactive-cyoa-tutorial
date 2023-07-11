@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/library # the default icon
 ---
 
 # Interactive CYOA Tutorial

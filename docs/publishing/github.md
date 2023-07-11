@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/github
 ---
 
 # Publishing on Github

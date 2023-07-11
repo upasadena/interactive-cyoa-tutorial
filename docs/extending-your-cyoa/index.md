@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/code-json
 ---
 
 # Extending Your CYOA

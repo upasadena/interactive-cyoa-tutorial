@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: simple/altiumdesigner
 ---
 
 # Design
