@@ -33,6 +33,16 @@ the title, and a pilcrow symbol should appear (¶). If you press that, it will
 update the URL in the URL bar, and if you send that to someone, it will
 automatically send them to that section should they visit the link.
 
+## Searching
+If you are looking for a specific piece of information and not the tutorial in
+its entirety, then there are three ways to look for the information:
+
+1. If you are looking on how to achieve something, check the [Reference]
+2. If you are looking on how to fix a bug, check the [Troubleshooting] page
+3. If you can't find it on either of those two, or if you're looking for
+   anything else, you can try the search bar in the top left. This will search
+   through the whole project.
+
 ## Limitations
 The ICC is an incredible tool which has vastly improved the quality of
 Interactive CYOAs. However, it would be remiss of me not to acknowledge that it
@@ -64,7 +74,7 @@ a Row, Choice/Object, Point, etc.
 * ICT – Interactive CYOA Tutorial, used to refer to this tutorial in the GitHub
   release page, but can also refer to any ICYOA tutorial.
 * ICCT – Interactive CYOA Creator Tutorial, used to refer to this tutorial, but
-  can refer to any tutorial for the ICC.
+  can refer to any tutorial for the ICC specifically.
 
 ## Conclusion
 With all that said, I hope you enjoy and learn something new from this

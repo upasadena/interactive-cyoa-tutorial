@@ -704,6 +704,9 @@ using the ID of your Point type.
     ![](../images/!ref_0_dynamic_setup.gif)
 
 ## Buttons
+### Generate a random number
+
+### Pick a random choice in a Row
 
 ## Variables
 

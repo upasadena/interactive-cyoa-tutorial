@@ -1,5 +1,5 @@
 # Project information
-site_name: Interactive CYOA Creator
+site_name: Interactive CYOA Creator Tutorial
 site_url: https://icctutorial.pages.dev/
 site_author: Pasadena
 site_description: >-
@@ -22,6 +22,7 @@ copyright: >-
 # Configuration
 theme:
   name: material
+  # favicon: images/favicon.ico # Hmm
   custom_dir: overrides
   features:
     - navigation.instant

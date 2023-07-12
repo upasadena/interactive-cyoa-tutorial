@@ -31,6 +31,8 @@ cd mkdocs-material
 pip install -e mkdocs-material
 ```
 
+Install the plugins:
+
 ```sh
 pip install mkdocs-minify-plugin mkdocs-git-authors-plugin
 ```

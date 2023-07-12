@@ -79,7 +79,8 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.11.0
+### v0.11.0 (WIP)
+_Released on _
 
 * Added more examples (or TODO examples) to the Reference. I expect examples
   or pictures for every single entry there by `v1.0.0`
@@ -87,9 +88,11 @@ everything that is possible into the Mechanics
   Reference section
 * Added **Icons** to each page title in the Navigation Bar
 * Found a new tutorial that has a lot of stuff to add
+* Compressed all gifs, saving 110 MB / 28.8% of space (script in repo)
+* Added `UTC` to the last two releases' dates
 
 ### v0.10.0
-_Released on 2023-07-10 11:59:17_
+_Released on 2023-07-10 11:59:17 UTC_
 
 * Finished the first revision of the **Extending Your CYOA** section
 * Added some abbreviations
@@ -97,7 +100,7 @@ _Released on 2023-07-10 11:59:17_
 [Download the source code][dl-0.10.0]{ .md-button }
 
 ### v0.9.0
-_Released on 2023-07-10 at 07:09:35_
+_Released on 2023-07-10 at 07:09:35 UTC_
 
 * Added and finished **Words** section
 * Ticked Addons of the TODO because I'm dumb
