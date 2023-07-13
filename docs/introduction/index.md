@@ -64,15 +64,17 @@ The ICC is an incredible tool which has vastly improved the quality of
 Interactive CYOAs. However, it would be remiss of me not to acknowledge that it
 too has limitations.
 
-1. The Creator is no longer being actively maintained. It was last updated
-on 28 February 2021. This means no new features are likely to be added, no bugs
-will be fixed, and one far off day, the program may not longer be compatible
-with our current technologies.
-2. The project is not open-source. This ties into the first point, being
-that if it were open-source, the community could fork the repository, and
-continue to develop it, adding new features and fixing bugs. As it is not, our
-only options are to create a new one (unlikely any time soon) or to continue to
-use this tool.
+1. The Creator is no longer being actively maintained. It was last updated on
+   28 February 2021. This means no new features are likely to be added, no bugs
+   will be fixed, and one far off day, the program may not longer be compatible
+   with our current technologies.
+2. The project is not open-source. This ties into the first point, being that
+   if it were open-source, the community could fork the repository, and continue
+   to develop it, adding new features and fixing bugs. As it is not, our only
+   options are to create a new one (unlikely any time soon) or to continue to
+   use this tool.
+3. A lot of functionality that users desire (such as text input!) is not and
+   will never be added thanks to the above.
 
 ## Glossary
 Many terms may produce confusion, so we'll define them here:
