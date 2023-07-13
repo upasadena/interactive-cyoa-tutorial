@@ -343,6 +343,19 @@ In your project's `js` folder, replace `app.c533aa25.js` with the one from
     exception for `<a>` tags and the `href` attribute, allowing for
     hyperlinking.
 
+## Using Git
+What is Git? Git is a **version control system** (VCS). It is a program that
+tracks changes within files and folders. Using Git, we can create snapshots of
+changes for each version, meaning if we add irreversable changes to our
+project, we can simply revert back to a previous version.
+
+We can also compare changes between versions, and can invite others to
+collaborate and see what they've changed, much like Wikipedia.
+
+Using Git is for more advanced users and is not required.
+
+You can learn about Git [here](https://git-scm.com/book/en/v2).
+
 ## Custom HTML, CSS, and JavaScript
 You can truly supercharge your ICYOA by using HTML, CSS, and/or JavaScript.
 Those three languages are the languages that every web browser runs on.

@@ -63,6 +63,18 @@ be assigned a random 4-digit hex ID.
 
     All in all though, it's up to you how you format your IDs.
 
+!!! tip
+
+    Once a CYOA is publically released for the first time, it is recommended
+    that you do NOT change the IDs of your Rows and Choices.
+
+    This is for backwards-compatibility reasons; if you updated the CYOA with
+    cool new features, and a player wanted to import their old build, they
+    would not be able to.
+
+    If you really *must*, you should probably indicate that to your audience,
+    just so that they're aware.
+
 ## Requirements
 Requirements are conditions that Rows and Addons must fulfil before they're
 shown and Objects must fulfil before they can be selected.

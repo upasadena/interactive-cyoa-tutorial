@@ -15,6 +15,18 @@ If you encounter a bug, don't find the solution on here, but find a fix, please
 comment below! The more that people know about the solution the less problems
 everyone has.
 
+## The Viewer
+
+### I tried to open index.html on my computer, but the CYOA won't load
+That is because it will never load. The way the Viewer works is that it can
+only properly access and view the `project.json` when it is on a web server.
+
+You actually *can* view it locally, but not out of the box. To do so, you must
+install a web server. There are tons of web servers that you can locally host,
+such as [XAMPP] for Windows.
+
+[XAMPP]: https://www.apachefriends.org/download.html
+
 ## The Creator
 
 ### I'm stuck in the Alternate Menu

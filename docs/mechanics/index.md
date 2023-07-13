@@ -20,11 +20,12 @@ Table of Contents:
 * [Images](./images/)
 * [Defaults](./defaults/)
 * [Words](./words/)
+* [Buttons and Variables](./buttons-and-variables/)
+<!-- Groups goes here -->
+* [Backpack & Choice Import](./backpack-and-choice-import/)
 
 TODO:
 <!-- Leave space below -->
 
 <!-- * [Buttons & Variables](./buttons-and-variables/) -->
-* [Buttons](./buttons/) ~
 * [Groups](./groups/)
-* [Backpack & Choice Import](./backpack-and-choice-import/)

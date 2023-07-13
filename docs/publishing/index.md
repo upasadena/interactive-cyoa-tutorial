@@ -22,8 +22,9 @@ each site having a larger free size limit.
 
 If you wanted to make or have made an NSFW Interactive however, I recommend
 using [Neocities]. [GitHub]'s [Sexually Obscene Content] policy means that
-pornography cannot be hosted there. [Neocities], on the other hand, has no
-such policy.
+pornography (for the sake of pornography; educational and instructional use is
+fine) cannot be hosted there. [Neocities], on the other hand, has no such
+policy.
 
 In the end, it's up to you to choose whichever site works best for your use
 case.
@@ -38,22 +39,7 @@ case.
 | [GitLab Pages][GitLab] | Unlimited[^1] | - 5 GB per repository                                                                                           | - 100 GB                            |                                       |                                                                                                         |                                                   |
 
 ## Why can I not view it locally?
-You *can* view it locally, but not out of the box. The reason is because the
-way the Viewer works, it can only be loaded on a web server. There are tons of
-web servers that you can locally host, such as [XAMPP] for Windows.
-
-[XAMPP]: https://www.apachefriends.org/download.html
-
-## What is Git?
-Git is a **version control system** (VCS). It is a program that tracks changes
-within files and folders. Using Git, we can create snapshots of changes for
-each version, meaning if we add irreversable changes to our project, we can
-simply revert back to a previous version.
-
-We can also compare changes between versions, and can invite others to
-collaborate and see what they've changed, much like Wikipedia.
-
-You can learn about Git [here](https://git-scm.com/book/en/v2).
+See [here][local-cyoa-problem].
 
 ## Versioning
 !!! note
@@ -90,7 +76,7 @@ be reset to 0: `1.2.3` → `1.3.0` → `1.3.1` → `2.0.0`, and so on.
 Projects start at version `0.1.0` when being initially developed, and stay in
 major version 0 until ready for public release.
 
-Anything goes in the initial development phase, but you should:
+Anything goes in the initial development phase, but you could:
 
 * Increment the minor number when making breaking changes: `0.1.3` → `0.2.0` →
 `0.3.0`, and so on.
@@ -107,38 +93,30 @@ version becomes `1.0.0`.
     compatible bug fixes are introduced. A bug fix is defined as an internal
     change that fixes incorrect behavior. -->
 
-After adding only bug fixes, increment the patch version: `1.0.0` → `1.0.1` →
-`1.0.2`, and so on.
+After adding only bug fixes and minor changes, increment the patch version:
+`1.0.0` → `1.0.1` → `1.0.2`, and so on.
 
+After adding new, backward-compatible changes, increment the minor version:
+`1.0.2` → `1.1.0` → `1.2.0`, and so on.
 
+After adding breaking, incompatible changes, increment the major version:
+`1.2.0` → `2.0.0` → `3.0.0`, and so on.
 
----
+!!! note
 
-* `0.1.0` is the very first version that you create
-* `1.0.0` is your first official working version released to the public
-* Before you reach `1.0.0`, anything goes, but when making breaking changes,
-increment the MINOR number: `0.1.0` → `0.2.0` → `0.3.0` etc, when making
-additions or bugfixes, increment the patch number: `0.2.0` → `0.2.1` → `0.2.2`
-etc.
-* After you reach `1.0.0`, only increment the MAJOR number for breaking
-changes.
-* Bug fixes and minor changes increment the PATCH number: `0.1.1`, `0.1.2`, and
-so on and so forth
-* Adding new choices, rows, et cetera would increment the MINOR number:
-`0.2.0`, `0.3.0`, and so on
-* Making massive changes, such that different versions are incompatible would
-warrant incrementing the MAJOR number: `1.0.0`, `2.0.0`, and so on
-    * Changes that would count as incompatible would be, for example:
-        * Changing Row and Choice IDs, meaning any person looking to import
+    Changes that would count as incompatible would be, for example:
+
+    * Changing Row and Choice IDs, meaning any person looking to import
         their previous Backpack IDs would only be able to do so in `0.x.x` if
         they made it in Major version 0, or `1.x.x` if they made it in Major
         version 1.
-        * Deleting rows or choices, such that users can't import their previous
-        choices and expect the same result.
-        * Changing requirements for existing choices.
-    * Because of this predictable behaviour, users can judge whether they would
-    be able to use previous builds, or if they should either make a new one, or
-    import their old one and see what
+    * Deleting rows or choices, such that users can't import their previous
+    choices and expect the same result.
+    * Changing requirements for existing choices.
+
+Because of this predictable versioning, users can judge whether they would be
+able to use previous builds, or if they should either make a new one, or
+import their old one and try to pick up the pieces.
 
 !!! note
 
@@ -147,15 +125,18 @@ warrant incrementing the MAJOR number: `1.0.0`, `2.0.0`, and so on
 
 ## Changelog
 On the note of versioning, it's a good idea to keep a "changelog": a list of
-what's new and changed since the previous versions.
+what's new and changed since the previous versions. You can have this changelog
+be built into your Interactive or post it in the subreddit comments section,
+for example.
 
-You can have this changelog be built into your Interactive or post it in the
-subreddit comments section, for example. It's important for your users to know
-what has changed since the last time they played, so that they have a good idea
-of what to look forward to, and what may make their previous build
-incompatible.
+It's important for your users to know what has changed since the last time they
+played, so that they have a good idea of what to look forward to, and what may
+make their previous build incompatible.
 
-You can see the changelog of the ICC in the [Help and Instructions menu][HAI].
+You can see the changelog of the ICC in the [Help and Instructions menu][HAI],
+and you can see the changelog of this tutorial in the [About] page.
+
+[About]: /appendix/about/#changelog
 
 <!-- Footnotes -->
 [^1]: You can create an unlimited amount of public or private repositories,
@@ -169,3 +150,6 @@ which can each act as their own site.
 [Cloudflare Pages]: https://pages.cloudflare.com/
 [HAI]: /basics/#help-and-instructions
 [Sexually Obscene Content]: https://docs.github.com/en/site-policy/acceptable-use-policies/github-sexually-obscene-content
+[local-cyoa-problem]: /appendix/troubleshooting/#i-tried-to-open-indexhtml-on-my-computer-but-the-cyoa-wont-load
+
+<!-- BUFFER -->

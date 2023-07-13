@@ -27,14 +27,13 @@ to this tutorial from the time of its official release.
         - [x] Rows
         - [x] Objects / Choices
         - [x] Addons
-        - [ ] Backpack & Choice Import
+        - [x] Backpack & Choice Import
         - [x] IDs & Requirements
         - [x] Points & Scores
         - [x] Images
         - [x] Defaults
-        <!-- - [ ] Copying -->
         - [x] Words
-        - [ ] Buttons (& Variables)
+        - [x] Buttons (& Variables)
         - [ ] Groups
     - [ ] Finish the Styling section
         - [ ] Design – Basically like, design theory
@@ -82,13 +81,24 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.12.0 (WIP)
-_Released on DATE at TIME UTC_
+### v0.13.0 (WIP)
+_Released on 	2023-07-13 at 05:00:39 UTC_
 
 * 
 
+### v0.12.0
+_Released on DATE at TIME UTC_
+
+* Finished first revision of the **Backpack and Choices Import** page
+* Changed **Buttons** to **Buttons and Variables**
+* Modified **Buttons** a bit
+* Re-edited the **Publishing** page, though it's still not yet complete
+* Miscellaneous stuff
+
+[Download the source code][dl-0.12.0]{ .md-button }
+
 ### v0.11.0
-_Released on 2023-07-13 at 03:55:57 UTC_
+_Released on 2023-07-13 at 03:57:16 UTC_
 
 * Added **Buttons** page's first revision
 * Added more examples (or TODO examples) to the Reference. I expect examples
@@ -348,5 +358,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.9.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.9.0.zip
 [dl-0.10.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.10.0.zip
 [dl-0.11.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.11.0.zip
+[dl-0.12.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.12.0.zip
 
 <!-- BUFFER -->

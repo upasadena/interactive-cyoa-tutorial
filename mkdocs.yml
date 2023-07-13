@@ -97,7 +97,8 @@ nav:
       - Images: mechanics/images.md
       - Defaults: mechanics/defaults.md
       - Words: mechanics/words.md
-      - Buttons: mechanics/buttons.md
+      - Buttons & Variables: mechanics/buttons-and-variables.md
+      - Backpack & Choice Import: mechanics/backpack-and-choice-import.md
     - Styling:
       - styling/index.md
       - Design: styling/design.md
