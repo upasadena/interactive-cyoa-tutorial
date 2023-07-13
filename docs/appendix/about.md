@@ -81,9 +81,17 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.13.1 (WIP)
+### v0.14.0 (WIP)
 _Released on DATE at TIME UTC_
-_Words: 0_
+_Words: 119,199_
+
+* 
+
+<!-- [Download the source code][dl-0.14.0]{ .md-button } -->
+
+### v0.13.1
+_Released on 2023-07-13 at 12:06:51 UTC_
+_Words: 119,199_
 
 * Added more Resources
 * Changed links in the Introduction to be less intrusive
@@ -91,6 +99,8 @@ _Words: 0_
 * Minor CONTRIBUTING fix
 * Fixed **Mechanics** section not having removed TODO sections
 * Miscellaneous changes
+
+[Download the source code][dl-0.13.1]{ .md-button }
 
 ### v0.13.0
 _Released on 2023-07-13 at 11:40:35 UTC_
@@ -383,5 +393,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.11.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.11.0.zip
 [dl-0.12.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.12.0.zip
 [dl-0.13.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.0.zip
+[dl-0.13.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.1.zip
 
 <!-- BUFFER -->
