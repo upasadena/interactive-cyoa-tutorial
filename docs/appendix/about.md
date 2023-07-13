@@ -81,7 +81,7 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.14.0 (WIP)
+### v0.13.1 (WIP)
 _Released on DATE at TIME UTC_
 _Words: 0_
 
@@ -89,6 +89,8 @@ _Words: 0_
 * Changed links in the Introduction to be less intrusive
 * Added more limitations in the Introduction
 * Minor CONTRIBUTING fix
+* Fixed **Mechanics** section not having removed TODO sections
+* Miscellaneous changes
 
 ### v0.13.0
 _Released on 2023-07-13 at 11:40:35 UTC_

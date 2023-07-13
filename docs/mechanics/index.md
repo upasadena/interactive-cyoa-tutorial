@@ -7,8 +7,6 @@ icon: material/wrench-cog
 In this section you will learn about the core mechanics of the Interactive
 CYOA Creator.
 
-<!-- [Continue to Rows](./rows/){ .md-button } -->
-
 Table of Contents:
 <!-- Leave space below -->
 
@@ -22,10 +20,4 @@ Table of Contents:
 * [Defaults](./defaults/)
 * [Words](./words/)
 * [Buttons and Variables](./buttons-and-variables/)
-<!-- Groups goes here -->
-
-TODO:
-<!-- Leave space below -->
-
-<!-- * [Buttons & Variables](./buttons-and-variables/) -->
 * [Groups](./groups/)
