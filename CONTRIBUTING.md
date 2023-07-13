@@ -83,7 +83,7 @@ timezone) be put after it.
 
 #### Time Format
 Prefer 24 hours time, like **05:30** and **16:48**, rather than **5:30 a.m.**
-and **4:48p.m.**
+and **4:48 p.m.**
 
 #### Date Format
 When writing in long form, write like **20 July 1981**.

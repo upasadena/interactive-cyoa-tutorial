@@ -88,6 +88,7 @@ _Words: 0_
 * Added more Resources
 * Changed links in the Introduction to be less intrusive
 * Added more limitations in the Introduction
+* Minor CONTRIBUTING fix
 
 ### v0.13.0
 _Released on 2023-07-13 at 11:40:35 UTC_
