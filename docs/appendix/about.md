@@ -91,7 +91,7 @@ _Words: 119,199_
 
 ### v0.13.1
 _Released on 2023-07-13 at 12:06:51 UTC_
-_Words: 119,199_
+_Words: 119,215_
 
 * Added more Resources
 * Changed links in the Introduction to be less intrusive
