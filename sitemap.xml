@@ -61,7 +61,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://icctutorial.pages.dev/mechanics/buttons/</loc>
+         <loc>https://icctutorial.pages.dev/mechanics/backpack-and-choice-import/</loc>
+         <lastmod>2023-07-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://icctutorial.pages.dev/mechanics/buttons-and-variables/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
