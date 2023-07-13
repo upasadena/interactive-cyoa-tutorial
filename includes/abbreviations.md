@@ -16,3 +16,4 @@
 *[decrementing]: subtracting by one
 *[NSFW]: Not Safe For Work; i.e., inappropriate or adult content
 *[nsfw]: Not Safe For Work; i.e., inappropriate or adult content
+*[Boolean]: a binary variable that can have one of two possible values, 0 (false) or 1 (true)

@@ -25,6 +25,18 @@ zoom in, and ++ctrl+minus++ to zoom out.
 
     Alternatively, press ++ctrl++ + ++0++.
 
+### Open the console
+In order to open the console, you have to press ++ctrl++ + ++shift++ + ++i++.
+
+Alternatively:
+
+1. In the browser, right click and look for **Inspect (Q)** or
+**Inspect element**
+2. at the top of the window on the Desktop app, go **View** →
+**Toggle Developer Tools**.
+
+After that, go into the **Console** tab.
+
 ## General
 
 ### Colours
@@ -225,6 +237,30 @@ Alternatively, put it in any `.css` file you have.
 
     Credit to [u/PNG-MAN](https://old.reddit.com/user/PNG-MAN) for this code.
 
+### Download someone else's Interactive CYOA
+There are multiple methods of doing so.
+
+#### Using IntCYOAEnhancer
+!!! tip
+
+    I recommend doing this one, since once the IntCYOAEnhancer is set up, you
+    just need the press of a button to download anyone's `project.json`.
+
+See [here](/extending-your-cyoa/#downloading-project-data).
+
+#### Accessing the project.json directly
+As you may know if you are familiar with the Viewer layout, the `project.json`
+file containing the code for the ICYOA is located in the same folder as the
+`index.html`. Using this logic, if an ICYOA was located at `mycyoa.com`, then
+you would be able to access the `project.json` at `mycyoa.com/project.json`.
+
+#### (TODO+LINK) Embedded in JavaScript
+If the above method fails, they could have embedded their `project.json`
+directly into their Viewer's `app.c533aa25.js`.
+
+To get the `project.json` out, simply follow the opposite of
+[these instructions](_).
+
 ## Text
 ### Make specific text a different colour
 To do this, simply use inline CSS styling between HTML tags.
@@ -280,6 +316,11 @@ Alternatively, put an ID in there that is guaranteed not to get picked, such as
     …
 
 ### Hide a Row until a Choice is pressed
+!!! tip
+
+    If you wanted to use a Button to do this, consider looking
+    [here](#hide-a-row-behind-a-button).
+
 Rows can be hidden by using the **Add Selected Choice** requirement. In order
 to open a Row, you would need to select a choice.
 
@@ -541,7 +582,7 @@ ID.
     a special button you only activate for debug purposes that allow you to
     see all the hidden Point Types.
 
-#### (EX TODO)Display Hidden Point Types when a Choice is selected
+#### (EX TODO) Display Hidden Point Types when a Choice is selected
 Do the same as [Hide Point Types](#hide-point-types), but instead of an ID
 that won't be selected, purposely choose the Choice's ID that will show
 the Point Type.
@@ -559,6 +600,51 @@ This uses hidden Point types.
 ### (TODO) Making discounts
 <!-- TODO -->
 Discounts can be made using requirements.
+
+### Change how many points I have
+This is a hacky way on how to change it as a player.
+
+There are two methods:
+
+1. Use the [IntCYOAEnhancer script] to [change the values][ice-cheat], or
+2. Manually edit it in the console
+
+We'll be showing the second solution here.
+
+To do this, first, [open the console].
+
+Then, [get a list of Point Types](#get-a-list-of-point-types). Find the ID
+associated with your Point Type on the left most side surrounded by square
+brackets. Keep a note of that number.
+
+Then type this:
+
+```js
+document.querySelector('#app').__vue__.$store.state.app.pointTypes[0].startingSum = 1000000
+```
+
+Replacing:
+
+* `0` with the ID of your Point Type
+* `1000000` with whichever number you desire.
+
+### Get a list of Point Types
+To do this, first, [open the console].
+
+Then type this:
+
+```js
+document.querySelector('#app').__vue__.$store.state.app.pointTypes.forEach((el,i)=>{console.log(`[${i}][${el.name}]: ${el.startingSum}`)})
+```
+
+It will output a list of Points by their name and their value.
+
+It should look like this:
+
+```
+[0][Good Karma]: 21
+[1][Bad Karma]: 0
+```
 
 ## Images
 
@@ -703,12 +789,13 @@ using the ID of your Point type.
 
     ![](../images/!ref_0_dynamic_setup.gif)
 
-## Buttons
-### Generate a random number
+## Buttons and Variables
+### (TODO) Generate a random number
 
-### Pick a random choice in a Row
+### (TODO) Pick a random choice in a Row
 
-## Variables
+### (TODO) Hide a Row behind a button
+Use a toggleable variable and use that ID in a selected choice requirement
 
 ## Groups
 
@@ -942,5 +1029,8 @@ See the HTML tags that allow the `style` attribute [here](#allowed-attributes).
 [worm-v3]: https://upasadena.github.io/cyoas/worm/v3/
 [chaining invisible Choices]: /appendix/reference/#chaining-invisible-choices
 [progress indicator]: /extending-your-cyoa/#progress-indicator
+[open the console]: #open-the-console
+[IntCYOAEnhancer script]: /extending-your-cyoa/#intcyoaenhancer-script
+[ice-cheat]: /extending-your-cyoa/#cheat-engine
 
 <!-- BUFFER -->

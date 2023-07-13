@@ -27,6 +27,7 @@ to this tutorial from the time of its official release.
         - [x] Rows
         - [x] Objects / Choices
         - [x] Addons
+        - [ ] Backpack & Choice Import
         - [x] IDs & Requirements
         - [x] Points & Scores
         - [x] Images
@@ -35,7 +36,6 @@ to this tutorial from the time of its official release.
         - [x] Words
         - [ ] Buttons (& Variables)
         - [ ] Groups
-        - [ ] Backpack & Choice Import
     - [ ] Finish the Styling section
         - [ ] Design – Basically like, design theory
         - [ ] Style Templates
@@ -60,7 +60,7 @@ CYOA.
 likely do not need nor want to know that.
 - [ ] After the ICCT is written, go through the main tutorial and add
 everything that is possible into the Mechanics
-- [ ] Compress all the gifs to limit bandwidth, but not enough such that the
+- [x] Compress all the gifs to limit bandwidth, but not enough such that the
   gifs lose legibility. Use `gifsicle` in a python script.
 - [ ] Standardize "after"/"result"/"with" and "before"/"without" etc
   tabbed titles
@@ -72,15 +72,18 @@ everything that is possible into the Mechanics
 - [ ] Make a chapter detailing how to actually *create* ICYOAs
     - [ ] Section on OCR, including my command line tool, caveats, etc
     - [ ] Section on finding the text, seeing if there's a Google Doc –
-      Mentioning if 
+      Mentioning possibly asking the authors for a text version
     - [ ] Section on handwriting it
     - [ ] Advice on asking the author if they have a Google Doc of it, so that
       you can more easily copy it?
+- [ ] Add tip block when talking about the Viewer, mentioning that projects
+  automatically start at the `index.html`, meaning they don't need to include
+  that in the title (and it looks nicer)
 
 ## Changelog
 
 ### v0.11.0 (WIP)
-_Released on _
+_Released on DATE at TIME UTC_
 
 * Added more examples (or TODO examples) to the Reference. I expect examples
   or pictures for every single entry there by `v1.0.0`
@@ -90,9 +93,20 @@ _Released on _
 * Found a new tutorial that has a lot of stuff to add
 * Compressed all gifs, saving 110 MB / 28.8% of space (script in repo)
 * Added `UTC` to the last two releases' dates
+* Changed Purpose to Background and expanded on it in the Introduction
+* Using privacy-friendly stats now
+* Split Background into Rationale and Background in the About menu
+* Added `at` to the previous release date
+* Deleted old `_main.html` template that was useless
+* Added some abbreviations
+* Added more to the Styling
+* Created a **Colours** page, that is of yet still unfinished (will finish
+  after Styling section is finished)
+* 
+* Miscellaneous additions and fixes
 
 ### v0.10.0
-_Released on 2023-07-10 11:59:17 UTC_
+_Released on 2023-07-10 at 11:59:17 UTC_
 
 * Finished the first revision of the **Extending Your CYOA** section
 * Added some abbreviations

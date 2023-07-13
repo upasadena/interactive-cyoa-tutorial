@@ -24,6 +24,7 @@ Table of Contents:
 TODO:
 <!-- Leave space below -->
 
-* [Buttons & Variables](./buttons-and-variables/)
+<!-- * [Buttons & Variables](./buttons-and-variables/) -->
+* [Buttons](./buttons/) ~
 * [Groups](./groups/)
 * [Backpack & Choice Import](./backpack-and-choice-import/)

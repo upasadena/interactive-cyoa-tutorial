@@ -37,6 +37,13 @@ case.
 | [Neocities]            | 1 per account | - 1 GB per account<br>- 50 GB per account                                                                       | - 200 GB (free)<br>- 3000 GB (paid) | Slower transfer speeds for free users | HTML files, CSS files, Javascript files, Markdown files, XML files, text files, fonts and images        |                                                   |
 | [GitLab Pages][GitLab] | Unlimited[^1] | - 5 GB per repository                                                                                           | - 100 GB                            |                                       |                                                                                                         |                                                   |
 
+## Why can I not view it locally?
+You *can* view it locally, but not out of the box. The reason is because the
+way the Viewer works, it can only be loaded on a web server. There are tons of
+web servers that you can locally host, such as [XAMPP] for Windows.
+
+[XAMPP]: https://www.apachefriends.org/download.html
+
 ## What is Git?
 Git is a **version control system** (VCS). It is a program that tracks changes
 within files and folders. Using Git, we can create snapshots of changes for
@@ -46,7 +53,7 @@ simply revert back to a previous version.
 We can also compare changes between versions, and can invite others to
 collaborate and see what they've changed, much like Wikipedia.
 
-You can learn about Git [here](https://rogerdudler.github.io/git-guide/).
+You can learn about Git [here](https://git-scm.com/book/en/v2).
 
 ## Versioning
 !!! note

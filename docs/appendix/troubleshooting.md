@@ -30,6 +30,21 @@ page. Afterward, See [here](/basics/#returning-to-the-default-menu).
 
 ## Mechanics
 <!-- Fill this with actual logical troubleshooting -->
+### My Points say "NaN" instead of a number
+[NaN] stands for "Not A Number", and occurs when JavaScript errors when
+expecting any of its arguments to be valid numbers.
+
+To fix this, go into **the Sidebar** → **Open Features** → **Manage Points** →
+and set the **Starting Sum** of the offending Point Type to `0` or whatever
+value it was before. You may notice the field is blank, and, indeed, not a
+number.
+
+!!! warning
+
+    This is a band-aid solution and probably not the root of the issue; it is
+    very likely that somewhere in your project you have an invalid value trying
+    to be added or subtracted against that Point Type. Look **everywhere** for
+    it.
 
 ## Design
 ### I can't find the option to upload a background image
@@ -86,3 +101,4 @@ There could be many possibilities. Here are some:
 
 <!-- URLs -->
 [zoom]: ../appendix/reference/#zoom-in-and-out
+[NaN]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN

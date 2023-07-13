@@ -96,8 +96,7 @@ To summarize:
 3. Colours with too much contrast and saturation are bad design
 
 ## Contrast
-> **contrast**
-> *noun*
+> **contrast** *noun*
 > 
 > differences in colour, tone, or shape that contribute to the visual effect of
 > a design or image.
@@ -112,7 +111,13 @@ tools to help with that. Consider [Contrast Checker]. It is tool where you can
 compare foreground and background colours to see if it has good contrast or
 not[^1].
 
-Here's an example:
+!!! tip
+
+    People often perceive the blue part of the visible spectrum a little worse,
+    so blue on a black background can be poorly read, despite sufficient
+    contrast.[^2]
+
+Here's an example of good and bad contrast:
 
 === "Good Contrast"
 
@@ -133,8 +138,27 @@ but takes links into account.
 * [WAVE](https://wave.webaim.org/), a tool to check the accessibility of an
 entire page.
 
+## Consistency
+It's a good idea to have a sense of uniformity and consistency across the CYOA;
+Images should be the same size and aspect ratio (at least within the same
+section), Choices and Choice Images should have the same border radius for
+rounding, etc.
+
+[previously]: #important-advice
+
+??? example "(NSFW WARNING) Example of inconsistent border radii[^2]"
+
+    ![](../images/148_inconsistent_NSFW.png)
+
+This is also why it's important to do the overall styling *before* private
+styling, as mentioned [previously]. Here's an example of a consistent style,
+from Succubus Manor CYOA:
+
+![](../images/149_consistent_styling.png)
+
 <!-- Footnotes -->
 [^1]: Credit to `spartango` on Discord for making me aware of this website
+[^2]: Credit to [Dragon's Whore](https://imgchest.com/p/ej7mkx9qydl) for this
 
 <!-- URLs -->
 [Contrast Checker]: https://webaim.org/resources/contrastchecker/

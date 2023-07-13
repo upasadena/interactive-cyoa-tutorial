@@ -72,6 +72,8 @@ Resources primarily for Static CYOAs. May still apply to creating Interactives.
 * [Tips and Tricks for CYOA Making] – By Hexall.
 * [Tips for writing descriptions] – A post with many comments to help you write
   descriptions of your own content.
+* [Inkscape Guide] – An (incomplete?) guide on how to use Inkscape to make
+  CYOAs
 
 ## Templates
 
@@ -222,6 +224,7 @@ An excellent read.
 [Mozilla docs]: https://developer.mozilla.org/en-US/docs/Learn
 [launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
 [CYOA 101 by Dragon's Whore]: https://imgchest.com/p/ej7mkx9qydl
+[Inkscape Guide]: https://www.reddit.com/r/nsfwcyoa/wiki/tutorials/inkscapestartingguide/
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/

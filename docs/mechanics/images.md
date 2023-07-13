@@ -332,6 +332,7 @@ relative to your Choices.
 === "Image Right"
 
     ![](../images/94_image_right.png)
+
 ---
 
 Learn more about what you can do with Images in the [Reference].
