@@ -31,6 +31,8 @@ CYOAs. It was made by [u/PixelGMS], who is the creator of the
     should you get stuck on something. 
 * [makeyourchoice] – A discord server for the [r/makeyourchoice] subreddit.
 * [NSFWCYOA] – A discord server for the [r/nsfwcyoa] subreddit.
+    * Check out [#programming-and-interactives-tank] for discussion on
+      Interactive CYOAs.
 * [/CYOA/] – A discord server from 4chan.
 * [CYOA][CYOA-discord] – Another discord server from 4chan.
 
@@ -92,6 +94,8 @@ definitive CYOA archive. It contains almost all static CYOAs, taking up a
 whopping total of 103.7 GB as of writing this.
     * [Alternate link][allsync-latest].
     * [The Blog](https://cyoaarchive.blogspot.com/)
+    * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) – A
+      subreddit where people dump and rehost old CYOAs
 * [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs
 
     !!! quote "Message from the creator"
@@ -109,6 +113,8 @@ with his CYOAs.
 ### Indexes
 Catalogues and links to CYOAs.
 
+* [CYOA Archives] – An absolutely massive sortable catalogue of both Static AND
+  Interactive CYOAs. Includes NSFW. 10,612 entries.
 * [Infaera's Interactive Index](https://infaera.neocities.org/) – By
 [u/Infaera]. A solid index of Interactive CYOAs, containing 406 entries.
     * [Reddit post][infaera-post]
@@ -179,6 +185,8 @@ Websites where you can post stories made by CYOAs.
 * [freeCodeCamp][fcc-html-css] – Interactive HTML and CSS.
 * [Mozilla docs] – HTML, CSS, and JavaScript. Comprehensive, but can be hard to
   follow for beginners.
+* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) – HTML and
+  CSS basics. Very simple and easy to follow.
 
 ## Miscellaneous
 
@@ -225,6 +233,7 @@ An excellent read.
 [launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
 [CYOA 101 by Dragon's Whore]: https://imgchest.com/p/ej7mkx9qydl
 [Inkscape Guide]: https://www.reddit.com/r/nsfwcyoa/wiki/tutorials/inkscapestartingguide/
+[CYOA Archives]: https://cyoa-archive.getgrist.com/iRRjcoVdXJNV/CYOA-Archives/p/5
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/
@@ -242,4 +251,5 @@ An excellent read.
 [/CYOA/]: https://discord.gg/72QNY4Y
 [CYOA-discord]: https://discord.gg/Cwm8nCM
 [NSFWCYOA]: https://discord.gg/nVfxqbr
+[#programming-and-interactives-tank]: https://discord.com/channels/446825069151256596/892156485713403904
 [PixelGMS's Interactive CYOAs]: https://discord.gg/Nvadzvn39e

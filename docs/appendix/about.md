@@ -23,7 +23,7 @@ to this tutorial from the time of its official release.
 - [ ] Finish the base tutorial
     - [x] Finish the Introduction section
     - [x] Finish the Basics section
-    - [ ] Finish the Mechanics section
+    - [x] Finish the Mechanics section
         - [x] Rows
         - [x] Objects / Choices
         - [x] Addons
@@ -34,7 +34,7 @@ to this tutorial from the time of its official release.
         - [x] Defaults
         - [x] Words
         - [x] Buttons (& Variables)
-        - [ ] Groups
+        - [x] Groups
     - [ ] Finish the Styling section
         - [ ] Design – Basically like, design theory
         - [ ] Style Templates
@@ -54,7 +54,7 @@ to this tutorial from the time of its official release.
 CYOA.
 - [ ] Add JavaScript to show when, from now, a release happened
 - [ ] Delete unneeded JavaScript
-- [ ] Find a way to count words and characters
+- [x] Find a way to count words and characters
 - [ ] Delete ideologically-driven information, such as git. The people most
 likely do not need nor want to know that.
 - [ ] After the ICCT is written, go through the main tutorial and add
@@ -81,14 +81,28 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.13.0 (WIP)
+### v0.14.0 (WIP)
 _Released on DATE at TIME UTC_
+_Words: 119,013_
 
+* 
+
+### v0.13.0
+_Released on 2023-07-13 at 11:39:30 UTC_
+_Words: 119,013_
+
+* **FINISHED MECHANICS SECTION!!!**
+* Finished **Groups** page's first revision
 * Compressed gifs using script again
 * Moved **Backpack and Choice Import** page from the bottom of **Mechanics** to
   underneath **Addons**, as it's a more elementary concept
 * Updated README.md to include instructions on building from a Release
-* 
+* Added Mermaid graphs in **IDs and Requirements**
+* Added more Resources
+* Added a project-wide word count script for Linux (not my code)
+* Miscellaneous additions
+
+[Download the source code][dl-0.13.0]{ .md-button }
 
 ### v0.12.0
 _Released on 2023-07-13 at 05:17:40 UTC_
@@ -363,5 +377,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.10.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.10.0.zip
 [dl-0.11.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.11.0.zip
 [dl-0.12.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.12.0.zip
+[dl-0.13.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.0.zip
 
 <!-- BUFFER -->

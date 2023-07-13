@@ -343,9 +343,11 @@ Requirements therein.
 
     ![](../images/104_copy_rows_process.gif)
 
-### (TODO) Group Membership
+### Group Membership
 This option allows you to add **all** Choices in the Row to any Groups you have
 set up.
+
+See [Groups](/mechanics/groups/#adding-all-choices-in-a-row-to-a-group).
 
 ---
 

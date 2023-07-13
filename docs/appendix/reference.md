@@ -60,6 +60,7 @@ Use [Color Wheel](https://color.adobe.com/create/color-wheel)
 to easily create complementary colour palettes.
 
 There is also 
+
 ## Whole CYOA
 ### Changing the page title
 In order to change the title of the tab in the browser, simply edit
@@ -82,7 +83,7 @@ following code to your `index.html` file, just below the `<title>` tag:
 <link rel="icon" href="/link/to/icon.jpg">
 ```
 
-### (TODO) Table of Contents / Tab Menu
+### (TODO+EX) Table of Contents / Tab Menu
 
 ### Show a loading progress indicator
 See [here](../extending-your-cyoa/#progress-indicator).
@@ -119,7 +120,7 @@ where the background fixes are attributed to
     It's probably a good idea to have a background on Choices, however.
 
 #### CSS Method #1
-This is the preferred method.
+This and Method #2 are the preferred methods.
 
 Download [static_background.css](/static/static_background.css), and put it
 anywhere in your project's folder. I recommend putting it in a folder called
@@ -209,11 +210,20 @@ I recommend giving *SEO* a Google search if you wanted to know more.
 Simply paste this code in the `<head>` section of your `index.html`:
 
 ```html
+<!-- Your CYOA Titles -->
+<title>Example CYOA: Interactive</title>
+<!-- A description of your CYOA or site -->
+<meta name="description" content="Your Description">
 <!-- Your username -->
 <meta name="author" content="Your Name">
 <!-- Tags for search engines to pick up on -->
 <meta name="keywords" content="CYOA, Interactive CYOA, Living God Interactive">
 ```
+
+!!! note
+
+    Make sure you aren't duplicating tags! You should only have one `<title>`,
+    description, author, and keywords tag.
 
 See more [here](https://www.w3schools.com/tags/tag_meta.asp).
 
@@ -798,6 +808,31 @@ using the ID of your Point type.
 Use a toggleable variable and use that ID in a selected choice requirement
 
 ## Groups
+### (ADD EXAMPLE) Display a list of all Choices selected within a Row or Group
+This can be useful if you wanted to give a summary at the end, with Rows like
+"Companions" only showing the selected Companions.
+
+To do this:
+
+1. [Create a group](/mechanics/groups#creating-groups)
+2. [Add the Row to the Group] or add all Choices you want to the Group
+    1. The latter is is used, for example, in situations where you want to lump
+    Choices across multiple Rows—but not all of them—into the same Group. A
+    situation this could happen is filtering by something other than the
+    Row/Section category. Displaying all female characters whether a Companion
+    or Enemy, for instance.
+3. [Create a new Row](/mechanics/rows/#creating-rows)
+4. Enable [Selected Choices?](/mechanics/rows/#selected-choices-switch)
+5. Enable [Selected Choices from Group Id]
+
+Et voilà! It should be working as expected.
+
+??? example
+
+    ![]()
+
+[Add the Row to the Group]: /mechanics/groups/#adding-all-choices-in-a-row-to-a-group
+[Selected Choices from Group Id]: /mechanics/rows/#selected-choices-from-group-id
 
 ## HTML
 ### Formatting

@@ -112,22 +112,24 @@ When the **Add Selected Choice Requirement** option is selected, it means that
 the Choice with the corresponding ID **MUST** be selected in order for that
 requirement to be satisfied.
 
-It acts as an IF conditional:
+<!-- It acts as an IF conditional:
 
 * IF a Choice with this ID is selected, THEN allow this object to be
-selected, or allow this Row to be shown.
+selected, or allow this Row to be shown. -->
 
 ```mermaid
 graph LR
-    A[Start] --> B{Is this Choice selected?};
-    B --> |Yes| C{What has the requirement?};
-    C --> |Row| D[Show Row];
-    C --> |Choice| E[Allow Choice selection];
-    C --> |Addon| F[Show Addon];
-    B --> |No| G{What has the requirement?};
-    G --> |Row| D[Hide Row];
-    G --> |Choice| E[Disallow Choice selection];
-    G --> |Addon| F[Hide Addon];
+  A[Start] --> B{Is the Choice with that ID selected?};
+  B --> |Yes| C{What has the requirement?};
+  C --> |Row| D[Show Row];
+  C --> |Choice| E[Allow Choice selection];
+  C --> |Addon| F[Show Addon];
+  C --> |Score| K[Apply Score];
+  B --> |No| G{What has the requirement?};
+  G --> |Row| H[Hide Row];
+  G --> |Choice| I[Disallow Choice selection];
+  G --> |Addon| J[Hide Addon];
+  G --> |Score| L[Ignore Score];
 ```
 
 === "After"
@@ -147,12 +149,27 @@ When the **Add Non-selected Choice Requirement** option is selected, it means
 that the Choice with the corresponding ID must **NOT** be selected in order for
 the requirement to be satisfied.
 
-This option is the inverse of the above, acting as an IF-NOT conditional:
+<!-- This option is the inverse of the above, acting as an IF-NOT conditional:
 
 * IF a Choice with this ID is NOT selected, then allow this object to be
 selected or shown.
 * IF a Choice with this ID IS selected, do NOT allow this object to be
-selected or shown.
+selected or shown. -->
+
+```mermaid
+graph LR
+  A[Start] --> B{Is the Choice with that ID selected?};
+  B --> |Yes| C{What has the requirement?};
+  C --> |Row| D[Hide Row];
+  C --> |Choice| E[Disallow Choice selection];
+  C --> |Addon| F[Hide Addon];
+  C --> |Score| K[Ignore Score];
+  B --> |No| G{What has the requirement?};
+  G --> |Row| H[Show Row];
+  G --> |Choice| I[Allow Choice selection];
+  G --> |Addon| J[Show Addon];
+  G --> |Score| L[Apply Score];
+```
 
 === "After"
 

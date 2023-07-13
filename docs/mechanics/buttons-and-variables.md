@@ -280,7 +280,7 @@ This option denotes how many Choices will be randomly selected.
 
 !!! example
 
-    ![](156_random_choice_live.gif)
+    ![](../images/156_random_choice_live.gif)
 
 Do note, however, that like in the example, randomly selected Choices can
 select already selected Choices, effectively unselecting them, if the
@@ -305,7 +305,7 @@ because all of the Choices would be selected off by default.
 
 This should allow the user to quickly fill up their Choices:
 
-![](157_only_unselectable_choices.gif)
+![](../images/157_only_unselectable_choices.gif)
 
 ##### Button can only be pressed if no choice is selected?
 This is equivalent to the [Toggleable] switch, meaning that once the button is
