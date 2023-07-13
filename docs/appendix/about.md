@@ -82,12 +82,16 @@ everything that is possible into the Mechanics
 ## Changelog
 
 ### v0.13.0 (WIP)
-_Released on 	2023-07-13 at 05:00:39 UTC_
+_Released on DATE at TIME UTC_
 
+* Compressed gifs using script again
+* Moved **Backpack and Choice Import** page from the bottom of **Mechanics** to
+  underneath **Addons**, as it's a more elementary concept
+* Updated README.md to include instructions on building from a Release
 * 
 
 ### v0.12.0
-_Released on DATE at TIME UTC_
+_Released on 2023-07-13 at 05:17:40 UTC_
 
 * Finished first revision of the **Backpack and Choices Import** page
 * Changed **Buttons** to **Buttons and Variables**

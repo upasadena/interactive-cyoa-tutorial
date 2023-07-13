@@ -117,6 +117,19 @@ It acts as an IF conditional:
 * IF a Choice with this ID is selected, THEN allow this object to be
 selected, or allow this Row to be shown.
 
+```mermaid
+graph LR
+    A[Start] --> B{Is this Choice selected?};
+    B --> |Yes| C{What has the requirement?};
+    C --> |Row| D[Show Row];
+    C --> |Choice| E[Allow Choice selection];
+    C --> |Addon| F[Show Addon];
+    B --> |No| G{What has the requirement?};
+    G --> |Row| D[Hide Row];
+    G --> |Choice| E[Disallow Choice selection];
+    G --> |Addon| F[Hide Addon];
+```
+
 === "After"
 
     ![](../images/34_selected_choice_after.gif)

@@ -22,11 +22,9 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      # - run: pip install mkdocs-material # (4)!
+      # - run: pip install mkdocs-material # Latest release
       - run: git clone --depth 1 -b 9.2.0b0 https://github.com/squidfunk/mkdocs-material/
-      # - run: cd mkdocs-material
       - run: pip install -e ./mkdocs-material/
-      # - run: cd ..
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs-git-authors-plugin

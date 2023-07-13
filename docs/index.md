@@ -1,4 +1,6 @@
 ---
+title: Interactive CYOA Creator Tutorial
+description: A complete and comprehensive guide to using the Interactive CYOA Creator by MeanDelay.
 comments: true
 # icon: material/library # the default icon
 ---

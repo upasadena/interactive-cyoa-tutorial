@@ -15,6 +15,7 @@ Table of Contents:
 * [Rows](./rows/)
 * [Objects / Choices](./objects/)
 * [Addons](./addons/)
+* [Backpack & Choice Import](./backpack-and-choice-import/)
 * [IDs & Requirements](./ids-and-requirements/)
 * [Points & Scores](./points-and-scores/)
 * [Images](./images/)
@@ -22,7 +23,6 @@ Table of Contents:
 * [Words](./words/)
 * [Buttons and Variables](./buttons-and-variables/)
 <!-- Groups goes here -->
-* [Backpack & Choice Import](./backpack-and-choice-import/)
 
 TODO:
 <!-- Leave space below -->

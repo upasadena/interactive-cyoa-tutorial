@@ -92,13 +92,14 @@ nav:
       - Rows: mechanics/rows.md
       - Objects / Choices: mechanics/objects.md
       - Addons: mechanics/addons.md
+      - Backpack & Choice Import: mechanics/backpack-and-choice-import.md
       - IDs & Requirements: mechanics/ids-and-requirements.md
       - Points & Scores: mechanics/points-and-scores.md
       - Images: mechanics/images.md
       - Defaults: mechanics/defaults.md
       - Words: mechanics/words.md
       - Buttons & Variables: mechanics/buttons-and-variables.md
-      - Backpack & Choice Import: mechanics/backpack-and-choice-import.md
+      - Groups: mechanics/groups.md
     - Styling:
       - styling/index.md
       - Design: styling/design.md
