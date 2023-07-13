@@ -138,7 +138,7 @@ Websites where you can post stories made by CYOAs.
 * [Sufficient Velocity (SV)](https://forums.sufficientvelocity.com/) – A
   splinter of SpaceBattles.
 
-## Images
+## Images and Media
 ### General
 
 * [Pixiv](https://www.pixiv.net/en/)
@@ -155,6 +155,16 @@ Websites where you can post stories made by CYOAs.
 
 * [https://game-icons.net/](https://game-icons.net/)
 
+### Fonts
+
+* [Google Fonts](https://fonts.google.com/) – Massive fonts list for use in
+  your project.
+
+### Background
+
+* [Toptal Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+  – 500+ subtle background patterns for background flair.
+
 ## Other Resources
 
 * [NSFWCYOA's wiki](https://www.reddit.com/r/nsfwcyoa/wiki/index/)
@@ -170,6 +180,9 @@ Websites where you can post stories made by CYOAs.
 ### CSS
 
 * [W3Schools](https://www.w3schools.com/css/default.asp) – Reference.
+* [Guide to CSS properties and selectors](https://css-tricks.com/almanac/)
+* [A Complete Guide to Flexbox by CSS Tricks] – Tutorial on Flexboxes
+* [Learn CSS Layout](https://learnlayout.com/)
 
 ### JavaScript
 
@@ -182,7 +195,7 @@ Websites where you can post stories made by CYOAs.
 
 ### Multiple
 
-* [freeCodeCamp][fcc-html-css] – Interactive HTML and CSS.
+* [freeCodeCamp][fcc-html-css] – Interactive HTML and CSS tutorial.
 * [Mozilla docs] – HTML, CSS, and JavaScript. Comprehensive, but can be hard to
   follow for beginners.
 * [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) – HTML and
@@ -234,6 +247,7 @@ An excellent read.
 [CYOA 101 by Dragon's Whore]: https://imgchest.com/p/ej7mkx9qydl
 [Inkscape Guide]: https://www.reddit.com/r/nsfwcyoa/wiki/tutorials/inkscapestartingguide/
 [CYOA Archives]: https://cyoa-archive.getgrist.com/iRRjcoVdXJNV/CYOA-Archives/p/5
+[A Complete Guide to Flexbox by CSS Tricks]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/

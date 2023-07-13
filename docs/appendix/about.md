@@ -83,12 +83,12 @@ everything that is possible into the Mechanics
 
 ### v0.14.0 (WIP)
 _Released on DATE at TIME UTC_
-_Words: 119,092_
+_Words: 0_
 
-* 
+* Added more Resources
 
 ### v0.13.0
-_Released on 2023-07-13 at 11:39:30 UTC_
+_Released on 2023-07-13 at 11:40:35 UTC_
 _Words: 119,092_
 
 * **FINISHED MECHANICS SECTION!!!**
