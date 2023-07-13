@@ -4,7 +4,7 @@
 <!-- Wraps the JavaScript libraries (header) -->
 
 <script data-goatcounter="https://icct.goatcounter.com/count"
-    async src="//gc.zgo.at/count.js"></script>
+  async src="//gc.zgo.at/count.js"></script>
 
   <!-- Add scripts that need to run before here -->
   {{ super() }}
@@ -13,6 +13,11 @@
 
 {% block content %}
   {{ super() }}
+
+  <img src="https://icct.goatcounter.com/count?p=/general">
+  <noscript>
+    <img src="https://icct.goatcounter.com/count?p=/noscript">
+  </noscript>
 
   {% if git_page_authors %}
     <div class="md-source-date">

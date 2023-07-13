@@ -128,7 +128,8 @@ to that effect, but it's entirely up to you.
 
 ---
 
-Learn more about what you can do with Defaults in the [Reference].
+Learn more about what you can do with the Backpack and Choice Import in the
+[Reference].
 
 <!-- URLs -->
 [Area To Import Activated Choices With List of Id's]: #area-to-import-activated-choices-with-list-of-ids

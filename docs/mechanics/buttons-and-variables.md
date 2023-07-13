@@ -266,8 +266,8 @@ the user got wrong previously to appear more often than the question they
 got right? This is called a *Weighted Random Distribution*, or sometimes
 *Weighted Random Choice*.
 
-In practice though, weighted distribution does not seem to have been finished
-implementing, though it still randomly picks choices.
+In practice though, weighted distribution does not seem to have been
+implemented, though it does still randomly picks choices.
 
 ##### Number of random choices that will be selected
 !!! note

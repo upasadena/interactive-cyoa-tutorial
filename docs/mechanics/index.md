@@ -19,5 +19,5 @@ Table of Contents:
 * [Images](./images/)
 * [Defaults](./defaults/)
 * [Words](./words/)
-* [Buttons and Variables](./buttons-and-variables/)
+* [Buttons & Variables](./buttons-and-variables/)
 * [Groups](./groups/)
