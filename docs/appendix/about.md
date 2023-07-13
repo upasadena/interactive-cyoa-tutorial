@@ -86,6 +86,7 @@ _Released on DATE at TIME UTC_
 _Words: 0_
 
 * Added more Resources
+* Changed links in the Introduction to be less intrusive
 
 ### v0.13.0
 _Released on 2023-07-13 at 11:40:35 UTC_

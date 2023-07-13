@@ -22,17 +22,16 @@ ICC, so that nobody would ever reasonably need to ask for help 99% of the time,
 should they have read this tutorial.
 
 ## Background
-I had first began planning this tutorial back in late March (see [here][gdtut])
-in a Google Doc, where I planned to release video tutorials on YouTube.
-Eventually though, I had forgotten about the plan, and went about my life.
+[I had first began planning this tutorial back in late March][gdtut] in a
+Google Doc, where I planned to release video tutorials on YouTube. Eventually
+though, I had forgotten about the plan, and went about my life.
 
-Suddenly though, in Mid-June, I remembered about the tutorials. I decided to
-actually try to create it
-[here](https://cyoa.miraheze.org/wiki/Interactive_CYOA_Tutorial) when I was
-making a CYOA wiki on Miraheze, before Miraheze said they were going to shut
-down. They didn't end up shutting down, of course, but I quickly realized I
-couldn't rely on something so volatile as a donation-reliant infrastructure,
-and decided to write this tutorial in Markdown and host it on GitHub instead.
+Suddenly though, in Mid-June, I remembered about the tutorials.
+[I decided to actually try to create it][wikitut] when I was making a CYOA wiki
+on Miraheze, before Miraheze said they were going to shut down. They didn't end
+up shutting down, of course, but I quickly realized I couldn't rely on
+something so volatile as a donation-reliant infrastructure, and decided to
+write this tutorial in Markdown and host it on GitHub instead.
 
 ## Clarity
 I have endeavoured to make this tutorial as straightforward to follow as
@@ -107,3 +106,6 @@ tutorial. Good luck and have fun!
 [Reference]: /appendix/reference/
 [Troubleshooting]: /appendix/troubleshooting/
 [gdtut]: https://docs.google.com/document/d/1OxwrY6szZnAIzZB1wymg6R-RjSK5lKFgvJHgEQkDw58/edit?usp=sharing
+[wikitut]: https://cyoa.miraheze.org/wiki/Interactive_CYOA_Tutorial
+
+<!-- BUFFER -->
