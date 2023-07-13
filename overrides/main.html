@@ -1,10 +1,18 @@
 {% extends "base.html" %}
 
+{% block libs %}
+<!-- Wraps the JavaScript libraries (header) -->
+
+<script data-goatcounter="https://icct.goatcounter.com/count"
+    async src="//gc.zgo.at/count.js"></script>
+
+  <!-- Add scripts that need to run before here -->
+  {{ super() }}
+  <!-- Add scripts that need to run afterwards here -->
+{% endblock %}
+
 {% block content %}
   {{ super() }}
-
-  <script data-goatcounter="https://icct.goatcounter.com/count"
-    async src="//gc.zgo.at/count.js"></script>
 
   {% if git_page_authors %}
     <div class="md-source-date">

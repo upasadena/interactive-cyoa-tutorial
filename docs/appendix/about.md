@@ -82,9 +82,15 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
-### v0.11.0 (WIP)
+### v0.12.0 (WIP)
 _Released on DATE at TIME UTC_
 
+* 
+
+### v0.11.0
+_Released on 2023-07-13 at 03:55:57 UTC_
+
+* Added **Buttons** page's first revision
 * Added more examples (or TODO examples) to the Reference. I expect examples
   or pictures for every single entry there by `v1.0.0`
 * Moved Allowed HTML tags, Allowed Attributes, and Allowed Styles into the
@@ -102,8 +108,10 @@ _Released on DATE at TIME UTC_
 * Added more to the Styling
 * Created a **Colours** page, that is of yet still unfinished (will finish
   after Styling section is finished)
-* 
+* Fixed miscellaneous stat bug (I think)
 * Miscellaneous additions and fixes
+
+[Download the source code][dl-0.11.0]{ .md-button }
 
 ### v0.10.0
 _Released on 2023-07-10 at 11:59:17 UTC_
@@ -325,6 +333,8 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 <!-- URLs -->
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+
+<!-- Downloads -->
 [dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip
 [dl-0.2.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.2.0.zip
 [dl-0.3.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.3.0.zip
@@ -337,5 +347,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.8.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.8.0.zip
 [dl-0.9.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.9.0.zip
 [dl-0.10.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.10.0.zip
+[dl-0.11.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.11.0.zip
 
 <!-- BUFFER -->

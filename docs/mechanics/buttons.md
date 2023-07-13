@@ -4,6 +4,8 @@ icon: material/button-pointer
 ---
 
 # Buttons
+Buttons are, well, buttons that you can add to Rows. These nifty components can
+add a bit of spice to your ICYOA, depending on what you want.
 
 ## Adding Buttons
 You can add a button by opening up **Edit Row** → **Button?**. You will find
@@ -212,6 +214,8 @@ This is, by default, off.
 * When it is switched off, it uses a Variable.
 * When it is switched on, it randomly selects a Choice.
 
+![](../images/161_random_variable.png)
+
 #### Variable options
 
 !!! note
@@ -245,6 +249,8 @@ Here's an example of what it looks like with the option switched off:
 This switch allows you to decide between the Random options being picked
 according to uniform/even distribution, or a weighted distribution.
 
+In theory:
+
 `Uniform distribution`
 
 :   The chance that an entry is picked is the same for each entry in the set.
@@ -257,22 +263,68 @@ the user got wrong previously to appear more often than the question they
 got right? This is called a *Weighted Random Distribution*, or sometimes
 *Weighted Random Choice*.
 
+In practice though, weighted distribution does not seem to have been finished
+implementing, though it still randomly picks choices.
+
 ##### Number of random choices that will be selected
 !!! note
 
-    This only happens if Uniform is on.
+    This only appears if Uniform is switched on.
 
+This option denotes how many Choices will be randomly selected.
+
+![](../images/155_random_choices_number.png)
+
+!!! example
+
+    ![](156_random_choice_live.gif)
+
+Do note, however, that like in the example, randomly selected Choices can
+select already selected Choices, effectively unselecting them, if the
+[Only Unselected Choices?] switch isn't turn on.
+
+[Only Unselected Choices?]: #only-unselected-choices
+
+If you wanted to make sure that it selected Choices once and that is it,
+turn on the [Button can only be pressed if no choice is selected?] switch. Note
+that the [Toggleable] switch disappears when not using a Variable.
 
 ##### Only Unselected choices?
+This option tells the Button that it should only select from unselected
+Choices. This ensures that you do not unselect Choices from constant button
+presses.
 
+This doesn't apply when the
+[Button can only be pressed if no choice is selected?] switch is selected,
+because all of the Choices would be selected off by default.
+
+![](../images/160_unselected_choices_switch.png)
+
+This should allow the user to quickly fill up their Choices:
+
+![](157_only_unselectable_choices.gif)
 
 ##### Button can only be pressed if no choice is selected?
+This is equivalent to the [Toggleable] switch, meaning that once the button is
+pressed, the Choices selected cannot be undone.
 
+The difference being, unlike the [Toggleable] switch, if you unselect all of
+the Choices you can press the Button again.
+
+![](../images/159_button_no_choice_switch.png)
+
+!!! example
+
+    ![](../images/158_button_no_choice.gif)
 
 ---
 
 Learn more about what you can do with Images in the [Reference].
 
 <!-- URLs -->
-[ID]: /mechanics/ids-and-requirements/#ids
+[ID]: /mechanics/ids-and-requirements/#ids-unique-identifiers
 [Reference]: /appendix/reference/#buttons-and-variables
+[Button can only be pressed if no choice is selected?]: #button-can-only-be-pressed-if-no-choice-is-selected
+[Toggleable]: #toggleable
+
+<!-- BUFFER -->
