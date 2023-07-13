@@ -83,13 +83,13 @@ everything that is possible into the Mechanics
 
 ### v0.14.0 (WIP)
 _Released on DATE at TIME UTC_
-_Words: 119,013_
+_Words: 119,092_
 
 * 
 
 ### v0.13.0
 _Released on 2023-07-13 at 11:39:30 UTC_
-_Words: 119,013_
+_Words: 119,092_
 
 * **FINISHED MECHANICS SECTION!!!**
 * Finished **Groups** page's first revision
