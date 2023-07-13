@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://icctutorial.pages.dev/mechanics/groups/</loc>
+         <lastmod>2023-07-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://icctutorial.pages.dev/mechanics/ids-and-requirements/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
