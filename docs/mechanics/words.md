@@ -13,6 +13,11 @@ CYOA. When used, they will be changed into whatever value they hold.
 > Words can be changed when a choice is presssed, or in textfields by the
 > player, and be placed around in the text.
 
+!!! note
+
+    Having too many Words is a good way to make your CYOA sluggish. Don't go
+    too heavy on the Words[^1].
+
 ## Words Menu
 To open the Words menu, simply go to **the Sidebar** → **Open Features** →
 **Words**.
@@ -70,6 +75,9 @@ And that is the beauty of Words.
 ---
 
 Learn more about what you can do with Words in the [Reference].
+
+<!-- Footnotes -->
+[^1]: Credit to `lord_valmar` on Discord for this tip
 
 <!-- URLs -->
 [Reference]: /appendix/reference/#words
