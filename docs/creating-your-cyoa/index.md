@@ -25,7 +25,7 @@ your own plan regarding how the Interactive will go. If it's someone else's
 that you're adapting, however, it could get tricky.
 
 ### Adapting a Static
-If you're adapting a Static CYOA there are three main ways to go about this:
+If you're adapting a Static CYOA there are four main ways to go about this:
 
 1. If a text version is available (or if the static *is* originally text), make
    sure you have an editable copy of the document, and go straight into the
@@ -37,6 +37,10 @@ If you're adapting a Static CYOA there are three main ways to go about this:
        more correction than necessary.
     2. Otherwise, you have to manually type it up. This is incredibly
        time-consuming, and should be avoided if the CYOA is very large.
+3. Just ask the original authors if you can get their document on it. This
+   isn't possible if, for example, the original author was anonymous on 4chan
+   or has been offline since. Certain authors may refuse because they don't
+   want an Interactive CYOA.
 
 Essentially:
 
@@ -129,6 +133,10 @@ the corner of the text you wanted to OCR, and press the default action.
 
 ![](../images/183_c2t_demo.png)
 
+Here is a gif:
+
+![](../images/184_c2t_demo_live.gif)
+
 ##### Line breaks
 If you are like me, you will encounter the text inconveniently having a line
 break after every line instead of being one big large chunk of text, like this:
@@ -166,6 +174,14 @@ even rarer that the soul isn't des royed,
 seem to be handling it well enou h. Usu
 subject just explodes the momen we st;
 
+You fix this by copying and pasting the text into this site:
+[https://24toolbox.com/newline-remover/][nlr] and pressing
+**Remove All Newlines**.
+
+[nlr]: https://24toolbox.com/newline-remover/
+
+This will remove the newlines at the end of a text, combining it back into one.
+
 ---
 
 For additional help, consult the [documentation][c2t-docs].
@@ -177,13 +193,15 @@ You will need to follow the instructions [here][t-dl].
 
 [t-dl]: https://tesseract-ocr.github.io/tessdoc/Installation.html
 
-Once you put it in the 
+Other options here like [Capture2Text](#capture2text) actually use Tesseract as
+a backend.
 
 #### ocr_scan.py
 First, [install Tesseract](#tesseract). Second, make sure that it is in your
-PATH.
+PATH. Third, [install Python](https://www.python.org/) and make sure you tick
+the option that puts Python in your PATH.
 
-Then, get the script from [static/ocr_scan.py](static/ocr_scan.py), and run it
+Then, get the script from [static/ocr_scan.py](/static/ocr_scan.py), and run it
 in a folder with images.
 
 By default it will detect PNG files. Edit the file and look for `.png` and
@@ -194,6 +212,8 @@ Then, run it in the terminal, and it will output text files for each image.
 #### Google Docs
 Using Google Docs as an OCR tool is relatively easy, but you can only do it for
 one image at a time. However, as it's from Google, it is relatively accurate.
+
+Simply right click an image file → **Open With >** → **Google Docs**.
 
 Here's an example of it:
 

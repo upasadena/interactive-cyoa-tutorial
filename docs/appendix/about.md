@@ -44,8 +44,9 @@ to this tutorial from the time of its official release.
         - [ ] Text
         - [ ] Filters
         - [ ] Private Styling
-    - [ ] Finish the Publishing section
+    - [x] Finish the Creating Your CYOA section
     - [x] Finish the Extending Your CYOA section
+    - [ ] Finish the Publishing section
     - [ ] Finish the Reference section
     - [ ] Finish the Troubleshooting section
     - [x] Finish the Resources section (will it ever be truly finished?)
@@ -68,23 +69,27 @@ everything that is possible into the Mechanics
 - [ ] Add my own custom Viewer js file, this time adding:
     - [ ] `alt` attribute for `<img>`s
     - [ ] `referrerpolicy` attribute for `<a>` links
-- [ ] Make a chapter detailing how to actually *create* ICYOAs
-    - [ ] Section on OCR, including my command line tool, caveats, etc
-    - [ ] Section on finding the text, seeing if there's a Google Doc –
+- [x] Make a chapter detailing how to actually *create* ICYOAs
+    - [x] Section on OCR, including my command line tool, caveats, etc
+    - [x] Section on finding the text, seeing if there's a Google Doc –
       Mentioning possibly asking the authors for a text version
-    - [ ] Section on handwriting it
+    - [x] Section on handwriting it
     - [ ] Advice on asking the author if they have a Google Doc of it, so that
       you can more easily copy it?
 - [ ] Add tip block when talking about the Viewer, mentioning that projects
   automatically start at the `index.html`, meaning they don't need to include
   that in the title (and it looks nicer)
+- [ ] Change template example images in the **Style Templates** section to
+  include buttons that are being pressed, images, and other elements
 
 ## Changelog
 
 <!--
 Changelog template:
+-->
 
-### v0.0.0
+<!--
+### v0.0.0 (WIP)
 _Released on DATE at TIME UTC_
 
 _Words: WORDS_
@@ -94,18 +99,29 @@ _Words: WORDS_
 [Download the source code][dl-VERSION]{ .md-button }
 -->
 
-### v0.14.0
+### v0.15.0 (WIP)
 _Released on DATE at TIME UTC_
 
 _Words: WORDS_
 
+* 
+
+[Download the source code][dl-VERSION]{ .md-button }
+
+### v0.14.0
+_Released on 2023-07-17 at 05:10:55 UTC_
+
+_Words: 121,255_
+
+* Added and finished the **Style Templates** section
+* Added and finished the **Creating Your CYOA** section
 * Added a note to Words
-* Created the **Creating Your CYOA** section
 * Added the ICC comments section to the Resources section
 * Moved **Extending Your CYOA** section above **Publishing**, as publishing
   should be the last thing you do
+* Added PS script to automatically enter into the virtual environment
 
-[Download the source code][dl-VERSION]{ .md-button }
+[Download the source code][dl-0.14.0]{ .md-button }
 
 ### v0.13.2
 _Released on 2023-07-13 at 12:41:52 UTC_
@@ -428,5 +444,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence.
 [dl-0.13.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.0.zip
 [dl-0.13.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.1.zip
 [dl-0.13.2]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.2.zip
+[dl-0.14.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.14.0.zip
 
 <!-- BUFFER -->

@@ -1,0 +1,1 @@
+.\vent\Scripts\Activate.ps1

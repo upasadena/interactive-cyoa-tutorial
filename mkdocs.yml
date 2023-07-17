@@ -103,6 +103,7 @@ nav:
     - Styling:
       - styling/index.md
       - Design: styling/design.md
+      - Style Templates: styling/style-templates.md
     - Creating Your CYOA:
       - creating-your-cyoa/index.md
     - Extending Your CYOA:

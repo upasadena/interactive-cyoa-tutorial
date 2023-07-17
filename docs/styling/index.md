@@ -9,4 +9,5 @@ nice.
 
 ## Table of Comments
 
-* [Design](./design)
+* [Design](./design/)
+* [Style Templates](./style-templates/)
