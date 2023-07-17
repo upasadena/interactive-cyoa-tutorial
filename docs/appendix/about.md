@@ -81,12 +81,31 @@ everything that is possible into the Mechanics
 
 ## Changelog
 
+<!--
+Changelog template:
+
+### v0.0.0
+_Released on DATE at TIME UTC_
+
+_Words: WORDS_
+
+* 
+
+[Download the source code][dl-VERSION]{ .md-button }
+-->
+
 ### v0.14.0
 _Released on DATE at TIME UTC_
 
-_Words: 119,199_
+_Words: WORDS_
 
-* 
+* Added a note to Words
+* Created the **Creating Your CYOA** section
+* Added the ICC comments section to the Resources section
+* Moved **Extending Your CYOA** section above **Publishing**, as publishing
+  should be the last thing you do
+
+[Download the source code][dl-VERSION]{ .md-button }
 
 ### v0.13.2
 _Released on 2023-07-13 at 12:41:52 UTC_

@@ -213,6 +213,10 @@ StarDustAnon. It contains musings and advice on how to create CYOAs in general.
 An excellent read.
 * [ICCT Static Folder](/static) – It's the `static/` directory of this
   tutorial. It contains a couple of useful things to download.
+* [ICC Comments](https://meandelay.itch.io/interactive-cyoa-creator/comments) –
+  The Interactive CYOA Creator's comments section. Go to this if you can't find
+  help anywhere else. You can also go through this, see if anyone else has had
+  your problem, and see if anyone replied with a solution.
 
 <!-- URLs -->
 [cyoa-template-dl]: https://www.dropbox.com/scl/fi/cjssl5mk5h6rhr8mz7w1s/Template.json?rlkey=whf28vz69wqrt0d8jjfvitzty&dl=0

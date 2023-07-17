@@ -103,13 +103,15 @@ nav:
     - Styling:
       - styling/index.md
       - Design: styling/design.md
+    - Creating Your CYOA:
+      - creating-your-cyoa/index.md
+    - Extending Your CYOA:
+      - extending-your-cyoa/index.md
     - Publishing:
       - publishing/index.md
       - Static: publishing/static.md
       - Github: publishing/github.md
       - Neocities: publishing/neocities.md
-    - Extending Your CYOA:
-      - extending-your-cyoa/index.md
     - Appendix:
       - appendix/index.md
       - Reference: appendix/reference.md

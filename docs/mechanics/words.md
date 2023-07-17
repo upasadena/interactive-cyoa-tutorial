@@ -16,7 +16,7 @@ CYOA. When used, they will be changed into whatever value they hold.
 !!! note
 
     Having too many Words is a good way to make your CYOA sluggish. Don't go
-    too heavy on the Words[^1].
+    too heavy on Words[^1].
 
 ## Words Menu
 To open the Words menu, simply go to **the Sidebar** → **Open Features** →
