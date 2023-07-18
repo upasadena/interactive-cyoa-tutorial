@@ -131,8 +131,11 @@ As you can see, this tool can tell us whether our colour palette has too much
 of a high contrast, and it can tell us where it starts becoming easy on the
 eyes.
 
-WebAIM also has more resources, like:
+There are other resources for this, such as:
 
+* [Colour Contrast Checker](https://colourcontrast.cc/) – A website that
+  performs much the same function. Try to get as many passes as possible, at
+  least passing AA Normal[^peanuts_1987].
 * [Link Contrast Checker], much the same as the Contrast Checker from earlier,
 but takes links into account.
 * [WAVE](https://wave.webaim.org/), a tool to check the accessibility of an
@@ -146,7 +149,7 @@ rounding, etc.
 
 [previously]: #important-advice
 
-??? example "(NSFW WARNING) Example of inconsistent border radii[^2]"
+??? example "(NSFW WARNING) Example of inconsistent border radii[^draogns-whore]"
 
     ![](../images/148_inconsistent_NSFW.png)
 
@@ -156,9 +159,34 @@ from Succubus Manor CYOA:
 
 ![](../images/149_consistent_styling.png)
 
+## Objects Per Row
+The optimal number depends on the amount of text you use in the
+descriptions.
+
+If the description is only a few words, you can use as many as 7 or 8. The
+ratio of text height will still be nice.
+
+But if there are several sentences, please use only 4 or 5 max. Otherwise,
+the text will stretch into a completely unpleasing and uncomfortable to
+read columm[^dragons-whore].
+
+For example:
+
+=== "Before"
+
+    ![](../images/194_long_opr.png)
+
+=== "After"
+
+    ![](../images/195_short_opr.jpg)
+
+Which looks nicer to you?
+
 <!-- Footnotes -->
 [^1]: Credit to `spartango` on Discord for making me aware of this website
-[^2]: Credit to [Dragon's Whore](https://imgchest.com/p/ej7mkx9qydl) for this
+[^dragons-whore]: Credit to 
+    [Dragon's Whore](https://imgchest.com/p/ej7mkx9qydl) for this
+[^peanuts_1987]: Credit to `peanuts_1987` on Dicsord for this
 
 <!-- URLs -->
 [Contrast Checker]: https://webaim.org/resources/contrastchecker/

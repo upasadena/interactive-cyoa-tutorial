@@ -200,6 +200,10 @@ Websites where you can post stories made by CYOAs.
   follow for beginners.
 * [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) – HTML and
   CSS basics. Very simple and easy to follow.
+* [Interneting Is Hard](https://internetingishard.netlify.app/) – Friendly web
+  development tutorials for complete beginners.
+* [The Odin Project](https://www.theodinproject.com/) – Web Dev Tutorials /
+  Courses.
 
 ## Miscellaneous
 

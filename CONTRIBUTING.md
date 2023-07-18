@@ -2,8 +2,9 @@
 
 ## Licence
 By submitting content to this repository, you hereby agree that your
-contributions will be made under the [CC BY-SA 4.0][licence]. If you are not
-aware of what that entails, please see [here][licence-details].
+contributions will be made under the [CC0 1.0][licence] licence (the Public
+Domain). If you are not aware of what that entails, please see
+[here][licence-details].
 
 ## Acknowledgements
 Feel free to include yourself in [the Authors list](./docs/about/index.md)

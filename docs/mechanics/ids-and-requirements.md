@@ -75,6 +75,15 @@ be assigned a random 4-digit hex ID.
     If you really *must*, you should probably indicate that to your audience,
     just so that they're aware.
 
+    !!! tip
+
+        The easiest way to change IDs without making breaking changes is to
+        open your `project.json` in a text-editor, and pressing
+        ++ctrl++ + ++h++. This should bring up a _Find and Replace_ menu.
+        Simply search for the ID you wanted to change, and replace it with your
+        new one. This will ensure that any other requirements are automatically
+        changed as well.
+
 ## Requirements
 Requirements are conditions that Rows and Addons must fulfil before they're
 shown and Objects must fulfil before they can be selected.

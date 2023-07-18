@@ -12,12 +12,12 @@ repo_url: https://github.com/upasadena/interactive-cyoa-tutorial
 edit_uri: edit/main/docs/
 
 # Copyright
+  # The source code of this website is subject to the
+  # <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.<br>
 copyright: >-
-  The source code of this website is subject to the
-  <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 licence</a>.<br>
-  The content of this website is subject to the
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt">
-  CC BY-SA 4.0 licence</a>.
+  The content of this website is licensed under the
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+  licence. It is dedicated to the Public Domain.
 
 # Configuration
 theme:
@@ -104,6 +104,7 @@ nav:
       - styling/index.md
       - Design: styling/design.md
       - Style Templates: styling/style-templates.md
+      - Colours: styling/colours.md
     - Creating Your CYOA:
       - creating-your-cyoa/index.md
     - Extending Your CYOA:
@@ -174,6 +175,9 @@ markdown_extensions:
 watch:
   - overrides/
   - includes/
+
+extra_css:
+  - css/iframe.css
 
 # extra_javascript:
 #   - js/extra.js

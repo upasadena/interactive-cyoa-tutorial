@@ -39,7 +39,7 @@ After that, go into the **Console** tab.
 
 ## General
 
-### Colours
+### Style
 
 Move the other colour stuff to this section.
 
@@ -60,6 +60,54 @@ Use [Color Wheel](https://color.adobe.com/create/color-wheel)
 to easily create complementary colour palettes.
 
 There is also 
+
+#### (TODO) Change to a font not in the Creator
+
+
+#### (TODO) Make text glow
+
+
+#### (TODO) Change the colour of selected Choices
+<!-- Change from the default light green -->
+<!-- Point to the correct option. filter maybe? -->
+
+#### (TODO) Change the colour of Choices that don't meet the Requirements
+<!-- Filters too -->
+
+#### Make Row Backgrounds transparent
+See [here](#get-rid-of-the-extra-repeating-row-background).
+
+#### Get rid of the extra, repeating Row background
+You may notice that after you've set your background, your Rows will repeat the
+Background as well. This is inconvenient if you've set the Background to
+anything but a simple colour, as it is incredibly obvious and unprofessonial.
+
+Here's an example of the repeating background:
+
+![](../images/196_repeating_backgrounds.png)
+
+Unfortunately, this method deals with Private Styling, therefore:
+
+!!! danger
+
+    Save this as the last Styling you do, as you have to access Private Styling
+    in order to do this.
+
+To get rid of it is simple, just open up **Row Settings** → tick
+**Use private styling?** → **Manage Background design** → and remove the
+Background photo on the left side.
+
+![](../images/197_remove_row_background.gif)
+
+Now the background will be whatever colour it is usually. To make it
+transparent, see below:
+
+##### Make the Row Background transparent
+Go into **Row Settings** → **Use private styling?** →
+**Manage Background design** → and turn down the A (Alpha) slider on the
+Background column (far left).
+
+![](../images/198_make_row_bg_trans.gif)
 
 ## Whole CYOA
 ### Changing the page title
@@ -83,7 +131,21 @@ following code to your `index.html` file, just below the `<title>` tag:
 <link rel="icon" href="/link/to/icon.jpg">
 ```
 
-### (TODO+EX) Table of Contents / Tab Menu
+### (TODO+EX) Tabs / Table of Contents Menu
+To make a Tabs menu 
+
+### (TODO) Show Points Menu
+Use this if you have a lot of Point Types. This allows you to have 
+
+<div class="iframe-container">
+  <iframe
+  class="responsive-iframe"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture"
+  allowfullscreen
+  src="https://www.youtube.com/embed/wog43Zj0uRE"></iframe>
+</div>
 
 ### Show a loading progress indicator
 See [here](../extending-your-cyoa/#progress-indicator).

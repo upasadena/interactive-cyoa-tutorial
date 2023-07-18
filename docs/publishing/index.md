@@ -9,6 +9,12 @@ world at large.
 
 As Interactive CYOAs made in the ICC do not need 
 
+!!! tip
+
+    Before you publish, you should collapse all of your Rows except for those
+    that are needed (if it's a long CYOA). This will ensure quicker loading
+    times, as well as allowing the player to expand them as they wish.
+
 ## Where should I publish?
 There are many possible sites to host and formats to publish your Interactive
 in, and we'll go over how to do so in this section.

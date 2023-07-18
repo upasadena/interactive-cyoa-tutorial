@@ -27,6 +27,14 @@ such as [XAMPP] for Windows.
 
 [XAMPP]: https://www.apachefriends.org/download.html
 
+### My choices are not all the same size
+If your choice's started looking like this:
+
+![](../images/195_choices_wrong_height.png)
+
+When you haven't changed a thing, then try exiting out of Edit mode of all the
+Rows when in the Creator, and *then* open it in the Viewer[^choice-height].
+
 ## The Creator
 
 ### I'm stuck in the Alternate Menu
@@ -106,10 +114,15 @@ There could be many possibilities. Here are some:
 
 1. It has some requirement that it's not fulfilling
     * If there is one and you're sure the requirement *should* be fulfilled,
-    check the IDs again. There could be a mismatch by a typo.
-2. It has an empty title
-    * If this is indeed the case, and you don't want a title but still want the
-    background visible, simply put an empty space ` ` there.
+      check the IDs again. There could be a mismatch due to a typo
+2. It has an empty title and description
+    * If this is indeed the case, and you don't want a title and/or description
+      but still want the background visible, simply put an empty space "` `"
+      there
+
+<!-- Footnotes -->
+[^choice-height]: Credit to `Hydrogen Peroxide` and `Valmar` on Discord for
+  this fix.
 
 <!-- URLs -->
 [zoom]: ../appendix/reference/#zoom-in-and-out

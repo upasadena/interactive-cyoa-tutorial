@@ -117,6 +117,30 @@ Afterward, you can customize the Backpack Row like any other Row.
     Meaning that it will display all selected choices, as well as making it so
     that you cannot unselect any choices showing up.
 
+### Configuring the Backpack to sort by Rows
+Rather than have _all_ selected Choices in one big Row, you can actually
+segment the Backpack by adding a Backpack Row for each real Row.
+
+Then, go through each real Row and add them to their own
+[Group](/mechanics/groups/).
+
+Then go through the Backpack Rows and select
+**Selected Choices from Group Id**, choosing the relevant Group to filter by.
+
+Then it will show!
+
+See the video tutorial here:
+
+<div class="iframe-container">
+  <iframe
+  class="responsive-iframe"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture"
+  allowfullscreen
+  src="https://www.youtube.com/embed/7pFnjGsQL7E"></iframe>
+</div>
+
 [Row Menu]: /mechanics/rows/#editing-rows
 [Non-activatable?]: /mechanics/rows/#non-activatable
 [Selected Choices?]: /mechanics/rows/#selected-choices-switch

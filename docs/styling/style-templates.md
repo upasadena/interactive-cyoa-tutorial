@@ -6,7 +6,7 @@ comments: true
 # Style Templates
 Style Templates are in-built templates to give you a design to start off with.
 
-!!! note
+!!! tip
 
     While some styling is better than none, it is not recommended you take
     **any** of the default Style Templates (at least, as they are), if having a

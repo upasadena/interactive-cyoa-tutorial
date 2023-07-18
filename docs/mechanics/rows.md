@@ -100,6 +100,18 @@ gone wrong. You can fix this by changing the value to 0.
 The _Objects Per Row_ option allows you to specify how many Objects should be
 present within an Object row.
 
+!!! tip
+
+    The optimal number depends on the amount of text you use in the
+    descriptions.
+
+    If the description is only a few words, you can use as many as 7 or 8. The
+    ratio of text height will still be nice.
+
+    But if there are several sentences, please use only 4 or 5 max. Otherwise,
+    the text will stretch into a completely unpleasing and uncomfortable to
+    read columm[^dragons-whore].
+
 === "1 per Row"
 
     ![](../images/13a_1_per_row.png)
@@ -353,6 +365,10 @@ See [Groups](/mechanics/groups/#adding-all-choices-in-a-row-to-a-group).
 
 Learn more about what you can do with Rows in the [Reference].
 
+<!-- Footnotes -->
+[^dragons-whore]: Credit to Dragon's Whore for this
+
+<!-- URLs -->
 [private styling]: /styling/#private-styling
 [dynamic_allowed_choices]: /objects/#adds-or-takes-away-a-rows-allowed-choices
 [groups]: /mechanics/groups/
