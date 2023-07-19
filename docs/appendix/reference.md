@@ -135,7 +135,18 @@ following code to your `index.html` file, just below the `<title>` tag:
 To make a Tabs menu 
 
 ### (TODO) Show Points Menu
-Use this if you have a lot of Point Types. This allows you to have 
+Use this if you have a lot of Point Types. This allows you to give control over
+to the player about which Points show up in the Points Bar.
+
+Much like the [above](#tabs--table-of-contents-menu), create a Tabs menu, but
+instead of each option opening a Row, use their Point Type to
+[hide the choices].
+
+[hide the choices]: #display-hidden-point-types-when-a-choice-is-selected
+
+This is especially useful for mobile users (which make up a surprising amount
+of ICYOA players), as their screens are usually smaller and thus can't see as
+many Point Types in the Point Bar.
 
 <div class="iframe-container">
   <iframe

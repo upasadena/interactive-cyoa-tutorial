@@ -10,6 +10,14 @@ icon: material/scoreboard-outline
     Point systems can be created and used to handle the player's ability to buy
     things and to keep a record of selected choices in a group or row.
 
+!!! tip
+
+    A lot of ICYOA players use mobile to play CYOAs, therefore if you want to
+    make a CYOA that has a lot of Point Types accomodating to mobile users, it
+    is suggested that you create a [Point Tabs] menu.
+
+[Point Tabs]: /appendix/reference/#show-points-emnu
+
 ### The Point Types Menu
 To open the menu, go into **[the Sidebar]** → **Open Features** → **Manage
 Points**.

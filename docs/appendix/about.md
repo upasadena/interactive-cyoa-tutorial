@@ -7,6 +7,13 @@ icon: material/file-question-outline
 Thank you for viewing this tutorial! This page isn't a part of the tutorial,
 but rather a general information page about the tutorial itself.
 
+This website is available in these locations:
+
+* [https://icctutorial.pages.dev](https://icctutorial.pages.dev) – Recommended,
+  shorter and easier to remember
+* [https://upasadena.github.io/interactive-cyoa-creator/] – Backup,
+  root-relative links don't work
+
 ## Authors
 Authors are people who have directly contributed to the text, via the Git
 repository for this site.
@@ -26,8 +33,9 @@ This site is dual-licensed under the [AGPLv3] and [CC0 1.0][CC0] licences.
 All original content (text, images, etc) in this tutorial is licensed under
 the [CC0 1.0][CC0] Universal Public Domain Dedication licence.
 
-Content in this instance is defined as any plaintext located within the `docs/`
-directory. The formatting markup for Markdown belongs to the
+Content in this instance is defined as any text located within the `docs/`
+directory, both how it is rendered in the website and how it exists within
+source files as plaintext. The formatting markup for Markdown belongs to the
 [Source Code](#source-code) licence. This means you can freely copy text from
 this website, but you cannot freely copy the text along with the Markdown.
 
@@ -208,6 +216,13 @@ _Words: WORDS_
   **Static** publishing page
 * Added a lot to the Reference
 * Updated lots of other sections
+* Added Choice Copying that undoubtedly would have been in the lost **Copying**
+  section
+* Changed README.md to talk about why [https://icctutorial.pages.dev][icct] is
+  the preferable URL
+* 
+
+[icct]: https://icctutorial.pages.dev
 
 [Download the source code][dl-VERSION]{ .md-button }
 
@@ -462,6 +477,7 @@ _Released on 2022-06-17 at 13:40:35 UTC_
 <!-- URLs -->
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
+[https://upasadena.github.io/interactive-cyoa-creator/]: https://upasadena.github.io/interactive-cyoa-creator/
 
 <!-- Downloads -->
 [dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip

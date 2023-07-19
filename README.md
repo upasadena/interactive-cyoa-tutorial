@@ -5,8 +5,14 @@ A complete and comprehensive guide to using the Interactive CYOA Creator by
 MeanDelay.
 
 View it live at one of these links:
-* https://icctutorial.pages.dev/
-* https://upasadena.github.io/interactive-cyoa-tutorial/
+* https://icctutorial.pages.dev/ – The recommended URL
+* https://upasadena.github.io/interactive-cyoa-tutorial/ – Not recommended. The
+  reason is twofold:
+    1. [Root-relative links][rrl] are broken, as they were made with pages.dev
+       URL (and any other top-level domain) in mind, and…
+    2. It's a much longer name and harder to memorize (cf.
+    https://icctutorial.pages.dev/extending-your-cyoa/ VS
+    https://upasadena.github.io/interactive-cyoa-tutorial/extending-your-cyoa/)
 
 ## TODO
 See [here](./docs/appendix/about.md).
@@ -73,3 +79,6 @@ deactivate
 <!-- URLs -->
 [ci]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml/badge.svg
 [ci_link]: https://github.com/upasadena/interactive-cyoa-tutorial/actions/workflows/ci.yml
+[rrl]: https://mor10.com/html-basics-hyperlink-syntax-absolute-relative-and-root-relative/
+
+<!-- BUFFER -->

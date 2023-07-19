@@ -18,3 +18,7 @@
 *[nsfw]: Not Safe For Work; i.e., inappropriate or adult content
 *[Boolean]: a binary variable that can have one of two possible values, 0 (false) or 1 (true)
 *[OCR]: Optical Character Recognition; recognizing characters in an image
+*[cf.]: Compare, compare to, compare with; Abbreviation of Latin cōnfer (“compare”)
+*[Cf.]: Compare, compare to, compare with; Abbreviation of Latin cōnfer (“compare”)
+
+ <!--BUFFER  -->

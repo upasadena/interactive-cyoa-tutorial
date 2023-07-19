@@ -27,6 +27,18 @@ such as [XAMPP] for Windows.
 
 [XAMPP]: https://www.apachefriends.org/download.html
 
+Alternatively, if you have [Python], you can run this command where your
+`index.html` file is to start a lightweight HTTP server:
+
+[Python]: https://www.python.org/
+
+```sh
+python -m http.server 7778 &
+```
+
+Replacing `7778` with any number. Then, go into your browser at
+[http://localhost:7778](http://localhost:7778) to view the CYOA.
+
 ### My choices are not all the same size
 If your choice's started looking like this:
 
@@ -127,3 +139,5 @@ There could be many possibilities. Here are some:
 <!-- URLs -->
 [zoom]: ../appendix/reference/#zoom-in-and-out
 [NaN]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
+
+<!-- BUFFER -->

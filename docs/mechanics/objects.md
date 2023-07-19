@@ -223,6 +223,12 @@ See [here](/introduction/#clean-selected-choices).
 ### (TODO) Adds or takes away a rows Allowed Choices
 See [here]
 
+## Copy Choice Into Another Row
+This dropdown menu allows you to copy a Choice into another Row. Simply press
+**Copy** to copy it.
+
+![](../images/198_copy_choice.gif)
+
 ## List of objects
 If you want to get a list of Objects within a Row, simply go into a
 **Edit Row** → **List of objects**. You will find the latter as the second
