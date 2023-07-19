@@ -253,6 +253,9 @@ _Reading Time: READINGTIME_
 * Moved the **Authors** field from below the comments section to above it, in
   line with the "Last update" and "Created" metadata.
 * Fixed some dead links
+* Updated Words fields on the About page with the more accurate amount of
+  plaintext words typed (as opposed to all words counting the Markdown)
+* Added word count for v0.12.0 and below
 * 
 
 [icct]: https://icctutorial.pages.dev
@@ -268,7 +271,8 @@ Content released under here is licensed under [CC BY-SA 4.0].
 ### v0.14.0
 _Released on 2023-07-17 at 05:13:53 UTC_
 
-_Words: 121,255_
+<!-- _Words: 121,255_ -->
+_Words: 24,023_
 
 * Added and finished the **Style Templates** section
 * Added and finished the **Creating Your CYOA** section
@@ -283,7 +287,8 @@ _Words: 121,255_
 ### v0.13.2
 _Released on 2023-07-13 at 12:41:52 UTC_
 
-_Words: 119,262_
+<!-- _Words: 119,262_ -->
+_Words: 22,496_
 
 * Fixed Words stat on About page
 * Fixed minor Mechanics TOC issue
@@ -296,7 +301,9 @@ _Words: 119,262_
 ### v0.13.1
 _Released on 2023-07-13 at 12:09:14 UTC_
 
-_Words: 119,215_
+<!-- _Words: 119,215_ -->
+_Words: 22,456_
+<!-- Somehow lost words ^^^ ? -->
 
 * Added more Resources
 * Changed links in the Introduction to be less intrusive
@@ -310,7 +317,8 @@ _Words: 119,215_
 ### v0.13.0
 _Released on 2023-07-13 at 11:40:35 UTC_
 
-_Words: 119,092_
+<!-- _Words: 119,092_ -->
+_Words: 22,475_
 
 * **FINISHED MECHANICS SECTION!!!**
 * Finished **Groups** page's first revision
@@ -328,6 +336,8 @@ _Words: 119,092_
 ### v0.12.0
 _Released on 2023-07-13 at 05:17:40 UTC_
 
+_Words: 21,918_
+
 * Finished first revision of the **Backpack and Choices Import** page
 * Changed **Buttons** to **Buttons and Variables**
 * Modified **Buttons** a bit
@@ -338,6 +348,8 @@ _Released on 2023-07-13 at 05:17:40 UTC_
 
 ### v0.11.0
 _Released on 2023-07-13 at 03:57:16 UTC_
+
+_Words: 21,304_
 
 * Added **Buttons** page's first revision
 * Added more examples (or TODO examples) to the Reference. I expect examples
@@ -365,6 +377,8 @@ _Released on 2023-07-13 at 03:57:16 UTC_
 ### v0.10.0
 _Released on 2023-07-10 at 11:59:17 UTC_
 
+_Words: 18,641_
+
 * Finished the first revision of the **Extending Your CYOA** section
 * Added some abbreviations
 
@@ -372,6 +386,8 @@ _Released on 2023-07-10 at 11:59:17 UTC_
 
 ### v0.9.0
 _Released on 2023-07-10 at 07:09:35 UTC_
+
+_Words: 17,248_
 
 * Added and finished **Words** section
 * Ticked Addons of the TODO because I'm dumb
@@ -393,6 +409,8 @@ _Released on 2023-07-10 at 07:09:35 UTC_
 ### v0.8.0
 _Released on 2023-07-10 at 00:47:05 UTC_
 
+_Words: 15,387_
+
 * Finished the **Addons** section
 * Fixed the "Last update" not working as intended
 * Fixed missing Viewer file
@@ -407,6 +425,8 @@ _Released on 2023-07-10 at 00:47:05 UTC_
 ### v0.7.0
 _Released on 2023-07-09 at 11:40:35 UTC_
 
+_Words: 15,343_
+
 * Finished the first revision of the **Defaults** section
 * Miscellaneous fixes
 
@@ -414,6 +434,8 @@ _Released on 2023-07-09 at 11:40:35 UTC_
 
 ### v0.6.1
 _Released on 2023-07-09 at 11:21:29 UTC_
+
+_Words: 15,064_
 
 * Finished first revision of the **Image** section
 * Added the Troubleshooting section on the official TODO, made a start on it
@@ -436,6 +458,8 @@ release :P
 ### v0.5.1
 _Released on 2023-07-07 at 09:11:38 UTC_
 
+_Words: 11,664_
+
 * Finally completed the **IDs and Requirements** section 
 * Enabled comments for the **Points and Scores** section
 * Updated Mechanics's Table of Contents
@@ -447,6 +471,8 @@ files while it was building the site
 ### v0.5.0
 _Released on 2023-07-07 at 07:55:19 UTC_
 
+_Words: 11,264_
+
 * Added **Points & Scores** section, finished first revision
 * Changed Objects section title from "Objects" to "Objects / Choices"
 * Realized that I had not, in fact, finished **IDs and Requirements**
@@ -457,6 +483,8 @@ _Released on 2023-07-07 at 07:55:19 UTC_
 
 ### v0.4.0
 _Released on 2023-07-07 at 05:12:04 UTC_
+
+_Words: 10,165_
 
 * Finished **IDs and Requirements** section
 * Fixed Mechanics' TOC
@@ -470,6 +498,8 @@ _Released on 2023-07-07 at 05:12:04 UTC_
 
 ### v0.3.1
 _Released on 2023-07-07 at 02:07:22 UTC_
+
+_Words: 9,756_
 
 * Created a CONTRIBUTING.md so contributors know what they need to
 * Switched from AGPLv3 for the entire project to AGPLv3 for the source only,
@@ -498,6 +528,8 @@ Content released under here is licensed under the [AGPLv3] licence.
 ### v0.3.0
 _Released on 2022-06-17 at 19:48:21 UTC_
 
+_Words: 5,844_
+
 * Added first revision of the **Objects** page
 * Tidied up previous stuff
 
@@ -506,6 +538,8 @@ _Released on 2022-06-17 at 19:48:21 UTC_
 ### v0.2.0
 _Released on 2022-06-17 at 17:37:11 UTC_
 
+_Words: 5,199_
+
 * Finished first revision of the **Rows** page
 * Updated previous Introduction and other miscellaneous changes
 
@@ -513,6 +547,8 @@ _Released on 2022-06-17 at 17:37:11 UTC_
 
 ### v0.1.0
 _Released on 2022-06-17 at 13:40:35 UTC_
+
+_Words: 4,003_
 
 * Initial release
 * Completed first revision of the **Introduction** section

@@ -86,4 +86,7 @@ def get_tut_words() -> int:
     ], debug=True)
 
 if __name__ == "__main__":
-    print(get_tut_words())
+    tut_words = get_tut_words()
+    print(tut_words)
+    print(f"_Words: {tut_words:,}_")
+    input("Enter to exit: ? ")
