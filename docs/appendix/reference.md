@@ -39,6 +39,74 @@ After that, go into the **Console** tab.
 
 ## General
 
+### Text
+#### Make specific text a different colour
+To do this, simply use inline CSS styling between HTML tags.
+
+For example, this:
+
+```html
+<span style="color: #ba2323;">makes the text red.</span>
+```
+
+<span style="color: #ba2323;">makes the text red.</span>
+
+!!! note
+
+    If you want to learn about how to get hex codes, visit [here](#colours).
+
+#### Add hyperlinks to your CYOA
+See [here](/extending-your-cyoa/#modded-viewer).
+
+After that, add hyperlinks as normal:
+
+=== "Open in a new window"
+
+    ```html
+    Visit <a href="https://example.com" target="_blank">here</a>.
+    ```
+
+    New Window Demo:
+    
+    Visit <a href="https://example.com" target="_blank">here</a>.
+
+=== "Open in current window"
+
+    ```html
+    Press <a href="https://example.com">here</a> for more information.
+    ```
+
+    Current Window Demo:
+
+    Press <a href="https://example.com">here</a> for more information.
+
+#### Make secret text that appears when pressing an invisible Choice
+If you wanted to hide text that only shows when pressing on an invisible
+Choice, it's quite simply to do. You simply have to lock [Addons] behind a
+[Selected Choice] requiremnt.
+
+!!! note
+
+    Make sure that you put a space for the choice text and/or title so that
+    it's clickable, yet invisible.
+
+What this looks like:
+
+!!! example ""
+
+    ![](../images/199_hidden_text.gif)
+
+How to do it:
+
+1. Add a new Addon
+2. Add a [Selected Choice] requirement
+3. Put the ID of the empty Choice (that you want pressing and showing the text)
+   into the requirement
+
+If you wanted the text to not show up on the same Choice, you can simply make
+the Choice [require][Selected Choice] another Choice, and set the filters such
+that Choices that don't fulfil their requirements are invisible.
+
 ### Style
 
 Move the other colour stuff to this section.
@@ -102,12 +170,12 @@ Background photo on the left side.
 Now the background will be whatever colour it is usually. To make it
 transparent, see below:
 
-##### Make the Row Background transparent
+##### (FIX GIF) Make the Row Background transparent
 Go into **Row Settings** → **Use private styling?** →
 **Manage Background design** → and turn down the A (Alpha) slider on the
 Background column (far left).
 
-![](../images/198_make_row_bg_trans.gif)
+<!-- ![](../images/198_make_row_bg_trans.gif) -->
 
 ## Whole CYOA
 ### Changing the page title
@@ -343,47 +411,6 @@ directly into their Viewer's `app.c533aa25.js`.
 
 To get the `project.json` out, simply follow the opposite of
 [these instructions](_).
-
-## Text
-### Make specific text a different colour
-To do this, simply use inline CSS styling between HTML tags.
-
-For example, this:
-
-```html
-<span style="color: #ba2323;">makes the text red.</span>
-```
-
-<span style="color: #ba2323;">makes the text red.</span>
-
-!!! note
-
-    If you want to learn about how to get hex codes, visit [here](#colours).
-
-### Add hyperlinks to your CYOA
-See [here](/extending-your-cyoa/#modded-viewer).
-
-After that, add hyperlinks as normal:
-
-=== "Open in a new window"
-
-    ```html
-    Visit <a href="https://example.com" target="_blank">here</a>.
-    ```
-
-    New Window Demo:
-    
-    Visit <a href="https://example.com" target="_blank">here</a>.
-
-=== "Open in current window"
-
-    ```html
-    Press <a href="https://example.com">here</a> for more information.
-    ```
-
-    Current Window Demo:
-
-    Press <a href="https://example.com">here</a> for more information.
 
 ## Rows
 ### (EX TODO) Make a Row invisible
@@ -1140,5 +1167,6 @@ See the HTML tags that allow the `style` attribute [here](#allowed-attributes).
 [open the console]: #open-the-console
 [IntCYOAEnhancer script]: /extending-your-cyoa/#intcyoaenhancer-script
 [ice-cheat]: /extending-your-cyoa/#cheat-engine
+[Addons]: /mechanics/addons
 
 <!-- BUFFER -->

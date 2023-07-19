@@ -221,11 +221,22 @@ _Words: WORDS_
 * Changed README.md to talk about why [https://icctutorial.pages.dev][icct] is
   the preferable URL
 * Added abbreviations for Cf. and cf.
+* Added to the Reference
+* Added a `requirements.txt` file so that it's easier to self-host this website
+* Upgraded `mkdocs-material` from 9.2.0b0 to 9.2.0b1
+* Changed GitHub actions workflow to use requirements.txt
+* Compressed gifs once more
 * 
 
 [icct]: https://icctutorial.pages.dev
 
 [Download the source code][dl-VERSION]{ .md-button }
+
+---
+
+Content released under here is licensed under [CC BY-SA 4.0].
+
+---
 
 ### v0.14.0
 _Released on 2023-07-17 at 05:13:53 UTC_
@@ -451,6 +462,12 @@ _Released on 2023-07-07 at 02:07:22 UTC_
 
 [Download the source code][dl-0.3.1]{ .md-button }
 
+---
+
+Content released under here is licensed under the [AGPLv3] licence.
+
+---
+
 ### v0.3.0
 _Released on 2022-06-17 at 19:48:21 UTC_
 
@@ -478,6 +495,7 @@ _Released on 2022-06-17 at 13:40:35 UTC_
 <!-- URLs -->
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [https://upasadena.github.io/interactive-cyoa-creator/]: https://upasadena.github.io/interactive-cyoa-creator/
 
 <!-- Downloads -->

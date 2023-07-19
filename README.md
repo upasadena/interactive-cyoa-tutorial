@@ -30,7 +30,7 @@ more about installing it):
 
 ### Virtual environment
 You may need to set up a virtual environment if you're deploying on your own
-machine:
+machine due to conflicts of dependencies:
 
 ```sh
 python -m venv venv
@@ -38,7 +38,7 @@ python -m venv venv
 ```
 
 ### Prerequisites
-Install the latest mkdocs-material beta release:
+<!-- Install the latest mkdocs-material beta release:
 
 ```sh
 git clone --depth 1 -b 9.2.0b0 https://github.com/squidfunk/mkdocs-material/
@@ -49,7 +49,16 @@ Install the plugins:
 
 ```sh
 pip install mkdocs-minify-plugin mkdocs-git-authors-plugin mkdocs-git-revision-date-localized-plugin
+``` -->
+
+Leverage `requirements.txt`:
+
+```sh
+pip install -r ./requirements.txt
 ```
+
+This may take a while for the first time.
+
 ### Building from git clone
 If you cloned the repository, you're all set!
 
