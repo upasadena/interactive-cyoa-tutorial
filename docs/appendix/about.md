@@ -191,11 +191,19 @@ everything that is possible into the Mechanics
 Changelog template:
 -->
 
+<!-- 
+Reading Time calculation:
+seconds = num_words / 265 * 60 + img_weight * num_images
+
+WPM is 265 by default
+-->
+
 <!--
 ### v0.0.0 (WIP)
 _Released on DATE at TIME UTC_
 
 _Words: WORDS_
+_Reading Time: READINGTIME_
 
 * 
 
@@ -206,6 +214,7 @@ _Words: WORDS_
 _Released on DATE at TIME UTC_
 
 _Words: WORDS_
+_Reading Time: READINGTIME_
 
 * Added to **Design** page
 * Changed the licence of all content to the [CC0] Public Domain licence
@@ -226,6 +235,18 @@ _Words: WORDS_
 * Upgraded `mkdocs-material` from 9.2.0b0 to 9.2.0b1
 * Changed GitHub actions workflow to use requirements.txt
 * Compressed gifs once more
+* Deleted `mkdocs-material` folder that I hosted locally, now that
+  requirements.txt would make it defunct
+* Deleted `venvold/`, another local folder
+* Moved all of the top-level scripts into the `scripts/` directory for
+  organizational purposes
+* Made a new cross-platform word count python script
+* Realized that the old word count script was counting **EVERYTHING** in the
+  root directory, including docs belonging to venv and mkdocs-material.
+  Rerunning it only within `docs/` changed the total from `121,255` (0.14.0) to
+  `21,359` (whilst developing 0.15.0). It appears I had vastly overestimated my
+  word count.
+* Finally deleted the `old/` directory
 * 
 
 [icct]: https://icctutorial.pages.dev

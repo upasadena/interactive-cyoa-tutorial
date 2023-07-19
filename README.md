@@ -7,12 +7,15 @@ MeanDelay.
 View it live at one of these links:
 * https://icctutorial.pages.dev/ – The recommended URL
 * https://upasadena.github.io/interactive-cyoa-tutorial/ – Not recommended. The
-  reason is twofold:
-    1. [Root-relative links][rrl] are broken, as they were made with pages.dev
-       URL (and any other top-level domain) in mind, and…
-    2. It's a much longer name and harder to memorize (cf.
+  reason is threefold:
+    1. [Root-relative links][rrl] are broken, as they were made with the
+       pages.dev URL (and any other top-level domain) in mind, and…
+    2. It's a much longer name (cf.
     https://icctutorial.pages.dev/extending-your-cyoa/ VS
     https://upasadena.github.io/interactive-cyoa-tutorial/extending-your-cyoa/)
+    3. It's harder to memorize, because not only do you have to memorize
+       `interactive-cyoa-creator`, but you have to memorize my username as
+       well.
 
 ## TODO
 See [here](./docs/appendix/about.md).
@@ -38,19 +41,7 @@ python -m venv venv
 ```
 
 ### Prerequisites
-<!-- Install the latest mkdocs-material beta release:
-
-```sh
-git clone --depth 1 -b 9.2.0b0 https://github.com/squidfunk/mkdocs-material/
-pip install --force -e ./mkdocs-material/
-```
-
-Install the plugins:
-
-```sh
-pip install mkdocs-minify-plugin mkdocs-git-authors-plugin mkdocs-git-revision-date-localized-plugin
-``` -->
-
+#### Automatic installation
 Leverage `requirements.txt`:
 
 ```sh
@@ -58,6 +49,20 @@ pip install -r ./requirements.txt
 ```
 
 This may take a while for the first time.
+
+#### Manual installation
+Install the latest mkdocs-material beta release:
+
+```sh
+git clone --depth 1 -b 9.2.0b1 https://github.com/squidfunk/mkdocs-material/
+pip install --force -e ./mkdocs-material/
+```
+
+Install the plugins:
+
+```sh
+pip install mkdocs-minify-plugin mkdocs-git-authors-plugin mkdocs-git-revision-date-localized-plugin
+```
 
 ### Building from git clone
 If you cloned the repository, you're all set!
