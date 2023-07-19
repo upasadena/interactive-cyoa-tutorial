@@ -47,6 +47,13 @@ If your choice's started looking like this:
 When you haven't changed a thing, then try exiting out of Edit mode of all the
 Rows when in the Creator, and *then* open it in the Viewer[^choice-height].
 
+Otherwise, go into **the Sidebar** → **Modify Design** →
+**Manage Choice Design** → and check that you have the
+**If this is checked then every choice in a row will have identical height.**
+option selected.
+
+![](../images/200_choice_same_height.png)
+
 ## The Creator
 
 ### I'm stuck in the Alternate Menu
@@ -137,7 +144,7 @@ There could be many possibilities. Here are some:
   this fix.
 
 <!-- URLs -->
-[zoom]: ../appendix/reference/#zoom-in-and-out
+[zoom]: /appendix/reference/#zoom-in-and-out
 [NaN]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
 
 <!-- BUFFER -->

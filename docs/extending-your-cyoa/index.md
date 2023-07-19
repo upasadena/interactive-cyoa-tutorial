@@ -176,7 +176,7 @@ also shows its Image if it has one.
 
 #### Navigation
 This is on the right-hand side. Press any of the Row Titles in order to jump to
-there. A very conveninent tool.
+there. A very convenient tool.
 
 #### Dice Roll
 On the left side. This allows you to roll a dice for sections of the CYOA that

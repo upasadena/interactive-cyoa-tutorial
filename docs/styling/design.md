@@ -186,7 +186,7 @@ Which looks nicer to you?
 [^1]: Credit to `spartango` on Discord for making me aware of this website
 [^dragons-whore]: Credit to 
     [Dragon's Whore](https://imgchest.com/p/ej7mkx9qydl) for this
-[^peanuts_1987]: Credit to `peanuts_1987` on Dicsord for this
+[^peanuts_1987]: Credit to `peanuts_1987` on Discord for this
 
 <!-- URLs -->
 [Contrast Checker]: https://webaim.org/resources/contrastchecker/

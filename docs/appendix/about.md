@@ -203,6 +203,7 @@ WPM is 265 by default
 _Released on DATE at TIME UTC_
 
 _Words: WORDS_
+
 _Reading Time: READINGTIME_
 
 * 
@@ -214,6 +215,7 @@ _Reading Time: READINGTIME_
 _Released on DATE at TIME UTC_
 
 _Words: WORDS_
+
 _Reading Time: READINGTIME_
 
 * Added to **Design** page
@@ -247,6 +249,10 @@ _Reading Time: READINGTIME_
   `21,359` (whilst developing 0.15.0). It appears I had vastly overestimated my
   word count.
 * Finally deleted the `old/` directory
+* Spelling corrections
+* Moved the **Authors** field from below the comments section to above it, in
+  line with the "Last update" and "Created" metadata.
+* Fixed some dead links
 * 
 
 [icct]: https://icctutorial.pages.dev

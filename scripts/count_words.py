@@ -47,23 +47,43 @@ def count_words_in_markdown(filePath: str):
 
     return len(text.split())
 
-# Top directory to search through
-# top_folder: pathlib.Path = pathlib.Path("../")
-top_folder = "./docs/" # "../"
 
-all_markdown: List  = []
 
-# Folders to ignore
-# Iterate through all files using pathlib
-files = glob.glob(f"{top_folder}**/*.md", recursive=True)
-# files = [x for x in files if not x.name.startswith("")]
-for single_file in files:
-    all_markdown.append(single_file)
+def count_words_in_dir(
+    top_dir: str = "",
+    excluded_dirs: List = [],
+    debug: bool = False
+) -> int:
+    all_markdown: List  = []
 
-# print(f"debug: all_markdown = '{all_markdown}'")
+    # Iterate through all files using pathlib
+    files = glob.glob(f"{top_dir}**/*.md", recursive=True)
 
-total_word_count_markdown: int = 0
-for single_file in all_markdown:
-    total_word_count_markdown += count_words_in_markdown(single_file)
+    for d in excluded_dirs:
+        files = [x for x in files if not x.startswith(f"{top_dir}{d}")]
+    
+    for single_file in files:
+        all_markdown.append(single_file)
 
-print(total_word_count_markdown)
+    if debug:
+        for f in files:
+            print(f"debug: file '{f}'")
+        # print(f"debug: all_markdown = '{all_markdown}'")
+
+    total_word_count_markdown: int = 0
+    for single_file in files:
+        total_word_count_markdown += count_words_in_markdown(single_file)
+    
+    return total_word_count_markdown
+
+def get_tut_words() -> int:
+    return count_words_in_dir("", [
+        ".github\\",
+        ".vscode\\",
+        "scripts\\",
+        "site\\",
+        "venv\\",
+    ], debug=True)
+
+if __name__ == "__main__":
+    print(get_tut_words())

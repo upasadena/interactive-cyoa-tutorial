@@ -1,3 +1,12 @@
+<!-- A hacky way of putting the Authors list above the comments -->
+{% if git_page_authors %}
+<div class="md-source-date">
+  <small>
+      Authors: {{ git_page_authors | default('enable mkdocs-git-authors-plugin') }}
+  </small>
+</div>
+{% endif %}
+
 {% if page.meta.comments %}
   <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
 
