@@ -220,6 +220,7 @@ _Words: WORDS_
   section
 * Changed README.md to talk about why [https://icctutorial.pages.dev][icct] is
   the preferable URL
+* Added abbreviations for Cf. and cf.
 * 
 
 [icct]: https://icctutorial.pages.dev
