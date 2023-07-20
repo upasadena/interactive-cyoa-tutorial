@@ -203,14 +203,23 @@ WPM is 265 by default
 ### v0.0.0 (WIP)
 _Released on DATE at TIME UTC_
 
-{{ words_format(word_count=22513, images=269) }}
+{{ words_format(word_count=00000, images=000) }}
 
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }
 -->
 
-### v0.15.0 (WIP)
+### v0.16.0 (WIP)
+_Released on DATE at TIME UTC_
+
+{{ words_format(word_count=00000, images=000) }}
+
+* 
+
+[Download the source code][dl-VERSION]{ .md-button }
+
+### v0.15.0
 _Released on 2023-07-20 at 08:03:07 UTC_
 
 {{ words_format(word_count=23390, images=284) }}
