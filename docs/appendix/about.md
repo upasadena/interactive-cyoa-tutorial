@@ -82,7 +82,8 @@ purposes, all without asking permission.
     warranty.
 
 ### Source Code
-The source code for this tutorial is licensed under the [AGPLv3] licence.
+The source code for this tutorial is licensed under the [AGPLv3] licence
+(unless stated otherwise in the source).
 
 [To summarize](https://choosealicense.com/licenses/agpl-3.0/):
 
@@ -169,7 +170,7 @@ everything that is possible into the Mechanics
 - [ ] Specify that content indicated by a `!!! quote` admonition and in code
   blocks (when explicitly said or noted as quoted) as not licensed under the
   content licence.
-- [ ] Finish the **Publishing** section and then upload it to reddit
+- [ ] Finish the **Publishing** section and then upload it to Reddit
 
 ### Completed
 
@@ -202,9 +203,7 @@ WPM is 265 by default
 ### v0.0.0 (WIP)
 _Released on DATE at TIME UTC_
 
-_Words: WORDS_
-
-_Reading Time: READINGTIME_
+{{ words_format(word_count=22513, images=269) }}
 
 * 
 
@@ -214,9 +213,7 @@ _Reading Time: READINGTIME_
 ### v0.15.0 (WIP)
 _Released on DATE at TIME UTC_
 
-_Words: WORDS_
-
-_Reading Time: READINGTIME_
+{{ words_format(word_count=22513, images=269) }}
 
 * Added to **Design** page
 * Changed the licence of all content to the [CC0] Public Domain licence
@@ -264,6 +261,10 @@ _Reading Time: READINGTIME_
 * Made a `youtube_embed()` macro to make it easier to embed YouTube videos
 * Change `requirements.txt` such that it now allows semantic versioning
   upgrades. Not sure if all packages use semantic versioning though
+* Officially implemented _Reading Time_ under Releases, using macros
+* Swapped **Neocities** and **GitHub** positions because of two reasons:
+    1. Complex topics should come last, and
+    2. More people would probably be comfortable using Neocities
 * 
 
 [icct]: https://icctutorial.pages.dev

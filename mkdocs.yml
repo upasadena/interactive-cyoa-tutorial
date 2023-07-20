@@ -176,6 +176,7 @@ markdown_extensions:
 watch:
   - overrides/
   - includes/
+  - main.py
 
 extra_css:
   - css/iframe.css

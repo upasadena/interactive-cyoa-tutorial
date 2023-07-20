@@ -5,9 +5,10 @@ icon: material/publish
 
 # Publishing
 Now that your CYOA has been build, we need to discuss how to publish it to the
-world at large. 
+world at large.
 
-As Interactive CYOAs made in the ICC do not need 
+<!-- As Interactive CYOAs made in the ICC do not need  -->
+<!-- What was blud on about ^ ???? -->
 
 !!! tip
 

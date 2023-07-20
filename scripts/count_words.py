@@ -47,8 +47,6 @@ def count_words_in_markdown(filePath: str):
 
     return len(text.split())
 
-
-
 def count_words_in_dir(
     top_dir: str = "",
     excluded_dirs: List = [],
