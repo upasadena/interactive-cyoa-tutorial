@@ -58,7 +58,12 @@ selecting every Choice, but Rows won't show.
 
 So instead, follow the steps [here][backpack-rows].
 
-Then, go through each and every Row made there and tick 
+Then, go through each and every Row made there and then untick
+**Selected Choices?**, meaning it will just show every Choice for the Group.
+
+Once that is done, scroll down to the bottom (while making sure all the images
+are loading) and then back up to the top, before pressing **Download Image**
+**(Go all the way to the bottom to load in the pictures first)**.
 
 ## Splitting the images
 You should probably split the long massive image into multiple images before

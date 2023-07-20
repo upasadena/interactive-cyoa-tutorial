@@ -16,6 +16,75 @@ world at large.
     that are needed (if it's a long CYOA). This will ensure quicker loading
     times, as well as allowing the player to expand them as they wish.
 
+## Merging Viewer files and project.json
+It's a good idea before uploading your CYOA anywhere to merge the
+[Viewer](/static/viewer/) files and `project.json`, rather than having to
+upload them separately. It just makes it easier to work with.
+
+## Organizing your site
+It's a good idea to organize your website. Only using the top-level index is
+fine if you only want to host one CYOA, but what if you want to host more? It
+is then recommended to create folders, and move the project files in them.
+
+If you're only going to use your Neocities site for CYOAs, I recommend using
+the following structure (using Neocities as an example):
+
+```
+yoursite.neocities.org/
+├─────────────────────superhero-cyoa/
+│                     ├── css/
+│                     ├── js/
+│                     ├── index.html
+│                     └── project.json
+├─────────────────────steampunk/
+│                     ├── css/
+│                     ├── js/
+│                     ├── index.html
+│                     └── project.json
+├─────────────────────harem-interactive/
+│                     ├── css/
+│                     ├── js/
+│                     ├── index.html
+│                     └── project.json
+```
+
+If you decide to use it for _more_ than just CYOAs (like say, for example,
+setting up a blog or posting your own creations), you could put all CYOAs under
+a `cyoa/` folder:
+
+```
+yoursite.neocities.org/
+├─────────────────────blog/
+├─────────────────────cyoas/
+├──────────────────────────superhero-cyoa/
+│                          ├── css/
+│                          ├── js/
+│                          ├── index.html
+│                          └── project.json
+├──────────────────────────steampunk/
+│                          ├── css/
+│                          ├── js/
+│                          ├── index.html
+│                          └── project.json
+├──────────────────────────harem-interactive/
+│                          ├── css/
+│                          ├── js/
+│                          ├── index.html
+│                          └── project.json
+├─────────────────────secret-stuff/
+```
+
+!!! tip
+
+    Instead of accessing `index.html` directly (such as
+    `https://mysite.neocities.org/superhero-cyoa/index.html`), you can
+    instead forgo calling `index.html`, since web servers will almost always
+    send you to this page automatically, without changing your URL.
+
+    So it is recommended that you share your link as
+    `https://mysite.neocities.org/superhero-cyoa/`, as it is much cleaner and
+    nicer to look at.
+
 ## Where should I publish?
 There are many possible sites to host and formats to publish your Interactive
 in, and we'll go over how to do so in this section.
@@ -23,9 +92,9 @@ in, and we'll go over how to do so in this section.
 There are quite a few sites that will publish your Interactive. In this
 tutorial we'll only be discussing options that cost no money whatsoever.
 
-Many people use either [Neocities] or [GitHub]. I recommend using GitHub, as it
-allows you to make an unlimited amount of sites from the same account, with
-each site having a larger free size limit.
+Many people use either [Neocities] or [GitHub]. For general use, I recommend
+using GitHub, as it allows you to make an unlimited amount of sites from the
+same account, with each site having a larger free size limit.
 
 If you wanted to make or have made an NSFW Interactive however, I recommend
 using [Neocities]. [GitHub]'s [Sexually Obscene Content] policy means that
@@ -38,12 +107,12 @@ case.
 
 ### Table of Comparison
 
-| Website                | Site Limit    | Size Limit                                                                                                      | Bandwidth Limit (per month)         | Bandwidth Speed                       | File limits                                                                                             | Other notes                                       |
-| ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| [Cloudflare Pages]     | Unlimited     | Depends on GitHub or GitLab                                                                                     | - Unlimited                         |                                       | Pages only supports files up to 26.2 MB in size                                                                  | - 1 build at a time<br>- **500 builds per month** |
-| [GitHub Pages][GitHub] | Unlimited[^1] | - 5 GB per repository<br>- 1 GB per site<br>- 25 MB per file (web upload)<br>- 500 MB per file (git cli upload) | - 100 GB (soft limit)[^2]           | Fast transfer speeds                  | Any file type, but does not run server-side code such as PHP files, whereas paid Neocities supports PHP |                                                   |
-| [Neocities]            | 1 per account | - 1 GB per account<br>- 50 GB per account                                                                       | - 200 GB (free)<br>- 3000 GB (paid) | Slower transfer speeds for free users | HTML files, CSS files, Javascript files, Markdown files, XML files, text files, fonts and images        |                                                   |
-| [GitLab Pages][GitLab] | Unlimited[^1] | - 5 GB per repository                                                                                           | - 100 GB                            |                                       |                                                                                                         |                                                   |
+| Website                | Site Limit    | Size Limit                                                                                                      | Bandwidth Limit (per month)         | Bandwidth Speed                       | File limits                                                                                             |
+| ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [Cloudflare Pages]     | Unlimited     | Depends on GitHub or GitLab                                                                                     | - Unlimited                         |                                       | Pages only supports files up to 26.2 MB in size                                                         |
+| [GitHub Pages][GitHub] | Unlimited[^1] | - 5 GB per repository<br>- 1 GB per site<br>- 25 MB per file (web upload)<br>- 500 MB per file (git cli upload) | - 100 GB (soft limit)[^2]           | Fast transfer speeds                  | Any file type, but does not run server-side code such as PHP files, whereas paid Neocities supports PHP |
+| [Neocities]            | 1 per account | - 1 GB per account<br>- 50 GB per account                                                                       | - 200 GB (free)<br>- 3000 GB (paid) | Slower transfer speeds for free users | HTML files, CSS files, Javascript files, Markdown files, XML files, text files, fonts and images        |
+| [GitLab Pages][GitLab] | Unlimited[^1] | - 5 GB per repository                                                                                           | - 100 GB                            |                                       |                                                                                                         |
 
 ## Why can I not view it locally?
 See [here][local-cyoa-problem].

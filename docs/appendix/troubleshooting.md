@@ -141,6 +141,15 @@ There could be many possibilities. Here are some:
       but still want the background visible, simply put an empty space "` `"
       there
 
+## Publishing
+### I've uploaded my site to Neocities but it won't load
+I have encountered this issue many times. This is a failure on Neocities's end,
+and it happens when uploading the Viewer.
+
+When the upload of your CYOA to Neocities is finished, sometimes many parts of
+the Viewer will not upload, so manually go into the `js/` and `css/` folder and
+reupload files that are not there.
+
 <!-- Footnotes -->
 [^choice-height]: Credit to `Hydrogen Peroxide` and `Valmar` on Discord for
   this fix.

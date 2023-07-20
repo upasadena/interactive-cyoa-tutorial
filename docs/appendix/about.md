@@ -211,10 +211,12 @@ _Released on DATE at TIME UTC_
 -->
 
 ### v0.15.0 (WIP)
-_Released on DATE at TIME UTC_
+_Released on 2023-07-20 at 08:03:07 UTC_
 
-{{ words_format(word_count=22513, images=269) }}
+{{ words_format(word_count=23390, images=284) }}
 
+* Started work on and finished the **Neocities** page
+* Finished **Static** page as it was incomplete
 * Added to **Design** page
 * Changed the licence of all content to the [CC0] Public Domain licence
 * Moved Licence section in the About page up above TODO and Changelog
@@ -265,11 +267,11 @@ _Released on DATE at TIME UTC_
 * Swapped **Neocities** and **GitHub** positions because of two reasons:
     1. Complex topics should come last, and
     2. More people would probably be comfortable using Neocities
-* 
+* Modified `count_words.py` since I no longer need it to ask for input
 
 [icct]: https://icctutorial.pages.dev
 
-[Download the source code][dl-VERSION]{ .md-button }
+[Download the source code][dl-0.15.0]{ .md-button }
 
 ---
 
@@ -589,5 +591,6 @@ _Words: 4,003_
 [dl-0.13.1]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.1.zip
 [dl-0.13.2]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.2.zip
 [dl-0.14.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.14.0.zip
+[dl-0.15.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.15.0.zip
 
 <!-- BUFFER -->

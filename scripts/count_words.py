@@ -15,6 +15,8 @@ import io
 import glob
 from typing import List
 
+DEBUG = False
+
 # Source: https://github.com/gandreadis/markdown-word-count
 def count_words_in_markdown(filePath: str):
     with open(filePath, "r", encoding="utf8") as f:
@@ -74,17 +76,17 @@ def count_words_in_dir(
     
     return total_word_count_markdown
 
-def get_tut_words() -> int:
+def get_tut_words(debug=True) -> int:
     return count_words_in_dir("", [
         ".github\\",
         ".vscode\\",
         "scripts\\",
         "site\\",
         "venv\\",
-    ], debug=True)
+    ], debug)
 
 if __name__ == "__main__":
-    tut_words = get_tut_words()
+    tut_words = get_tut_words(debug=DEBUG)
     print(tut_words)
-    print(f"_Words: {tut_words:,}_")
-    input("Enter to exit: ? ")
+    # print(f"_Words: {tut_words:,}_")
+    # input("Enter to exit: ? ")
