@@ -107,6 +107,12 @@ If you wanted the text to not show up on the same Choice, you can simply make
 the Choice [require][Selected Choice] another Choice, and set the filters such
 that Choices that don't fulfil their requirements are invisible.
 
+---
+
+Another method is by using [Words](#changing-words-with-choices). Have the Word
+value be as long as you want, though you might have to use line breaks in order
+to have multiple lines.
+
 ### Style
 
 Move the other colour stuff to this section.
@@ -176,6 +182,34 @@ Go into **Row Settings** → **Use private styling?** →
 Background column (far left).
 
 <!-- ![](../images/198_make_row_bg_trans.gif) -->
+
+#### Make the Point Bar icons white
+You may wish to make your Point Bar icons white if you have a particularly dark
+CYOA, making it hard to see the icons.
+
+To do so, you have to hack your `css/chunk-vendors.58637379.css`
+file[^pbi-white].
+
+[^pbi-white]: Credit to [u/Wahaha03 and PNG-MAN][pbiw-credit] for this fix
+
+Open it inside of a text editor, and search (++ctrl++ + ++f++) for
+`.theme--light.v-bottom-navigation .v-btn:not(.v-btn--active)` you will find
+the entry you need to change right after it, the `color:rgba(0,0,0,.6)` one.
+The first three 0s are the RGB code, and the last one is the alpha/transparency
+level (1 = normal, 0 = invisible, 0.5 = transparent). This option shows what
+the colour it is by default.
+
+The next thing to search for is
+`.v-item-group.v-bottom-navigation .v-btn.v-btn--active`. You will find another
+color entry that should look like `color:inherit`. Change this to
+`color:rgba(255, 255, 255, 1)` to make it fully white.
+
+---
+
+Alternatively, download this fixed file [here][fixed-css], and replace your
+existing chunk-vendors file with it.
+
+[fixed-css]: /static/fixed-css/chunk-vendors.58637379.css
 
 ## Whole CYOA
 ### Changing the page title
@@ -1160,5 +1194,6 @@ See the HTML tags that allow the `style` attribute [here](#allowed-attributes).
 [IntCYOAEnhancer script]: /extending-your-cyoa/#intcyoaenhancer-script
 [ice-cheat]: /extending-your-cyoa/#cheat-engine
 [Addons]: /mechanics/addons
+[pbiw-credit]: https://www.reddit.com/r/InteractiveCYOA/comments/14uiwfc/comment/jr8y9ye/?utm_source=share&utm_medium=web2x&context=3
 
 <!-- BUFFER -->

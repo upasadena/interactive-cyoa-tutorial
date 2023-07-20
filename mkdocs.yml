@@ -113,8 +113,8 @@ nav:
     - Publishing:
       - publishing/index.md
       - Static: publishing/static.md
-      - Github: publishing/github.md
       - Neocities: publishing/neocities.md
+      - Github: publishing/github.md
     - Appendix:
       - appendix/index.md
       - Reference: appendix/reference.md

@@ -143,28 +143,22 @@ The source code for this tutorial is licensed under the [AGPLv3] licence
     - [x] Finish the Creating Your CYOA section
     - [x] Finish the Extending Your CYOA section
     - [ ] Finish the Publishing section
+        - [x] Publishing (page)
+        - [x] Static
+        - [x] Neocities
+        - [ ] GitHub
     - [ ] Finish the Reference section
     - [ ] Finish the Troubleshooting section
     - [x] Finish the Resources section (will it ever be truly finished?)
-- [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
 CYOA.
-- [ ] Add JavaScript to show when, from now, a release happened
-- [ ] Delete unneeded JavaScript
-- [ ] Delete ideologically-driven information, such as git. The people most
-likely do not need nor want to know that.
 - [ ] After the ICCT is written, go through the main tutorial and add
 everything that is possible into the Mechanics
-- [ ] Standardize "after"/"result"/"with" and "before"/"without" etc
-  tabbed titles
 - [ ] Chill with the quotes, and instead rewrite the quotes into information in
   my own words.
 - [ ] Add my own custom Viewer js file, this time adding:
     - [ ] `alt` attribute for `<img>`s
     - [ ] `referrerpolicy` attribute for `<a>` links
-- [ ] Add tip block when talking about the Viewer, mentioning that projects
-  automatically start at the `index.html`, meaning they don't need to include
-  that in the title (and it looks nicer)
 - [ ] Change template example images in the **Style Templates** section to
   include buttons that are being pressed, images, and other elements
 - [ ] Specify that content indicated by a `!!! quote` admonition and in code
@@ -185,6 +179,19 @@ everything that is possible into the Mechanics
     - [x] Advice on asking the author if they have a Google Doc of it, so that
       you can more easily copy it?
 - [x] Consider changing the content licence to CC0 (Public Domain).
+- [x] Add tip block when talking about the Viewer, mentioning that projects
+  automatically start at the `index.html`, meaning they don't need to include
+  that in the title (and it looks nicer)
+- [x] Delete unneeded JavaScript
+
+### Scrapped
+
+- [ ] Add JavaScript to show when, from now, a release happened
+- [ ] Standardize "after"/"result"/"with" and "before"/"without" etc
+  tabbed titles
+- [ ] Delete ideologically-driven information, such as git. The people most
+likely do not need nor want to know that.
+- [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
 
 ## Changelog
 
@@ -215,12 +222,16 @@ _Released on DATE at TIME UTC_
 
 {{ words_format(word_count=00000, images=000) }}
 
-* 
+* Actually swapped **Neocities** and **GitHub** in the nav this time
+* Expanded on the Publishing section of the TODO section
+* Removed casual speech from Words and fixed a minor typo
+* Added a modded css Viewer file that changes the Point Bar icon colours
+* Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
 
 ### v0.15.0
-_Released on 2023-07-20 at 08:03:07 UTC_
+_Released on 2023-07-20 at 08:10:12 UTC_
 
 {{ words_format(word_count=23390, images=284) }}
 

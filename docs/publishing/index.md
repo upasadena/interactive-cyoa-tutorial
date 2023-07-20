@@ -50,7 +50,7 @@ yoursite.neocities.org/
 
 If you decide to use it for _more_ than just CYOAs (like say, for example,
 setting up a blog or posting your own creations), you could put all CYOAs under
-a `cyoa/` folder:
+a `cyoas/` folder:
 
 ```
 yoursite.neocities.org/
@@ -94,7 +94,8 @@ tutorial we'll only be discussing options that cost no money whatsoever.
 
 Many people use either [Neocities] or [GitHub]. For general use, I recommend
 using GitHub, as it allows you to make an unlimited amount of sites from the
-same account, with each site having a larger free size limit.
+same account, with each site having a larger free size limit. This comes with a
+caveat, however, in that it can be confusing to beginners.
 
 If you wanted to make or have made an NSFW Interactive however, I recommend
 using [Neocities]. [GitHub]'s [Sexually Obscene Content] policy means that

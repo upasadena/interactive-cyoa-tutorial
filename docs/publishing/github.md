@@ -3,7 +3,8 @@ comments: true
 icon: material/github
 ---
 
-# Publishing on Github
+# Publishing on GitHub
+What is GitHub? GitHub
 
 ## Usage Limits
 GitHub has these limits:

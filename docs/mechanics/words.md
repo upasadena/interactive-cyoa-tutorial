@@ -5,7 +5,7 @@ icon: material/chat-processing-outline
 
 # Words
 **Words** are special placeholder variables (not to be confused with
-([Variables]) that can be placed within any body of text in the Interactive
+[Variables]) that can be placed within any body of text in the Interactive
 CYOA. When used, they will be changed into whatever value they hold.
 
 [Variables]: /mechanics/buttons-and-variables/
@@ -69,8 +69,6 @@ and it would appear as:
 !!! example "Here's a live demonstration"
 
     ![](../images/113_words_demonstration.gif)
-
-And that is the beauty of Words.
 
 ---
 
