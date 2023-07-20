@@ -141,6 +141,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://icctutorial.pages.dev/static/macros/</loc>
+         <lastmod>2023-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://icctutorial.pages.dev/static/viewer/</loc>
          <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
