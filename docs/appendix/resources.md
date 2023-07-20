@@ -10,6 +10,21 @@ icon: material/bookmark-outline
 * [Online version](https://intcyoacreator.onrender.com/)
 * [Offline version at itch.io (one-time purchase of 2.50 USD or more)][icc]
 
+## Other Creators
+
+* [CYOA Generator](https://github.com/maxtepafray/cyoa-generator) – An
+  AngularJS based web framework for making interactive CYOAs. Preview
+  [here](https://maxtepafray.github.io/cyoa-generator/).
+* [Chickens2's Engine](https://github.com/chickens2/chickens2.github.io/) –
+  Engine and development environment for interactive versions of CYOA images
+* [CYOA Studio](https://quantencomputer.github.io/cyoastudio/) – An open-source
+static CYOA creator, for those who are less graphically-inclined.
+* [Corrosive-Forge](https://github.com/Arzte/Corrosive-Forge/) (WIP) – An
+  interactive CYOA maker & viewer
+* [Novelette](https://github.com/WriterOfWorlds/Novelette) (Unknown status) –
+  Designed as a replacement/succesor to the Interactive CYOA Creator, with the
+  ability to play and create visual novels too. 
+
 ## Social Media
 ### Reddit
 
@@ -97,7 +112,7 @@ whopping total of 103.7 GB as of writing this.
     * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) – A
       subreddit where people dump and rehost old CYOAs
 * [CYOA (Drive)][cyoa-drive] – A massive NSFW CYOA archive. Claims to have 80%
-  of CYOAs (presumably only NSFW ones).
+  of CYOAs (presumably only NSFW ones). Has 300 folders.
 * [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs
 
     !!! quote "Message from the creator"
@@ -212,11 +227,11 @@ Websites where you can post stories made by CYOAs.
 * [Chooseyourownbooru](https://cyoa.booru.org/) – A booru for CYOAs.
 * [CYOA Thread Pasta](https://pastebin.com/vrqYhnpu) – Pastebin that provided a
 lot of information for this page.
-* [CYOA Studio](https://quantencomputer.github.io/cyoastudio/) – An open-source
-static CYOA creator, for those who are less graphically-inclined.
 * [Some Musings by a CYOA Author](https://pastebin.com/qaL8nDD8) – A post by
 StarDustAnon. It contains musings and advice on how to create CYOAs in general.
 An excellent read.
+* [Interactive CYOA Tools](https://github.com/aronedwards91/portal-jumper) – A
+  home page for aronedwards91's Interactive CYOA Tools. 
 * [ICCT Static Folder](/static) – It's the `static/` directory of this
   tutorial. It contains a couple of useful things to download.
 * [ICC Comments](https://meandelay.itch.io/interactive-cyoa-creator/comments) –

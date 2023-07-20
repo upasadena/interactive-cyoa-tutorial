@@ -47,12 +47,14 @@ If your choice's started looking like this:
 When you haven't changed a thing, then try exiting out of Edit mode of all the
 Rows when in the Creator, and *then* open it in the Viewer[^choice-height].
 
+![](../images/200_choice_same_height.png)
+
+---
+
 Otherwise, go into **the Sidebar** → **Modify Design** →
 **Manage Choice Design** → and check that you have the
-**If this is checked then every choice in a row will have identical height.**
+**If this is checked then every choice in a row will have identical height**
 option selected.
-
-![](../images/200_choice_same_height.png)
 
 ## The Creator
 

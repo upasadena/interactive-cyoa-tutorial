@@ -3,7 +3,11 @@ iframe fit for MkDocs
 by Pasadena
 Modified from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
 
-Template:
+New Template:
+
+{{ youtube_embed("wog43Zj0uRE") }}
+
+Old Template:
 
 <div class="iframe-container">
   <iframe

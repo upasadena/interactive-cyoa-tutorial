@@ -131,15 +131,7 @@ Then it will show!
 
 See the video tutorial here:
 
-<div class="iframe-container">
-  <iframe
-  class="responsive-iframe"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope;
-  picture-in-picture"
-  allowfullscreen
-  src="https://www.youtube.com/embed/7pFnjGsQL7E"></iframe>
-</div>
+{{ youtube_embed("7pFnjGsQL7E") }}
 
 [Row Menu]: /mechanics/rows/#editing-rows
 [Non-activatable?]: /mechanics/rows/#non-activatable

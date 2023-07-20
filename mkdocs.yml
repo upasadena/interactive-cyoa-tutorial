@@ -77,6 +77,7 @@ plugins:
       minify_html: true
       htmlmin_opts:
         remove_comments: true
+  - macros
 
 nav:
   - Home: https://upasadena.github.io/

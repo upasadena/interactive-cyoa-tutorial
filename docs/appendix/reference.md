@@ -216,15 +216,7 @@ This is especially useful for mobile users (which make up a surprising amount
 of ICYOA players), as their screens are usually smaller and thus can't see as
 many Point Types in the Point Bar.
 
-<div class="iframe-container">
-  <iframe
-  class="responsive-iframe"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope;
-  picture-in-picture"
-  allowfullscreen
-  src="https://www.youtube.com/embed/wog43Zj0uRE"></iframe>
-</div>
+{{ youtube_embed("wog43Zj0uRE") }}
 
 ### Show a loading progress indicator
 See [here](../extending-your-cyoa/#progress-indicator).
