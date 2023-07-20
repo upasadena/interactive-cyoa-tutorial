@@ -96,6 +96,8 @@ whopping total of 103.7 GB as of writing this.
     * [The Blog](https://cyoaarchive.blogspot.com/)
     * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) – A
       subreddit where people dump and rehost old CYOAs
+* [CYOA (Drive)][cyoa-drive] – A massive NSFW CYOA archive. Claims to have 80%
+  of CYOAs (presumably only NSFW ones).
 * [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs
 
     !!! quote "Message from the creator"
@@ -256,6 +258,7 @@ An excellent read.
 [Inkscape Guide]: https://www.reddit.com/r/nsfwcyoa/wiki/tutorials/inkscapestartingguide/
 [CYOA Archives]: https://cyoa-archive.getgrist.com/iRRjcoVdXJNV/CYOA-Archives/p/5
 [A Complete Guide to Flexbox by CSS Tricks]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+[cyoa-drive]: https://drive.google.com/drive/folders/1rmtAKU9EbE4gDKb3TfRZOrCBVpgyxKIS?usp=drive_link
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/
@@ -273,5 +276,8 @@ An excellent read.
 [/CYOA/]: https://discord.gg/72QNY4Y
 [CYOA-discord]: https://discord.gg/Cwm8nCM
 [NSFWCYOA]: https://discord.gg/nVfxqbr
-[#programming-and-interactives-tank]: https://discord.com/channels/446825069151256596/892156485713403904
 [PixelGMS's Interactive CYOAs]: https://discord.gg/Nvadzvn39e
+<!-- Discord channels -->
+[#programming-and-interactives-tank]: https://discord.com/channels/446825069151256596/892156485713403904
+
+<!-- BUFFER -->

@@ -45,6 +45,10 @@ the title, and a pilcrow symbol should appear (¶). If you press that, it will
 update the URL in the URL bar, and if you send that to someone, it will
 automatically send them to that section should they visit the link.
 
+Alternatively (and if your screen is wide enough) you can use the
+_Table of Contents_ menu on the right-hand side. Simply pressing on the section
+you wish to link to will update the URL.
+
 ## Searching
 If you are looking for a specific piece of information and not the tutorial in
 its entirety, then there are four ways to look for the information:

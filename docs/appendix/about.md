@@ -256,6 +256,8 @@ _Reading Time: READINGTIME_
 * Updated Words fields on the About page with the more accurate amount of
   plaintext words typed (as opposed to all words counting the Markdown)
 * Added word count for v0.12.0 and below
+* Updated Introduction#Sharing, introducing a new sharing tip
+* Added an Archive to the Resources section
 * 
 
 [icct]: https://icctutorial.pages.dev
