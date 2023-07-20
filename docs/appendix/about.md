@@ -259,8 +259,11 @@ _Reading Time: READINGTIME_
 * Updated Introduction#Sharing, introducing a new sharing tip
 * Added an Archive to the Resources section
 * Reordered Troubleshooting text
-* Added `mkdocs-macros-plugin` to the codebase, allowing for arbitrary insertion of macros for easier coding
+* Added `mkdocs-macros-plugin` to the codebase, allowing for arbitrary
+  insertion of macros for easier coding
 * Made a `youtube_embed()` macro to make it easier to embed YouTube videos
+* Change `requirements.txt` such that it now allows semantic versioning
+  upgrades. Not sure if all packages use semantic versioning though
 * 
 
 [icct]: https://icctutorial.pages.dev
