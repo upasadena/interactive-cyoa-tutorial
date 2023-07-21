@@ -11,7 +11,7 @@ This website is available in these locations:
 
 * [https://icctutorial.pages.dev](https://icctutorial.pages.dev) – Recommended,
   shorter and easier to remember
-* [https://upasadena.github.io/interactive-cyoa-creator/] – Backup,
+* [https://upasadena.github.io/interactive-cyoa-creator/][icct] – Backup,
   root-relative links don't work
 
 ## Authors
@@ -142,13 +142,14 @@ The source code for this tutorial is licensed under the [AGPLv3] licence
         - [ ] Private Styling
     - [x] Finish the Creating Your CYOA section
     - [x] Finish the Extending Your CYOA section
-    - [ ] Finish the Publishing section
+    - [x] Finish the Publishing section
         - [x] Publishing (page)
         - [x] Static
         - [x] Neocities
-        - [ ] GitHub
+        - [x] GitHub
     - [ ] Finish the Reference section
-    - [ ] Finish the Troubleshooting section
+    - [ ] Finish the Troubleshooting section – Will this ever truly be
+      finished?
     - [x] Finish the Resources section (will it ever be truly finished?)
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
 CYOA.
@@ -217,12 +218,21 @@ _Released on DATE at TIME UTC_
 [Download the source code][dl-VERSION]{ .md-button }
 -->
 
-### v0.16.0 (WIP)
+### v0.17.0 (WIP)
 _Released on DATE at TIME UTC_
 
 {{ words_format(word_count=00000, images=000) }}
 
-* Started on and finished **GitHub** page
+* 
+
+[Download the source code][dl-VERSION]{ .md-button }
+
+### v0.16.0
+_Released on DATE at TIME UTC_
+
+{{ words_format(word_count=26436, images=329) }}
+
+* Started on and finished the **GitHub** page
 * Actually swapped **Neocities** and **GitHub** in the nav this time
 * Expanded on the Publishing section of the TODO section
 * Removed casual speech from Words and fixed a minor typo
@@ -231,10 +241,11 @@ _Released on DATE at TIME UTC_
   easier to work with and only adds a negligible increase in space
 * Got rid of unneeded `dev-requirements.txt`, `get_reading_time.py`, and
   `enter_venv.ps1` files
-* 
-* Minor fixes
+* Added `docs/images/bin` folder for other images I want to ignore, and moved
+  the favicon in there
+* Other minor fixes
 
-[Download the source code][dl-VERSION]{ .md-button }
+[Download the source code][dl-0.16.0]{ .md-button }
 
 ### v0.15.0
 _Released on 2023-07-20 at 08:10:12 UTC_
@@ -596,7 +607,7 @@ _Words: 4,003_
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
-[https://upasadena.github.io/interactive-cyoa-creator/]: https://upasadena.github.io/interactive-cyoa-creator/
+[icct]: https://upasadena.github.io/interactive-cyoa-creator/
 
 <!-- Downloads -->
 [dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip
@@ -618,5 +629,6 @@ _Words: 4,003_
 [dl-0.13.2]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.13.2.zip
 [dl-0.14.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.14.0.zip
 [dl-0.15.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.15.0.zip
+[dl-0.16.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.16.0.zip
 
 <!-- BUFFER -->

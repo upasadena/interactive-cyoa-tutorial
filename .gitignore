@@ -8,6 +8,8 @@ docs/images/raw_gifs/*
 !docs/images/raw_gifs/BUFFER.md
 # Local mkdocs-material build
 mkdocs-material/
+# Bin for images
+docs/images/bin/*
 ###
 
 # Byte-compiled / optimized / DLL files
