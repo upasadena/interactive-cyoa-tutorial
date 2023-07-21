@@ -166,6 +166,7 @@ everything that is possible into the Mechanics
   blocks (when explicitly said or noted as quoted) as not licensed under the
   content licence.
 - [ ] Finish the **Publishing** section and then upload it to Reddit
+- [ ] Add the version of the Tutorial in the header or footer somewhere
 
 ### Completed
 
@@ -223,12 +224,13 @@ _Released on DATE at TIME UTC_
 
 {{ words_format(word_count=00000, images=000) }}
 
+* Added and modified **GitHub** with fixes, as well as adding a reset section
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }
 
 ### v0.16.0
-_Released on DATE at TIME UTC_
+_Released on 2023-07-21 at 07:27:04 UTC_
 
 {{ words_format(word_count=26436, images=329) }}
 

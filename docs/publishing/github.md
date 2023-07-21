@@ -111,12 +111,28 @@ As an example, here is what the `README.md` of this tutorial looks like:
 
 Learn more about READMEs from GitHub [here][gh-readme].
 
-Learn Markdown easily [here](https://commonmark.org/help/).
+Learn Markdown in a matter of minutes [here](https://commonmark.org/help/).
 
 !!! info
 
     Fun fact, if you know how to bold and italicize text in Discord, you
     already know [a flavour of Markdown][discord-md].
+
+!!! info
+
+    You can view the Markdown source for this page (and all pages in this
+    tutorial) by going back to the top and pressing the page icon with the eye:
+
+    ![](../images/253_view_md_source.png)
+
+    Which will take you to this:
+
+    ![](../images/254_md_source.png)
+
+    You can also press the edit button in order to edit, but it's not likely
+    you have write permissions to the repository, so you will have to fork
+    (essentially copy) the repository, make your changes, and do a pull request
+    (requesting that your code is merged back into the main repository).
 
 #### Add .gitignore
 You can, heh, ignore this. We won't need a `.gitignore` for the purposes of
@@ -244,8 +260,8 @@ To upload your site, simply upload the Viewer files and your `project.json`!
 ## Publishing to GitHub pages
 Now that your site is uploaded, it's time to publish it for the world to see!
 
-There are two methods we will be using in this tutorial: Jekyll and Actions.
-There are pros and cons to both:
+There are two methods we will be using in this tutorial: Jekyll and Static
+HTML. There are pros and cons to both:
 
 | Method          | Pros                                                               | Cons                                                                                | Use case                                                                                                               |
 | --------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -313,13 +329,13 @@ You should see two suggestions workflows now. Select **Configure** under
 
 If it's not there:
 
-* Copy and paste the code from [/static/static.yml](/static/static.yml).
-* Then, put it in a file under `.github/workflows/static.yml`.
+1. Copy and paste the code from [/static/static.yml](/static/static.yml).
+2. Then, put it in a file under `.github/workflows/static.yml`.
     * You can do this straight from the browser by selecting **Add file** →
     **Create new file** from your repository root. Where it says to name your
     file up the top, pressing slashes will create folders for you if they don't
     exist, so simply copy and paste the above path and file.
-* Save the file by committing your changes (green button up the top).
+3. Save the file by committing your changes (green button up at the top right).
 
 You should notice it is rebuilding now, and you have a new `.github` folder:
 
@@ -682,7 +698,7 @@ git push -u origin main
     ```
 **However**, when it asks for your password, do not put in your GitHub
 password. This is because GitHub fazed out passwords in 2021. Instead, you have
-to create a personal access token, which is available [here]
+to create a personal access token, which is available [here][pat].
 
 Pushing with the username and access token looks like so (note that the
 token being pasted in is not invisible):
@@ -700,6 +716,83 @@ Into a full one:
 ![](../images/251_full_repo.png)
 
 Note the lack of a `README.md` makes it look bare.
+
+### Reverting changes
+Made an irreversable mistake? Don't worry, Git can help (so long as you
+committed every so often).
+
+First, you need to get the commit ID you wish to revert to, it usually being
+the last one, so use `#!sh git log`.
+
+!!! note
+
+    Both the IDs from `git log` and `git log --oneline` work, but oneline is
+    shorter and easier to type if you don't have a mouse to help copy and
+    paste.
+
+```sh
+$ git log --oneline
+0dfd423 (HEAD -> main, origin/main) Another file added!
+89e8a4d Update!
+2835eb5 Update
+1b4bdc3 Update
+6db4a53 Initial commit
+$
+```
+
+To revert to the last commit, simply put in the ID of the commit that you want
+to revert to with the format `#!sh git reset <ID>`:
+
+!!! note
+
+    Use `reset` not `revert`
+
+```sh
+$ git log --oneline
+0dfd423 (HEAD -> main, origin/main) Another file added!
+89e8a4d Update!
+2835eb5 Update
+1b4bdc3 Update
+6db4a53 Initial commit
+$ git reset 89e8a4d
+Unstaged changes after reset:
+M       another_file.md
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   another_file.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$
+```
+
+As we can see, we reversed the commit. However, we did not reverse the changes
+we made, only the fact that a commit happened. In order to that, we attach the
+`--hard` flag to the command:
+
+```sh
+git reset <ID> --hard
+```
+
+Which, as we can see, removes the file:
+
+```sh
+$ git log --oneline
+2835eb5 (HEAD -> main) Update
+1b4bdc3 Update
+6db4a53 Initial commit
+$ ls
+another_file.md  icct  test_file.txt
+$ git reset 1b4bdc3 --hard
+HEAD is now at 1b4bdc3 Update
+$ ls
+icct  test_file.txt
+```
 
 ### Putting it all together
 After making changes it should look like this:
@@ -731,5 +824,6 @@ own and view the docs. -->
 [discord-md]: https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
 [gh-licences]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
 [gh-pages]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+[pat]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
 <!-- BUFFER -->

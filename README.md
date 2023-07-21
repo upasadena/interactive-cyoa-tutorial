@@ -18,7 +18,7 @@ View it live at one of these links:
        well.
 
 ## TODO
-See [here](./docs/appendix/about.md).
+See [here](./docs/appendix/about.md#todo).
 
 ## Contributing
 To contribute to this, simply fork this repository, make your changes, and
