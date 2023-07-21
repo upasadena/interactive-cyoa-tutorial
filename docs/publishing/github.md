@@ -298,15 +298,96 @@ If you want a quick way to get your link, see
 [Adding a link to your project](#adding-a-link-to-your-project) down below.
 
 ### Using Static HTML
+If you didn't want to use Jekyll and just wanted to serve the files as-is, this
+is the option for you!
 
+To start with, go into the Pages menu in the Settings. Select the **Source**
+dropdown menu and select **GitHub Actions**.
 
+![](../images/234_github_actions.png)
 
-<!-- ## Free custom subdomains
-You may have noticed that this tutorial has a pages.dev subdomain (if you are
-viewing from https://icctutorial.pages.dev/). This was gained for free at
-[Cloudflare Pages](https://pages.cloudflare.com/). We won't get into setting
-that up as of now (but it is planned), but feel free to visit that site on your
-own and view the docs. -->
+You should see two suggestions workflows now. Select **Configure** under
+**Static HTML**:
+
+![](../images/235_static_html_configure.png)
+
+If it's not there, copy and paste this:
+
+??? Static HTML workflow
+
+    ```yaml
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+    ```
+
+    Put it in a file under `.github/workflows/static.yml`. You can do this
+    straight from the browser by selecting **Add file** → **Create new file**
+    from your repository root. Where it says to name your file up the top,
+    pressing slashes will create folders for you if they don't exist.
+
+Save the file by committing your changes.
+
+You should notice it is rebuilding now, and you have a new `.github` folder:
+
+![](../images/236_building_static.png)
+
+As you can see here, there *is* a performance difference, even for such a small
+repository, so you can be rest assured if you have a massive one, then swapping
+over to _Static HTML_ will improve the deployment times. This is useful if you
+want to send out updates to your audience quickly.
+
+![](../images/237_performance_diff.png)
+
+!!! question "Why does Jekyll take longer?"
+
+    This is because Jekyll is an external framework that takes in Markdown
+    files and outputs them to HTML. So GitHub Actions has to not only download
+    and install Jekyll AND your Git repository, but it must then convert any
+    Markdown files to HTML.
+
+    Whereas _Static HTML_ simply just uploads your files to a web server, and
+    serves them as-is, making the progress significantly faster.
 
 ### Adding a link to your project
 If you want to quickly get the link to your site and have it ready to press in
@@ -335,15 +416,25 @@ site is live, and press **Unpublish site**.
 ![](../images/233_unpublish_site.png)
 
 ## Configuring your root site
-yourname.github.io/
-
+If you wanted to configure the very root of your site (Such as
+`https://yourname.github.io/`) then it's simple. Just create a repository
+called `yourname.github.io`, and activate Pages for that.
 
 ---
 
-Learn more [here][gh-pages]
+Learn more about GitHub Pages [here][gh-pages]
 
 ## Git CLI
+!!! note
 
+    This topic is for more advanced users.
+
+<!-- ## Free custom subdomains
+You may have noticed that this tutorial has a pages.dev subdomain (if you are
+viewing from https://icctutorial.pages.dev/). This was gained for free at
+[Cloudflare Pages](https://pages.cloudflare.com/). We won't get into setting
+that up as of now (but it is planned), but feel free to visit that site on your
+own and view the docs. -->
 
 <!-- URLs -->
 [github-usage-limits]: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits
