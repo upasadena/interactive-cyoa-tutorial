@@ -1,4 +1,0 @@
-# Get requirements from the main `requirements.txt` file
--r requirements.txt
-
-readtime~=2.0 # 2.0.0

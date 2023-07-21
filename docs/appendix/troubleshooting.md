@@ -39,6 +39,40 @@ python -m http.server 7778 &
 Replacing `7778` with any number. Then, go into your browser at
 [http://localhost:7778](http://localhost:7778) to view the CYOA.
 
+### I tried to load my CYOA on a website, but the CYOA won't load
+Make sure that all of your Viewer files and project.json are in the exact same
+folder. Your folder structure should look like this:
+
+```
+my-cool-cyoa/
+├────────── css/
+├────────── js/
+├────────── index.html
+└────────── project.json
+```
+
+Also, make sure you're loading from the folder itself, not the `project.json`.
+
+### I tried to load my CYOA, but the CYOA loads something different
+
+#### Loading project.json
+If your screen looks like this:
+
+=== "Chrome"
+
+    ![](../images/207_loading_json.png)
+
+=== "Firefox"
+
+    ![](../images/208_loading_json_firefox.png)
+
+Then you are loading the `project.json` file instead of the `index.html` file,
+which actually loads the CYOA. `project.json` is simply a configuration file
+storing all of the data.
+
+To fix this, simply delete `project.json` from the URL, and it should load
+automatically!
+
 ### My choices are not all the same size
 If your choice's started looking like this:
 

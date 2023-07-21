@@ -183,7 +183,7 @@ Background column (far left).
 
 <!-- ![](../images/198_make_row_bg_trans.gif) -->
 
-#### Make the Point Bar icons white
+#### Make the Point Bar icons white for darker CYOAs
 You may wish to make your Point Bar icons white if you have a particularly dark
 CYOA, making it hard to see the icons.
 
@@ -192,24 +192,25 @@ file[^pbi-white].
 
 [^pbi-white]: Credit to [u/Wahaha03 and PNG-MAN][pbiw-credit] for this fix
 
+##### Pre-made file method
+Download this fixed file [here][fixed-css], and replace your existing
+`css/chunk-vendors.58637379.css` file with it.
+
+[fixed-css]: /static/fixed-css/chunk-vendors.58637379.css
+
+##### Manual method
 Open it inside of a text editor, and search (++ctrl++ + ++f++) for
 `.theme--light.v-bottom-navigation .v-btn:not(.v-btn--active)` you will find
 the entry you need to change right after it, the `color:rgba(0,0,0,.6)` one.
 The first three 0s are the RGB code, and the last one is the alpha/transparency
-level (1 = normal, 0 = invisible, 0.5 = transparent). This option shows what
-the colour it is by default.
+level (1 = normal, 0 = invisible, 0.5 = transparent). This option corresponds
+to the default colour.
 
 The next thing to search for is
 `.v-item-group.v-bottom-navigation .v-btn.v-btn--active`. You will find another
 color entry that should look like `color:inherit`. Change this to
-`color:rgba(255, 255, 255, 1)` to make it fully white.
-
----
-
-Alternatively, download this fixed file [here][fixed-css], and replace your
-existing chunk-vendors file with it.
-
-[fixed-css]: /static/fixed-css/chunk-vendors.58637379.css
+`color:rgba(255, 255, 255, 1)` to make it fully white. This option corresponds
+to what colour the icons are when they have been pressed.
 
 ## Whole CYOA
 ### Changing the page title
@@ -438,6 +439,50 @@ directly into their Viewer's `app.c533aa25.js`.
 To get the `project.json` out, simply follow the opposite of
 [these instructions](_).
 
+### Change project.json to a different name
+There could be many reasons why you want a different name than `project.json`.
+Perhaps you're working with different versions of the project, or perhaps your
+webhost doesn't allow `.json` files, or perhaps you just don't like the name.
+
+Regardless of the case, you must go into your `js/app.c533aa25.js` file, and do
+a Find and Replace (++ctrl++ + ++h++) in a text editor. Set Find to
+`project.json` and Replace to your new name, such as `Beta-v2.json`.
+
+<!-- #### Dynamically decide which file to load based on a file
+Perhaps you don't wish to find and replace your app.js every time, and wish to
+be able to change it. This will allow you to very quickly change which file is
+loaded as your project file.
+
+First, Find and Replace this:
+
+```js
+"project.json"
+```
+
+with this:
+
+```js
+{
+fetch("current_project.txt")
+  .then((res) => res.text())
+  .then((text) => {
+  // do something with "text"
+    return text;
+  })
+  .catch((e) => console.error(e));
+}
+
+```
+
+Then, Find and Replace `"project.json"` (quotes included) with `project_file`.
+
+And then put in your `current_viewer.txt` file (or whatever you name it) the
+name of the JSON file to load:
+
+```text
+FinalRelease.json
+``` -->
+
 ## Rows
 ### (EX TODO) Make a Row invisible
 If you want to make a Row invisible, simply add a [Selected Choice]
@@ -659,19 +704,20 @@ A way to bypass that, is
 You can dynamically change the 
 
 ## IDs
-### Navigation with ID / Title list
+### (TODO AN EX) Navigation with ID / Title list
 ID / Title list as helpful way of navigating your way through a large CYOA –
 showcase JRPG Traitor 
 
 Using the [See ID/Title List] option in [the Sidebar] allows you to quickly
 navigate through your CYOA.
 
-### Reusing IDs
+### (TODO) Reusing IDs
 Interesting fact: Setting multiple things to the same ID allows you to activate
 one through the other 
 
 ## Requirements
-### Logic Gates and Requirements
+### (TODO) Logic Gates and Requirements
+
 | Logic Gate | Explanation                                     | Requirement |
 | ---------- | ----------------------------------------------- | ----------- |
 | **AND**    | True only if all IDs are selected               | [GOTO][AND] |
@@ -681,7 +727,6 @@ one through the other
 | **NAND**   | True unless all IDs are selected                |             |
 | **XAND**   | True if all IDs are either selected or not      |             |
 | **XOR**    | True if one ID is selected and the other is not |             |
-
 
 ### 'All of these are selected' requirement
 There is no such requirement within the ICC at this moment. To emulate it,

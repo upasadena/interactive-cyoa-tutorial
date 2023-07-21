@@ -222,10 +222,16 @@ _Released on DATE at TIME UTC_
 
 {{ words_format(word_count=00000, images=000) }}
 
+* Started on and finished **GitHub** page
 * Actually swapped **Neocities** and **GitHub** in the nav this time
 * Expanded on the Publishing section of the TODO section
 * Removed casual speech from Words and fixed a minor typo
 * Added a modded css Viewer file that changes the Point Bar icon colours
+* Beautified the fixed app.js and chunks-vendor.css files because it makes them
+  easier to work with and only adds a negligible increase in space
+* Got rid of unneeded `dev-requirements.txt`, `get_reading_time.py`, and
+  `enter_venv.ps1` files
+* 
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
