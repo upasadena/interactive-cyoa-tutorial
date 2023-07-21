@@ -15,7 +15,11 @@ Alphabetical within folders and within files
   to where you can change certain styles.
     * `POINT BAR ICONS` – Search for this to find the options needed to
       customize the colour of the Point Bar icons
-* [macros/](./macros.md) – A testing site for mkdocs-macros
+* [macros/](./macros/) – A testing site for mkdocs-macros
 * [viewer/](./viewer/) – ICC Viewer files mirror
+* [ocr_scan.py](./ocr_scan.py) – My script for automated OCR scanning using
+  `tesseract`
 * [static_background.css](static_background.css) – A CSS file that makes the
   background static.
+* [static.yml](./static.yml) – A GitHub Actions workflow file for statically
+  hosting content instead of building a Jekyll site for it

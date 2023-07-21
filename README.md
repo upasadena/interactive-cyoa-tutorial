@@ -27,10 +27,6 @@ open a pull request.
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for specifics.
 
 ## Building locally
-To build this tutorial locally, first install `mkdocs-material` (visit
-[here](https://squidfunk.github.io/mkdocs-material/getting-started/) to learn
-more about installing it):
-
 ### Virtual environment
 You may need to set up a virtual environment if you're deploying on your own
 machine due to conflicts of dependencies:

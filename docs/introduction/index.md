@@ -24,7 +24,7 @@ should they have read this tutorial.
 ## Background
 [I had first began planning this tutorial back in late March][gdtut] in a
 Google Doc, where I planned to release video tutorials on YouTube. Eventually
-though, I had forgotten about the plan, and went about my life.
+though, I had forgotten about the plan and went about my life.
 
 Suddenly though, in Mid-June, I remembered about the tutorials.
 [I decided to actually try to create it][wikitut] when I was making a CYOA wiki
@@ -47,7 +47,7 @@ automatically send them to that section should they visit the link.
 
 Alternatively (and if your screen is wide enough) you can use the
 _Table of Contents_ menu on the right-hand side. Simply pressing on the section
-you wish to link to will update the URL.
+that you wish to link to will update the URL.
 
 ## Searching
 If you are looking for a specific piece of information and not the tutorial in
@@ -93,9 +93,9 @@ a Row, Choice/Object, Point, etc.
 * IntCyoaCreator – Another name for the Interactive CYOA Creator.
 * Creator – The Interactive CYOA Creator. Always with an uppercase letter.
 * creator – Any person who creates. Always with a lowercase letter.
-* ICT – Interactive CYOA Tutorial, used to refer to this tutorial in the GitHub
+* ICT – Interactive CYOA Tutorial. Used to refer to this tutorial in the GitHub
   release page, but can also refer to any ICYOA tutorial.
-* ICCT – Interactive CYOA Creator Tutorial, used to refer to this tutorial, but
+* ICCT – Interactive CYOA Creator Tutorial. Used to refer to this tutorial, but
   can refer to any tutorial for the ICC specifically (as opposed to other
   interactive formats).
 

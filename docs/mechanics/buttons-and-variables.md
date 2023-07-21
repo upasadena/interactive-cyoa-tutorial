@@ -172,7 +172,7 @@ When you first try use a Variable, you'll notice that there are none:
 So we'll need to create a Varible.
 
 ##### Creating Variables
-In order to create a Varaible, you must go into **the Sidebar** →
+In order to create a Variable, you must go into **the Sidebar** →
 **Open Features** → **Manage Variables**.
 
 That will open this menu:
@@ -283,7 +283,7 @@ This option denotes how many Choices will be randomly selected.
     ![](../images/156_random_choice_live.gif)
 
 Do note, however, that like in the example, randomly selected Choices can
-select already selected Choices, effectively unselecting them, if the
+select already selected Choices, effectively unselecting them if the
 [Only Unselected Choices?] switch isn't turn on.
 
 [Only Unselected Choices?]: #only-unselected-choices
@@ -322,7 +322,7 @@ the Choices you can press the Button again.
 
 ---
 
-Learn more about what you can do with Images in the [Reference].
+Learn more about what you can do with Buttons and Variables in the [Reference].
 
 <!-- URLs -->
 [ID]: /mechanics/ids-and-requirements/#ids-unique-identifiers

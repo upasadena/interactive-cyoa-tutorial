@@ -18,8 +18,8 @@ GitHub has these limits:
 
 * A recommended limit of 1 GB per repository
 * A *soft* bandwidth limit of 100 GB per month
-* A *soft* build limit of 10 builds per hour, if using the default GitHub
-Pages, rather than a custom GitHub actions workflow
+* A *soft* build limit of 10 builds per hour, if using the default GitHub Pages
+(Jekyll), rather than a custom GitHub actions workflow (like Static HTML)
 * You are only allowed one account, *but* you can create unlimited
   repositories, hosting an unlimited amount of 1 GB subfolders under your
   custom domain.
@@ -385,6 +385,12 @@ site is live, and press **Unpublish site**.
 
 ![](../images/233_unpublish_site.png)
 
+But your repo is still accessible to the public. You can either:
+
+* Make it private
+* Delete it, or
+* Do nothing, I just want to unpublish the site only
+
 ## Configuring your root site
 If you wanted to configure the very root of your site (Such as
 `https://yourname.github.io/`) then it's simple. Just create a repository
@@ -423,8 +429,9 @@ Git is an incredibly tool that is vast and complex. As such, it is simply
 untenable to go through each and every aspect of it. Instead, we will go
 through the very basics in order to get you up and running.
 
-In fact, Git is where GitHub gets its name, because it's a hub for Git
-repositories.
+!!! note
+
+    Git is where GitHub gets its name, because it's a hub for Git repositories.
 
 To begin, download the tool from [here](https://git-scm.com/downloads) (if
 you're on Windows or Mac; if you're on Linux install using your package
@@ -738,7 +745,6 @@ $ git log --oneline
 2835eb5 Update
 1b4bdc3 Update
 6db4a53 Initial commit
-$
 ```
 
 To revert to the last commit, simply put in the ID of the commit that you want
@@ -769,7 +775,6 @@ Changes not staged for commit:
         modified:   another_file.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
-$
 ```
 
 As we can see, we reversed the commit. However, we did not reverse the changes

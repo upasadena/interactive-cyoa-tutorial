@@ -33,7 +33,7 @@ This is where you can preview CYOAs before you upload them.
     Options selected in the viewer will persist in the editor, so make sure you
     [reset the options](../mechanics/objects/#resetting-objects). Otherwise,
     playtest your CYOAs using a separate instance, or by launching it with the
-    official Viewer html files.
+    official Viewer HTML files.
 
     You can use this fact to your advantage by selecting default choices.
 
@@ -166,7 +166,7 @@ each of them have. This is **incredibly** powerful, especially in conjunction
 with ++ctrl+f++ / ++cmd+f++, as it allows you an overview of your entire
 project without having to open all rows and objects.
 
-You can use this to find the ID of an Object using its title, and vice versa.
+You can use this to find the ID of an Object using its title and vice versa.
 
 ![](../images/0m_id_title_list.png)
 

@@ -225,6 +225,14 @@ _Released on DATE at TIME UTC_
 {{ words_format(word_count=00000, images=000) }}
 
 * Added and modified **GitHub** with fixes, as well as adding a reset section
+* Changed **Github** to **GitHub** in the navigation
+* Small fix in `README.md`
+* Spelling correction in **Buttons and Variables**
+* Fixed **Buttons and Variables** talking about **Images** at the Reference
+  message at the end
+* Compressed 7 more gifs
+* Updated `static` directory index
+* Grammar and spelling checked
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }
