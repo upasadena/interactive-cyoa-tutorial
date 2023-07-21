@@ -250,7 +250,7 @@ There are pros and cons to both:
 | Method          | Pros                                                               | Cons                                                                                | Use case                                                                                                               |
 | --------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **Jekyll**      | + Allows using Markdown (.md) files<br/>+ Jekyll themes<br/>+ Easy | - Slower to deploy<br/>- Can be bloat if you don't need it                          | If you want to host information alongside CYOAs, such as Changelogs or a Version select, or if you have multiple CYOAs |
-| **Static HTML** | - Faster to deploy and lightweight                                 | - To display information you will need to use HTML and CSS<br/>- Needs to be set up | If you want to simply host CYOAs and that's it                                                                         |
+| **Static HTML** | + Faster to deploy and lightweight                                 | - To display information you will need to use HTML and CSS<br/>- Needs to be set up | If you want to simply host CYOAs and that's it                                                                         |
 
 ### Using Jekyll
 This is the default action that GitHub uses, and it's very easy to set up.
@@ -311,62 +311,15 @@ You should see two suggestions workflows now. Select **Configure** under
 
 ![](../images/235_static_html_configure.png)
 
-If it's not there, copy and paste this:
+If it's not there:
 
-??? Static HTML workflow
-
-    ```yaml
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
-
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-    ```
-
-    Put it in a file under `.github/workflows/static.yml`. You can do this
-    straight from the browser by selecting **Add file** → **Create new file**
-    from your repository root. Where it says to name your file up the top,
-    pressing slashes will create folders for you if they don't exist.
-
-Save the file by committing your changes.
+* Copy and paste the code from [/static/static.yml](/static/static.yml).
+* Then, put it in a file under `.github/workflows/static.yml`.
+    * You can do this straight from the browser by selecting **Add file** →
+    **Create new file** from your repository root. Where it says to name your
+    file up the top, pressing slashes will create folders for you if they don't
+    exist, so simply copy and paste the above path and file.
+* Save the file by committing your changes (green button up the top).
 
 You should notice it is rebuilding now, and you have a new `.github` folder:
 
@@ -424,10 +377,346 @@ called `yourname.github.io`, and activate Pages for that.
 
 Learn more about GitHub Pages [here][gh-pages]
 
+## Releases
+Releases are, you guessed it, releases. Specifically, they snapshot a version
+of your project that then becomes immutable, meaning you cannot change it.
+
+They are significant because they allow you to go back to an earlier point at
+view what it was like then, and, because Releases automatically create tags,
+you can compare using `git diff` the difference between the two releases: what
+changed, what was deleted, and what was added.
+
+You can create "releases" by pressing **Create new release** in the bottom
+right, under the **Releases** header.
+
+![](../images/238_gh_releases.png)
+
 ## Git CLI
 !!! note
 
-    This topic is for more advanced users.
+    This topic is for more intermediate to advanced users. It may not be
+    necessary for your use case.
+
+    This section assumes basic familiarity with commands like `mkdir` and `cd`.
+
+    This is not the _best_ tutorial on Git out there, and won't be covering it
+    in much detail, just enough to do basic stuff like cloning and uploading.
+
+Git is an incredibly tool that is vast and complex. As such, it is simply
+untenable to go through each and every aspect of it. Instead, we will go
+through the very basics in order to get you up and running.
+
+In fact, Git is where GitHub gets its name, because it's a hub for Git
+repositories.
+
+To begin, download the tool from [here](https://git-scm.com/downloads) (if
+you're on Windows or Mac; if you're on Linux install using your package
+manager).
+
+After installing, make sure it is in your path by running:
+
+```sh
+git --version
+```
+
+where it should display like so:
+
+![](../images/239_git_version.png)
+
+### Initializing a repository
+!!! note
+
+    Use this only if you **haven't** created a GitHub repository and selected
+    an option under "Initialize this repository with".
+
+Use the command in the folder you want to initialize:
+
+```sh
+git init
+```
+
+or to initialize it outside of the folder:
+
+```sh
+git init my-interactive/
+```
+
+This display "Initialized empty Git repository" when completed:
+
+![](../images/240_git_init.png)
+
+And you may notice a hint here if this is your first time using Git. Git
+repositories can have many "branches", which can be thought of as a branch of a
+tree. They can split off at any time (and thus are separate) but – unlike real
+trees, I assume – can also rejoin the original branch, merging them together.
+
+The default branch that Git starts with is `master`. However, the default
+branch that GitHub uses is `main`. I recommend changing it to `main`:
+
+```sh
+git config --global init.defaultBranch main
+```
+
+You may have noticed `#!sh --global`. There are two levels to Git config
+settings. There are the global settings, which are the default for each project
+you use, and repo-specific settings, which override the global ones. So an
+existing repo using `master` as the main branch will not be overriden by your
+default, and you can rest assured.
+
+As it says, to rename your current branch use:
+
+```sh
+git branch -m main
+```
+
+### Changing the config
+Git needs a name and an email in order to `commit`. Set this up globally like
+so:
+
+```sh
+git config --global user.name "Pasadena"
+git config --global user.email "underscore.pasadena@gmail.com"
+```
+
+Remove the global flag for repository-only settings. You can see the current
+values by simply not typing anything after `user.name` or `user.email`.
+
+!!! tip
+
+    Set the name and email to your display name and email used by GitHub,
+    respectively. This is because GitHub will display the account associated
+    with the email's name and profile picture, and links to that account too.
+
+### Tracking files
+To first do something with Git, you must have files.
+
+Let's create a file right now:
+
+![](../images/241_create_file.gif)
+
+Now let's track the status of our Git repository:
+
+```sh
+git status
+```
+
+![](../images/242_git_untracked.png)
+
+As you can see, it knows the file exists, but it is untracked. That means Git
+will ignore that file.
+
+To individually add the file into the Git repository:
+
+```sh
+git add test_file.txt
+```
+
+To add **all** files in the current folder recursively, do:
+
+```sh
+git add .
+```
+
+Now let's check the `#!sh git status` again:
+
+![](../images/243_git_tracked.png)
+
+Great! The changes made (a new file in the directory) are now ready to be
+committed.
+
+But what if you want to exclude files from being included (especially useful if
+you're using `#!sh git add .`)? If you read the earlier sections, you know
+about the `.gitignore` file. Creating this and setting rules allows you to
+ignore files and folders according to patterns. Here are some basic patterns:
+
+```gitignore
+# This is a comment, it will be ignored, and is used to document what a
+# specific thing does
+
+# Ignoring single files
+example.txt
+
+# Keeping single files
+!example.txt
+
+# Multiple files of the same extension
+*.txt
+
+# Multiple files of the same name
+example*
+
+# Folders
+examples/
+
+# Files inside of folders
+examples/example.txt
+
+# Ignoring files in every directory
+**/example.txt
+```
+
+See more information at this cheat sheet
+[here](https://github.com/kenmueller/gitignore).
+
+### Making a commit
+A "commit" is essentially a mini-release. It is you stating that all changes to
+the repository have been finished, and to officially register all the
+cumulative changes in the Git repository. Commits only affect tracked files.
+
+To make a commit you must use the `#!sh git commit` command:
+
+```sh
+git commit -m "Your message here!"
+```
+
+The `-m` flag (short for `message`) is where you put information about what you
+changed. GitHub has the message of the very first commit be `Initial commit`,
+and has changes to files by default be `Update <file name>`. The important
+thing is to be consistent with this.
+
+![](../images/244_git_commit.png)
+
+And you just made your first commit!
+
+### Viewing the log
+You may wish to view the commit history at one point.
+
+To do so, simply type:
+
+```sh
+git log
+```
+
+And it will display lots of information:
+
+![](../images/245_git_log.png)
+
+For now, it's pretty sparse. But come more commits you'll be able to see more
+and more.
+
+To view it in a more compact manner, simply type:
+
+```sh
+git log --oneline
+```
+
+to get this:
+
+![](../images/246_git_log_oneline.png)
+
+### Downloading a repository
+Whether you're downloading someone else's repo or your own, the process is the
+same.
+
+Simply use the `clone` subcommand:
+
+```sh
+git clone <URL>
+```
+
+For example, this will clone the repository of this tutorial (warning: this
+tutorial is 324 MB as of v0.15.0):
+
+```sh
+git clone https://github.com/upasadena/interactive-cyoa-tutorial
+```
+
+which will look like this when done:
+
+![](../images/247_git_clone.png)
+
+Using Git clone is important, because it preserves the Git repository. Other
+methods of downloading may only download the files themselves, rather than with
+the Git repository.
+
+### Uploading to GitHub
+Now, we'll be assuming that the repository we're uploading to hasn't been
+initialized yet, and so is empty. If it already has been initialized,
+[clone](#downloading-a-repository) it, make your changes, commit, then jump to
+[#pushing](#pushing).
+
+#### Setting up the remote
+In order to upload your files to the cloud, Git must first know where it
+resides. To that end, use the `#!sh git remote add` command:
+
+```sh
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+```
+After making an empty repository called `git-cli-tut` on GitHub, I added it
+like so:
+
+```sh
+git remote add origin https://github.com/upasadena/git-cli-tut.git
+```
+
+!!! example ""
+
+    ![](../images/248_git_remote_add.gif)
+
+Now Git knows where to upload your files!
+
+!!! question "What does `origin` mean?"
+
+    `origin` is just a name for the remote URL that we can reference in other
+    commands. It can be named anything, but most repositories have `origin` set
+    to the default remote name.
+
+#### Pushing
+To push (upload to the remote), make sure you have at least one commit. Then,
+do this command:
+
+```sh
+git push -u origin main
+```
+
+!!! info
+
+    You only need to add `-u origin main` if this is your first push to an
+    empty repository! It tells Git that the default remote it should send to
+    is `origin`, and to use the `main` branch for pushing.
+
+    So after your first push, you can just use:
+
+    ```sh
+    git push
+    ```
+**However**, when it asks for your password, do not put in your GitHub
+password. This is because GitHub fazed out passwords in 2021. Instead, you have
+to create a personal access token, which is available [here]
+
+Pushing with the username and access token looks like so (note that the
+token being pasted in is not invisible):
+
+![](../images/249_git_push.gif)
+
+---
+
+Now your repository should change from an empty one:
+
+![](../images/250_empty_repo.png)
+
+Into a full one:
+
+![](../images/251_full_repo.png)
+
+Note the lack of a `README.md` makes it look bare.
+
+### Putting it all together
+After making changes it should look like this:
+
+```sh
+git add .;git commit -m "Update!"
+git push
+```
+
+!!! example
+
+    ![](../images/252_full_update.gif)
+
+---
+
+And you're all set! You should now know the basics of GitHub and Git, and how
+to use them to host your CYOAs!
 
 <!-- ## Free custom subdomains
 You may have noticed that this tutorial has a pages.dev subdomain (if you are

@@ -32,9 +32,17 @@ Alternatively, if you have [Python], you can run this command where your
 
 [Python]: https://www.python.org/
 
-```sh
-python -m http.server 7778 &
-```
+=== "Normal"
+
+    ```sh
+    python -m http.server 7778
+    ```
+
+=== "Run in the background"
+
+    ```sh
+    python -m http.server 7778 &
+    ```
 
 Replacing `7778` with any number. Then, go into your browser at
 [http://localhost:7778](http://localhost:7778) to view the CYOA.
