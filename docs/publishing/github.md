@@ -20,8 +20,9 @@ GitHub has these limits:
 * A *soft* bandwidth limit of 100 GB per month
 * A *soft* build limit of 10 builds per hour, if using the default GitHub
 Pages, rather than a custom GitHub actions workflow
-* You are only allowed one account, *but* you can create unlimited repository,
-  hosting an unlimited amount of 1 GB subfolders under your custom domain.
+* You are only allowed one account, *but* you can create unlimited
+  repositories, hosting an unlimited amount of 1 GB subfolders under your
+  custom domain.
 * Repos must be public to use GitHub pages (this is fine because project.json
   files are stored in plaintext anyway)
 
