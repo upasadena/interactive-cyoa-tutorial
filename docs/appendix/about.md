@@ -194,6 +194,7 @@ everything that is possible into the Mechanics
 - [ ] Delete ideologically-driven information, such as git. The people most
 likely do not need nor want to know that.
 - [ ] Add a section detailing how to get pages.dev, netlify.app, etc.
+- [ ] Add surge.sh hosting option (unlimited bandwidth)
 
 ## Changelog
 
@@ -233,6 +234,8 @@ _Released on DATE at TIME UTC_
 * Compressed 7 more gifs
 * Updated `static` directory index
 * Grammar and spelling checked
+* Added DnD style skill check in Reference
+* Added some more stuff to the Reference
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

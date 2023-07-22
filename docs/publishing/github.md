@@ -124,11 +124,15 @@ Learn Markdown in a matter of minutes [here](https://commonmark.org/help/).
     You can view the Markdown source for this page (and all pages in this
     tutorial) by going back to the top and pressing the page icon with the eye:
 
-    ![](../images/253_view_md_source.png)
+    !!! example ""
+
+        ![](../images/253_view_md_source.png)
 
     Which will take you to this:
 
-    ![](../images/254_md_source.png)
+    !!! example ""
+    
+        ![](../images/254_md_source.png)
 
     You can also press the edit button in order to edit, but it's not likely
     you have write permissions to the repository, so you will have to fork

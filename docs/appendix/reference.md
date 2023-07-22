@@ -703,6 +703,56 @@ A way to bypass that, is
 ### (TODO) Dynamically change Allowed Choices number
 You can dynamically change the 
 
+### Make a Choice only able to be selected once
+This will make sure that once they select the Choice it cannot be
+reselected[^only-select-once].
+
+[^only-select-once]: Credit to `SensualWetting#5481` on Discord for this
+
+!!! warning
+
+    This method is hacky and relies on bugged mechanics.
+
+This is what it'll look like once you're done:
+
+!!! example ""
+
+    ![](../images/257_select_once.gif)
+
+What you do is:
+
+1. Make a Point Type just for this option
+2. [Hide the Point Type](/mechanics/points-and-scores/#id-needed-to-show)
+3. Set the Point Type to `1`
+4. Set a **+= More or Equal** requirement on the Choice you want to affect
+5. Select the Point Type you created, and set it to `1`
+6. Add a Score setting the Score to `1`
+
+And you're (functionally) done! You can reset it in the creator by clearing
+your selected IDs.
+
+But we can go further. In the private styling we can setup disabled Choices so
+that they look like they've been selected, so this can only be used if the Row
+is explicitely for Choices you don't want to be taken back, otherwise the
+styling would be inconsistent.
+
+Do this like so:
+
+1. Turn on Private Styling
+2. Manage Filter Design
+3. Change the **Filter on Choice that is missing its required** to the same as
+   the filter above it, matching it
+
+And then we get this:
+
+![](../images/258_select_once_styled.gif)
+
+---
+
+There is — as of yet — no known method to detect whether the Choice has been
+pressed because it actually stops being selected as soon as you press it, with
+the bug being that it appears and acts disabled.
+
 ## IDs
 ### (TODO AN EX) Navigation with ID / Title list
 ID / Title list as helpful way of navigating your way through a large CYOA –
@@ -977,6 +1027,67 @@ using the ID of your Point type.
 
 ### (TODO) Hide a Row behind a button
 Use a toggleable variable and use that ID in a selected choice requirement
+
+### (ADD VIDEO) Make a DnD-style 1d20 skill check
+This is how to make this:
+
+!!! example
+
+    ![](../images/256_dnd_random_static.gif)
+
+This example uses a 1d20 dice, but you could possibly hack this to produce
+other methods.
+
+!!! note
+
+    This is quite a complex example, but once it is made you can just clone the
+    Rows if you need it again.
+
+1. Create a Point Type to be used for this only
+    1. Set the `Id Needed To Show` option to something random to hide it from
+       the Point Bar
+2. Create the Row that will house the `Roll` button
+    1. Switch on `Button?`
+    2. Select `other`
+    3. Tick `Random or Variable?` on
+    4. Select `Only Unselected choices?`
+    5. Select `Button can only be pressed if no choices is selected?` only if
+       you want it to be a one time thing
+    6. Go back to the Row edit menu
+    7. Change `Allowed Choices` to 1
+    8. Create a base Row for the value of "1"
+    9. Under that Row, add a Score with the value of "-1" to add to a Point
+       Type
+    10. Select the dummy point type you made above
+    11. (optional) if you want to display the result later on
+        1. To display the result of this choice, create a Word
+        2. Change the ID to something unique like #encounter-roll, and set the
+           text to something like `0` or `(Roll first)`. This is the text that
+           is displayed before you have rolled, so it doesn't matter.
+        3. Select Functions → `Word will be changed to something else at
+           select.`
+        4. Change `Will be changed to this on select` to 1, this will change
+           for each cloned Choice
+        5. Change `Will be changed to this on deselect` to 0, don't change this
+           when cloning
+    12. Clone the Choice 20 times (the amount of sides the die has)
+    13. Go through each Choice and update the Score and (if you had set it
+        above) Word number as is needed
+    14. (optional) if you want to display the result and did the previous
+        steps: use `#encounter-roll` in your text, e.g. "You rolled a
+        #encounter-roll!"
+3. Create the Row that will house the Results
+    1. Select `Non-activatable?`
+    2. Create as many Choices as you want messages
+    3. Set requirements for both. Use a `+= More Than` requirement for what the
+       baseline the roll should achieve to succeed.
+    4. For the display of failure, use a `- Less Than` requirement for the same
+       number as above, and a `More Than` equal to 0 (as this is the default,
+       and you don't want to count it as a failure yet).
+
+### (TODO) Make a DnD-style skill check plus an arbitrary number N
+
+
 
 ## Groups
 ### (ADD EXAMPLE) Display a list of all Choices selected within a Row or Group

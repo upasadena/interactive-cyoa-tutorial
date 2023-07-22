@@ -68,7 +68,7 @@ If your screen looks like this:
 
 === "Chrome"
 
-    ![](../images/207_loading_json.png)
+    ![](../images/255_json_chrome.png)
 
 === "Firefox"
 
