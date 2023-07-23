@@ -28,5 +28,9 @@
   },
   "[jinja-md]": {
     "rewrap.autoWrap.enabled": true
-  }
+  },
+  "cSpell.ignoreWords": [
+    "defenses",
+    "favor"
+  ]
 }
