@@ -22,7 +22,7 @@ static CYOA creator, for those who are less graphically-inclined.
 * [Corrosive-Forge](https://github.com/Arzte/Corrosive-Forge/) (WIP) – An
   interactive CYOA maker & viewer
 * [Novelette](https://github.com/WriterOfWorlds/Novelette) (Unknown status) –
-  Designed as a replacement/succesor to the Interactive CYOA Creator, with the
+  Designed as a replacement/successor to the Interactive CYOA Creator, with the
   ability to play and create visual novels too. 
 
 ## Social Media
@@ -85,7 +85,7 @@ Resources primarily for Static CYOAs. May still apply to creating Interactives.
 
 * [How to Create a CYOA] – From the official [r/makeyourchoice] subreddit, this
   guide is focused more on static CYOAs. However, should you create an
-  Interactive from scratch rather than adapating them, this could help you.
+  Interactive from scratch rather than adapting them, this could help you.
 * [Tips and Tricks for CYOA Making] – By Hexall.
 * [Tips for writing descriptions] – A post with many comments to help you write
   descriptions of your own content.
@@ -111,6 +111,8 @@ whopping total of 103.7 GB as of writing this.
     * [The Blog](https://cyoaarchive.blogspot.com/)
     * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) – A
       subreddit where people dump and rehost old CYOAs
+    * [Patreon](https://www.patreon.com/cyoa_archive) – Support the Allsync
+      financially using the official Patreon
 * [CYOA (Drive)][cyoa-drive] – A massive NSFW CYOA archive. Claims to have 80%
   of CYOAs (presumably only NSFW ones). Has 300 folders.
 * [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs
@@ -123,7 +125,7 @@ whopping total of 103.7 GB as of writing this.
         Yahoo! account "Dropboxanon@yahoo.com' with the CYOA. Adding a name
         either in the subject or body attached to the email would be helpful.
 
-* [TokHaar Gol's CYOAs] – For [reasons I won't get into][tok], TokHar Gool's
+* [TokHaar Gol's CYOAs] – For [reasons I won't get into][tok], TokHaar Gol's
 CYOAs don't tend to be included in archives. This is his personal Google Drive
 with his CYOAs.
 
@@ -150,8 +152,11 @@ Websites where you can post stories made by CYOAs.
 * [SpaceBattles (SB)](https://forums.spacebattles.com/) – A forum for all sorts
   of things. The **Creative Writing** section is where you can post and view
   stories.
-* [Questionable Questing (QQ)](https://questionablequesting.com/) – Like the
-  above, but is more lenient in terms of rules. Allows NSFW content.
+    * [General CYOA Thread][sb-general-cyoa-thread]
+* [Questionable Questing (QQ)](https://questionablequesting.com/) **(NSFW)** –
+  Like the above, but is more lenient in terms of rules. Allows NSFW content.
+    * [General QQ CYOA Thread][qq-general-cyoa-thread] **(CYOA)** – Check the
+        [Threadmarks][qq-thread-tm] for more indexes
 * [Sufficient Velocity (SV)](https://forums.sufficientvelocity.com/) – A
   splinter of SpaceBattles.
 
@@ -238,6 +243,8 @@ An excellent read.
   The Interactive CYOA Creator's comments section. Go to this if you can't find
   help anywhere else. You can also go through this, see if anyone else has had
   your problem, and see if anyone replied with a solution.
+* [General QQ CYOA Thread's Threadmarks][qq-thread-tm] – A list of indexes that
+  helped out this page
 
 <!-- URLs -->
 [cyoa-template-dl]: https://www.dropbox.com/scl/fi/cjssl5mk5h6rhr8mz7w1s/Template.json?rlkey=whf28vz69wqrt0d8jjfvitzty&dl=0
@@ -274,6 +281,9 @@ An excellent read.
 [CYOA Archives]: https://cyoa-archive.getgrist.com/iRRjcoVdXJNV/CYOA-Archives/p/5
 [A Complete Guide to Flexbox by CSS Tricks]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 [cyoa-drive]: https://drive.google.com/drive/folders/1rmtAKU9EbE4gDKb3TfRZOrCBVpgyxKIS?usp=drive_link
+[sb-general-cyoa-thread]: https://forums.spacebattles.com/threads/general-cyoa-thread.315809/
+[qq-general-cyoa-thread]: https://questionablequesting.com/threads/general-qq-cyoa-thread.1263/
+[qq-thread-tm]: https://questionablequesting.com/threads/general-qq-cyoa-thread.1263/threadmarks?category_id=1
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/

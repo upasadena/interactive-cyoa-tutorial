@@ -7,7 +7,7 @@ icon: material/palette-outline
 
 ## Choosing your colour palette
 There are many different websites to help choosing your colour palette. If
-you're adapating a static CYOA, you may wish to instead use the colour palette
+you're adapting a static CYOA, you may wish to instead use the colour palette
 used therein.
 
 Here are a couple websites that can help with choosing a colour palette:

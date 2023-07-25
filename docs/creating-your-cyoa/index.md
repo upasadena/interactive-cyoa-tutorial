@@ -220,7 +220,7 @@ Here's an example of it:
 ![](../images/181_google_docs_ocr.gif)
 
 This can be especially useful since Google Docs has its in-built spellchecker
-and grammer checker.
+and grammar checker.
 
 ## Planning
 The next thing you should do is plan how you're going to incorporate mechanics

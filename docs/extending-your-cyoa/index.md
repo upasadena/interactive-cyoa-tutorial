@@ -214,7 +214,7 @@ As an example, I will activate the ID `vllg`, which corresponds to the
 This can be useful in CYOAs that do not have a Backpack and Choice Import.
 
 #### Toggle full scan mode
-Full Scan mode is a togglable mode that changes the way that the Enhancer saves
+Full Scan mode is a toggleable mode that changes the way that the Enhancer saves
 data.
 
 The Author says (paraphrased):
@@ -346,7 +346,7 @@ In your project's `js` folder, replace `app.c533aa25.js` with the one from
 ## Using Git
 What is Git? Git is a **version control system** (VCS). It is a program that
 tracks changes within files and folders. Using Git, we can create snapshots of
-changes for each version, meaning if we add irreversable changes to our
+changes for each version, meaning if we add irreversible changes to our
 project, we can simply revert back to a previous version.
 
 We can also compare changes between versions, and can invite others to
@@ -368,7 +368,7 @@ basic design of a web page.
 `CSS`
 
 :   Cascading Style Sheets. This language is what does the majority of the
-styling. It's using this language that the most aethetically pleasing websites
+styling. It's using this language that the most aesthetically pleasing websites
 you can think of achieve their look.
 
 `JavaScript`

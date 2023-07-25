@@ -109,8 +109,8 @@ present within an Object row.
     ratio of text height will still be nice.
 
     But if there are several sentences, please use only 4 or 5 max. Otherwise,
-    the text will stretch into a completely unpleasing and uncomfortable to
-    read columm[^dragons-whore].
+    the text will stretch into a completely unpleasant and uncomfortable to
+    read column[^dragons-whore].
 
 === "1 per Row"
 
@@ -163,7 +163,7 @@ This option makes it so Objects are unable to be chosen.
 This can be used when you just want to supply information using Objects.
 
 Objects are great for this because they allow you to split information into 
-chunks, each with an image able to be attatched, as well as any Addons that
+chunks, each with an image able to be attached, as well as any Addons that
 might be attached to said Objects.
 
 !!! quote "Help and Instructions"

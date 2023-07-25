@@ -252,11 +252,12 @@ _Released on DATE at TIME UTC_
   both:
     1. Compatible with `.vscode/settings.json`, and
     2. Help with writing and contributing to this project
+        * Spell-checker added
 * Preemptively added `docs/styling/backgrounds.md` because I have some ideas
 * Added some more TODOs to the Reference
-<!-- * Adjust `mkdocs.yml` to add  -->
 * Added `reddit_post.md`, the Markdown for the (future) Reddit post in the
   `/static` folder
+* 
 
 [Download the source code][dl-VERSION]{ .md-button }
 

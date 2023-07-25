@@ -13,7 +13,7 @@ order to access an object (a profile), the ICC requires an ID (a username).
 
 They are particularly useful in situations where you have many choices that 
 have requirements, meaning that if you assigned IDs according to regular, 
-predictable rules, you would not need to contantly check for the IDs of those
+predictable rules, you would not need to constantly check for the IDs of those
 choices.
 
 When you create any object, whether a Row, Choice, Point type, etc, they will
@@ -65,7 +65,7 @@ be assigned a random 4-digit hex ID.
 
 !!! tip
 
-    Once a CYOA is publically released for the first time, it is recommended
+    Once a CYOA is publicly released for the first time, it is recommended
     that you do NOT change the IDs of your Rows and Choices.
 
     This is for backwards-compatibility reasons; if you updated the CYOA with

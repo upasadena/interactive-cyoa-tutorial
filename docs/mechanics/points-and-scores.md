@@ -13,7 +13,7 @@ icon: material/scoreboard-outline
 !!! tip
 
     A lot of ICYOA players use mobile to play CYOAs, therefore if you want to
-    make a CYOA that has a lot of Point Types accomodating to mobile users, it
+    make a CYOA that has a lot of Point Types accommodating to mobile users, it
     is suggested that you create a [Point Tabs] menu.
 
 [Point Tabs]: /appendix/reference/#show-points-emnu
@@ -291,7 +291,7 @@ E.g. `-25` adds 25 points.
 !!! question "Why negative numbers?"
 
     As subtracting is the default behaviour, and there is actually no in-built
-    method of adding, creators have to hack the ICC by using the mathematic
+    method of adding, creators have to hack the ICC by using the mathematical
     rule that subtracting a negative produces a positive.
 
 ### (TODO) Multiply Points

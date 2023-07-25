@@ -221,14 +221,14 @@ during the compression. The lowest option
 * A value of `90` is the default selection, and seems identical to the original
 
 This option can go really low—saving a lot of space—before being super
-noticable on some images.
+noticeable on some images.
 
 ![](../images/90_compress_quality.gif)
 
 ---
 
 Ideally, you should strive for a balance between reducing the file size and
-having the noticability of the compression.
+having the noticeability of the compression.
 
 #### Compressing all Images
 Compressing **all** images requires a different method, however. It is not
@@ -260,7 +260,7 @@ To compress after setting this option, simply press **Compress All Images**.
 An alternative method for compressing the entire project is by using Agregen's
 [CYOA Compressor](https://agregen.gitlab.io/cyoa-compressor/). You could even
 use the two methods in conjunction if truly need to. However, if you truly are
-desparate to lower the size of your project, consider using
+desperate to lower the size of your project, consider using
 [external images](#external-images).
 
 ## Local vs External Images

@@ -22,10 +22,10 @@ Neocities's [limits] for a Free account are as follows:
   aren't using external URLs
 * 200 GB bandwidth – How much traffic can visit your site (i.e., how much all
   visitors can download, including image files)
-    
+
     !!! note
 
-        This is a soft limit. Temporary surgers are fine, [Neocities] won't
+        This is a soft limit. Temporary surges are fine, [Neocities] won't
         take your site down automatically, and [they're] very flexible.
 
 * File Upload Type restrictions
@@ -117,7 +117,7 @@ Now we're going to upload our files. First, upload your `project.json`:
 ![](../images/205_upload_project.gif)
 
 Next, upload the [Viewer](/static/viewer/) here. This is the code that actually
-intreprets your `project.json` and displays it to players.
+interprets your `project.json` and displays it to players.
 
 !!! warning
 
@@ -139,7 +139,7 @@ Dashboard. Easy, right?
     command line. You can learn, of course, but it may be difficult to begin
     with.
 
-Please see the relevation information here:
+Please see the relevant information here:
 [https://neocities.org/cli](https://neocities.org/cli)
 
 ## Migrating from Neocities

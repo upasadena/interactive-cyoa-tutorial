@@ -154,7 +154,7 @@ See [here](#get-rid-of-the-extra-repeating-row-background).
 #### Get rid of the extra, repeating Row background
 You may notice that after you've set your background, your Rows will repeat the
 Background as well. This is inconvenient if you've set the Background to
-anything but a simple colour, as it is incredibly obvious and unprofessonial.
+anything but a simple colour, as it is incredibly obvious and unprofessional.
 
 Here's an example of the repeating background:
 
@@ -451,7 +451,7 @@ To get the `project.json` out, simply follow the opposite of
 ### Change project.json to a different name
 There could be many reasons why you want a different name than `project.json`.
 Perhaps you're working with different versions of the project, or perhaps your
-webhost doesn't allow `.json` files, or perhaps you just don't like the name.
+web host doesn't allow `.json` files, or perhaps you just don't like the name.
 
 Regardless of the case, you must go into your `js/app.c533aa25.js` file, and do
 a Find and Replace (++ctrl++ + ++h++) in a text editor. Set Find to
@@ -653,7 +653,7 @@ This can be useful compared to the above if you wanted to have a dynamic
 
 <!-- Add a collapsible example -->
 
-### Choice requires anothers Choice
+### Choice requires another's Choice
 See [here][choice_requires_another_choice]
 
 ### (TODO) Hide a choice if it doesn't meet the requirements
@@ -742,7 +742,7 @@ your selected IDs.
 
 But we can go further. In the private styling we can setup disabled Choices so
 that they look like they've been selected, so this can only be used if the Row
-is explicitely for Choices you don't want to be taken back, otherwise the
+is explicitly for Choices you don't want to be taken back, otherwise the
 styling would be inconsistent.
 
 Do this like so:
@@ -1163,7 +1163,7 @@ Et voilà! It should be working as expected.
 | This is <i>italicized</i> text                 | `#!html This is <i>italicized</i> text`                 |      
 | This is <i><b>bold and italicized</b></i> text | `#!html This is <i><b>bold and italicized</b></i> text` |      
 | This is <u>underlined</u> text                 | `#!html This is <u>underlined</u> text`                 |      
-| This is <mark>highlighted</mark> text          | `#!hmtl This is <mark>highlighted</mark> text`          |      
+| This is <mark>highlighted</mark> text          | `#!html This is <mark>highlighted</mark> text`          |      
 | This is <sup>superscript</sup> text            | `#!html This is <sup>superscript</sup> text`            |      
 | This is <sub>subscript</sub> text              | `#!html This is <sub>subscript</sub> text`              |      
 | This is <big>big</big> text                    | `#!html This is <big>big</big> text`                    |      
@@ -1174,7 +1174,7 @@ Et voilà! It should be working as expected.
 !!! note
 
     **Remember:** Anything that is not allowed is only not allowed when
-    it is inputted into the Creator itself, not if it is loaded separatedly
+    it is inputted into the Creator itself, not if it is loaded separately
     in the `index.html`!
 
 The following are the default allowed tags that are rendered with the Viewer:

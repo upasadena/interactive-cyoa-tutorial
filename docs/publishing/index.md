@@ -164,12 +164,6 @@ functionality or bug fixes: `0.3.0` → `0.3.1` → `0.3.2`, and so on.
 When you are finally ready to release your Interactive CYOA to the public, the
 version becomes `1.0.0`.
 
-<!-- ??? quote
-
-    Patch version Z (x.y.Z | x > 0) MUST be incremented if only backward
-    compatible bug fixes are introduced. A bug fix is defined as an internal
-    change that fixes incorrect behavior. -->
-
 After adding only bug fixes and minor changes, increment the patch version:
 `1.0.0` → `1.0.1` → `1.0.2`, and so on.
 

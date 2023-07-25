@@ -169,7 +169,7 @@ When you first try use a Variable, you'll notice that there are none:
 
 ![](../images/145_no_variables.gif)
 
-So we'll need to create a Varible.
+So we'll need to create a Variable.
 
 ##### Creating Variables
 In order to create a Variable, you must go into **the Sidebar** →

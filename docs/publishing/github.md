@@ -177,7 +177,7 @@ For source code (such as the `README.md` and `project.json`):
   responsible for what you do with it
 * [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) – You can do anything
   with it but:
-    * You have to make it open-source (such as uploading it publically on
+    * You have to make it open-source (such as uploading it publicly on
       GitHub) if you're distributing it
     * You have to include this licence, including copyright notices
     * Serving this over the internet counts as distribution
@@ -197,7 +197,7 @@ For content (such as for making a static CYOA or original content inside of the
 * [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0) – You can do
   anything, but:
     * You must credit me, and
-    * You cannot use the material commerically
+    * You cannot use the material commercially
 * [CC0] – This work is dedicated to the public domain, you can do anything with
   it!
     * An equivalent for source code is [The Unlicense].
@@ -488,7 +488,7 @@ git config --global init.defaultBranch main
 You may have noticed `#!sh --global`. There are two levels to Git config
 settings. There are the global settings, which are the default for each project
 you use, and repo-specific settings, which override the global ones. So an
-existing repo using `master` as the main branch will not be overriden by your
+existing repo using `master` as the main branch will not be overridden by your
 default, and you can rest assured.
 
 As it says, to rename your current branch use:
@@ -730,7 +730,7 @@ Into a full one:
 Note the lack of a `README.md` makes it look bare.
 
 ### Reverting changes
-Made an irreversable mistake? Don't worry, Git can help (so long as you
+Made an irreversible mistake? Don't worry, Git can help (so long as you
 committed every so often).
 
 First, you need to get the commit ID you wish to revert to, it usually being

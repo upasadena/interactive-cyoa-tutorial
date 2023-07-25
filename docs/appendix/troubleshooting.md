@@ -169,7 +169,7 @@ Either:
 !!! warning
 
     If this bug occurs to you, exiting the Creator and coming back in will 
-    probably reset the fix, meaning you will have to do this everytime you
+    probably reset the fix, meaning you will have to do this every time you
     encounter the issue.
 
 ### My Row is invisible for some reason

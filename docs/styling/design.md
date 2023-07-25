@@ -149,7 +149,7 @@ rounding, etc.
 
 [previously]: #important-advice
 
-??? example "(NSFW WARNING) Example of inconsistent border radii[^draogns-whore]"
+??? example "(NSFW WARNING) Example of inconsistent border radii[^dragons-whore]"
 
     ![](../images/148_inconsistent_NSFW.png)
 
@@ -167,8 +167,8 @@ If the description is only a few words, you can use as many as 7 or 8. The
 ratio of text height will still be nice.
 
 But if there are several sentences, please use only 4 or 5 max. Otherwise,
-the text will stretch into a completely unpleasing and uncomfortable to
-read columm[^dragons-whore].
+the text will stretch into a completely unpleasant and uncomfortable to
+read column[^dragons-whore].
 
 For example:
 
@@ -184,8 +184,7 @@ Which looks nicer to you?
 
 <!-- Footnotes -->
 [^1]: Credit to `spartango` on Discord for making me aware of this website
-[^dragons-whore]: Credit to 
-    [Dragon's Whore](https://imgchest.com/p/ej7mkx9qydl) for this
+[^dragons-whore]: Credit to [Dragon's Whore](https://imgchest.com/p/ej7mkx9qydl) for this
 [^peanuts_1987]: Credit to `peanuts_1987` on Discord for this
 
 <!-- URLs -->

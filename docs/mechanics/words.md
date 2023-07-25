@@ -10,7 +10,8 @@ CYOA. When used, they will be changed into whatever value they hold.
 
 [Variables]: /mechanics/buttons-and-variables/
 
-> Words can be changed when a choice is presssed, or in textfields by the
+<!-- Corrected spelling of this quote, which had three s's in `pressed` -->
+> Words can be changed when a choice is pressed, or in textfields by the
 > player, and be placed around in the text.
 
 !!! note

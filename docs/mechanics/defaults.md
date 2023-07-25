@@ -44,7 +44,7 @@ recommend doing this, for three reasons:
    requirements, so that requirements are kept.
 3. There may be ID clashes if more than one object has the same name.
 
-Instead, you sould ascribe a personal [ID format][idf].
+Instead, you should ascribe a personal [ID format][idf].
 
 ---
 
