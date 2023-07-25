@@ -135,7 +135,7 @@ extra:
       name: Pasadena's discord server
 
 markdown_extensions:
-  - abbr # use abbreviations, like hovertext
+  - abbr # use abbreviations, like hover text
   - admonition # note boxes
   - attr_list # add html and css attributes to most stuff
   - pymdownx.emoji:
@@ -151,7 +151,7 @@ markdown_extensions:
   - pymdownx.caret # insert, superscript
   - pymdownx.mark # highlighting
   - pymdownx.tilde # delete, subscript
-  - pymdownx.details # collapsable note boxes for admonition
+  - pymdownx.details # collapsible note boxes for admonition
   - pymdownx.highlight:
       linenums: true
       anchor_linenums: true

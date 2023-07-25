@@ -141,6 +141,9 @@ The source code for this tutorial is licensed under the [AGPLv3] licence
         - [ ] Filters
         - [ ] Private Styling
     - [x] Finish the Creating Your CYOA section
+        - [ ] Section detailing actual mechanical design choices, such as
+        whether to include perks, drawbacks, balancing, etc. Essentially the
+        Mechanics equivalent to the Styling section's Design page.
     - [x] Finish the Extending Your CYOA section
     - [x] Finish the Publishing section
         - [x] Publishing (page)
@@ -166,7 +169,16 @@ everything that is possible into the Mechanics
   blocks (when explicitly said or noted as quoted) as not licensed under the
   content licence.
 - [ ] Finish the **Publishing** section and then upload it to Reddit
+    - [x] Finish the **Publishing** section
+    - [ ] Upload it to Reddit
+        - [ ] I may have to upload it to r/NSFWCYOA instead of
+          r/makeyourchoice, considering the fact that I both include some NSFW
+          images and also link to a lot of NSFW material in the Resources
+          section
 - [ ] Add the version of the Tutorial in the header or footer somewhere
+- [ ] In the **Design** section, speak imperatively. Say **Do this** and
+  **Don't do that** instead of just quoting people and pointing toward them. I
+  need to put all the data all in one spot.
 
 ### Completed
 
@@ -236,7 +248,15 @@ _Released on DATE at TIME UTC_
 * Grammar and spelling checked
 * Added DnD style skill check in Reference
 * Added some more stuff to the Reference
-* 
+* Added `.vscode/extensions.json` in order to recommend extensions that are
+  both:
+    1. Compatible with `.vscode/settings.json`, and
+    2. Help with writing and contributing to this project
+* Preemptively added `docs/styling/backgrounds.md` because I have some ideas
+* Added some more TODOs to the Reference
+<!-- * Adjust `mkdocs.yml` to add  -->
+* Added `reddit_post.md`, the Markdown for the (future) Reddit post in the
+  `/static` folder
 
 [Download the source code][dl-VERSION]{ .md-button }
 
@@ -256,6 +276,9 @@ _Released on 2023-07-21 at 07:27:04 UTC_
   `enter_venv.ps1` files
 * Added `docs/images/bin` folder for other images I want to ignore, and moved
   the favicon in there
+* Moved workflow to Linux
+* Decided that version release times will be based on Git logs of the last
+  commit from now on
 * Other minor fixes
 
 [Download the source code][dl-0.16.0]{ .md-button }

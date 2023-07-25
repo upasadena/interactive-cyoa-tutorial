@@ -9,28 +9,44 @@
     "tag:yaml.org,2002:python/name:materialx.emoji.twemoji",
     "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
   ],
-  // Change Markdown to Jinja Markdown
-  // Turned off because it is incompatible with auto-wrap
-  // "files.associations": {
-  //     "*.md": "jinja-md"
-  // },
   "[markdown]": {
-    // "editor.unicodeHighlight.ambiguousCharacters": false,
-    // "editor.unicodeHighlight.invisibleCharacters": false,
-    // "diffEditor.ignoreTrimWhitespace": false,
-    // "editor.wordWrap": "on",
-    // "editor.quickSuggestions": {
-    //   "comments": "off",
-    //   "strings": "off",
-    //   "other": "off"
-    // },
     "rewrap.autoWrap.enabled": true
   },
   "[jinja-md]": {
     "rewrap.autoWrap.enabled": true
   },
   "cSpell.ignoreWords": [
+    "color",
     "defenses",
     "favor"
-  ]
+  ],
+  "cSpell.language": "en-GB",
+  "cSpell.words": [
+    "abbr",
+    "CYOA",
+    "fontawesome",
+    "gifsicle",
+    "htmlmin",
+    "ICCT",
+    "ICYOAs",
+    "iframe",
+    "inlinehilite",
+    "jinja",
+    "linenums",
+    "makeyourchoice",
+    "materialx",
+    "mkdocs",
+    "Neocities",
+    "NSFW",
+    "NSFWCYOA",
+    "Preemptively",
+    "pymdownx",
+    "smartsymbols",
+    "superfences",
+    "tasklist",
+    "twemoji",
+    "upasadena",
+    "venv",
+    "youtube"
+  ],
 }

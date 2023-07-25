@@ -19,6 +19,7 @@ Alphabetical within folders and within files
 * [viewer/](./viewer/) – ICC Viewer files mirror
 * [ocr_scan.py](./ocr_scan.py) – My script for automated OCR scanning using
   `tesseract`
+* [reddit_post.md](./reddit_post.md) - The Markdown for the Reddit post
 * [static_background.css](static_background.css) – A CSS file that makes the
   background static.
 * [static.yml](./static.yml) – A GitHub Actions workflow file for statically

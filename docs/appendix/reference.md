@@ -83,7 +83,7 @@ After that, add hyperlinks as normal:
 #### Make secret text that appears when pressing an invisible Choice
 If you wanted to hide text that only shows when pressing on an invisible
 Choice, it's quite simply to do. You simply have to lock [Addons] behind a
-[Selected Choice] requiremnt.
+[Selected Choice] requirement.
 
 !!! note
 
@@ -211,6 +211,15 @@ The next thing to search for is
 color entry that should look like `color:inherit`. Change this to
 `color:rgba(255, 255, 255, 1)` to make it fully white. This option corresponds
 to what colour the icons are when they have been pressed.
+
+#### (TODO) Make a group of invisible Choices in a Row not take up any space
+Can apply to the Row itself too.
+
+Private styling stuff. Compare a normal Row with the one for the World button
+in the CYOA below, and point out the differences.
+
+See https://infaera.neocities.org/cyoa/OverpoweredIsekai/ for a working
+example.
 
 ## Whole CYOA
 ### Changing the page title
@@ -1087,7 +1096,22 @@ other methods.
 
 ### (TODO) Make a DnD-style skill check plus an arbitrary number N
 
+### Create a button that picks a random Choice only once and permanently
+This makes it so that once you press the button not only does the button
+disappear, but you will be unable to deselect the chosen option.
 
+This is good if you wanted a truly random and risky part of the CYOA.
+
+!!! note
+
+    It is recommended that you make such random selections optional for a
+    regular CYOA, otherwise users who do not choose to opt-in with a selection
+    would have to refresh and re-import their options, and may become
+    frustrated with your CYOA.
+
+    Of course, if the CYOA is based around randomness, probability, and luck
+    (such as doing a skill check in DnD), or if you have made a 'Hard'
+    difficulty for your CYOA then this could be useful.
 
 ## Groups
 ### (ADD EXAMPLE) Display a list of all Choices selected within a Row or Group
