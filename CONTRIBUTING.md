@@ -7,8 +7,9 @@ Domain). If you are not aware of what that entails, please see
 [here][licence-details].
 
 ## Acknowledgements
-Feel free to include yourself in [the Authors list](./docs/about/index.md)
-in your pull request, and if your pull request is merged you will be added.
+Feel free to include yourself in
+[the Authors list](./docs/appendix/about/index.md) in your pull request, and if
+your pull request is merged you will be added.
 
 ## Technical Limits
 Cloudflare Pages only supports files up to `26.2 MB` in size. If it's above and
@@ -77,10 +78,10 @@ page), quotes (that cannot be broken up), and tables.
 
 ### Date and Time
 
-#### Timezone
-The timezone used when writing dates and times should either be UTC, have the
-timezone indicated in brackets (like this), or, when unknown, have (unknown
-timezone) be put after it. 
+#### Time Zone
+The time zone used when writing dates and times should either be UTC, have the
+time zone indicated in brackets (like this), or, when unknown, have (unknown
+time zone) be put after it. 
 
 #### Time Format
 Prefer 24 hours time, like **05:30** and **16:48**, rather than **5:30 a.m.**

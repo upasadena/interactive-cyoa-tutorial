@@ -39,19 +39,23 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.copy
-  palette: 
+  palette:
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline
+        # icon: material/toggle-switch-off-outline
+        icon: material/brightness-4
         name: Switch to light mode
       primary: deep purple
       accent: deep purple
 
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/toggle-switch
+        # icon: material/toggle-switch
+        icon: material/brightness-7
         name: Switch to dark mode
       primary: deep purple
       accent: deep purple

@@ -32,8 +32,13 @@ You may need to set up a virtual environment if you're deploying on your own
 machine due to conflicts of dependencies:
 
 ```sh
-python -m venv venv
+python -m venv venv/
+# If you're on an externally managed drive on Linux, do the below command
+# $ mkdir ~/tmp
+# $ python -m venv ~/tmp/icct-venv/
 ./venv/Scripts/activate
+# $ sudo chmod +x ~/tmp/icct-venv/bin/activate
+# $ ~/tmp/icct-venv/bin/activate
 ```
 
 ### Prerequisites
@@ -42,6 +47,7 @@ Leverage `requirements.txt`:
 
 ```sh
 pip install -r ./requirements.txt
+# ~/tmp/icct-venv/bin/pip install -r ./requirements.txt
 ```
 
 This may take a while for the first time.

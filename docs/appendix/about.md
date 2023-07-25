@@ -179,6 +179,8 @@ everything that is possible into the Mechanics
 - [ ] In the **Design** section, speak imperatively. Say **Do this** and
   **Don't do that** instead of just quoting people and pointing toward them. I
   need to put all the data all in one spot.
+- [ ] Add Cheat Engine example to **Extending Your CYOA**
+
 
 ### Completed
 
@@ -257,6 +259,12 @@ _Released on DATE at TIME UTC_
 * Added some more TODOs to the Reference
 * Added `reddit_post.md`, the Markdown for the (future) Reddit post in the
   `/static` folder
+* Added a **Download tutorial for offline use** button so that people didn't
+  have to visit the website
+* Added icons to the buttons in the `index.md` page
+* Changed icons for dark and light mode toggles in order to be more clear about
+  what the buttons do
+* Added some scripts to help with virtual environments on Linux
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

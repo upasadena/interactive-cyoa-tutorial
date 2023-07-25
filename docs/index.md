@@ -18,13 +18,15 @@ For a tutorial on each aspect of the ICC, continue to the introduction.
 For knowledge on how to achieve a specific outcome, go to the
 [Reference](./reference/).
 
-[Continue to the Introduction]{ .md-button }
+[Continue to the Introduction :material-arrow-right:][continue]{ .md-button }
+
+[Download this tutorial for offline use :material-download:][tut-dl]{ .md-button }
 
 ## Useful links
 
 ### Interactive CYOA Creator
 * [Online version](https://intcyoacreator.onrender.com/)
-* [Offline version at itch.io (one-time purchase of 2.50 USD or more)][3]
+* [Offline version at itch.io (one-time purchase of 2.50 USD or more)][itch]
 
 ### Appendix
 * [Reference](./appendix/reference/) – Practical knowledge on the Interactive
@@ -46,11 +48,14 @@ directly, fork the repository
 changes, and then open a pull request. Please see [CONTRIBUTING.md] for writing
 guidelines.
 
-Otherwise, feel free to [contact me][5].
+Otherwise, feel free to [contact me][contact].
 
 <!-- URLs -->
-[3]: https://meandelay.itch.io/interactive-cyoa-creator
-[5]: https://upasadena.github.io/#social-media-and-contact
+[itch]: https://meandelay.itch.io/interactive-cyoa-creator
+[contact]: https://upasadena.github.io/#social-media-and-contact
 [CONTRIBUTING.md]: https://github.com/upasadena/interactive-cyoa-tutorial/blob/main/CONTRIBUTING.md
 [GitHub]: https://github.com/
-[Continue to the Introduction]: ./introduction/
+[continue]: ./introduction/
+[tut-dl]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/heads/gh-pages.zip
+
+<!-- BUFFER -->
