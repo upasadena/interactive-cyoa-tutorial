@@ -45,7 +45,7 @@ CYOAs. It was made by [u/PixelGMS], who is the creator of the
     This will let you join `#cyoa-making`, a channel that *will* help you,
     should you get stuck on something. 
 * [makeyourchoice] – A discord server for the [r/makeyourchoice] subreddit.
-* [NSFWCYOA] – A discord server for the [r/nsfwcyoa] subreddit.
+* [nsfwcyoa] – A discord server for the [r/nsfwcyoa] subreddit.
     * Check out [#programming-and-interactives-tank] for discussion on
       Interactive CYOAs.
 * [/CYOA/] – A discord server from 4chan.
@@ -140,6 +140,8 @@ Catalogues and links to CYOAs.
 * [NSFWCYOA Archive] – A massive archive of NSFW CYOAs. Includes Interactives
 in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 258 Interactive entries as of writing.
+* [List of Interactive CYOAs] – From [r/nsfwcyoa].
+    * [TextBin](https://textbin.net/clone/veoxiknpjo)
 * [Compilation of all Interactive CYOAs on r/InteractiveCYOA] – By
 [u/PixelGMS]. It contains 57 entries.
     * [Reddit post][pixel-post]
@@ -189,7 +191,7 @@ Websites where you can post stories made by CYOAs.
 
 ## Other Resources
 
-* [NSFWCYOA's wiki](https://www.reddit.com/r/nsfwcyoa/wiki/index/)
+* [r/nsfwcyoa's wiki](https://www.reddit.com/r/nsfwcyoa/wiki/index/)
 * [Image Resources] – From [r/makeyourchoice]
 
 ## Programming Resources
@@ -259,7 +261,7 @@ An excellent read.
 [Compilation of all Interactive CYOAs on r/InteractiveCYOA]: https://docs.google.com/spreadsheets/d/1UKCn4of4jQ4L8eAdV3gT5QGdeav7jNSeyxxehKmUepE/edit#gid=0
 [infaera-post]: https://www.reddit.com/r/InteractiveCYOA/comments/x270ap/an_interactive_index/
 [pixel-post]: https://old.reddit.com/r/InteractiveCYOA/comments/tcy0ds/rinteractivecyoa_cyoa_archive/
-[NSFWCYOA Archive]: https://docs.google.com/spreadsheets/d/1B_VAe36Z85UCyDSTkNTLorAdPK3linniKPI7nw4tR00/edit#gid=1103183908
+[nsfwcyoa Archive]: https://docs.google.com/spreadsheets/d/1B_VAe36Z85UCyDSTkNTLorAdPK3linniKPI7nw4tR00/edit#gid=1103183908
 [cyoadb]: https://www.dropbox.com/sh/qs4ymgxa5zcj4kt/AABrLbkqxfdUMje3D2ibklh-a?dl=0
 [TokHaar Gol's CYOAs]: https://drive.google.com/drive/folders/0B1CwO4KqTgloRXVUV19DR19hdEk
 [tok]: https://www.reddit.com/r/nsfwcyoa/wiki/profiles/tokhaargol/
@@ -284,6 +286,7 @@ An excellent read.
 [sb-general-cyoa-thread]: https://forums.spacebattles.com/threads/general-cyoa-thread.315809/
 [qq-general-cyoa-thread]: https://questionablequesting.com/threads/general-qq-cyoa-thread.1263/
 [qq-thread-tm]: https://questionablequesting.com/threads/general-qq-cyoa-thread.1263/threadmarks?category_id=1
+[List of Interactive CYOAs]: https://www.reddit.com/r/nsfwcyoa/comments/vjqmy2/list_of_interactive_cyoas/
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/
@@ -300,7 +303,7 @@ An excellent read.
 [makeyourchoice]: https://discord.gg/M3sbCY2
 [/CYOA/]: https://discord.gg/72QNY4Y
 [CYOA-discord]: https://discord.gg/Cwm8nCM
-[NSFWCYOA]: https://discord.gg/nVfxqbr
+[nsfwcyoa]: https://discord.gg/nVfxqbr
 [PixelGMS's Interactive CYOAs]: https://discord.gg/Nvadzvn39e
 <!-- Discord channels -->
 [#programming-and-interactives-tank]: https://discord.com/channels/446825069151256596/892156485713403904

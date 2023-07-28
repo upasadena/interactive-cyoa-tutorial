@@ -332,15 +332,21 @@ You should see two suggestions workflows now. Select **Configure** under
 
 ![](../images/235_static_html_configure.png)
 
-If it's not there:
+Then save the file by committing your changes (green button up at the top
+right).
 
-1. Copy and paste the code from [/static/static.yml](/static/static.yml).
-2. Then, put it in a file under `.github/workflows/static.yml`.
-    * You can do this straight from the browser by selecting **Add file** →
-    **Create new file** from your repository root. Where it says to name your
-    file up the top, pressing slashes will create folders for you if they don't
-    exist, so simply copy and paste the above path and file.
-3. Save the file by committing your changes (green button up at the top right).
+!!! note
+
+    If it's not there:
+
+    1. Copy and paste the code from [/static/static.yml](/static/static.yml).
+    2. Then, put it in a file under `.github/workflows/static.yml`.
+       * You can do this straight from the browser by selecting **Add file** →
+       **Create new file** from your repository root. Where it says to name
+       your file up the top, pressing slashes will create folders for you if
+       they don't exist, so simply copy and paste the above path and file.
+    3. Save the file by committing your changes (green button up at the top
+       right).
 
 You should notice it is rebuilding now, and you have a new `.github` folder:
 
@@ -833,7 +839,7 @@ own and view the docs. -->
 [gh-readme]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
 [discord-md]: https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
 [gh-licences]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
-[gh-pages]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+[gh-pages]: https://docs.github.com/en/pages/quickstart
 [pat]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
 <!-- BUFFER -->

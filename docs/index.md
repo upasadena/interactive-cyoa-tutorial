@@ -16,7 +16,7 @@ creators who are looking for a refresher.
 For a tutorial on each aspect of the ICC, continue to the introduction.
 
 For knowledge on how to achieve a specific outcome, go to the
-[Reference](./reference/).
+[Reference].
 
 [Continue to the Introduction :material-arrow-right:][continue]{ .md-button }
 
@@ -29,7 +29,7 @@ For knowledge on how to achieve a specific outcome, go to the
 * [Offline version at itch.io (one-time purchase of 2.50 USD or more)][itch]
 
 ### Appendix
-* [Reference](./appendix/reference/) – Practical knowledge on the Interactive
+* [Reference] – Practical knowledge on the Interactive
 CYOA Creator.
 * [Troubleshooting](./appendix/troubleshooting/) – Have a problem? Have a look
 in here for a solution.
@@ -57,5 +57,6 @@ Otherwise, feel free to [contact me][contact].
 [GitHub]: https://github.com/
 [continue]: ./introduction/
 [tut-dl]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/heads/gh-pages.zip
+[Reference]: ./appendix/reference/
 
 <!-- BUFFER -->

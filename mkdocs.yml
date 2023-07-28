@@ -176,6 +176,11 @@ markdown_extensions:
   # GitHub-style task lists
   - pymdownx.tasklist:
       custom_checkbox: true
+  # Auto linking
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: upasadena
+      repo: interactive-cyoa-tutorial
 
 watch:
   - overrides/
