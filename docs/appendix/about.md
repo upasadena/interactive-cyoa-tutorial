@@ -50,7 +50,14 @@ to this tutorial from the time of its official release.
         - [ ] Backgrounds
             - [ ] Link to static background in Reference, or vice versa
         - [ ] Text
+        - [ ] Rows / Row Design (to not confuse it with Mechanics/Rows)
+            - [ ] Row Images
+        - [ ] Choices / Choice Design (see above)
+            - [ ] Choice Images
         - [ ] Filters
+        - [ ] Point Bar
+        - [ ] Multi-Choice
+        - [ ] The Backpack
         - [ ] Private Styling
     - [x] Finish the Creating Your CYOA section
         - [ ] Section detailing actual mechanical design choices, such as
@@ -92,6 +99,12 @@ everything that is possible into the Mechanics
   **Don't do that** instead of just quoting people and pointing toward them. I
   need to put all the data all in one spot.
 - [ ] Add Cheat Engine example to **Extending Your CYOA**
+- [ ] End all list items in **Resources** with full stops or without (for
+  consistency)
+- [ ] Add speed comparison between Neocities and GitHub
+- [ ] Under *Styling/Backgrounds* add examples of where the image upload
+  buttons are if you didn't stay zoomed out, and instead zoomed back in to show
+  the image upload bugged choices
 
 
 ### Completed
@@ -151,6 +164,7 @@ _Released on DATE at TIME UTC_
 
 {{ words_format(word_count=00000, images=000) }}
 
+* Started work on the **Backgrounds** section
 * Added and modified **GitHub** with fixes, as well as adding a reset section
 * Changed **Github** to **GitHub** in the navigation
 * Small fix in `README.md`
@@ -180,6 +194,8 @@ _Released on DATE at TIME UTC_
 * Updated **Resources** page
 * Moved the **About/Licence** section down to the very bottom
 * Fixed a relative link in the **Introduction**
+* Deleted old `_copyright.html` partial that wasn't in use
+* Removed "made by" section for `static_background.css`
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

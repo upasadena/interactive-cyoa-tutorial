@@ -12,6 +12,8 @@ icon: material/bookmark-outline
 
 ## Other Creators
 
+* [CYOA Maker](https://cyoa-maker.glitch.me/) – A creator that builds off of
+  static images
 * [CYOA Generator](https://github.com/maxtepafray/cyoa-generator) – An
   AngularJS based web framework for making interactive CYOAs. Preview
   [here](https://maxtepafray.github.io/cyoa-generator/).
@@ -50,6 +52,10 @@ CYOAs. It was made by [u/PixelGMS], who is the creator of the
       Interactive CYOAs.
 * [/CYOA/] – A discord server from 4chan.
 * [CYOA][CYOA-discord] – Another discord server from 4chan.
+
+### Other
+
+* [https://arca.live/b/cyoa](https://arca.live/b/cyoa) – Korean CYOA community
 
 ## Tutorials
 Credits to these tutorials and information sources for helping me make this
@@ -142,11 +148,15 @@ in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 258 Interactive entries as of writing.
 * [List of Interactive CYOAs] – From [r/nsfwcyoa].
     * [TextBin](https://textbin.net/clone/veoxiknpjo)
+* [CYOA List (Doc)][cyoa-list] — A document containing a list of CYOAs, static,
+  interactive, SFW, and NSFW. 202 entries.
 * [Compilation of all Interactive CYOAs on r/InteractiveCYOA] – By
 [u/PixelGMS]. It contains 57 entries.
     * [Reddit post][pixel-post]
 * [launchcode01dl's Modded CYOAs] – A collection of Modded CYOAs that have
   effectively infinite points.
+* [Ikeran's Jumpchain Index](https://ikeran.org/jumpchain-index.html) – A list
+  of Jumpchains
 
 ## Stories
 Websites where you can post stories made by CYOAs.
@@ -287,6 +297,7 @@ An excellent read.
 [qq-general-cyoa-thread]: https://questionablequesting.com/threads/general-qq-cyoa-thread.1263/
 [qq-thread-tm]: https://questionablequesting.com/threads/general-qq-cyoa-thread.1263/threadmarks?category_id=1
 [List of Interactive CYOAs]: https://www.reddit.com/r/nsfwcyoa/comments/vjqmy2/list_of_interactive_cyoas/
+[cyoa-list]: https://docs.google.com/document/d/1S8Xoemi0Z6ZgkxmhWmSOlFPMblfZQutoLjst7yqzUw8/edit
 
 <!-- Subreddits -->
 [r/InteractiveCYOA]: https://www.reddit.com/r/InteractiveCYOA/

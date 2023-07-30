@@ -129,6 +129,21 @@ number.
     to be added or subtracted against that Point Type. Look **everywhere** for
     it.
 
+### I switched from local images to external images, but the file size is still the same
+
+!!! note
+
+    Credit to Valmar for this solution.
+
+If you remove an image and the image remains on the choice and it shows blank
+in the "Upload Image" section, with the file size remaining identical, then
+follow these steps:
+
+1. Upload a new image
+2. Manually remove that image. This "resets" the Choice
+
+The file size should now be changed.
+
 ## Design
 ### I can't find the option to upload a background image
 This creator is rather buggy at times, and sometimes it hides the options:

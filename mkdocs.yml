@@ -110,6 +110,7 @@ nav:
       - Design: styling/design.md
       - Style Templates: styling/style-templates.md
       - Colours: styling/colours.md
+      - Backgrounds: styling/backgrounds.md
     - Creating Your CYOA:
       - creating-your-cyoa/index.md
     - Extending Your CYOA:

@@ -12,6 +12,6 @@ nice.
 * [Design](./design/)
 * [Style Templates](./style-templates/)
 * [Colours](./colours/)
-
+* [Backgrounds](./backgrounds/)
 
 <!-- BUFFER -->
