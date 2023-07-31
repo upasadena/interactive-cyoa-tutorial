@@ -231,6 +231,29 @@ And this is what it looks like when used:
 Using all that we've learned here today, we can create the very basis of our
 final design.
 
+### Using Images
+
+=== "Styled"
+
+    !!! example ""
+
+        ![](../images/279_backgrounds_all_together.png)
+    
+=== "Default"
+
+    !!! example ""
+
+        ![](../images/!default_all_together.png)
+
+### Complete Dark Theme
+
+!!! note
+
+    I have changed the colour of the text, which, if you were following along
+    this tutorial sequentially, we have not covered yet.
+
+
+
 <!-- TODO example with darker background and lighter choices -->
 <!-- TODO example with lighter background and darker choices -->
 

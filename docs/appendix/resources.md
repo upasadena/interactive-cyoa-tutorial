@@ -44,8 +44,8 @@ Here are some discord servers that relate to CYOAs and Interactive CYOAs.
 CYOAs. It was made by [u/PixelGMS], who is the creator of the
 [r/InteractiveCYOA] subreddit.
     * If you join, go into `#roles` and get the `CYOA Making Channels` role.
-    This will let you join `#cyoa-making`, a channel that *will* help you,
-    should you get stuck on something. 
+    This will let you join `#cyoa-making`, a channel that'll help you should
+    you get stuck on something.
 * [makeyourchoice] – A discord server for the [r/makeyourchoice] subreddit.
 * [nsfwcyoa] – A discord server for the [r/nsfwcyoa] subreddit.
     * Check out [#programming-and-interactives-tank] for discussion on

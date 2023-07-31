@@ -492,6 +492,19 @@ name of the JSON file to load:
 FinalRelease.json
 ``` -->
 
+### Redirect to another page
+This can be useful if you have different folders for different versions of a
+CYOA, or if you move to another website and you want to redirect people to the
+latest version.
+
+Simply put this in the `<head>` section:
+
+```html
+<script>
+  window.location.href = "https://newsite.com/cyoa/superhero/";
+</script>
+```
+
 ## Rows
 ### (EX TODO) Make a Row invisible
 If you want to make a Row invisible, simply add a [Selected Choice]
