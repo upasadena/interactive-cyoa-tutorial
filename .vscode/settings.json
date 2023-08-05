@@ -10,6 +10,7 @@
     "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
   ],
   "[markdown]": {
+    "editor.tabSize": 4,
     "rewrap.autoWrap.enabled": true
   },
   "[jinja-md]": {
@@ -46,6 +47,7 @@
     "epicradcool",
     "epub",
     "eyecandy",
+    "faywilds",
     "Flexbox",
     "Flexboxes",
     "fontawesome",
@@ -88,6 +90,7 @@
     "materialx",
     "Miraheze",
     "mkdocs",
+    "Moirai",
     "momen",
     "mycyoa",
     "Neocities",
@@ -99,7 +102,9 @@
     "olds",
     "oneline",
     "ortal",
+    "Ouroumov",
     "Ouroumov's",
+    "Ourovmov's",
     "oversaturation",
     "Pastebin",
     "pilcrow",

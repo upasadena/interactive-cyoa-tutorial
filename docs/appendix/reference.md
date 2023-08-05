@@ -775,6 +775,20 @@ There is — as of yet — no known method to detect whether the Choice has been
 pressed because it actually stops being selected as soon as you press it, with
 the bug being that it appears and acts disabled.
 
+### (TODO EX) Make a Requirement based on a Choice that can be selected multiple times
+To do this, you simple have to:
+
+1. [Create a hidden point type](/appendix/reference/#hide-point-types)
+2. Make sure it's set to 0
+3. Add a [Score](/mechanics/points-and-scores/#scores) to it
+4. Set the score to increase the Point by one
+5. In the Row, Choice, or Addon you want to detect the multiple selected
+   choice, make a:
+    * **More Than** 0 Requirement, if you wanted to detect if the Choice has
+      been increased more than once
+    * **Less Than** 0 Requirement, if you wanted to detect if the Choice has
+      been put in the negatives
+
 ## IDs
 ### (TODO AN EX) Navigation with ID / Title list
 ID / Title list as helpful way of navigating your way through a large CYOA –

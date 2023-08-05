@@ -44,7 +44,27 @@ You should land on this page now:
 
 ![](../images/210_github_feed.png)
 
+## Using a Template
+I've made a nifty GitHub template that comes pre-packaged with:
+
+1. Hyperlinks enabled
+2. IntCyoaEnhancer's Download Progress Indicator
+3. Optional CSS code in the `index.html` to:
+    * Make your backgrounds static
+    * Change the colour of your Point Bar icons
+    * Override the background image in the `project.json`
+4. An automatic GitHub workflow to republish your site on any change
+
+It's located ==[here](https://github.com/upasadena/intcyoa-gh-template/)==.
+Text instructions are included in that repository, or you can watch the video
+below for a short 2 minute tutorial on how to host on GitHub:
+
+{{ youtube_embed("LCvOVB8wZQE") }}
+
 ## Creating a repo
+If you didn't want to [use the template](#using-a-template) you can instead set
+up your repository manually. This will show how to do so.
+
 You can create a repo in two ways, by pressing the green **New** button on the
 top left, or expanding the ++plus++ button on the top right, and pressing
 **New repository**.

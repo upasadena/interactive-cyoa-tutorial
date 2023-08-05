@@ -103,6 +103,12 @@ This switch ensures that the score can **NEVER** go under 0. This means that if
 a user does not have a surplus of that Point, such that using them on a Choice
 would bring them into the negatives, then the Choice can not be selected.
 
+!!! note
+
+    There is one exception to this, and that's when using options that can be 
+    selected multiple times. These choices bypass this requirement, so be
+    careful with it[^faywilds].
+
 !!! tip
 
     You should use this option sparingly, many people (myself included) try to
@@ -310,6 +316,9 @@ You can multiply Points using an [Object Function](../objects/#functions).
 ---
 
 Learn more what you can do with Points and Scores in the [Reference].
+
+<!-- Footnotes -->
+[^faywilds]: Credit to `faywilds` on Discord for this
 
 <!-- URLs -->
 [the Sidebar]: ../../basics/#the-sidebar

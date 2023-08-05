@@ -23,9 +23,12 @@ icon: material/bookmark-outline
 static CYOA creator, for those who are less graphically-inclined.
 * [Corrosive-Forge](https://github.com/Arzte/Corrosive-Forge/) (WIP) – An
   interactive CYOA maker & viewer
+* [Moirai Interactive] by Lt. Ouroumov – An inactive project
 * [Novelette](https://github.com/WriterOfWorlds/Novelette) (Unknown status) –
   Designed as a replacement/successor to the Interactive CYOA Creator, with the
   ability to play and create visual novels too. 
+
+[Moirai Interactive]: https://ltouroumov.github.io/moirai-interactive/editor/#/
 
 ## Social Media
 ### Reddit

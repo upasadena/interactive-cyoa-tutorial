@@ -105,7 +105,15 @@ everything that is possible into the Mechanics
 - [ ] Under *Styling/Backgrounds* add examples of where the image upload
   buttons are if you didn't stay zoomed out, and instead zoomed back in to show
   the image upload bugged choices
-
+- [ ] Make a script like [here][script-dc] which receives a URL or
+  `project.json`, goes through all links to images, fetches them, then converts
+  them into Base64 encoded images and puts them locally. Make it open-source
+  and MIT.
+- [ ] Add Lt Ourovmov's Viewer to the `static/` folder with the other Viewer
+  files
+    - [ ] Use that Viewer with my GitHub template
+    - [ ] Merge it with the other modded Viewer I have to create the Ultimate®
+      Viewer
 
 ### Completed
 
@@ -196,6 +204,7 @@ _Released on DATE at TIME UTC_
 * Fixed a relative link in the **Introduction**
 * Deleted old `_copyright.html` partial that wasn't in use
 * Removed "made by" section for `static_background.css`
+* Add Moirai Interactive to CYOA Creators list
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }
@@ -672,6 +681,7 @@ The source code for this tutorial is licensed under the [AGPLv3] licence
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [icct]: https://upasadena.github.io/interactive-cyoa-creator/
+[script-dc]: https://discord.com/channels/729044904675639398/787118552632393729/1135638576441327736
 
 <!-- Downloads -->
 [dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip
