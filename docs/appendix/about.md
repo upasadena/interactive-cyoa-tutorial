@@ -205,6 +205,7 @@ _Released on DATE at TIME UTC_
 * Deleted old `_copyright.html` partial that wasn't in use
 * Removed "made by" section for `static_background.css`
 * Add Moirai Interactive to CYOA Creators list
+* Added link to archived Miraheze ICCT
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

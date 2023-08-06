@@ -27,11 +27,11 @@ Google Doc, where I planned to release video tutorials on YouTube. Eventually
 though, I had forgotten about the plan and went about my life.
 
 Suddenly though, in Mid-June, I remembered about the tutorials.
-[I decided to actually try to create it][wikitut] when I was making a CYOA wiki
-on Miraheze, before Miraheze said they were going to shut down. They didn't end
-up shutting down, of course, but I quickly realized I couldn't rely on
-something so volatile as a donation-reliant infrastructure, and decided to
-write this tutorial in Markdown and host it on GitHub instead.
+[I decided to actually try to create it][wikitut]^([archive])^ when I was
+making a CYOA wiki on Miraheze, before Miraheze said they were going to shut
+down. They didn't end up shutting down, of course, but I quickly realized I
+couldn't rely on something so volatile as a donation-reliant infrastructure,
+and decided to write this tutorial in Markdown and host it on GitHub instead.
 
 ## Clarity
 I have endeavoured to make this tutorial as straightforward to follow as
@@ -114,5 +114,6 @@ tutorial. Good luck and have fun!
 [Troubleshooting]: /appendix/troubleshooting/
 [gdtut]: https://docs.google.com/document/d/1OxwrY6szZnAIzZB1wymg6R-RjSK5lKFgvJHgEQkDw58/edit?usp=sharing
 [wikitut]: https://cyoa.miraheze.org/wiki/Interactive_CYOA_Tutorial
+[archive]: https://web.archive.org/web/20230712024630/https://cyoa.miraheze.org/wiki/Interactive_CYOA_Tutorial
 
 <!-- BUFFER -->
