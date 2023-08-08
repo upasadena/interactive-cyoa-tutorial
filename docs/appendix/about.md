@@ -202,6 +202,7 @@ _Released on DATE at TIME UTC_
 * Specified year in the Introduction
 * Corrected word in the Introduction
 * Added to TODO
+* Fixed cache not working (inefficient build times before now, damn :/)
 * 
 * Minor fixes
 
