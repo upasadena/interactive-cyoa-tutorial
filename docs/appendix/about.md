@@ -191,6 +191,7 @@ _Released on DATE at TIME UTC_
 * Made minor changes to Mechanics/Images
 * Fixed links
 * Minor change to Points and Scores
+* Added **Exported Local** images to the Images section
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

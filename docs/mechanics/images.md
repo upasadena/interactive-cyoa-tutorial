@@ -268,6 +268,10 @@ desperate to lower the size of your project, consider using
 Local images are images they you have uploaded directly into the Creator. They
 are the "Uploaded Images" above.
 
+#### Exported Images
+If you wanted to separate local images from the `project.json`, you can always
+[export your project](/basics/#saveload-project).
+
 ### External images
 External images are images they you have provided the Creator a link for.
 Whenever someone plays your CYOA, it will download it from that site from their
@@ -278,10 +282,11 @@ computer.
 There are pros and cons to using both local and external images. What you
 choose should depend on your use case.
 
-| Upload type  | Pros                                            | Cons                                                                                                                    | Use case                   |
-| ------------ | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| **Local**    | + Faster<br>+ More reliable<br>+ Can be altered | - Takes up space (too much space can crash the creator, and most free website hosts limit how much space you can use)   | Smaller projects (<300 MB) |
-| **External** | + You keep the size of your project.json down   | - Slower<br>- You have to trust the servers won't delete the image<br>- Unable to be altered (cropped, compressed, etc) | Larger projects (>300 MB)  |
+| Upload type        | Pros                                               | Cons                                                                                                                      | Use case                                   |
+| ------------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **Local**          | + Faster<br/>+ More reliable<br/>+ Can be altered  | - Takes up space (too much space can crash the creator, and most free website hosts limit how much space you can use)     | Smaller projects (<100 MB)                 |
+| **Exported local** | + Same as Local<br/>+ Keeps your project.json down | - Same as local<br/>- Harder to recover if the images are deleted                                                         | Larger small projects (>50 MB but <100 MB) |
+| **External**       | + You keep the size of your project.json down      | - Slower<br/>- You have to trust the servers won't delete the image<br/>- Unable to be altered (cropped, compressed, etc) | Larger projects (>100 MB)                  |
 
 !!! tip
 
