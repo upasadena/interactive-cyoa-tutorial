@@ -7,10 +7,10 @@ Whether you wanted to learn how to use the creator as a beginner, are stuck on
 something, or just need a refresher,  this guide hopes to cover all of it!
 
 <!-- For early release only -->
-Disclaimer: This tutorial is still in development (on version 0.17.0 as of
-writing this). The Mechanics section is (almost) completely done, but as a
-whole it's not yet complete. The only things that really need work are the
-Styling section and the Reference.
+Disclaimer: This tutorial is still in development (on stable version 0.17.0 as
+of writing this). The Mechanics section is (almost) completely done, but the
+tutorial as a whole is not yet complete. The only things that really need work
+are the Styling section and the Reference.
 <!-- End early release -->
 
 <!-- For r/NSFWCYOA only -->
