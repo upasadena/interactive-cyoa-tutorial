@@ -17,7 +17,11 @@ Alphabetical within folders and within files
       customize the colour of the Point Bar icons
 * [macros/](./macros/) – A testing site for mkdocs-macros
 * [reddit_post/](./reddit_post/) - The Markdown for the Reddit post
+* [tests/](./tests/) – A page for testing features on
 * [viewer/](./viewer/) – ICC Viewer files mirror
+* [image_downloader_fix.js](./image_downloader_fix.js) – A JavaScript file that
+  you can import that fixes the issue of downloading the image and it having a
+  white background
 * [ocr_scan.py](./ocr_scan.py) – My script for automated OCR scanning using
   `tesseract`
 * [static_background.css](static_background.css) – A CSS file that makes the

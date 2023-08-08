@@ -179,6 +179,7 @@ _Released on DATE at TIME UTC_
 * Switch to using the Git commit as the date shown on releases now, rather than
   the GitHub release
 * Posted this to Reddit! (TODO: link)
+* Updated Resources
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

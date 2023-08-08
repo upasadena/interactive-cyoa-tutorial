@@ -169,12 +169,15 @@ Websites where you can post stories made by CYOAs.
   of things. The **Creative Writing** section is where you can post and view
   stories.
     * [General CYOA Thread][sb-general-cyoa-thread]
+    * [Creative Writing][sb-cw]
 * [Questionable Questing (QQ)](https://questionablequesting.com/) **(NSFW)** –
   Like the above, but is more lenient in terms of rules. Allows NSFW content.
-    * [General QQ CYOA Thread][qq-general-cyoa-thread] **(CYOA)** – Check the
+    * [General QQ CYOA Thread][qq-general-cyoa-thread] – Check the
         [Threadmarks][qq-thread-tm] for more indexes
 * [Sufficient Velocity (SV)](https://forums.sufficientvelocity.com/) – A
   splinter of SpaceBattles.
+
+[sb-cw]: https://forums.spacebattles.com/forums/creative-writing.18/
 
 ## Images and Media
 ### General

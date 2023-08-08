@@ -1,12 +1,12 @@
-# Complete Interactive CYOA Creator Tutorial
+# Complete Interactive CYOA Tutorial
 
 Link: [https://icctutorial.pages.dev](https://icctutorial.pages.dev)
 
-<!-- For early release only -->
-This is a tutorial and guide for using the Interactive CYOA Creator by
-MeanDelay. If you want to learn how to use the creator, are stuck on something,
-or just need a refresher this guide hopes to cover it.
+This is a tutorial and guide for the Interactive CYOA Creator by MeanDelay. If
+you want to learn how to use the creator, are stuck on something, or just need
+a refresher then this guide hopes to cover it.
 
+<!-- For early release only -->
 The Mechanics section is completely done, but as a whole it's not complete just
 yet. The only thing that really needs work is the Styling section, and as this
 project is
