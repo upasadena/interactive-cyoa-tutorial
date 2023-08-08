@@ -22,11 +22,11 @@ ICC, so that nobody would ever reasonably need to ask for help 99% of the time,
 should they have read this tutorial.
 
 ## Background
-[I had first began planning this tutorial back in late March][gdtut] in a
-Google Doc, where I planned to release video tutorials on YouTube. Eventually
+[I had first began planning this tutorial back in late March of 2023][gdtut] in
+a Google Doc, where I planned to release video tutorials on YouTube. Eventually
 though, I had forgotten about the plan and went about my life.
 
-Suddenly though, in Mid-June, I remembered about the tutorials.
+Suddenly though, in Mid-June that year, I remembered about the tutorials.
 [I decided to actually try to create it][wikitut]^([archive])^ when I was
 making a CYOA wiki on Miraheze, before Miraheze said they were going to shut
 down. They didn't end up shutting down, of course, but I quickly realized I
