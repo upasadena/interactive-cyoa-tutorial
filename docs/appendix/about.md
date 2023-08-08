@@ -189,6 +189,8 @@ _Released on DATE at TIME UTC_
 * Expanded on the **CONTRIBUTING.md** document in order to facilitate new GitHub
   users
 * Made minor changes to Mechanics/Images
+* Fixed a link
+* Minor change to Points and Scores
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }
