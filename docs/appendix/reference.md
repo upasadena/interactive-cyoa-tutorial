@@ -868,6 +868,24 @@ This uses hidden Point types.
 <!-- TODO -->
 Discounts can be made using requirements.
 
+### Get a list of Point Types
+To do this, first, [open the console].
+
+Then type this:
+
+```js
+document.querySelector('#app').__vue__.$store.state.app.pointTypes.forEach((el,i)=>{console.log(`[${i}][${el.name}]: ${el.startingSum}`)})
+```
+
+It will output a list of Points by their name and their value.
+
+It should look like this:
+
+```
+[0][Good Karma]: 21
+[1][Bad Karma]: 0
+```
+
 ### Change how many points I have
 This is a hacky way on how to change it as a player.
 
@@ -894,24 +912,6 @@ Replacing:
 
 * `0` with the ID of your Point Type
 * `1000000` with whichever number you desire.
-
-### Get a list of Point Types
-To do this, first, [open the console].
-
-Then type this:
-
-```js
-document.querySelector('#app').__vue__.$store.state.app.pointTypes.forEach((el,i)=>{console.log(`[${i}][${el.name}]: ${el.startingSum}`)})
-```
-
-It will output a list of Points by their name and their value.
-
-It should look like this:
-
-```
-[0][Good Karma]: 21
-[1][Bad Karma]: 0
-```
 
 ## Images
 
@@ -1184,18 +1184,18 @@ Et voilà! It should be working as expected.
 
 #### Text
 
-| Example                                        | HTML                                                    |
-| ---------------------------------------------- | ------------------------------------------------------- |
-| This is <b>bold</b> text                       | `#!html This is <b>bold</b> text`                       |      
-| This is <i>italicized</i> text                 | `#!html This is <i>italicized</i> text`                 |      
-| This is <i><b>bold and italicized</b></i> text | `#!html This is <i><b>bold and italicized</b></i> text` |      
-| This is <u>underlined</u> text                 | `#!html This is <u>underlined</u> text`                 |      
-| This is <mark>highlighted</mark> text          | `#!html This is <mark>highlighted</mark> text`          |      
-| This is <sup>superscript</sup> text            | `#!html This is <sup>superscript</sup> text`            |      
-| This is <sub>subscript</sub> text              | `#!html This is <sub>subscript</sub> text`              |      
-| This is <big>big</big> text                    | `#!html This is <big>big</big> text`                    |      
-| This is <small>small</small> text              | `#!html This is <small>small</small> text`              |      
-| This is <del>deleted</del> text                | `#!html This is <del>deleted</del> text`                |      
+| Example                                                             | HTML                                                                                  |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| This is <b>bold</b> text<br/>This is <strong>strong</strong> text   | `#!html This is <b>bold</b> text`<br/>`#!html This is <strong>strong</strong> text`   |
+| This is <i>italicized</i> text<br/>This is <em>emphasized</em> text | `#!html This is <i>italicized</i> text`<br/>`#!html This is <em>emphasized</em> text` |
+| This is <i><b>bold and italicized</b></i> text                      | `#!html This is <i><b>bold and italicized</b></i> text`                               |
+| This is <u>underlined</u> text                                      | `#!html This is <u>underlined</u> text`                                               |
+| This is <mark>highlighted</mark> text                               | `#!html This is <mark>highlighted</mark> text`                                        |
+| This is <sup>superscript</sup> text                                 | `#!html This is <sup>superscript</sup> text`                                          |
+| This is <sub>subscript</sub> text                                   | `#!html This is <sub>subscript</sub> text`                                            |
+| This is <big>big</big> text                                         | `#!html This is <big>big</big> text`                                                  |
+| This is <small>small</small> text                                   | `#!html This is <small>small</small> text`                                            |
+| This is <del>deleted</del> text                                     | `#!html This is <del>deleted</del> text`                                              |
 
 ### Allowed HTML tags
 !!! note
@@ -1203,6 +1203,14 @@ Et voilà! It should be working as expected.
     **Remember:** Anything that is not allowed is only not allowed when
     it is inputted into the Creator itself, not if it is loaded separately
     in the `index.html`!
+
+!!! tip
+
+    Want to use tags that aren't allowed? Check out the
+    [Modded Viewer](/extending-your-cyoa/#modded-viewer). It enables
+    hyperlinking and lots of other things, and the diff admonition shows where
+    in the code the sanitizer makes exceptions, meaning you can add your own
+    exceptions there.
 
 The following are the default allowed tags that are rendered with the Viewer:
 
@@ -1361,6 +1369,17 @@ Attributes provide additional information about HTML elements.
 
 ## CSS
 ### Allowed styles
+
+!!! tip
+
+    Want to use properties that aren't allowed? Check out the
+    [Modded Viewer](/extending-your-cyoa/#modded-viewer). It enables
+    hyperlinking and lots of other things, and the diff admonition shows where
+    in the code the sanitizer makes exceptions, meaning you can add your own
+    exceptions there.
+
+Here is a list of allowed styles:
+
 | CSS Target | Property                               | Explanation                                                                                             |
 | ---------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | *          | [color]<br>[text-align]<br>[font-size] | Sets the color of text<br>Specifies the horizontal alignment of text<br>Specifies the font size of text |

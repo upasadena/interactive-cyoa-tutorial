@@ -172,7 +172,7 @@ _Released on DATE at TIME UTC_
 
 {{ words_format(word_count=00000, images=000) }}
 
-* Started work on the **Backgrounds** section
+* Started work on and finished the **Backgrounds** section
 * Added and modified **GitHub** with fixes, as well as adding a reset section
 * Changed **Github** to **GitHub** in the navigation
 * Small fix in `README.md`
@@ -206,7 +206,16 @@ _Released on DATE at TIME UTC_
 * Removed "made by" section for `static_background.css`
 * Add Moirai Interactive to CYOA Creators list
 * Added link to archived Miraheze ICCT
-* 
+* Added `(WIP)` markers to chapters in preparation of Reddit release
+* Added `image_downloader_fix.js` to the Static folder
+* Swapped position of "Get a list of Point Types" and "Change how many points I
+  have" in the Reference
+* Add `#!html <strong>` and `#!html <em>` tags to the HTML section of the
+  Reference, though it is not explicitly stated that they should be preferred
+  due to semantics. Also there is no strong and emphasized example.
+* Add links to the Modded Viewer from the HTML and CSS sections of the
+  Reference
+* …
 
 [Download the source code][dl-VERSION]{ .md-button }
 
@@ -684,6 +693,8 @@ The source code for this tutorial is licensed under the [AGPLv3] licence
 [icct]: https://upasadena.github.io/interactive-cyoa-creator/
 [script-dc]: https://discord.com/channels/729044904675639398/787118552632393729/1135638576441327736
 
+<!-- Latest download -->
+[dl-VERSION]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/heads/main.zip
 <!-- Downloads -->
 [dl-0.1.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.1.0.zip
 [dl-0.2.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.2.0.zip

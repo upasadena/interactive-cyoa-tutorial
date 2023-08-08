@@ -107,9 +107,9 @@ nav:
       - Groups: mechanics/groups.md
     - Styling:
       - styling/index.md
-      - Design: styling/design.md
+      - Design (WIP): styling/design.md
       - Style Templates: styling/style-templates.md
-      - Colours: styling/colours.md
+      - Colours (WIP): styling/colours.md
       - Backgrounds: styling/backgrounds.md
     - Creating Your CYOA:
       - creating-your-cyoa/index.md

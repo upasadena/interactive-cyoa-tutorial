@@ -9,9 +9,9 @@ nice.
 
 ## Table of Contents
 
-* [Design](./design/)
+* [Design](./design/) (WIP)
 * [Style Templates](./style-templates/)
-* [Colours](./colours/)
+* [Colours](./colours/) (WIP)
 * [Backgrounds](./backgrounds/)
 
 <!-- BUFFER -->

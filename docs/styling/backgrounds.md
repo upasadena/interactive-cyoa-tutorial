@@ -245,17 +245,21 @@ final design.
 
         ![](../images/!default_all_together.png)
 
-### Complete Dark Theme
+<!-- ### Complete Dark Theme
 
 !!! note
 
     I have changed the colour of the text, which, if you were following along
-    this tutorial sequentially, we have not covered yet.
+    this tutorial sequentially, we have not covered yet. -->
 
 
 
 <!-- TODO example with darker background and lighter choices -->
 <!-- TODO example with lighter background and darker choices -->
+
+---
+
+Learn more about what you can do with Backgrounds in the [Reference](/appendix/reference).
 
 <!-- URLs -->
 [imgfix]: /appendix/troubleshooting/#i-cant-find-the-option-to-upload-a-background-image
