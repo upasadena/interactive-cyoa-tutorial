@@ -180,6 +180,9 @@ _Released on DATE at TIME UTC_
   the GitHub release
 * Posted this to Reddit! (TODO: link)
 * Updated Resources
+* Made stats publicly viewable
+* Adjusted word count stat from previous release (in accordance with the rule
+  up top)
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }
