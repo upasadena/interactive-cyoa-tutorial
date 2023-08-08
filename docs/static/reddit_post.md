@@ -4,7 +4,7 @@ Link: [https://icctutorial.pages.dev](https://icctutorial.pages.dev)
 
 This is a tutorial and guide for the Interactive CYOA Creator by MeanDelay.
 Whether you wanted to learn how to use the creator as a beginner, are stuck on
-something, or just need a refresher,  this guide hopes to cover all of it!
+something, or just need a refresher, this guide hopes to cover all of it!
 
 <!-- For early release only -->
 Disclaimer: This tutorial is still in development (on stable version 0.17.0 as
