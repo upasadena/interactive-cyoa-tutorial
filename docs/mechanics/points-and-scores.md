@@ -14,9 +14,11 @@ icon: material/scoreboard-outline
 
     A lot of ICYOA players use mobile to play CYOAs, therefore if you want to
     make a CYOA that has a lot of Point Types accommodating to mobile users, it
-    is suggested that you create a [Point Tabs] menu.
+    is suggested that you create a Point Tabs menu by
+    [hiding points](hide-points), and putting the ID of the choice in the tabs
+    menu in the **Id Needed To Show** input.
 
-[Point Tabs]: /appendix/reference/#show-points-emnu
+[hide-points]: /appendix/reference/#hide-point-types
 
 ### The Point Types Menu
 To open the menu, go into **[the Sidebar]** → **Open Features** → **Manage

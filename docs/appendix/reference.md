@@ -838,7 +838,7 @@ Functioning as a XOR gate.
 Go to the **Sidebar** → **Open Features** → **Manage Points** and find the
 Point Type you want to hide.
 
-In the [Id Needed to Show](../mechanics/points-and-scores/#id-needed-to-show)
+In the [Id Needed to Show](/mechanics/points-and-scores/#id-needed-to-show)
 field, type something you would never use as an ID, such as `HIDE_ME`. As an
 object with your chosen ID should never be selected, the Point Type should be
 ID.
