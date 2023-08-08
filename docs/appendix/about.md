@@ -183,6 +183,12 @@ _Released on DATE at TIME UTC_
 * Made stats publicly viewable
 * Adjusted word count stat from previous release (in accordance with the rule
   up top)
+* Updated mkdocs-material from version 9.2.0b1 to 9.2.0b3
+* Added an `install_requirements.sh` script to make it easier for me to update to
+  newer versions of packages
+* Expanded on the **CONTRIBUTING.md** document in order to facilitate new GitHub
+  users
+* Made minor changes to Mechanics/Images
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

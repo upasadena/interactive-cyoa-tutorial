@@ -12,7 +12,7 @@ insert them.
     It is advisable that you do not upload images until the core mechanics of 
     the CYOA are complete. The vast majority of space that an Interactive CYOA 
     takes up is due to images, and a huge amount of images will slow down lower
-    end PCs. CYOAs over 300 MB are known to have caused issues.
+    end PCs. CYOAs over 300 MB are known to have caused issues such as crashes.
 
 ## Adding Images
 To add an image to any compatible object, simply press the **Change Image**

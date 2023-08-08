@@ -1,5 +1,38 @@
 # CONTRIBUTING
 
+## How to contribute
+You can contribute in two ways:
+
+1. Directly via GitHub/Git, or
+2. Commenting in some fashion (whether on the site itself, messaging me,
+   commenting on a Reddit post, or anywhere else)
+
+I will be going into how to contribute if you are new to the first message.
+
+### Create a GitHub account
+First, [create an account](https://github.com/signup).
+
+### Fork the repository
+Because you won't have write permissions by default, you will have to make
+changes on a [fork][gh-fork]
+
+To fork the repository, either
+[open the repo](https://github.com/upasadena/interactive-cyoa-tutorial)
+and press the **Fork** button in the top right, or go to
+[this link](https://github.com/upasadena/interactive-cyoa-tutorial/fork) to
+fork it automatically.
+
+This will make a local copy of the project on your own account.
+
+### Make your changes
+From there, edit your local copy with the changes you want to make. Once that
+is done, [open a pull request][gh-open-pr]. This will allow me to check your
+changes, and implement them if they are helpful (stuff like spam or
+mass-deletion without cause is not).
+
+If there have been changes to the main repository in the meantime,
+[sync the fork][gh-sync-fork].
+
 ## Licence
 By submitting content to this repository, you hereby agree that your
 contributions will be made under the [CC0 1.0][licence] licence (the Public
@@ -102,3 +135,8 @@ quoted.
 [licence]: ./LICENSE-CONTENT
 [licence-details]: https://icctutorial.pages.dev/about/#content
 [Oxford comma]: https://en.wikipedia.org/wiki/Serial_comma
+[gh-fork]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
+[gh-open-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+[gh-sync-fork]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+
+<!-- BUFFER -->
