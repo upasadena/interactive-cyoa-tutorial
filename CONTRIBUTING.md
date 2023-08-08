@@ -1,5 +1,11 @@
 # CONTRIBUTING
 
+## Syntax
+The main syntax of the files is [Markdown](https://commonmark.org/help/).
+
+The extended syntax belongs to MkDocs Material. Check out their Reference
+[here](https://squidfunk.github.io/mkdocs-material/reference/).
+
 ## How to contribute
 You can contribute in two ways:
 
@@ -48,6 +54,10 @@ your pull request is merged you will be added.
 Cloudflare Pages only supports files up to `26.2 MB` in size. If it's above and
 it's a media file, please compress it. Source files shouldn't be above that
 size to begin with.
+
+If you absolutely must include a gif or video above that size, upload it to
+YouTube as a video, and link to it using the
+`{{ youtube_embed("dQw4w9WgXcQ") }}` macro syntax instead.
 
 ## Checking
 Check for dead links by using `mkdocs-linkcheck`.

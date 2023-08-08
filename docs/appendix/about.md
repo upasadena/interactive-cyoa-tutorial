@@ -189,7 +189,7 @@ _Released on DATE at TIME UTC_
 * Expanded on the **CONTRIBUTING.md** document in order to facilitate new GitHub
   users
 * Made minor changes to Mechanics/Images
-* Fixed a link
+* Fixed links
 * Minor change to Points and Scores
 * 
 
