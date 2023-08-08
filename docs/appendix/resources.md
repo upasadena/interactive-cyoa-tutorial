@@ -22,8 +22,9 @@ icon: material/bookmark-outline
 * [CYOA Studio](https://quantencomputer.github.io/cyoastudio/) – An open-source
 static CYOA creator, for those who are less graphically-inclined.
 * [Corrosive-Forge](https://github.com/Arzte/Corrosive-Forge/) (WIP) – An
-  interactive CYOA maker & viewer
-* [Moirai Interactive] by Lt. Ouroumov – An inactive project
+  interactive CYOA maker & viewer made in Rust with the Leptos crate
+* [Moirai Interactive] by Lt. Ouroumov – An Interactive CYOA Creator. Seemingly
+  inactive
 * [Novelette](https://github.com/WriterOfWorlds/Novelette) (Unknown status) –
   Designed as a replacement/successor to the Interactive CYOA Creator, with the
   ability to play and create visual novels too. 

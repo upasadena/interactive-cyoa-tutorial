@@ -47,7 +47,7 @@ to this tutorial from the time of its official release.
         - [ ] Design – Basically like, design theory
         - [x] Style Templates
         - [ ] Colours – How you should choose colour, where to put it
-        - [ ] Backgrounds
+        - [x] Backgrounds
             - [ ] Link to static background in Reference, or vice versa
         - [ ] Text
         - [ ] Rows / Row Design (to not confuse it with Mechanics/Rows)
@@ -70,13 +70,15 @@ to this tutorial from the time of its official release.
         - [x] Neocities
         - [x] GitHub
     - [ ] Finish the Reference section
-    - [ ] Finish the Troubleshooting section – Will this ever truly be
-      finished?
-    - [x] Finish the Resources section (will it ever be truly finished?)
+    - [ ] Finish the Troubleshooting section
+    - [x] Finish the Resources section – Will this and the above two ever truly
+      be finished?
 - [ ] Add a End-of-tutorial Project where there's a step by step remake of a
 CYOA.
 - [ ] After the ICCT is written, go through the main tutorial and add
 everything that is possible into the Mechanics
+    * e.g., in the Backgrounds page, make a section on making static
+      backgrounds, and link to the Reference
 - [ ] Chill with the quotes, and instead rewrite the quotes into information in
   my own words.
 - [ ] Add my own custom Viewer js file, this time adding:
@@ -114,6 +116,7 @@ everything that is possible into the Mechanics
     - [ ] Use that Viewer with my GitHub template
     - [ ] Merge it with the other modded Viewer I have to create the Ultimate®
       Viewer
+- [ ] Make a macro to list all files in a directory, and use it for `static/`
 
 ### Completed
 
@@ -167,8 +170,21 @@ _Released on DATE at TIME UTC_
 [Download the source code][dl-VERSION]{ .md-button }
 -->
 
+### v0.18.0 (WIP)
+_Released on DATE at TIME UTC_
+
+{{ words_format(word_count=00000, images=000) }}
+
+* Added links to `static/`
+* Switch to using the Git commit as the date shown on releases now, rather than
+  the GitHub release
+* Posted this to Reddit! (TODO: link)
+* 
+
+[Download the source code][dl-VERSION]{ .md-button }
+
 ### v0.17.0
-_Released on 2023-08-08 at 04:00:10 UTC_
+_Released on 2023-08-08 at 04:03:17 UTC_
 
 {{ words_format(word_count=29814, images=358) }}
 
@@ -216,7 +232,7 @@ _Released on 2023-08-08 at 04:00:10 UTC_
 * Add links to the Modded Viewer from the HTML and CSS sections of the
   Reference
 
-[Download the source code][dl-VERSION]{ .md-button }
+[Download the source code][dl-0.17.0]{ .md-button }
 
 ### v0.16.0
 _Released on 2023-07-21 at 07:27:04 UTC_
@@ -715,5 +731,6 @@ The source code for this tutorial is licensed under the [AGPLv3] licence
 [dl-0.14.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.14.0.zip
 [dl-0.15.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.15.0.zip
 [dl-0.16.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.16.0.zip
+[dl-0.17.0]: https://github.com/upasadena/interactive-cyoa-tutorial/archive/refs/tags/v0.17.0.zip
 
 <!-- BUFFER -->
