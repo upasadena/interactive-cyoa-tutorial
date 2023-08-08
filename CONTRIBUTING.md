@@ -14,7 +14,7 @@ First, [create an account](https://github.com/signup).
 
 ### Fork the repository
 Because you won't have write permissions by default, you will have to make
-changes on a [fork][gh-fork]
+changes on a [fork][gh-fork].
 
 To fork the repository, either
 [open the repo](https://github.com/upasadena/interactive-cyoa-tutorial)
@@ -133,7 +133,7 @@ quoted.
 <!-- URLs -->
 [Oxford English spelling]: https://en.wikipedia.org/wiki/Oxford_spelling
 [licence]: ./LICENSE-CONTENT
-[licence-details]: https://icctutorial.pages.dev/about/#content
+[licence-details]: https://icctutorial.pages.dev/appendix/about/#content
 [Oxford comma]: https://en.wikipedia.org/wiki/Serial_comma
 [gh-fork]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
 [gh-open-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
