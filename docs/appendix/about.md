@@ -192,6 +192,7 @@ _Released on DATE at TIME UTC_
 * Fixed links
 * Minor change to Points and Scores
 * Added **Exported Local** images to the Images section
+* Specified year in the Introduction
 * 
 
 [Download the source code][dl-VERSION]{ .md-button }

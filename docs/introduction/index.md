@@ -56,7 +56,7 @@ its entirety, then there are four ways to look for the information:
 1. If you are looking on how to achieve something, check the [Reference].
 2. If you are looking on how to fix a bug, check the [Troubleshooting] page.
 3. If you can't find it on either of those two, or if you're looking for
-   anything else, you can try the search bar in the top left. This will search
+   anything else, you can try the search bar in the top right. This will search
    through the whole project. Alternatively, just press ++f++ and it will open
    the search bar automatically.
 4. If you still couldn't find what you were looking for, chances are that it is
