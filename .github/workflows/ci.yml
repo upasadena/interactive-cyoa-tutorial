@@ -18,12 +18,14 @@ jobs:
       # Weekly cache
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v3
+        id: cache-venv
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          # key: mkdocs-material-${{ env.cache_id }}
+          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
           # Was: .cache
-          path: .venv
+          path: ./.venv/
           restore-keys: |
-            mkdocs-material-
+            ${{ runner.os }}-venv-
       - run: python -m venv ./.venv && . ./.venv/bin/activate &&
              pip install -r ./requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
