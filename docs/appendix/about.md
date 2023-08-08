@@ -203,7 +203,7 @@ _Released on DATE at TIME UTC_
 * Corrected word in the Introduction
 * Added to TODO
 * Fixed cache not working (inefficient build times before now, damn :/)
-    * Improved build times by ~0-30s
+    * Improved build times by ~0-30s, which is about a 33% improvement
 * 
 * Minor fixes
 
