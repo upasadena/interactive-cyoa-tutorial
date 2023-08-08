@@ -167,10 +167,10 @@ _Released on DATE at TIME UTC_
 [Download the source code][dl-VERSION]{ .md-button }
 -->
 
-### v0.17.0 (WIP)
-_Released on DATE at TIME UTC_
+### v0.17.0
+_Released on 2023-08-08 at 04:00:10 UTC_
 
-{{ words_format(word_count=00000, images=000) }}
+{{ words_format(word_count=29814, images=358) }}
 
 * Started work on and finished the **Backgrounds** section
 * Added and modified **GitHub** with fixes, as well as adding a reset section
@@ -215,7 +215,6 @@ _Released on DATE at TIME UTC_
   due to semantics. Also there is no strong and emphasized example.
 * Add links to the Modded Viewer from the HTML and CSS sections of the
   Reference
-* …
 
 [Download the source code][dl-VERSION]{ .md-button }
 
