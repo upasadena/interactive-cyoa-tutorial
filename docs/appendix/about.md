@@ -117,6 +117,8 @@ everything that is possible into the Mechanics
     - [ ] Merge it with the other modded Viewer I have to create the Ultimate®
       Viewer
 - [ ] Make a macro to list all files in a directory, and use it for `static/`
+- [ ] Add red outlines around the buttons in the **Basics** section, as that of
+  all places should be clearer
 
 ### Completed
 
@@ -193,7 +195,10 @@ _Released on DATE at TIME UTC_
 * Minor change to Points and Scores
 * Added **Exported Local** images to the Images section
 * Specified year in the Introduction
+* Corrected word in the Introduction
+* Added to TODO
 * 
+* Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
 

@@ -66,7 +66,7 @@ its entirety, then there are four ways to look for the information:
 ## Limitations
 The ICC is an incredible tool which has vastly improved the quality of
 Interactive CYOAs. However, it would be remiss of me not to acknowledge that it
-too has limitations.
+too has limitations:
 
 1. The Creator is no longer being actively maintained. It was last updated on
    28 February 2021. This means no new features are likely to be added, no bugs
