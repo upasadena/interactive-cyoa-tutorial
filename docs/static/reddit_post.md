@@ -2,15 +2,15 @@
 
 Link: [https://icctutorial.pages.dev](https://icctutorial.pages.dev)
 
-This is a tutorial and guide for the Interactive CYOA Creator by MeanDelay. If
-you wanted to learn how to use the creator as a beginner, are stuck on
-something, or just need a refresher, then this guide hopes to cover all of it.
+This is a tutorial and guide for the Interactive CYOA Creator by MeanDelay.
+Whether you wanted to learn how to use the creator as a beginner, are stuck on
+something, or just need a refresher,  this guide hopes to cover all of it!
 
 <!-- For early release only -->
-Disclaimer: This tutorial is still in development (on version 0.17.0). The
-Mechanics section is (almost) completely done, but as a whole it's not complete
-just yet. The only things that really need work are the Styling section and the
-Reference.
+Disclaimer: This tutorial is still in development (on version 0.17.0 as of
+writing this). The Mechanics section is (almost) completely done, but as a
+whole it's not yet complete. The only things that really need work are the
+Styling section and the Reference.
 <!-- End early release -->
 
 <!-- For r/NSFWCYOA only -->
