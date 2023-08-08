@@ -18,7 +18,12 @@ This website is available in these locations:
 Authors are people who have directly contributed to the text, via the Git
 repository for this site.
 
-* [upasadena](https://github.com/upasadena), the original creator
+<!-- 
+Tip: You can use the syntax @GitHubUsername and MkDocs will automatically link
+to you.
+-->
+
+* @upasadena, the original creator
 
 ## Contributors
 Contributors are those who are credited and acknowledged as having contributed
