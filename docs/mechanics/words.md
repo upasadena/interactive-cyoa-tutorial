@@ -58,8 +58,8 @@ This is the **value** of the Word. This is what the ID is replaced with.
 
 ![](../images/112_word_replace.png)
 
-If for example, I had a variable named… `#favourite_game`, and the Text that
-would replace it I had set to `Minecraft`, I could put this in a Row text:
+If, for example, I had a variable named `#favourite_game`, and I wanted the
+Text that would replace it to be `Minecraft`, I could put this in a Row text:
 
 > What is your favourite game? Mine is #favourite_game!
 

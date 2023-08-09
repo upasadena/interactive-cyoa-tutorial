@@ -11,7 +11,7 @@ You can contribute in two ways:
 
 1. Directly via GitHub/Git, or
 2. Commenting in some fashion (whether on the site itself, messaging me,
-   commenting on a Reddit post, or anywhere else)
+   commenting on the Reddit post, or anywhere else)
 
 I will be going into how to contribute if you are new to the first message.
 

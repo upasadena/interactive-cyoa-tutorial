@@ -204,6 +204,7 @@ _Released on DATE at TIME UTC_
 * Added to TODO
 * Fixed cache not working (inefficient build times before now, damn :/)
     * Improved build times by ~0-30s, which is about a 33% improvement
+* Minor fix to Words
 * 
 * Minor fixes
 
