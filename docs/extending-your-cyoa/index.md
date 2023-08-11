@@ -50,11 +50,11 @@ file, in the `<body>` section, but above `<div id="app">`.
       XMLHttpRequest = class XHR extends _XHR {
         constructor() {
           super();
-          this.addEventListener('progress', e => {
+          this.addEventListener("progress", e => {
             indicator.innerText = " Loading data: " + (!e.total ? `${e.loaded} bytes` :
               `${(100 * e.loaded / e.total).toFixed(2)}%`)
           });
-          this.addEventListener('loadend', () => {
+          this.addEventListener("loadend", () => {
             indicator.innerText = ""
           });
         }
@@ -78,11 +78,37 @@ nowadays. Use the below script instead to load in terms of megabytes:
       XMLHttpRequest = class XHR extends _XHR {
         constructor() {
           super();
-          this.addEventListener('progress', e => {
+          this.addEventListener("progress", e => {
             indicator.innerText = " Loading data: " + (!e.total ? `${(e.loaded/1024**2).toFixed(1)} MB` :
               `${(100 * e.loaded / e.total).toFixed(2)}%`)
           });
-          this.addEventListener('loadend', () => {
+          this.addEventListener("loadend", () => {
+            indicator.innerText = ""
+          });
+
+        }
+      }
+    }
+  </script>
+</div>
+```
+
+However you may also wish to display your maximum file size. This is how to do
+it manually:
+
+```html title="IntCyoaCreator download progress indicator by Agregen"
+<div id="indicator">
+  <script>
+    {
+      let _XHR = XMLHttpRequest;
+      XMLHttpRequest = class XHR extends _XHR {
+        constructor() {
+          super();
+          this.addEventListener("progress", e => {
+            indicator.innerText = " Loading data: " + (!e.total ? `${(e.loaded/1024**2).toFixed(1)} MB of YOUR-SIZE-HERE MB` :
+              `${(100 * e.loaded / e.total).toFixed(2)}%`)
+          });
+          this.addEventListener("loadend", () => {
             indicator.innerText = ""
           });
 

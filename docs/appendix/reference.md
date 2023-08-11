@@ -372,6 +372,38 @@ own CSS file:
 This will mean that when the background is launched for the first time (and any
 other time it changes) it will fade into that colour.
 
+### Make the Background a different colour every 20% of your CYOA
+This is how to make your a different colour every 20% of your CYOA you scroll.
+For the programming-savvy, you may be able to hack this code to change for your
+use-case.
+
+If you're looking for a way to do this at arbitrary points, such as with each
+Row (as opposed to each 100px or so), check out the section below this one.
+
+!!! note
+
+    Credit to `Soldier637` for this code.
+
+    !!! warning
+
+        I have not tested this code. It may or may not work. YMMV.
+
+Put this into your `index.html`:
+
+```html
+<style>
+  var bg_color = document.getElementsByClassName("pb-12")[0];
+  var total_scroll_distance = document.body.scrollHeight - window.innerHeight
+  var colors = ["white", "red", "black", "blue", "pink"]
+  var teiler = Math.ceil(total_scroll_distance / colors.length)
+
+  window.onscroll = () => {
+    var new_color = Math.floor(window.scrollY / teiler)
+    bg_color.style.backgroundColor = colors[new_color]
+  }
+</style>
+```
+
 ### Make the Background different for each Row
 This will allow you to dynamically change the background of your CYOA depending
 on arbitrary placement of `#!html <div>` tags.
