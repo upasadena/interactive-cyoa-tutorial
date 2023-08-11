@@ -391,17 +391,32 @@ Row (as opposed to each 100px or so), check out the section below this one.
 Put this into your `index.html`:
 
 ```html
-<style>
+<script>
   var bg_color = document.getElementsByClassName("pb-12")[0];
-  var total_scroll_distance = document.body.scrollHeight - window.innerHeight
   var colors = ["white", "red", "black", "blue", "pink"]
-  var teiler = Math.ceil(total_scroll_distance / colors.length)
+  var _rows = document.getElementsByClassName("row")[0]
+
+  function find_change_positions(elem) {
+    var elem_dimensions = elem.getBoundingClientRect()
+    var elem_absolute_pos_start = elem.getBoundingClientRect().y + window.scrollY
+    var elem_absolute_pos_end = elem_absolute_pos_start + elem.getBoundingClientRect().height
+    return elem_absolute_pos_end - (window.innerHeight / 2)
+  }
+
+  var change_positions = []
+  for (let i = 0; i < _rows.childElementCount; i++) {
+    change_positions.push(find_change_positions(_rows.children[i]))
+  }
 
   window.onscroll = () => {
-    var new_color = Math.floor(window.scrollY / teiler)
-    bg_color.style.backgroundColor = colors[new_color]
+    for (let i = 0; i < change_positions.length; i++) {
+      if (window.scrollY < change_positions[i]) {
+        bg_color.style.backgroundColor = colors[i - Math.floor(i / colors.length) * colors.length]
+        break
+      }
+    }
   }
-</style>
+</script>
 ```
 
 ### Make the Background different for each Row
