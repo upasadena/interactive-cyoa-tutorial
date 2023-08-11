@@ -37,7 +37,7 @@
  * Change these as needed
  */
 // Change to true if there is a bug
-const DEBUG = false;
+const DEBUG = true;
 // The amount of pixels from the centre that determine where the threshold for
 // transitioning is
 const centerThreshold = 45; // pixels
@@ -45,7 +45,7 @@ const centerThreshold = 45; // pixels
 // Whether a background colour should be set by default
 const setDefaultBackground = true;
 // Id in the css: `#red: { background: #900; }`
-const defaultBackgroundId = "red";
+const defaultBackgroundId = "default";
 // END CONSTANTS
 
 function lastElement(arr) {
@@ -63,7 +63,7 @@ function isFullArray(arr) {
 }
 
 function debugObject(obj) {
-  console.log(`${JSON.stringify(obj, undefined, 2)}`);
+  console.log(`${JSON.stringify(obj, "obj is empty", 2)}`);
 }
 
 // Anonymous "self-invoking" function
@@ -235,11 +235,12 @@ function debugObject(obj) {
             historyObj.currentObject == activeBackground) {
 
             $(".pb-12").removeClass(historyObj.currentObject);
-            historyObj.currentObject = historyObj.objectsAbove.pop();
 
             if (isFullArray(historyObj.objectsAbove)) {
+              historyObj.currentObject = historyObj.objectsAbove.pop();
               $(".pb-12").addClass(historyObj.currentObject);
             } else if (setDefaultBackground) {
+              historyObj.currentObject = defaultBackgroundId;
               $(".pb-12").addClass(defaultBackgroundId);
             }
 
