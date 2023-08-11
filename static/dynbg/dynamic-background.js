@@ -38,9 +38,6 @@
  */
 // Change to true if there is a bug
 const DEBUG = false;
-// The amount of pixels from the centre that determine where the threshold for
-// transitioning is
-const centerThreshold = 45; // pixels
 
 // Whether a background colour should be set by default
 const setDefaultBackground = true;
@@ -49,14 +46,13 @@ const defaultBackgroundId = "default";
 
 // Choose to change the background whenever the div is centred.
 const changeWhenCentered = true;
+// The amount of pixels from the centre that determine where the threshold for
+// transitioning is
+const centerThreshold = 45; // pixels
 // END CONSTANTS
 
 function lastElement(arr) {
-  let returnValue = null;
-
-  if (setDefaultBackground) {
-    returnValue = defaultBackgroundId;
-  }
+  let returnValue = setDefaultBackground ? defaultBackgroundId : null;
 
   return arr ? arr.slice(-1) : returnValue;
 }
@@ -91,7 +87,6 @@ function debugObject(obj) {
   // Start polling...
   checkReady(function($) {
     // "Global" variables
-    // let previousBackground = undefined;
     let lastScrollTop = 0;
     let userScrolledDown = false;
     const historyObj = {
