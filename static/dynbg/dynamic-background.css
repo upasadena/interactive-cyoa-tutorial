@@ -7,14 +7,14 @@
 }
 
 /* Each of these represents a potential background colour or image */
-#red {
-  background-color: #900;
+.enemies {
+  background-color: #900 !important;
 }
 
-#green {
-  background-color: #090;
+.allies {
+  background-color: #090 !important;
 }
 
-#custom-image {
+.custom-image {
   background-image: url("YOUR URL HERE") !important;
 }

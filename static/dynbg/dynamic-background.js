@@ -37,7 +37,7 @@
  * Change these as needed
  */
 // Change to true if there is a bug
-const DEBUG = true;
+const DEBUG = false;
 // The amount of pixels from the centre that determine where the threshold for
 // transitioning is
 const centerThreshold = 45; // pixels
@@ -46,6 +46,9 @@ const centerThreshold = 45; // pixels
 const setDefaultBackground = true;
 // Id in the css: `#red: { background: #900; }`
 const defaultBackgroundId = "default";
+
+// Choose to change the background whenever the div is centred.
+const changeWhenCentered = true;
 // END CONSTANTS
 
 function lastElement(arr) {
@@ -158,17 +161,26 @@ function debugObject(obj) {
       let viewportTop = $(window).scrollTop();
       let viewportBottom = viewportTop + $(window).height();
 
-      // Create center variables
-      const viewportCenter =
-        viewportTop + ((viewportBottom - viewportTop) / 2);
-      const viewportCenterTop = viewportCenter - centerThreshold;
-      const viewportCenterBottom = viewportCenter + centerThreshold;
-      // Check if it's within the center
-      const withinViewportCenter =
-        elementBottom > viewportCenterTop &&
-        elementTop < viewportCenterBottom;
+      if (changeWhenCentered) {
+        // Create center variables
+        const viewportCenter =
+          viewportTop + ((viewportBottom - viewportTop) / 2);
+        const viewportCenterTop = viewportCenter - centerThreshold;
+        const viewportCenterBottom = viewportCenter + centerThreshold;
+        // Check if it's within the center
+        const withinViewportCenter =
+          elementBottom > viewportCenterTop &&
+          elementTop < viewportCenterBottom;
+        
+        return withinViewportCenter;
+      }
 
-      return withinViewportCenter;
+      // changeWhenCentered = false
+      const withinViewport =
+        elementBottom > viewportTop &&
+        elementTop < viewportBottom;
+
+      return withinViewport;
     };
     
     // Check if the user has scrolled up or down
