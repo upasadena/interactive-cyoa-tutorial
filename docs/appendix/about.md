@@ -206,6 +206,8 @@ _Released on DATE at TIME UTC_
     * Improved build times by ~0-30s, which is about a 33% improvement
 * Minor fix to Words
 * Added Dynamic Background stuff in the reference
+* Updated Modded Viewer to allow `#!html <div>`s now
+* 
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

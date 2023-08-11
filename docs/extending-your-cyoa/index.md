@@ -272,13 +272,14 @@ of values.
 In your project's `js` folder, replace `app.c533aa25.js` with the one from
 ==**[here](../static/fixed-app/app.c533aa25.js)**==. It's a fixed version that:
 
-1. Doesn't sanitize `href`, `target`, and `rel` attributes in `<a>` tags in the
-   HTML, enabling hyperlinking. See [here][a] for more.
-2. Doesn't sanitize `<img>` tags in the HTML, allowing custom image insertion.
-   See [here][img] for more.
-3. Doesn't sanitize the `src` attribute in `<img>` tags.
+1. Doesn't sanitize `href`, `target`, and `rel` attributes in `#!html <a>` tags
+   in the HTML, enabling hyperlinking. See [here][a] for more.
+2. Doesn't sanitize `#!html <img>` tags in the HTML, allowing custom image
+   insertion. See [here][img] for more.
+3. Doesn't sanitize the `src` attribute in `#!html <img>` tags.
 4. Doesn't sanitize the `content` property in CSS, allowing arbitrary insertion
    of content via CSS. See [here][content] for more.
+5. Doesn't sanitize classes or ids on `#!html <div>` tags.
 
 ??? info "How it works"
 

@@ -382,6 +382,11 @@ Here's a demo:
 
     {{ youtube_embed("EqrbqF7hXhk") }}
 
+!!! note
+
+    In order for this to work, you must use the
+    [Modded Viewer](/extending-your-cyoa/#modded-viewer).
+
 To get started, download these files:
 
 * [dynamic-background.js](/static/dynbg/dynamic-background.js)
