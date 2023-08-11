@@ -409,9 +409,9 @@ files:
 In the css file, copy this code for each of your different backgrounds:
 
 ```css
-#your-id-here {
+.your-id-here {
   /* To set the background to a colour: */
-  background: #900;
+  background-color: #900;
   /*
     Or alternatively, to set the background to an image:
     
@@ -422,8 +422,14 @@ In the css file, copy this code for each of your different backgrounds:
 }
 ```
 
-`#!css #your-id-here` could be something like a colour: `#!css #red`, or maybe
-just the name of your section: `#!css #perks`.
+`#!css .your-id-here` could be something like a colour: `#!css .red-bg`, or
+maybe just the name of your section: `#!css #perks`.
+
+!!! warning
+
+    Don't use direct colour names like `#!css .red` or `#!css .lightgreen`! These are built-in classes that apply the background colour no matter what value you set.
+
+    However, you could use this to your advantage and only use built-in colours to create backgrounds, without needing a separate CSS file.
 
 If you wanted the colours to fade together in a transition, see the
 [Make your Background fade in](#make-your-background-fade-in) section in this
