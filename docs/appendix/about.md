@@ -205,7 +205,7 @@ _Released on DATE at TIME UTC_
 * Fixed cache not working (inefficient build times before now, damn :/)
     * Improved build times by ~0-30s, which is about a 33% improvement
 * Minor fix to Words
-* 
+* Added Dynamic Background stuff in the reference
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

@@ -209,6 +209,13 @@ and you can see the changelog of this tutorial in the [About] page.
 
 [About]: /appendix/about/#changelog
 
+## Table of Contents
+The follow pages include a step-by-step guide on how to publish your CYOA.
+
+* [Static](./static/)
+* [Neocities](./neocities/)
+* [GitHub](./github/)
+
 <!-- Footnotes -->
 [^1]: You can create an unlimited amount of public or private repositories,
 which can each act as their own site.

@@ -8,6 +8,10 @@ Folders first, then files
 Alphabetical within folders and within files
 -->
 
+* [dynbg/dynamic-background.css](./dynbg/dynamic-background.css) – See
+  [here][dynbg].
+* [dynbg/dynamic-background.js](./dynbg/dynamic-background.js) – See
+  [here][dynbg].
 * [fixed-app/app.c533aa25.js](./fixed-app/app.c533aa25.js) – Patched version of
   the `app.c533aa25.js` that allows `<a>` tags for linking
 * [fixed-css/chunk-vendors.58637379.css](fixed-css/chunk-vendors.58637379.css)
@@ -28,3 +32,5 @@ Alphabetical within folders and within files
   background static.
 * [static.yml](./static.yml) – A GitHub Actions workflow file for statically
   hosting content instead of building a Jekyll site for it
+
+[dynbg]: /appendix/reference/#make-the-background-different-for-each-row

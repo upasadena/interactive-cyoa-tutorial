@@ -359,6 +359,84 @@ this.addEventListener('loadend', () => {indicator.innerText = "",document.getEle
 
 This will modify your background to become static!
 
+### Make your Background fade in
+Add this to a `#!html <style></style>` block in your `index.html`, or in your
+own CSS file:
+
+```
+.pb-12 {
+  transition: background-color 300ms linear;
+}
+```
+
+This will mean that when the background is launched for the first time (and any
+other time it changes) it will fade into that colour.
+
+### Make the Background different for each Row
+This will allow you to dynamically change the background of your CYOA depending
+on arbitrary placement of `#!html <div>` tags.
+
+Here's a demo:
+
+!!! example
+
+    {{ youtube_embed("EqrbqF7hXhk") }}
+
+To get started, download these files:
+
+* [dynamic-background.js](/static/dynbg/dynamic-background.js)
+* [dynamic-background.css](/static/dynbg/dynamic-background.css) (Optional)
+
+The CSS file is optional, but contains a starting point to base your own
+background from.
+
+Place the JavaScript (.js) file in the `js/` folder of your Viewer, and your
+CSS (.css) file in the `css/` folder of your Viewer.
+
+Then, place this in your `index.html` in the `<head>` section to import the
+files:
+
+```html
+<link href="css/dynamic-background.css" rel=stylesheet>
+<script src="js/dynamic-background.js"/>
+```
+
+In the css file, copy this code for each of your different backgrounds:
+
+```css
+#your-id-here {
+  /* To set the background to a colour: */
+  background: #900;
+  /*
+    Or alternatively, to set the background to an image:
+    
+    (Note: this image can be a local image, in which case just put "image.png" 
+    or "images/cat.png" instead of a full HTTPS URL)
+  */
+  background-image: url("YOUR URL HERE") !important;
+}
+```
+
+`#!css #your-id-here` could be something like a colour: `#!css #red`, or maybe
+just the name of your section: `#!css #perks`.
+
+If you wanted the colours to fade together in a transition, see the
+[Make your Background fade in](#make-your-background-fade-in) section in this
+tutorial, and apply that code in this CSS file.
+
+In your actual `project.json` in the ICC, add this to the very top of your
+Row's Text:
+
+```html
+<div id="your-id-here" class="bg"></div>
+```
+
+Leave "bg" as-is.
+
+---
+
+After all that, your CYOA should not change depending on which Row is in focus!
+
 ### (TODO) Making the CYOA embed on sites
 Wanted to know how to make your CYOAs have a little embed that shows
 information when posted to sites such as Discord and Twitter?
