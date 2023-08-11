@@ -66,7 +66,7 @@ function debugObject(obj) {
 }
 
 // Anonymous "self-invoking" function
-(function() {
+(function () {
   let startingTime = new Date().getTime();
   // Load the script
   let script = document.createElement("script");
@@ -75,23 +75,24 @@ function debugObject(obj) {
   document.getElementsByTagName("head")[0].appendChild(script);
 
   // Poll for jQuery to come into existence
-  let checkReady = function(callback) {
-      if (window.jQuery) {
-          callback(jQuery);
-      }
-      else {
-          window.setTimeout(function() { checkReady(callback); }, 20);
-      }
+  let checkReady = function (callback) {
+    if (window.jQuery) {
+      callback(jQuery);
+    } else {
+      window.setTimeout(function () {
+        checkReady(callback);
+      }, 20);
+    }
   };
 
   // Start polling...
-  checkReady(function($) {
+  checkReady(function ($) {
     // "Global" variables
     let lastScrollTop = 0;
     let userScrolledDown = false;
     const historyObj = {
       objectsAbove: undefined, // array of strings
-      currentObject: undefined ,
+      currentObject: undefined,
     };
     let $previousThis;
     let scrollUpObject;
@@ -103,7 +104,7 @@ function debugObject(obj) {
     if (DEBUG) debugObject(historyObj);
 
     // This function goes once jQuery is loaded
-    $(function() {
+    $(function () {
       let endingTime = new Date().getTime();
       let tookTime = endingTime - startingTime;
       if (DEBUG) {
@@ -123,7 +124,7 @@ function debugObject(obj) {
       $win.scroll(function () {
         if ($win.scrollTop() <= 0) {
           if (DEBUG) console.log("Scrolled to Page Top");
-          
+
           if (setDefaultBackground) {
             if (historyObj.currentObject) {
               $(".pb-12").removeClass(historyObj.currentObject);
@@ -142,14 +143,14 @@ function debugObject(obj) {
     });
 
     // Check if the <div> is in the viewport
-    $.fn.isInViewport = function() {
+    $.fn.isInViewport = function () {
       /**
        * The absolute (in the context of the page) y position of the
        * elements, static
        */
       let elementTop = $(this).offset().top;
       let elementBottom = elementTop + $(this).outerHeight();
-    
+
       /**
        * The top and bottom pixels that are seen
        */
@@ -166,7 +167,7 @@ function debugObject(obj) {
         const withinViewportCenter =
           elementBottom > viewportCenterTop &&
           elementTop < viewportCenterBottom;
-        
+
         return withinViewportCenter;
       }
 
@@ -177,9 +178,9 @@ function debugObject(obj) {
 
       return withinViewport;
     };
-    
+
     // Check if the user has scrolled up or down
-    $(window).scroll(function(event){
+    $(window).scroll(function (event) {
       let st = $(this).scrollTop();
 
       if (st > lastScrollTop) {
@@ -192,12 +193,12 @@ function debugObject(obj) {
 
       lastScrollTop = st;
     });
-    
+
     // On scroll
-    $(window).on("resize scroll", function() {
-      $(".bg").each(function() {
+    $(window).on("resize scroll", function () {
+      $(".bg").each(function () {
         let activeBackground = $(this).attr("id");
-        
+
         if ($(this).isInViewport()) {
           $previousThis = $(this);
 
@@ -224,8 +225,8 @@ function debugObject(obj) {
             $(".pb-12").addClass(historyObj.currentObject);
 
           }
-        // If the previous context exists and that div is visible in the
-        // viewport, and if the user is scrolling up, then run this
+          // If the previous context exists and that div is visible in the
+          // viewport, and if the user is scrolling up, then run this
         } else if ($previousThis &&
           $previousThis.isInViewport() &&
           !userScrolledDown) {
@@ -237,7 +238,7 @@ function debugObject(obj) {
           }
 
           scrollUpObject = previousBackground;
-            
+
           if (historyObj.currentObject == previousBackground ||
             historyObj.currentObject == activeBackground) {
 
