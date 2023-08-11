@@ -1,0 +1,20 @@
+.pb-12 {
+  /* Smooth transitioning for the background colour */
+  transition: background-color 300ms linear;
+
+  /* Smooth transitioning for the background image */
+  transition: background-image 300ms linear;
+}
+
+/* Each of these represents a potential background colour or image */
+#red {
+  background-color: #900;
+}
+
+#green {
+  background-color: #090;
+}
+
+#custom-image {
+  background-image: url("YOUR URL HERE") !important;
+}
