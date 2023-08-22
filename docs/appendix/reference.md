@@ -113,6 +113,28 @@ Another method is by using [Words](#changing-words-with-choices). Have the Word
 value be as long as you want, though you might have to use line breaks in order
 to have multiple lines.
 
+#### Change text alignment without Private Styling
+Private Styling has its downsides. However, you can change the alignment (where
+the text is, such as in the centre or to the left) by using inline CSS like so:
+
+```html
+<p style="text-align: center;">
+YOUR TEXT HERE!
+</p>
+```
+
+The full list of styles available are:
+
+* `left` – Aligns the text to the left
+* `right` – Aligns the text to the right
+* `center` – Centers the text
+* `justify` – Stretches the lines so that each line has equal width (like in
+  newspapers and magazines)
+* `initial` – Sets this property to its default value
+* `inherit` – Inherits this property from its parent element
+
+Learn more [here](https://www.w3schools.com/cssref/pr_text_text-align.php).
+
 ### Style
 
 Move the other colour stuff to this section.

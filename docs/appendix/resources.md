@@ -21,6 +21,8 @@ icon: material/bookmark-outline
   Engine and development environment for interactive versions of CYOA images
 * [CYOA Studio](https://quantencomputer.github.io/cyoastudio/) – An open-source
 static CYOA creator, for those who are less graphically-inclined.
+* [CYOAP](https://n7484443.github.io/cyoap_flutter/) – An online creator that
+  apparently allows for advanced logic
 * [Corrosive-Forge](https://github.com/Arzte/Corrosive-Forge/) (WIP) – An
   interactive CYOA maker & viewer made in Rust with the Leptos crate
 * [Moirai Interactive] by Lt. Ouroumov – An Interactive CYOA Creator. Seemingly

@@ -207,6 +207,7 @@ _Released on DATE at TIME UTC_
 * Minor fix to Words
 * Added Dynamic Background stuff in the reference
 * Updated Modded Viewer to allow `#!html <div>`s now
+* Add to the Reference
 * 
 * Minor fixes
 
