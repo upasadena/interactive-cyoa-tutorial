@@ -209,18 +209,37 @@ Background column (far left).
 You may wish to make your Point Bar icons white if you have a particularly dark
 CYOA, making it hard to see the icons.
 
+It is recommended you use the first method only, as it is the easiest to
+implement.
+
+##### Method #1: CSS
+Simply add this to your `index.html` file, somewhere in the `<head>` section:
+
+```html
+<style>
+  .v-icon {
+    color: white !important;
+  }
+</style>
+```
+
+You can change `white` to any colour [here][css-colours], or by using a hex
+code.
+
+[css-colours]: https://www.w3schools.com/cssref/css_colors.php
+
+##### Method #2: Pre-made file
 To do so, you have to hack your `css/chunk-vendors.58637379.css`
 file[^pbi-white].
 
 [^pbi-white]: Credit to [u/Wahaha03 and PNG-MAN][pbiw-credit] for this fix
 
-##### Pre-made file method
 Download this fixed file [here][fixed-css], and replace your existing
 `css/chunk-vendors.58637379.css` file with it.
 
 [fixed-css]: /static/fixed-css/chunk-vendors.58637379.css
 
-##### Manual method
+##### Method #3: Manual
 Open it inside of a text editor, and search (++ctrl++ + ++f++) for
 `.theme--light.v-bottom-navigation .v-btn:not(.v-btn--active)` you will find
 the entry you need to change right after it, the `color:rgba(0,0,0,.6)` one.
