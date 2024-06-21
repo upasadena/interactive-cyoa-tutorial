@@ -42,35 +42,6 @@ file, in the `<body>` section, but above `<div id="app">`.
     top right in order to copy the entire block to your clipboard.
 
 ```html title="IntCyoaCreator download progress indicator by Agregen"
-<!-- Insert the following in the beginning of <body> (on the line above <div id="app">) -->
-<div id="indicator">
-  <script>
-    {
-      let _XHR = XMLHttpRequest;
-      XMLHttpRequest = class XHR extends _XHR {
-        constructor() {
-          super();
-          this.addEventListener("progress", e => {
-            indicator.innerText = " Loading data: " + (!e.total ? `${e.loaded} bytes` :
-              `${(100 * e.loaded / e.total).toFixed(2)}%`)
-          });
-          this.addEventListener("loadend", () => {
-            indicator.innerText = ""
-          });
-        }
-      }
-    }
-  </script>
-</div>
-<!-- Modifier: replace `${e.loaded} bytes` with `${(e.loaded/1024**2).toFixed(1)} MB` to display size in MB -->
-<!-- Modifier: replace the part after " Loading data: " with `${(100 * e.loaded / (e.total||SIZE)).toFixed(2)}%` to
-                 always show percentage (SIZE is project.json size in bytes; remember to replace it on every update) -->
-```
-
-However, the above script loads in terms of bytes, which isn't really legible
-nowadays. Use the below script instead to load in terms of megabytes:
-
-```html title="IntCyoaCreator download progress indicator by Agregen"
 <div id="indicator">
   <script>
     {
@@ -95,6 +66,11 @@ nowadays. Use the below script instead to load in terms of megabytes:
 
 However you may also wish to display your maximum file size. This is how to do
 it manually:
+
+!!! tip
+
+    Make sure to change `YOUR-SIZE-HERE` in the script to the size of your
+    project!
 
 ```html title="IntCyoaCreator download progress indicator by Agregen"
 <div id="indicator">
@@ -122,6 +98,87 @@ it manually:
 Here's how loading with megabytes looks (blink and you'll miss it):
 
 ![](../images/120_progress_indicator_mb.gif)
+
+### Alternative graphical indicator
+There is another indicator you can use that looks really good, and it was made
+by the Hikawa Sisters in their [Dragonfall ICYOA][dragonfall][^fable].
+
+It looks like this:
+
+To add it, add this to your `index.html` above `<div id="app">` (don't forget
+you can click the clipboard button in the top right to copy everything):
+
+```html
+<style>
+#indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border: 3px solid #3c3c3c;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 25px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #d5c999;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #fff000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#indicator:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 104%;
+  height: 104%;
+  border: 3px solid transparent;
+  border-top: 3px solid #d5c999;
+  border-right: 3px solid #d5c999;
+  border-radius: 50%;
+  animation: animateC 2s linear infinite;
+}
+
+@keyframes animateC {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
+</style>
+
+<div id="indicator">
+  <script>
+    {let _XHR = XMLHttpRequest;  XMLHttpRequest = class XHR extends _XHR {constructor () {
+      super();
+      this.addEventListener('progress', e => {app.style.display = "none", indicator.innerHTML = " Loading " + (!e.total ? `${(100 * e.loaded / 43225498).toFixed(1)}%` : `${(100 * e.loaded / e.total).toFixed(1)}%`)});
+      this.addEventListener('loadend', () => {indicator.innerHTML = " Loading 100.0%", setTimeout(() => {indicator.remove(), app.style.display = "block"}, 100)});
+    }}}
+  </script>
+</div>
+```
+
+[dragonfall]: https://hikawasisters.neocities.org/Dragonfall/en-us/
+[^fable]: Credit to `fableoftheunspokenword` on Discord for bringing this to my
+    attention.
 
 ## IntCYOAEnhancer script
 The **IntCYOAEnhancer script** by [agregen] is a script hosted on Greasy Fork

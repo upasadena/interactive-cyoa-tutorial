@@ -95,7 +95,7 @@ nav:
     - Mechanics:
       - mechanics/index.md
       - Rows: mechanics/rows.md
-      - Objects / Choices: mechanics/objects.md
+      - Objects / Choices: mechmaterialx.emoji.to_svganics/objects.md
       - Addons: mechanics/addons.md
       - Backpack & Choice Import: mechanics/backpack-and-choice-import.md
       - IDs & Requirements: mechanics/ids-and-requirements.md
@@ -144,8 +144,8 @@ markdown_extensions:
   - admonition # note boxes
   - attr_list # add html and css attributes to most stuff
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list # definitions like MediaWiki
   - footnotes # footnotes
   - md_in_html # allow use of markdown in html

@@ -9,10 +9,12 @@ but rather a general information page about the tutorial itself.
 
 This website is available in these locations:
 
-* [https://icctutorial.pages.dev](https://icctutorial.pages.dev) – Recommended,
+* [https://icctutorial.pages.dev][icct] – Recommended,
   shorter and easier to remember
-* [https://upasadena.github.io/interactive-cyoa-creator/][icct] – Backup,
+* [https://upasadena.github.io/interactive-cyoa-tutorial/][icct-alt] – Backup,
   root-relative links don't work
+
+[icct-alt]: https://upasadena.github.io/interactive-cyoa-tutorial/
 
 ## Authors
 Authors are people who have directly contributed to the text, via the Git
@@ -190,7 +192,9 @@ _Released on DATE at TIME UTC_
 * Made stats publicly viewable
 * Adjusted word count stat from previous release (in accordance with the rule
   up top)
-* Updated mkdocs-material from version 9.2.0b1 to 9.2.0b3
+* Updated mkdocs-material from version 9.2.0b1 to 9.5, moving from beta
+  channels to the official channels
+* Also updated the other packages to their latest versions
 * Added an `install_requirements.sh` script to make it easier for me to update to
   newer versions of packages
 * Expanded on the **CONTRIBUTING.md** document in order to facilitate new GitHub
@@ -208,7 +212,18 @@ _Released on DATE at TIME UTC_
 * Added Dynamic Background stuff in the reference
 * Updated Modded Viewer to allow `#!html <div>`s now
 * Add to the Reference
-* 
+* Got rid of the manual author insertion, as the new mkdocs-material seems to
+  do that for you
+* Tidied up the progress indicator section by removing the bytes example and
+  adding a tip for clarification
+* Added more to the Git CLI tutorial for clarification on where to run the
+  commands
+* Added Tools section to the Resources page
+* Added AvifCyoaCompressor and InteractiveCyoaVerifier to Tools
+* Added Lt Ouroumov's modded creator to tools
+* Added clarification of the order of Word IDs and Point IDs when displaying
+  points
+* Added an alternative indicator to the extending your cyoa section
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

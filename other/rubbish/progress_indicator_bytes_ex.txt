@@ -1,0 +1,28 @@
+```html title="IntCyoaCreator download progress indicator by Agregen"
+<!-- Insert the following in the beginning of <body> (on the line above <div id="app">) -->
+<div id="indicator">
+  <script>
+    {
+      let _XHR = XMLHttpRequest;
+      XMLHttpRequest = class XHR extends _XHR {
+        constructor() {
+          super();
+          this.addEventListener("progress", e => {
+            indicator.innerText = " Loading data: " + (!e.total ? `${e.loaded} bytes` :
+              `${(100 * e.loaded / e.total).toFixed(2)}%`)
+          });
+          this.addEventListener("loadend", () => {
+            indicator.innerText = ""
+          });
+        }
+      }
+    }
+  </script>
+</div>
+<!-- Modifier: replace `${e.loaded} bytes` with `${(e.loaded/1024**2).toFixed(1)} MB` to display size in MB -->
+<!-- Modifier: replace the part after " Loading data: " with `${(100 * e.loaded / (e.total||SIZE)).toFixed(2)}%` to
+                 always show percentage (SIZE is project.json size in bytes; remember to replace it on every update) -->
+```
+
+<!-- However, the above script loads in terms of bytes, which isn't really legible
+nowadays. Use the below script instead to load in terms of megabytes: -->

@@ -11,8 +11,8 @@ serve_command = "mkdocs serve"
 # Enter the virtual environment
 if VENV:
     # os.system(".\\venv\\Scripts\\activate")
-    serve_command = f"./venv/Scripts/python.exe -m {serve_command}"
+    serve_command = f"./venv/bin/python -m {serve_command}"
 
 while True:
-    os.system("mkdocs serve")
+    os.system("./venv/bin/python -m mkdocs serve")
     time.sleep(1.5)

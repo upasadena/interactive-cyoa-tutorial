@@ -183,6 +183,13 @@ You can switch to the Compress menu by pressing the **Compress** button up by
 the **Cropper** button. These are tabs, and pressing one or the other allows
 you to go back and forth.
 
+!!! tip
+
+    If you want an alternative compressor, check out [AvifCyoaCompressor]. It
+    can compress projects down anywhere from 30-55%.
+
+[AvifCyoaCompressor]: https://avif-cyoa-compressor.neocities.org/
+
 !!! warning
 
     According to the Creator,
@@ -195,6 +202,13 @@ you to go back and forth.
        transparent images afterward.
 
 ![](../images/86_switch_to_compress.gif)
+
+!!! warning
+
+    The built-in compression will **not** compress Addon images. You will
+    either need to do that manually, or use a tool[^lemmiwinkz].
+
+[^lemmiwinkz]: Credit to discord user `lemmiwinkz` for this.
 
 #### Compressing an Image
 Compressing an image is simple. Press the **Compress Image** button. Before

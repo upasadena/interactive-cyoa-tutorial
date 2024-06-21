@@ -467,7 +467,10 @@ To begin, download the tool from [here](https://git-scm.com/downloads) (if
 you're on Windows or Mac; if you're on Linux install using your package
 manager).
 
-After installing, make sure it is in your path by running:
+After installing, make sure it is in your path by running (in Windows, this can
+be Powershell or Command Prompt, which you can open by searching for it, or by
+pressing ++win++ + ++r++ then typing `cmd` or `pwsh`. If you're on Linux you
+already know what terminal emulator you're using.):
 
 ```sh
 git --version

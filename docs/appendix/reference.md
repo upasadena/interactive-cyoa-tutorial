@@ -1219,6 +1219,13 @@ using the ID of your Point type.
         It also makes it easier to see when editing text that something is
         meant to be inserted there.
 
+!!! warning
+
+    You **must** set the word's ID before the point's ID[^fable].
+
+[^fable]: Credit to discord user `fableoftheunspokenword` for bringing this to
+    my attention.
+
 !!! quote "From the 30.8.2022 Changelog"
 
     Changed words so that the sum of a point type can be shown in the text, on

@@ -9,6 +9,27 @@ icon: material/bookmark-outline
 
 * [Online version](https://intcyoacreator.onrender.com/)
 * [Offline version at itch.io (one-time purchase of 2.50 USD or more)][icc]
+* [Lt Ouroumov's Modded Creator][lt-creat] – A modded version of the above that
+  has many changes, such as generating longer IDs and requirement optimization.
+
+[lt-creat]: https://cyoa.ltouroumov.ch/editor/
+
+## Tools
+
+* [AvifCyoaCompressor]^([repo][avif-repo]) ([post][avif-post])^ – By
+  blathers16/bubo_virginianus. A tool that compresses CYOAs massively by
+  converting the images to the .avif or webm format, which supports both
+  regular images and GIFs, dropping the project size anywhere from 30 to 55%.
+* [InteractiveCyoaVerifier]^([repo][ver-repo]) ([post][ver-post])^ – By
+  blathers16. This is a tool that checks CYOAs too make sure that there are no
+  bugs.
+
+[AvifCyoaCompressor]: https://avif-cyoa-compressor.neocities.org/
+[avif-repo]: https://github.com/blathers16/avif-cyoa-compressor
+[avif-post]: https://www.reddit.com/r/nsfwcyoa/comments/1bym8t8/new_cyoa_compressor/
+[InteractiveCyoaVerifier]: https://interactive-cyoa-verifier.neocities.org/
+[ver-repo]: https://github.com/blathers16/interactive-cyoa-verifier
+[ver-post]: 
 
 ## Other Creators
 
@@ -99,10 +120,13 @@ Resources primarily for Static CYOAs. May still apply to creating Interactives.
   guide is focused more on static CYOAs. However, should you create an
   Interactive from scratch rather than adapting them, this could help you.
 * [Tips and Tricks for CYOA Making] – By Hexall.
+* [On Building CYOAs] - By Fox.
 * [Tips for writing descriptions] – A post with many comments to help you write
   descriptions of your own content.
 * [Inkscape Guide] – An (incomplete?) guide on how to use Inkscape to make
   CYOAs
+
+[On Building CYOAs]: https://drive.google.com/file/d/1s3qR_KsmRlD5FAzle0l488yhhpoI_hV1/view
 
 ## Templates
 
@@ -121,8 +145,8 @@ definitive CYOA archive. It contains almost all static CYOAs, taking up a
 whopping total of 103.7 GB as of writing this.
     * [Alternate link][allsync-latest].
     * [The Blog](https://cyoaarchive.blogspot.com/)
-    * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) – A
-      subreddit where people dump and rehost old CYOAs
+    * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) **(BANNED)**
+       – A subreddit where people dumped and rehosted old CYOAs
     * [Patreon](https://www.patreon.com/cyoa_archive) – Support the Allsync
       financially using the official Patreon
 * [CYOA (Drive)][cyoa-drive] – A massive NSFW CYOA archive. Claims to have 80%
