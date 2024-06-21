@@ -26,6 +26,12 @@ Older `project.json`s might need older versions of the Viewer to view.
 | Beta 0.3   | [0.3]           | [Download][0.3-mega]   |
 | Beta 0.2   | [0.2]           | [Download][0.2-mega]   |
 
+## Alternative viewers
+Another viewer you can use is [Lt. Ouroumov's modded viewer][lt-view]. It has
+many performance enhancements that can speed up big projects.
+
+[lt-view]: https://github.com/ltouroumov/worm-cyoa-v6-fork/tree/master/viewer
+
 <!-- URLs -->
 [1.8-mega]: https://mega.nz/file/iiQHxSIA#Wr93LFgqkvOMnwsT9ZWCHWxZTD0qaZ6WA2p2VTCLSEU
 [1.8]: ./Viewer_1.8.rar

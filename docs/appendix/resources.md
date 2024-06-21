@@ -16,20 +16,21 @@ icon: material/bookmark-outline
 
 ## Tools
 
-* [AvifCyoaCompressor]^([repo][avif-repo]) ([post][avif-post])^ – By
+* [AvifCyoaCompressor]^([repo][avif-repo])^ ^([post][avif-post])^ – By
   blathers16/bubo_virginianus. A tool that compresses CYOAs massively by
   converting the images to the .avif or webm format, which supports both
   regular images and GIFs, dropping the project size anywhere from 30 to 55%.
-* [InteractiveCyoaVerifier]^([repo][ver-repo]) ([post][ver-post])^ – By
-  blathers16. This is a tool that checks CYOAs too make sure that there are no
-  bugs.
+* [InteractiveCyoaVerifier]^([repo][ver-repo])^ – By blathers16. This is a tool
+  that checks CYOAs too make sure that there are no bugs.
+* [cyoacc] – By DelicateIntegral. A tool that inverts colours in Interactive
+  CYOAs.
 
 [AvifCyoaCompressor]: https://avif-cyoa-compressor.neocities.org/
 [avif-repo]: https://github.com/blathers16/avif-cyoa-compressor
 [avif-post]: https://www.reddit.com/r/nsfwcyoa/comments/1bym8t8/new_cyoa_compressor/
 [InteractiveCyoaVerifier]: https://interactive-cyoa-verifier.neocities.org/
 [ver-repo]: https://github.com/blathers16/interactive-cyoa-verifier
-[ver-post]: 
+[cyoacc]: https://github.com/DelicateIntegral/cyoacc
 
 ## Other Creators
 

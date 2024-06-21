@@ -224,6 +224,7 @@ _Released on DATE at TIME UTC_
 * Added clarification of the order of Word IDs and Point IDs when displaying
   points
 * Added an alternative indicator to the extending your cyoa section
+* Added mention of Lt Ouroumov's viewer in the Viewer download section
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
