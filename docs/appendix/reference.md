@@ -209,10 +209,11 @@ Background column (far left).
 You may wish to make your Point Bar icons white if you have a particularly dark
 CYOA, making it hard to see the icons.
 
-It is recommended you use the first method only, as it is the easiest to
-implement.
+<!-- It is recommended you use the first method only, as it is the easiest to
+implement. -->
 
-##### Method #1: CSS
+<!-- ##### Method #1: CSS -->
+
 Simply add this to your `index.html` file, somewhere in the `<head>` section:
 
 ```html
@@ -224,11 +225,11 @@ Simply add this to your `index.html` file, somewhere in the `<head>` section:
 ```
 
 You can change `white` to any colour [here][css-colours], or by using a hex
-code.
+code (like `#000080` for navy blue).
 
 [css-colours]: https://www.w3schools.com/cssref/css_colors.php
 
-##### Method #2: Pre-made file
+<!-- ##### Method #2: Pre-made file
 To do so, you have to hack your `css/chunk-vendors.58637379.css`
 file[^pbi-white].
 
@@ -237,9 +238,9 @@ file[^pbi-white].
 Download this fixed file [here][fixed-css], and replace your existing
 `css/chunk-vendors.58637379.css` file with it.
 
-[fixed-css]: /static/fixed-css/chunk-vendors.58637379.css
+[fixed-css]: /static/fixed-css/chunk-vendors.58637379.css -->
 
-##### Method #3: Manual
+<!-- ##### Method #3: Manual
 Open it inside of a text editor, and search (++ctrl++ + ++f++) for
 `.theme--light.v-bottom-navigation .v-btn:not(.v-btn--active)` you will find
 the entry you need to change right after it, the `color:rgba(0,0,0,.6)` one.
@@ -251,7 +252,7 @@ The next thing to search for is
 `.v-item-group.v-bottom-navigation .v-btn.v-btn--active`. You will find another
 color entry that should look like `color:inherit`. Change this to
 `color:rgba(255, 255, 255, 1)` to make it fully white. This option corresponds
-to what colour the icons are when they have been pressed.
+to what colour the icons are when they have been pressed. -->
 
 #### (TODO) Make a group of invisible Choices in a Row not take up any space
 Can apply to the Row itself too.
@@ -327,8 +328,8 @@ where the background fixes are attributed to
     It is likely your background will repeat behind Choice and Row backgrounds
     as well.
     
-    In order to fix this, you have to go into each and every Row, turn on
-    **Private Styling** → **Manage Background Design** → **Remove Photo**.
+    In order to manually fix this, you have to go into each and every Row, turn
+    on **Private Styling** → **Manage Background Design** → **Remove Photo**.
 
     Now, you have the default background colour in the background. You don't
     have to turn this off, but if you want to: **Private Styling** →
@@ -337,7 +338,15 @@ where the background fixes are attributed to
 
     It's probably a good idea to have a background on Choices, however.
 
-#### CSS Method #1
+    !!! tip
+
+        If you want this to happen automatically, however, check out the
+        [Interactive CYOA Creator Plus], a modified ICC that automatically
+        stops rows from repeating the background image.
+
+[Interactive CYOA Creator Plus]: https://hikawasisters.neocities.org/ICCPlus/
+
+<!-- #### CSS Method #1
 This and Method #2 are the preferred methods.
 
 Download [static_background.css](/static/static_background.css), and put it
@@ -352,9 +361,11 @@ Then, put this in your `index.html` in the `<head>` section:
 
 Change the `href` to wherever you've put it.
 
-#### CSS Method #2
-If you don't want to rely on a folder, you can simply put it straight into your
-`index.html` file in `<style>` tags. Put this in the `<head>` section:
+#### CSS Method #2 
+If you don't want to rely on a folder, -->
+
+You can simply put this code straight into your `index.html` file in `<style>`
+tags. Put this in the `<head>` section:
 
 ```html
 <style>
@@ -1577,7 +1588,7 @@ Here is a list of allowed styles:
 ### Allowed style tags
 See the HTML tags that allow the `style` attribute [here](#allowed-attributes).
 
-## JavaScript
+<!-- ## JavaScript -->
 
 <!-- References -->
 <!-- Heh, References in References -->

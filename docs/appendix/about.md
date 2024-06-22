@@ -118,7 +118,7 @@ everything that is possible into the Mechanics
   `project.json`, goes through all links to images, fetches them, then converts
   them into Base64 encoded images and puts them locally. Make it open-source
   and MIT.
-- [ ] Add Lt Ourovmov's Viewer to the `static/` folder with the other Viewer
+- [x] Add Lt Ourovmov's Viewer to the `static/` folder with the other Viewer
   files
     - [ ] Use that Viewer with my GitHub template
     - [ ] Merge it with the other modded Viewer I have to create the Ultimate®
@@ -229,6 +229,10 @@ _Released on DATE at TIME UTC_
   very front page.
 * Added mirrors to the two additional viewers in the static folder.
 * Removed release date-time and word count for the latest version of the ICCT.
+* Removed Javascript from the Reference section as there is nothing there for
+  now
+* Cleaned up the Reference so that only the easiest methods for doing something
+  are included
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
