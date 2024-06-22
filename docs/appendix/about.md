@@ -234,6 +234,7 @@ _Released on DATE at TIME UTC_
 * Cleaned up the Reference so that only the easiest methods for doing something
   are included
 * Linked to a hex code colour picker in the Reference
+* Added PNG-MAN's tutorial for playing CYOAs offline to the tutorial
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

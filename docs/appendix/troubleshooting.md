@@ -18,12 +18,15 @@ everyone has.
 ## The Viewer
 
 ### I tried to open index.html on my computer, but the CYOA won't load
-That is because it will never load. The way the Viewer works is that it can
-only properly access and view the `project.json` when it is on a web server.
+That is because it won't load as it is. The way the Viewer works is that it can
+only properly access and view the `project.json` when it is either on a web
+server or with some manual hacking.
 
-You actually *can* view it locally, but not out of the box. To do so, you must
-install a web server. There are tons of web servers that you can locally host,
-such as [XAMPP] for Windows.
+You actually *can* view it locally, but not out of the box.
+
+#### Method 1: Web Server
+To do so with a web server, you must install a web server. There are tons of
+web servers that you can locally host, such as [XAMPP] for Windows.
 
 [XAMPP]: https://www.apachefriends.org/download.html
 
@@ -46,6 +49,14 @@ Alternatively, if you have [Python], you can run this command where your
 
 Replacing `7778` with any number. Then, go into your browser at
 [http://localhost:7778](http://localhost:7778) to view the CYOA.
+
+#### Method 2: Manual editing
+You can do this without a web server, if, for example, you cannot download one
+or set it up for whatever reason.
+
+u/PNG-MAN has a tutorial on how to do this [here][manual-host].
+
+[manual-host]: https://old.reddit.com/user/PNG-MAN/comments/y03ftf/interactive_cyoa_tips_tricks_intcyoacreator/
 
 ### I tried to load my CYOA on a website, but the CYOA won't load
 Make sure that all of your Viewer files and project.json are in the exact same
