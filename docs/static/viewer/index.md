@@ -28,9 +28,16 @@ Older `project.json`s might need older versions of the Viewer to view.
 
 ## Alternative viewers
 Another viewer you can use is [Lt. Ouroumov's modded viewer][lt-view]. It has
-many performance enhancements that can speed up big projects.
+many performance enhancements that can speed up big projects. You can also
+download a mirror [here][lt-view-mirror].
+
+There's also the [ICC+'s viewer][ICC+viewer], which has an in-built loading
+animation. You can download a mirror [here][ICC+viewer-mirror].
 
 [lt-view]: https://github.com/ltouroumov/worm-cyoa-v6-fork/tree/master/viewer
+[lt-view-mirror]: ./LtOuroumovViewer.zip
+[ICC+viewer]: https://mega.nz/file/mjoxVbpT#idyHx8JAxxAepfvmOj95Of7E-KfA89yT3RCLVOo4POM
+[ICC+viewer-mirror]: ./New_Viewer_1.0.zip
 
 <!-- URLs -->
 [1.8-mega]: https://mega.nz/file/iiQHxSIA#Wr93LFgqkvOMnwsT9ZWCHWxZTD0qaZ6WA2p2VTCLSEU

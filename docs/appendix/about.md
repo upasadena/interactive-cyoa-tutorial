@@ -180,9 +180,9 @@ _Released on DATE at TIME UTC_
 -->
 
 ### v0.18.0 (WIP)
-_Released on DATE at TIME UTC_
+<!-- _Released on DATE at TIME UTC_ -->
 
-{{ words_format(word_count=00000, images=000) }}
+<!-- {{ words_format(word_count=00000, images=000) }} -->
 
 * Added links to `static/`
 * Switch to using the Git commit as the date shown on releases now, rather than
@@ -225,6 +225,10 @@ _Released on DATE at TIME UTC_
   points
 * Added an alternative indicator to the extending your cyoa section
 * Added mention of Lt Ouroumov's viewer in the Viewer download section
+* Added ICC+ to resources, and copied Lt Ouromov's creator and the ICC+ to the
+  very front page.
+* Added mirrors to the two additional viewers in the static folder.
+* Removed release date-time and word count for the latest version of the ICCT.
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

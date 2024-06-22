@@ -9,9 +9,19 @@ icon: material/bookmark-outline
 
 * [Online version](https://intcyoacreator.onrender.com/)
 * [Offline version at itch.io (one-time purchase of 2.50 USD or more)][icc]
-* [Lt Ouroumov's Modded Creator][lt-creat] – A modded version of the above that
+* [Interactive CYOA Creator Plus][ICC+]^([post][ICC+post])^ – By Wahaha303 /
+  Hikawa Sisters. A modded version of the ICC that includes a massive amount of
+  changes, such as automatically converting large images files to webp, border
+  image setting, large backpack image download, loading animation built in to
+  the viewer, and other additions. Also fixes each row duplicating the
+  background image and many more other fixes. Includes a new
+  [viewer][ICC+viewer].
+* [Lt Ouroumov's Modded Creator][lt-creat] – A modded version of the ICC that
   has many changes, such as generating longer IDs and requirement optimization.
 
+[ICC+]: https://hikawasisters.neocities.org/ICCPlus/
+[ICC+post]: https://www.reddit.com/r/InteractiveCYOA/comments/1dlwjyj/modded_interactive_cyoa_creator_plus/
+[ICC+viewer]: https://mega.nz/file/mjoxVbpT#idyHx8JAxxAepfvmOj95Of7E-KfA89yT3RCLVOo4POM
 [lt-creat]: https://cyoa.ltouroumov.ch/editor/
 
 ## Tools
