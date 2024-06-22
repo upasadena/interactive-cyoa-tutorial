@@ -209,11 +209,6 @@ Background column (far left).
 You may wish to make your Point Bar icons white if you have a particularly dark
 CYOA, making it hard to see the icons.
 
-<!-- It is recommended you use the first method only, as it is the easiest to
-implement. -->
-
-<!-- ##### Method #1: CSS -->
-
 Simply add this to your `index.html` file, somewhere in the `<head>` section:
 
 ```html
@@ -224,35 +219,11 @@ Simply add this to your `index.html` file, somewhere in the `<head>` section:
 </style>
 ```
 
-You can change `white` to any colour [here][css-colours], or by using a hex
-code (like `#000080` for navy blue).
+You can change `white` to any colour [here][css-colours], or by using a
+[hex code] (like `#000080` for navy blue).
 
 [css-colours]: https://www.w3schools.com/cssref/css_colors.php
-
-<!-- ##### Method #2: Pre-made file
-To do so, you have to hack your `css/chunk-vendors.58637379.css`
-file[^pbi-white].
-
-[^pbi-white]: Credit to [u/Wahaha03 and PNG-MAN][pbiw-credit] for this fix
-
-Download this fixed file [here][fixed-css], and replace your existing
-`css/chunk-vendors.58637379.css` file with it.
-
-[fixed-css]: /static/fixed-css/chunk-vendors.58637379.css -->
-
-<!-- ##### Method #3: Manual
-Open it inside of a text editor, and search (++ctrl++ + ++f++) for
-`.theme--light.v-bottom-navigation .v-btn:not(.v-btn--active)` you will find
-the entry you need to change right after it, the `color:rgba(0,0,0,.6)` one.
-The first three 0s are the RGB code, and the last one is the alpha/transparency
-level (1 = normal, 0 = invisible, 0.5 = transparent). This option corresponds
-to the default colour.
-
-The next thing to search for is
-`.v-item-group.v-bottom-navigation .v-btn.v-btn--active`. You will find another
-color entry that should look like `color:inherit`. Change this to
-`color:rgba(255, 255, 255, 1)` to make it fully white. This option corresponds
-to what colour the icons are when they have been pressed. -->
+[hex code]: https://htmlcolorcodes.com/color-picker/
 
 #### (TODO) Make a group of invisible Choices in a Row not take up any space
 Can apply to the Row itself too.
@@ -346,24 +317,6 @@ where the background fixes are attributed to
 
 [Interactive CYOA Creator Plus]: https://hikawasisters.neocities.org/ICCPlus/
 
-<!-- #### CSS Method #1
-This and Method #2 are the preferred methods.
-
-Download [static_background.css](/static/static_background.css), and put it
-anywhere in your project's folder. I recommend putting it in a folder called
-`css`, which should already exist if you have the Viewer.
-
-Then, put this in your `index.html` in the `<head>` section:
-
-```html
-<link rel="stylesheet" href="./css/static_background.css">
-```
-
-Change the `href` to wherever you've put it.
-
-#### CSS Method #2 
-If you don't want to rely on a folder, -->
-
 You can simply put this code straight into your `index.html` file in `<style>`
 tags. Put this in the `<head>` section:
 
@@ -376,38 +329,6 @@ tags. Put this in the `<head>` section:
   }
 </style>
 ```
-
-#### JavaScript method
-This is not the preferred method, but still works regardless.
-
-In order to make a background static, if you don't have the
-[progress indicator] simply add this code to the `<body>`
-section of your `index.html`:
-
-```html
-<div id="indicator">
-<script>
-  {
-    let _XHR = XMLHttpRequest;  XMLHttpRequest = class XHR extends _XHR {
-      constructor () {
-        super();
-        this.addEventListener('progress', e => {indicator.innerText = " Loading data: " + (!e.total ? `${(e.loaded/1024**2).toFixed(1)} MB` : `${(100 * e.loaded / e.total).toFixed(2)}%`)});
-        this.addEventListener('loadend', () => {indicator.innerText = "",document.getElementsByClassName("pb-12")[0].style.cssText += "background-size: cover;background-position: center;background-attachment: fixed;"});
-      }
-    }
-  }
-</script>
-</div>
-```
-
-If you already have the [progress indicator], you can simply add this line
-right after the `this.addEventListener('progress'…)` line:
-
-```html
-this.addEventListener('loadend', () => {indicator.innerText = "",document.getElementsByClassName("pb-12")[0].style.cssText += "background-size: cover;background-position: center;background-attachment: fixed;"});
-```
-
----
 
 This will modify your background to become static!
 

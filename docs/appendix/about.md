@@ -233,6 +233,7 @@ _Released on DATE at TIME UTC_
   now
 * Cleaned up the Reference so that only the easiest methods for doing something
   are included
+* Linked to a hex code colour picker in the Reference
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
