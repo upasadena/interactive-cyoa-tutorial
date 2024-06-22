@@ -30,11 +30,11 @@ For knowledge on how to achieve a specific outcome, go to the
 * [Interactive CYOA Creator Plus][ICC+]^([post][ICC+post])^ – By Wahaha303 /
   Hikawa Sisters. A modded version of the ICC that includes a massive amount of
   changes, such as automatically converting large images files to webp, border
-  image setting, large backpack image download, loading animation built in to
+  image setting, large backpack image download, a loading animation built in to
   the viewer, and other additions. Also fixes each row duplicating the
   background image and many more other fixes. Includes a new
   [viewer][ICC+viewer].
-* [Lt Ouroumov's Modded Creator][lt-creat] – A modded version of the ICC that
+* [Lt. Ouroumov's Modded Creator][lt-creat] – A modded version of the ICC that
   has many changes, such as generating longer IDs and requirement optimization.
 
 [ICC+]: https://hikawasisters.neocities.org/ICCPlus/
