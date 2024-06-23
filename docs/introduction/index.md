@@ -57,8 +57,8 @@ its entirety, then there are four ways to look for the information:
 2. If you are looking on how to fix a bug, check the [Troubleshooting] page.
 3. If you can't find it on either of those two, or if you're looking for
    anything else, you can try the search bar in the top right. This will search
-   through the whole project. Alternatively, just press ++f++ and it will open
-   the search bar automatically.
+   through the whole project. Alternatively, just press ++s++ or ++f++ and it
+   will open the search bar automatically.
 4. If you still couldn't find what you were looking for, chances are that it is
    not in this tutorial. Please comment below or reply to the Reddit thread
    about what is missing.

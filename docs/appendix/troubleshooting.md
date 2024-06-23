@@ -109,6 +109,61 @@ Otherwise, go into **the Sidebar** → **Modify Design** →
 **If this is checked then every choice in a row will have identical height**
 option selected.
 
+### I'm having issues with the Point Bar on mobile
+
+#### The Point Bar isn't fixed
+To fix this, you must go into your `index.html` file and add this to the
+`<head>` section:
+
+```html
+<meta name="viewport" content="width=device-width,initial-scale=1.0 minimum-scale=1.0">
+```
+
+!!! warning
+
+    If there is an existing `<meta>` tag, remove it and use the one above.
+    There must only be one per HTML file.
+
+This will make the bottom bar fixed correctly at bottom[^d-int].
+
+#### The Point Bar has too many Point Types and I can't see them all
+This is a common issue on mobile due to an excess of point types being common
+with larger CYOAs.
+
+First, if you have an excess of point types I would suggest making a
+[Points Menu], allowing Point Types to be hidden at the behest of the user.
+This gives them complete control and may allow them to better focus on the
+CYOA.
+
+[Points Menu]: /appendix/reference/#todo-show-points-menu
+
+Second, to fix this permanently, add this to the `<head>` section (or import
+your own CSS file, if you know how to do that):
+
+```html
+<style>
+.v-bottom-navigation.v-item-group.theme--light.v-bottom-navigation--fixed {
+    height: 65px !important;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+</style>
+```
+
+This will make your Point Bar slightly taller and able to be scrolled
+horizontally[^d-int].
+
+#### I'm on Firefox Mobile and these fixes don't work!
+This seems to be an issue with Firefox Mobile itself, and is a client-side
+issue. To fix that as a user, you must go into the Accessibility option in
+settings and turn off pinch and zoom on all websites[^d-int].
+
 ## The Creator
 
 ### I'm stuck in the Alternate Menu
@@ -125,8 +180,8 @@ page. Afterward, See [here](/basics/#returning-to-the-default-menu).
 ## Mechanics
 <!-- Fill this with actual logical troubleshooting -->
 ### My Points say "NaN" instead of a number
-[NaN] stands for "Not A Number", and occurs when JavaScript errors when
-expecting any of its arguments to be valid numbers.
+[NaN] stands for "Not A Number", and occurs whenever JavaScript errors when
+it's expecting any of its arguments to be valid numbers.
 
 To fix this, go into **the Sidebar** → **Open Features** → **Manage Points** →
 and set the **Starting Sum** of the offending Point Type to `0` or whatever
@@ -221,6 +276,7 @@ reupload files that are not there.
 <!-- Footnotes -->
 [^choice-height]: Credit to `Hydrogen Peroxide` and `Valmar` on Discord for
   this fix.
+[^d-int]: Credit to `DelicateIntegral` on Discord for these tips.
 
 <!-- URLs -->
 [zoom]: /appendix/reference/#zoom-in-and-out

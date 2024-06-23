@@ -342,11 +342,6 @@ This just opens the [Overview](#overview) menu.
 This opens up the Cheat Engine. The Cheat Engine allows you to change any sort
 of values.
 
-!!! note
-
-    Check out [launchcode01dl's Modded CYOAs] for a collection of Modded
-    ICYOAs.
-
 ## Modded Viewer
 !!! note
 
@@ -426,6 +421,16 @@ In your project's `js` folder, replace `app.c533aa25.js` with the one from
     Here we can see that the new `app.c533aa25.js` file simply adds an
     exception for `<a>` tags and the `href` attribute, allowing for
     hyperlinking.
+
+## Making the CYOA more mobile-friendly
+A lot of people who use Interactive CYOAs are mobile users, and so it would
+benefit creators to make their ICYOAs as mobile-friendly as possible. Luckily,
+the ICC does this well for the most part, but there are still a few issues that
+might arise.
+
+You can see how to preemptively fix a lot of common mobile issues [here][mob].
+
+[mob]: /appendix/troubleshooting/#im-having-issues-with-the-point-bar-on-mobile
 
 ## Using Git
 What is Git? Git is a **version control system** (VCS). It is a program that

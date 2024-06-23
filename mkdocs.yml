@@ -95,7 +95,7 @@ nav:
     - Mechanics:
       - mechanics/index.md
       - Rows: mechanics/rows.md
-      - Objects / Choices: mechmaterialx.emoji.to_svganics/objects.md
+      - Objects / Choices: mechanics/objects.md
       - Addons: mechanics/addons.md
       - Backpack & Choice Import: mechanics/backpack-and-choice-import.md
       - IDs & Requirements: mechanics/ids-and-requirements.md

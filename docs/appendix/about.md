@@ -235,6 +235,13 @@ _Released on DATE at TIME UTC_
   are included
 * Linked to a hex code colour picker in the Reference
 * Added PNG-MAN's tutorial for playing CYOAs offline to the tutorial
+* Removed reference to launchcode01dl's modded CYOAs, as they have taken it
+  down.
+* Added information about pressing ++s++ to search in the Introduction
+* Added IntCyoaAutosaver to the tools list and added synergy with RegExp
+  Download Organizer
+* Added mobile browser errors to the Troubleshooting page, and referenced it in
+  the Extending Your CYOA page
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
