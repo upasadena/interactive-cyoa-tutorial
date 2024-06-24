@@ -242,6 +242,8 @@ _Released on DATE at TIME UTC_
   Download Organizer
 * Added mobile browser errors to the Troubleshooting page, and referenced it in
   the Extending Your CYOA page
+* Explicit mention of how to import CSS through files
+* Updated code for the mobile fix
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

@@ -122,7 +122,9 @@ To fix this, you must go into your `index.html` file and add this to the
 !!! warning
 
     If there is an existing `<meta>` tag, remove it and use the one above.
-    There must only be one per HTML file.
+    There must only be one per viewport. See [here][vp] for more information.
+
+[vp]: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
 
 This will make the bottom bar fixed correctly at bottom[^d-int].
 
@@ -137,8 +139,7 @@ CYOA.
 
 [Points Menu]: /appendix/reference/#todo-show-points-menu
 
-Second, to fix this permanently, add this to the `<head>` section (or import
-your own CSS file, if you know how to do that):
+Second, to fix this issue permanently, add this to the `<body>` section:
 
 ```html
 <style>
@@ -150,10 +151,37 @@ your own CSS file, if you know how to do that):
     display: flex;
     justify-content: space-around;
     position: fixed;
-    bottom: 0;
+    --obj-height: 65px;
+    bottom: unset;
+    top: calc(100vh - var(--obj-height));
     z-index: 1000;
 }
 </style>
+```
+
+Alternatively, you can make a custom CSS file, putting this code in:
+
+```css
+.v-bottom-navigation.v-item-group.theme--light.v-bottom-navigation--fixed {
+    height: 65px !important;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    --obj-height: 65px;
+    bottom: unset;
+    top: calc(100vh - var(--obj-height));
+    z-index: 1000;
+}
+```
+
+and importing it like so, in the `<head>` section of your HTML, where
+`custom.css` is the path to your CSS file:
+
+```html
+<link rel="stylesheet" type="text/css" href="custom.css">
 ```
 
 This will make your Point Bar slightly taller and able to be scrolled
@@ -276,7 +304,8 @@ reupload files that are not there.
 <!-- Footnotes -->
 [^choice-height]: Credit to `Hydrogen Peroxide` and `Valmar` on Discord for
   this fix.
-[^d-int]: Credit to `DelicateIntegral` on Discord for these tips.
+[^d-int]: Credit to `DelicateIntegral` on Discord for these tips and to
+  `spartango` for making suggested changes.
 
 <!-- URLs -->
 [zoom]: /appendix/reference/#zoom-in-and-out
