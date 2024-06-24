@@ -222,6 +222,13 @@ Here's an example of it:
 This can be especially useful since Google Docs has its in-built spellchecker
 and grammar checker.
 
+#### More OCR
+
+If you're looking for more OCR programs, then check out [this list][ocrl] on
+GitHub.
+
+[ocrl]: https://github.com/zacharywhitley/awesome-ocr
+
 ## Planning
 The next thing you should do is plan how you're going to incorporate mechanics
 into your CYOA. I recommend doing this in where you've got the text of the CYOA

@@ -244,6 +244,7 @@ _Released on DATE at TIME UTC_
   the Extending Your CYOA page
 * Explicit mention of how to import CSS through files
 * Updated code for the mobile fix
+* Added links to more OCR programs
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
