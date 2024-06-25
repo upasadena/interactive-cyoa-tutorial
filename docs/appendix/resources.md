@@ -34,6 +34,9 @@ icon: material/bookmark-outline
   that checks CYOAs too make sure that there are no bugs.
 * [cyoacc] – By DelicateIntegral. A tool that inverts colours in Interactive
   CYOAs.
+* [cyoadip][dip-repo] – By Delicate Integral. A tool that automatically
+  refreshes Discord links found in ICC project files. Requires Python and bot
+  setup.
 * [IntCyoaAutosaver] – By Name0930. A userscript that automatically saves your
   CYOAs made with MeanDelay's or Lt. Ouroumov's creator.
   [RegExp Download Organizer] can be used with this to automatically sort your
@@ -45,6 +48,7 @@ icon: material/bookmark-outline
 [InteractiveCyoaVerifier]: https://interactive-cyoa-verifier.neocities.org/
 [ver-repo]: https://github.com/blathers16/interactive-cyoa-verifier
 [cyoacc]: https://github.com/DelicateIntegral/cyoacc
+[dip-repo]: https://github.com/DelicateIntegral/cyoadip
 [IntCyoaAutosaver]: https://greasyfork.org/en/scripts/491127-intcyoaautosaver
 [RegExp Download Organizer]: https://chromewebstore.google.com/detail/regexp-download-organizer/oamembonjndgangicfphlckkdmagpjlg
 
@@ -200,8 +204,6 @@ in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 * [Compilation of all Interactive CYOAs on r/InteractiveCYOA] – By
 [u/PixelGMS]. It contains 57 entries.
     * [Reddit post][pixel-post]
-* [launchcode01dl's Modded CYOAs] – A collection of Modded CYOAs that have
-  effectively infinite points.
 * [Ikeran's Jumpchain Index](https://ikeran.org/jumpchain-index.html) – A list
   of Jumpchains
 

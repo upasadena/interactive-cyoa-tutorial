@@ -245,6 +245,8 @@ _Released on DATE at TIME UTC_
 * Explicit mention of how to import CSS through files
 * Updated code for the mobile fix
 * Added links to more OCR programs
+* Removed launchcode01dl's modded CYOAs from the Resources page
+* Added cyoadip tool
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }
