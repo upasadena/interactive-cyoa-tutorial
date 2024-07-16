@@ -32,11 +32,18 @@ icon: material/bookmark-outline
   regular images and GIFs, dropping the project size anywhere from 30 to 55%.
 * [InteractiveCyoaVerifier]^([repo][ver-repo])^ – By blathers16. This is a tool
   that checks CYOAs too make sure that there are no bugs.
-* [cyoacc] – By DelicateIntegral. A tool that inverts colours in Interactive
-  CYOAs.
-* [cyoadip][dip-repo] – By Delicate Integral. A tool that automatically
-  refreshes Discord links found in ICC project files. Requires Python and bot
-  setup.
+* [cyoatools][ctools-repo] – By Delicate Integral. A tool that can process ICC jsons in various ways.
+
+  Some example tasks that it can do on ICC jsons (go to the repo link to get detailed info):
+  * Disabling Images.
+  * Refreshing Discord links.
+  * Downloading Images to a image folder and updating urls accordingly.
+  * Converting Images (image format, image quality can be chosen) when saving after downloading.
+  * Changing prefixes of urls/paths of images in json.
+  * Converting Base64 embedded images to local images in image folder and updating urls/paths accordingly.
+  * Converting images in image folder to Base64 and embedding in json.
+  * Enabling images.
+
 * [IntCyoaAutosaver] – By Name0930. A userscript that automatically saves your
   CYOAs made with MeanDelay's or Lt. Ouroumov's creator.
   [RegExp Download Organizer] can be used with this to automatically sort your
@@ -47,8 +54,7 @@ icon: material/bookmark-outline
 [avif-post]: https://www.reddit.com/r/nsfwcyoa/comments/1bym8t8/new_cyoa_compressor/
 [InteractiveCyoaVerifier]: https://interactive-cyoa-verifier.neocities.org/
 [ver-repo]: https://github.com/blathers16/interactive-cyoa-verifier
-[cyoacc]: https://github.com/DelicateIntegral/cyoacc
-[dip-repo]: https://github.com/DelicateIntegral/cyoadip
+[ctools-repo]: https://github.com/DelicateIntegral/cyoatools
 [IntCyoaAutosaver]: https://greasyfork.org/en/scripts/491127-intcyoaautosaver
 [RegExp Download Organizer]: https://chromewebstore.google.com/detail/regexp-download-organizer/oamembonjndgangicfphlckkdmagpjlg
 
@@ -71,11 +77,12 @@ static CYOA creator, for those who are less graphically-inclined.
   inactive
 * [Novelette](https://github.com/WriterOfWorlds/Novelette) (Unknown status) –
   Designed as a replacement/successor to the Interactive CYOA Creator, with the
-  ability to play and create visual novels too. 
+  ability to play and create visual novels too.
 
 [Moirai Interactive]: https://ltouroumov.github.io/moirai-interactive/editor/#/
 
 ## Social Media
+
 ### Reddit
 
 * [r/InteractiveCYOA] – A subreddit for Interactive CYOAs. If you make an
@@ -86,17 +93,18 @@ either [export it as a static] or create a static manually.
 * [r/nsfwcyoa] – A subreddit for NSFW CYOAs.
 
 ### Discord
+
 Here are some discord servers that relate to CYOAs and Interactive CYOAs.
 
 * [PixelGMS's Interactive CYOAs] – The primary discord server for Interactive
 CYOAs. It was made by [u/PixelGMS], who is the creator of the
 [r/InteractiveCYOA] subreddit.
-    * If you join, go into `#roles` and get the `CYOA Making Channels` role.
+  * If you join, go into `#roles` and get the `CYOA Making Channels` role.
     This will let you join `#cyoa-making`, a channel that'll help you should
     you get stuck on something.
 * [makeyourchoice] – A discord server for the [r/makeyourchoice] subreddit.
 * [nsfwcyoa] – A discord server for the [r/nsfwcyoa] subreddit.
-    * Check out [#programming-and-interactives-tank] for discussion on
+  * Check out [#programming-and-interactives-tank] for discussion on
       Interactive CYOAs.
 * [/CYOA/] – A discord server from 4chan.
 * [CYOA][CYOA-discord] – Another discord server from 4chan.
@@ -106,6 +114,7 @@ CYOAs. It was made by [u/PixelGMS], who is the creator of the
 * [https://arca.live/b/cyoa](https://arca.live/b/cyoa) – Korean CYOA community
 
 ## Tutorials
+
 Credits to these tutorials and information sources for helping me make this
 tutorial.
 
@@ -114,11 +123,11 @@ tutorial.
 Neocities, which is also covered in *this* tutorial
 [here](./publishing/#uploading-your-project).
 
-    Direct links:
-    
-    * [Imgur](https://imgur.com/a/QV36Ix8)
-    * [Google Slides][1]
-    
+  Direct links:
+
+  * [Imgur](https://imgur.com/a/QV36Ix8)
+  * [Google Slides][1]
+
 * [Tips and Pitfalls for Interactive CYOA Creators (Reddit)] – Contributed a
 fair amount to this tutorial.
 * [MeanDelay's Interactive CYOA Creator Tutorial][pgmstut] – Made by
@@ -135,6 +144,7 @@ comments
   NSFW CYOAs (that I only found half way through completing this tutorial lol)
 
 ### Static CYOAs
+
 Resources primarily for Static CYOAs. May still apply to creating Interactives.
 
 * [How to Create a CYOA] – From the official [r/makeyourchoice] subreddit, this
@@ -152,23 +162,25 @@ Resources primarily for Static CYOAs. May still apply to creating Interactives.
 ## Templates
 
 * Interactive CYOA Template by Valmar
-    * [Preview](https://valmar.neocities.org/cyoas/template/)
-    * [Download][cyoa-template-dl]
+  * [Preview](https://valmar.neocities.org/cyoas/template/)
+  * [Download][cyoa-template-dl]
 * [Static CYOA Template by Pubby](https://github.com/pubby/cyoa-template) –
 An HTML and CSS template for creating 4chan-style CYOAs.
 
 ## CYOAs
+
 ### Archives
+
 Actual downloadable CYOAs.
 
 * [The Allsync](https://cyoaarchive.com/main) – The Allsync is perhaps **the**
 definitive CYOA archive. It contains almost all static CYOAs, taking up a
 whopping total of 103.7 GB as of writing this.
-    * [Alternate link][allsync-latest].
-    * [The Blog](https://cyoaarchive.blogspot.com/)
-    * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) **(BANNED)**
+  * [Alternate link][allsync-latest].
+  * [The Blog](https://cyoaarchive.blogspot.com/)
+  * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) **(BANNED)**
        – A subreddit where people dumped and rehosted old CYOAs
-    * [Patreon](https://www.patreon.com/cyoa_archive) – Support the Allsync
+  * [Patreon](https://www.patreon.com/cyoa_archive) – Support the Allsync
       financially using the official Patreon
 * [CYOA (Drive)][cyoa-drive] – A massive NSFW CYOA archive. Claims to have 80%
   of CYOAs (presumably only NSFW ones). Has 300 folders.
@@ -187,37 +199,39 @@ CYOAs don't tend to be included in archives. This is his personal Google Drive
 with his CYOAs.
 
 ### Indexes
+
 Catalogues and links to CYOAs.
 
 * [CYOA Archives] – An absolutely massive sortable catalogue of both Static AND
   Interactive CYOAs. Includes NSFW. 10,612 entries.
 * [Infaera's Interactive Index](https://infaera.neocities.org/) – By
 [u/Infaera]. A solid index of Interactive CYOAs, containing 406 entries.
-    * [Reddit post][infaera-post]
+  * [Reddit post][infaera-post]
 * [NSFWCYOA Archive] – A massive archive of NSFW CYOAs. Includes Interactives
 in a separate sheet. Also has a lot of sorting options. 1571 main entries and
 258 Interactive entries as of writing.
 * [List of Interactive CYOAs] – From [r/nsfwcyoa].
-    * [TextBin](https://textbin.net/clone/veoxiknpjo)
+  * [TextBin](https://textbin.net/clone/veoxiknpjo)
 * [CYOA List (Doc)][cyoa-list] — A document containing a list of CYOAs, static,
   interactive, SFW, and NSFW. 202 entries.
 * [Compilation of all Interactive CYOAs on r/InteractiveCYOA] – By
 [u/PixelGMS]. It contains 57 entries.
-    * [Reddit post][pixel-post]
+  * [Reddit post][pixel-post]
 * [Ikeran's Jumpchain Index](https://ikeran.org/jumpchain-index.html) – A list
   of Jumpchains
 
 ## Stories
+
 Websites where you can post stories made by CYOAs.
 
 * [SpaceBattles (SB)](https://forums.spacebattles.com/) – A forum for all sorts
   of things. The **Creative Writing** section is where you can post and view
   stories.
-    * [General CYOA Thread][sb-general-cyoa-thread]
-    * [Creative Writing][sb-cw]
+  * [General CYOA Thread][sb-general-cyoa-thread]
+  * [Creative Writing][sb-cw]
 * [Questionable Questing (QQ)](https://questionablequesting.com/) **(NSFW)** –
   Like the above, but is more lenient in terms of rules. Allows NSFW content.
-    * [General QQ CYOA Thread][qq-general-cyoa-thread] – Check the
+  * [General QQ CYOA Thread][qq-general-cyoa-thread] – Check the
         [Threadmarks][qq-thread-tm] for more indexes
 * [Sufficient Velocity (SV)](https://forums.sufficientvelocity.com/) – A
   splinter of SpaceBattles.
@@ -225,6 +239,7 @@ Websites where you can post stories made by CYOAs.
 [sb-cw]: https://forums.spacebattles.com/forums/creative-writing.18/
 
 ## Images and Media
+
 ### General
 
 * [Pixiv](https://www.pixiv.net/en/)
@@ -300,7 +315,7 @@ lot of information for this page.
 StarDustAnon. It contains musings and advice on how to create CYOAs in general.
 An excellent read.
 * [Interactive CYOA Tools](https://github.com/aronedwards91/portal-jumper) – A
-  home page for aronedwards91's Interactive CYOA Tools. 
+  home page for aronedwards91's Interactive CYOA Tools.
 * [ICCT Static Folder](/static) – It's the `static/` directory of this
   tutorial. It contains a couple of useful things to download.
 * [ICC Comments](https://meandelay.itch.io/interactive-cyoa-creator/comments) –
@@ -339,7 +354,6 @@ An excellent read.
 [fcc-js]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 [fcc-html-css]: https://www.freecodecamp.org/learn/2022/responsive-web-design/
 [Mozilla docs]: https://developer.mozilla.org/en-US/docs/Learn
-[launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
 [CYOA 101 by Dragon's Whore]: https://imgchest.com/p/ej7mkx9qydl
 [Inkscape Guide]: https://www.reddit.com/r/nsfwcyoa/wiki/tutorials/inkscapestartingguide/
 [CYOA Archives]: https://cyoa-archive.getgrist.com/iRRjcoVdXJNV/CYOA-Archives/p/5
