@@ -43,19 +43,19 @@ icon: material/bookmark-outline
 * [cyoatools][ctools-repo] – By Delicate Integral. A tool that can process ICC
   jsons in various ways.
 
-Some example tasks that it can do on ICC jsons (go to the repo link to get
-detailed info):
+    Some example tasks that it can do on ICC jsons (go to the repo link to get
+    detailed info):
 
-  * Disabling Images.
-  * Refreshing Discord links.
-  * Downloading Images to a image folder and updating urls accordingly.
-  * Converting Images (image format, image quality can be chosen) when saving
-    after downloading.
-  * Changing prefixes of urls/paths of images in json.
-  * Converting Base64 embedded images to local images in image folder and
-    updating urls/paths accordingly.
-  * Converting images in image folder to Base64 and embedding in json.
-  * Enabling images.
+    * Disabling Images.
+    * Refreshing Discord links.
+    * Downloading Images to a image folder and updating urls accordingly.
+    * Converting Images (image format, image quality can be chosen) when saving
+      after downloading.
+    * Changing prefixes of urls/paths of images in json.
+    * Converting Base64 embedded images to local images in image folder and
+      updating urls/paths accordingly.
+    * Converting images in image folder to Base64 and embedding in json.
+    * Enabling images.
 
 * [IntCyoaAutosaver] – By Name0930. A userscript that automatically saves your
   CYOAs made with MeanDelay's or Lt. Ouroumov's creator.

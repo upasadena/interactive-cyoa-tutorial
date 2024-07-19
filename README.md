@@ -18,7 +18,9 @@ View it live at one of these links:
        well.
 
 ## TODO
-See [here](./docs/appendix/about.md#todo).
+See [here](./docs/appendix/about.md#todo) and [here][gh-todo].
+
+[gh-todo]: https://github.com/upasadena/interactive-cyoa-tutorial/issues/2
 
 ## Contributing
 To contribute to this, simply fork this repository, make your changes, and
