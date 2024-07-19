@@ -26,6 +26,7 @@ to you.
 -->
 
 * @upasadena, the original creator
+* @DelicateIntegral
 
 ## Contributors
 Contributors are those who are credited and acknowledged as having contributed
@@ -186,7 +187,7 @@ _Released on DATE at TIME UTC_
 
 * Added links to `static/`
 * Switch to using the Git commit as the date shown on releases now, rather than
-  the GitHub release
+  the GitHub release#using-the-web
 * Posted this to Reddit! (TODO: link)
 * Updated Resources
 * Made stats publicly viewable
@@ -247,6 +248,15 @@ _Released on DATE at TIME UTC_
 * Added links to more OCR programs
 * Removed launchcode01dl's modded CYOAs from the Resources page
 * Added cyoadip tool
+* Added instructions to the upload section (particularly Neocities) that
+  clarifies that the Viewer should be extracted, and that a program like 7zip
+  or WinRar for Windows is recommended
+* Removed informal language in the Resources page
+* Moved CYOA 101 to the top of the tutorials list
+* Removed mention of some drama in favour of a neutral point of view
+* Removed the CYOA Dropbox from Tools, as it has been deleted
+* Removed r/allsync_mirror as it has been banned
+* Added a disclaimer about AvifCyoaCompressor
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

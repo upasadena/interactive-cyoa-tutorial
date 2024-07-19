@@ -30,6 +30,14 @@ icon: material/bookmark-outline
   blathers16/bubo_virginianus. A tool that compresses CYOAs massively by
   converting the images to the .avif or webm format, which supports both
   regular images and GIFs, dropping the project size anywhere from 30 to 55%.
+
+!!! warning
+
+    Some people find that this website's quality slider doesn't work, and may
+    end up increasing the file size. Please make sure to backup any work before
+    using this tool, and compare the `project.json`s' file sizes before
+    deciding to upload it[^Aquagirl2001].
+
 * [InteractiveCyoaVerifier]^([repo][ver-repo])^ – By blathers16. This is a tool
   that checks CYOAs too make sure that there are no bugs.
 * [cyoatools][ctools-repo] – By Delicate Integral. A tool that can process ICC jsons in various ways.
@@ -118,6 +126,8 @@ CYOAs. It was made by [u/PixelGMS], who is the creator of the
 Credits to these tutorials and information sources for helping me make this
 tutorial.
 
+* [CYOA 101 by Dragon's Whore] (NSFW) – A huge tutorial on how to make
+  Interactive CYOAs
 * [How to guide on making interactive CYOAs for a first time creator. (Reddit)]
 – This guide shows you how to upload your finished Interactive CYOAs to
 Neocities, which is also covered in *this* tutorial
@@ -140,8 +150,6 @@ fair amount to this tutorial.
 * [Wanna make a cyoa... but how important is the design?] – Advice in the
 comments
 * [How to make (format) a CYOA post?] – Advice in the comments
-* [CYOA 101 by Dragon's Whore] – A huge tutorial on how to make Interactive
-  NSFW CYOAs (that I only found half way through completing this tutorial lol)
 
 ### Static CYOAs
 
@@ -178,25 +186,12 @@ definitive CYOA archive. It contains almost all static CYOAs, taking up a
 whopping total of 103.7 GB as of writing this.
   * [Alternate link][allsync-latest].
   * [The Blog](https://cyoaarchive.blogspot.com/)
-  * [r/allsync_mirror](https://www.reddit.com/r/allsync_mirror/) **(BANNED)**
-       – A subreddit where people dumped and rehosted old CYOAs
   * [Patreon](https://www.patreon.com/cyoa_archive) – Support the Allsync
       financially using the official Patreon
 * [CYOA (Drive)][cyoa-drive] – A massive NSFW CYOA archive. Claims to have 80%
   of CYOAs (presumably only NSFW ones). Has 300 folders.
-* [CYOA Dropbox][cyoadb] – A Dropbox with a lot of CYOAs
-
-    !!! quote "Message from the creator"
-
-        Hello friends, I am the guy who owns the Dropbox linked up top. I added
-        a notepad to the dropbox. If you are a CYOA author and wish to see your 
-        CYOA in the dropbox, the most expedient way would be emailing my new
-        Yahoo! account "Dropboxanon@yahoo.com' with the CYOA. Adding a name
-        either in the subject or body attached to the email would be helpful.
-
-* [TokHaar Gol's CYOAs] – For [reasons I won't get into][tok], TokHaar Gol's
-CYOAs don't tend to be included in archives. This is his personal Google Drive
-with his CYOAs.
+* [TokHaar Gol's CYOAs] – This is TokHaar Gol's personal Google Drive with
+their CYOAs.
 
 ### Indexes
 
@@ -375,6 +370,9 @@ An excellent read.
 [u/PixelGMS]: https://old.reddit.com/user/PixelGMS
 [u/Infaera]: https://old.reddit.com/user/Infaera/
 [u/PixelatedNSFW]: https://old.reddit.com/user/PixelatedNSFW
+
+<!-- Credits -->
+[^Aquagirl2001]: Credit to `Aquagirl2001` on Discord for this.
 
 <!-- Discord servers -->
 [makeyourchoice]: https://discord.gg/M3sbCY2

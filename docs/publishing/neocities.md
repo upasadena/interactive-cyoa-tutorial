@@ -16,6 +16,8 @@ limitations in case it is not the right use case for you. If what you require
 falls outside of these limits, consider becoming a Neocities Supporter, or
 choosing another host.
 
+If you don't care, you can skip ahead [here](#using-the-web).
+
 Neocities's [limits] for a Free account are as follows:
 
 * 1 GB storage – Some CYOAs get as large as hundreds of megabytes if they
@@ -118,6 +120,15 @@ Now we're going to upload our files. First, upload your `project.json`:
 
 Next, upload the [Viewer](/static/viewer/) here. This is the code that actually
 interprets your `project.json` and displays it to players.
+
+!!! tip
+
+    You will need to extract the Viewer file before you upload it. You can use
+    a free tool like [7-Zip] or a paid tool like [WinRAR] to extract it on
+    Windows.
+
+[7-Zip]: https://www.7-zip.org/
+[WinRAR]: https://www.win-rar.com/start.html?&L=0
 
 !!! warning
 
