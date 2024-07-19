@@ -257,6 +257,7 @@ _Released on DATE at TIME UTC_
 * Removed the CYOA Dropbox from Tools, as it has been deleted
 * Removed r/allsync_mirror as it has been banned
 * Added a disclaimer about AvifCyoaCompressor
+* Changed serve.sh to work
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

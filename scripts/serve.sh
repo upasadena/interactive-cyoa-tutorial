@@ -1,1 +1,1 @@
-~/tmp/icct-venv/bin/python -m mkdocs serve
+./venv/bin/python -m mkdocs serve

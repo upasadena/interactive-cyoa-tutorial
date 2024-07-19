@@ -40,15 +40,20 @@ icon: material/bookmark-outline
 
 * [InteractiveCyoaVerifier]^([repo][ver-repo])^ – By blathers16. This is a tool
   that checks CYOAs too make sure that there are no bugs.
-* [cyoatools][ctools-repo] – By Delicate Integral. A tool that can process ICC jsons in various ways.
+* [cyoatools][ctools-repo] – By Delicate Integral. A tool that can process ICC
+  jsons in various ways.
 
-  Some example tasks that it can do on ICC jsons (go to the repo link to get detailed info):
+Some example tasks that it can do on ICC jsons (go to the repo link to get
+detailed info):
+
   * Disabling Images.
   * Refreshing Discord links.
   * Downloading Images to a image folder and updating urls accordingly.
-  * Converting Images (image format, image quality can be chosen) when saving after downloading.
+  * Converting Images (image format, image quality can be chosen) when saving
+    after downloading.
   * Changing prefixes of urls/paths of images in json.
-  * Converting Base64 embedded images to local images in image folder and updating urls/paths accordingly.
+  * Converting Base64 embedded images to local images in image folder and
+    updating urls/paths accordingly.
   * Converting images in image folder to Base64 and embedding in json.
   * Enabling images.
 
