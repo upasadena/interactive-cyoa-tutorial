@@ -55,7 +55,6 @@ icon: material/bookmark-outline
     * Converting Base64 embedded images to local images in image folder and
       updating urls/paths accordingly.
     * Converting images in image folder to Base64 and embedding in json.
-    * Enabling images.
 
 * [IntCyoaAutosaver] – By Name0930. A userscript that automatically saves your
   CYOAs made with MeanDelay's or Lt. Ouroumov's creator.
