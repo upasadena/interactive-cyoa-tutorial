@@ -40,15 +40,14 @@ icon: material/bookmark-outline
 
 * [InteractiveCyoaVerifier]^([repo][ver-repo])^ – By blathers16. This is a tool
   that checks CYOAs too make sure that there are no bugs.
-* [cyoatools][ctools-repo] – By Delicate Integral. A tool that can process ICC
+* [dct][dct-repo] – By DelicateIntegral. A tool that can process ICC
   jsons in various ways.
 
     Some example tasks that it can do on ICC jsons (go to the repo link to get
     detailed info):
 
     * Disabling Images.
-    * Refreshing Discord links.
-    * Downloading Images to a image folder and updating urls accordingly.
+    * Refreshing Discord links, downloading images to a image folder and updating urls accordingly.
     * Converting Images (image format, image quality can be chosen) when saving
       after downloading.
     * Changing prefixes of urls/paths of images in json.
@@ -56,6 +55,10 @@ icon: material/bookmark-outline
       updating urls/paths accordingly.
     * Converting images in image folder to Base64 and embedding in json.
 
+* [build.js/build.css][dcyoas-repo] – By DelicateIntegral. You can include these two
+  files in your index.html to give users option to save/load/delete builds. Go to this
+  [release link][dcyoas-build-release] to get the zip file containing these two files.
+  To check how it looks, see this [live deployment][dcyoas-build-deploy]
 * [IntCyoaAutosaver] – By Name0930. A userscript that automatically saves your
   CYOAs made with MeanDelay's or Lt. Ouroumov's creator.
   [RegExp Download Organizer] can be used with this to automatically sort your
@@ -66,7 +69,10 @@ icon: material/bookmark-outline
 [avif-post]: https://www.reddit.com/r/nsfwcyoa/comments/1bym8t8/new_cyoa_compressor/
 [InteractiveCyoaVerifier]: https://interactive-cyoa-verifier.neocities.org/
 [ver-repo]: https://github.com/blathers16/interactive-cyoa-verifier
-[ctools-repo]: https://github.com/DelicateIntegral/cyoatools
+[dct-repo]: https://github.com/DelicateIntegral/dct
+[dcyoas-repo]: https://github.com/DelicateIntegral/cyoas
+[dcyoas-build-release]: https://github.com/DelicateIntegral/cyoas/releases/latest
+[dcyoas-build-deploy]: https://delicateintegral.github.io/cyoas/
 [IntCyoaAutosaver]: https://greasyfork.org/en/scripts/491127-intcyoaautosaver
 [RegExp Download Organizer]: https://chromewebstore.google.com/detail/regexp-download-organizer/oamembonjndgangicfphlckkdmagpjlg
 
