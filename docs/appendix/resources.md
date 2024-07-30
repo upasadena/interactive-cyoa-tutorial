@@ -9,7 +9,7 @@ icon: material/bookmark-outline
 
 * [Online version](https://intcyoacreator.onrender.com/)
 * [Offline version at itch.io (one-time purchase of 2.50 USD or more)][icc]
-* [Interactive CYOA Creator Plus][ICC+]^([post][ICC+post])^ – By Wahaha303 /
+* [Interactive CYOA Creator Plus][ICC+]^([post][ICC+post])^([repo][ICC+repo])^ – By Wahaha303 /
   Hikawa Sisters. A modded version of the ICC that includes a massive amount of
   changes, such as automatically converting large images files to webp, border
   image setting, large backpack image download, a loading animation built in to
@@ -21,7 +21,8 @@ icon: material/bookmark-outline
 
 [ICC+]: https://hikawasisters.neocities.org/ICCPlus/
 [ICC+post]: https://www.reddit.com/r/InteractiveCYOA/comments/1dlwjyj/modded_interactive_cyoa_creator_plus/
-[ICC+viewer]: https://mega.nz/file/mjoxVbpT#idyHx8JAxxAepfvmOj95Of7E-KfA89yT3RCLVOo4POM
+[ICC+viewer]: https://github.com/wahaha303/ICCPlus/releases/latest
+[ICC+repo]: https://github.com/wahaha303/ICCPlus
 [lt-creat]: https://cyoa.ltouroumov.ch/editor/
 
 ## Tools
