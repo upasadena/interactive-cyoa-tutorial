@@ -152,17 +152,17 @@ Second, to fix this issue permanently, add this to the `<body>` section:
 
     ```html
     <style>
-    .v-bottom-navigation.v-item-group.theme--light.v-bottom-navigation--fixed {
-        height: 65px !important;
-        width: 100%;
-        overflow-x: auto;
-        white-space: nowrap;
-        display: flex;
-        justify-content: space-around;
-        position: fixed;
-        bottom: 0px;
-        z-index: 1000;
-    }
+        .v-bottom-navigation.v-item-group.theme--light.v-bottom-navigation--fixed {
+            white-space: nowrap;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            overflow-x: scroll;
+            scrollbar-width: none;
+        }
     </style>
     ```
 
@@ -170,15 +170,15 @@ Alternatively, you can make a custom CSS file, putting this code in:
 
     ```css
     .v-bottom-navigation.v-item-group.theme--light.v-bottom-navigation--fixed {
-        height: 65px !important;
-        width: 100%;
-        overflow-x: auto;
         white-space: nowrap;
-        display: flex;
-        justify-content: space-around;
         position: fixed;
-        bottom: 0px;
-        z-index: 1000;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: scroll;
+        scrollbar-width: none;
     }
     ```
 
