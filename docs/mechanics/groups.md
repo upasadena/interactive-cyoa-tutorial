@@ -90,9 +90,9 @@ Groups you want this Choice added to.
 
 ![](../images/177_choice_group_add.gif)
 
----
+## Reference
 
-Learn more about what you can do with Groups in the [Reference].
+--8<-- "appendix/reference.md:groups"
 
 <!-- URLs -->
 [Reference]: /appendix/reference/#groups

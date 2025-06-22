@@ -259,6 +259,8 @@ _Released on DATE at TIME UTC_
 * Removed r/allsync_mirror as it has been banned
 * Added a disclaimer about AvifCyoaCompressor
 * Changed serve.sh to work
+* Use the snippets extension to embed the relevant reference entries into
+  specific pages, such as Rows and Choices
 * Minor fixes
 
 [Download the source code][dl-VERSION]{ .md-button }

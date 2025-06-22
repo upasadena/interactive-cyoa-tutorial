@@ -136,7 +136,7 @@ The full list of styles available are:
 Learn more [here](https://www.w3schools.com/cssref/pr_text_text-align.php).
 
 ### Style
-
+--8<-- [start:style]
 Move the other colour stuff to this section.
 
 #### (TODO) Find out the hex code of a colour
@@ -233,7 +233,7 @@ in the CYOA below, and point out the differences.
 
 See https://infaera.neocities.org/cyoa/OverpoweredIsekai/ for a working
 example.
-
+--8<-- [end:style]
 ## Whole CYOA
 ### Changing the page title
 In order to change the title of the tab in the browser, simply edit
@@ -406,6 +406,8 @@ Here's a demo:
 
     In order for this to work, you must use the
     [Modded Viewer](/extending-your-cyoa/#modded-viewer).
+
+    The ICC+ Viewer may also allow this, but this has not been tested.
 
 To get started, download these files:
 
@@ -634,6 +636,7 @@ that Choice, meaning once it is selected they will disappear
 requirement for the "Next Page" Choice above.
 
 ## Rows
+--8<-- [start:rows]
 ### (EX TODO) Make a Row invisible
 If you want to make a Row invisible, simply add a [Selected Choice]
 requirement, but simply don't put any ID in its place. This will permanently
@@ -773,7 +776,11 @@ themselves. This type of advanced behaviour can get quite unwieldy.
 
 <!-- ELABORATE -->
 
+[Selected Choice]: ../mechanics/ids-and-requirements/#selected-choice
+[u/Traveller-81]: https://www.reddit.com/user/Traveller-81
+--8<-- [end:rows]
 ## Choices
+--8<-- [start:choices]
 ### (TODO) You may only pick X options
 Use [Allowed Choices](/mechanics/rows/#allowed-choices).
 
@@ -796,6 +803,8 @@ This can be useful compared to the above if you wanted to have a dynamic
 
 ### Choice requires another's Choice
 See [here][choice_requires_another_choice]
+
+[choice_requires_another_choice]: /appendix/reference/#disabled-choices-via-selected-choice
 
 ### (TODO) Hide a choice if it doesn't meet the requirements
 Simply use filters.
@@ -916,8 +925,9 @@ To do this, you simple have to:
       been increased more than once
     * **Less Than** 0 Requirement, if you wanted to detect if the Choice has
       been put in the negatives
-
+--8<-- [end:choices]
 ## IDs
+--8<-- [start:ids]
 ### (TODO AN EX) Navigation with ID / Title list
 ID / Title list as helpful way of navigating your way through a large CYOA –
 showcase JRPG Traitor 
@@ -929,7 +939,11 @@ navigate through your CYOA.
 Interesting fact: Setting multiple things to the same ID allows you to activate
 one through the other 
 
+[See ID/Title List]: /basics/#see-idtitle-list
+[the Sidebar]: /basics/#the-sidebar
+--8<-- [end:ids]
 ## Requirements
+--8<-- [start:requirements]
 ### (TODO) Logic Gates and Requirements
 
 | Logic Gate | Explanation                                     | Requirement |
@@ -960,8 +974,14 @@ Functioning as a XAND gate.
 ### (TODO) 'One of these is selected and another is non-selected' requirement
 Functioning as a XOR gate.
 
+[AND]: ./#all-of-these-are-selected-requirement
+<!-- TODO: This link may not work live, as it does in testing -->
+[OR]: /mechanics/ids-and-requirements/#one-of-these-is-selected-requirement
+[NOT]: /mechanics/ids-and-requirements/#non-selected-choice
+[NOR]: ./#none-of-these-are-selected-requirement
+--8<-- [end:requirements]
 ## Points and Scores
-
+--8<-- [start:points]
 ### Hide Point Types
 Go to the **Sidebar** → **Open Features** → **Manage Points** and find the
 Point Type you want to hide.
@@ -1040,9 +1060,9 @@ Replacing:
 
 * `0` with the ID of your Point Type
 * `1000000` with whichever number you desire.
-
+--8<-- [end:points]
 ## Images
-
+--8<-- [start:images]
 ### (TODO) Separate images from the project.json
 You can easily separate images from the `project.json` file.
 
@@ -1082,8 +1102,9 @@ the modded Viewer, available [here](/extending-your-cyoa/#modded-viewer).
 <!-- ## Defaults -->
 
 <!-- ## Addons -->
-
+--8<-- [end:images]
 ## Words
+--8<-- [start:words]
 ### Changing Words with Choices
 You can change the **value** of Words using an
 [Object function](/mechanics/objects/#functions).
@@ -1191,15 +1212,21 @@ using the ID of your Point type.
 
     ![](../images/!ref_0_dynamic_setup.gif)
 
+--8<-- [end:words]
 ## Buttons and Variables
-### (TODO) Generate a random number
+--8<-- [start:buttons]
+<!-- ### (TODO) Generate a random number -->
 
-### (TODO) Pick a random choice in a Row
+<!-- ### (TODO) Pick a random choice in a Row -->
+ 
+### Hide a Row behind a button
 
-### (TODO) Hide a Row behind a button
+<!-- TODO: Show an example -->
+
 Use a toggleable variable and use that ID in a selected choice requirement
 
-### (ADD VIDEO) Make a DnD-style 1d20 skill check
+### Make a DnD-style 1d20 skill check
+<!-- TODO: Add video tutorial -->
 This is how to make this:
 
 !!! example
@@ -1256,7 +1283,7 @@ other methods.
        number as above, and a `More Than` equal to 0 (as this is the default,
        and you don't want to count it as a failure yet).
 
-### (TODO) Make a DnD-style skill check plus an arbitrary number N
+<!-- ### (TODO) Make a DnD-style skill check plus an arbitrary number N -->
 
 ### (TODO) Create a button that picks a random Choice only once and permanently
 This makes it so that once you press the button not only does the button
@@ -1275,8 +1302,11 @@ This is good if you wanted a truly random and risky part of the CYOA.
     (such as doing a skill check in DnD), or if you have made a 'Hard'
     difficulty for your CYOA then this could be useful.
 
+--8<-- [end:buttons]
 ## Groups
-### (ADD EXAMPLE) Display a list of all Choices selected within a Row or Group
+--8<-- [start:groups]
+### Display a list of all Choices selected within a Row or Group
+<!-- TODO: ADD EXAMPLE -->
 This can be useful if you wanted to give a summary at the end, with Rows like
 "Companions" only showing the selected Companions.
 
@@ -1295,13 +1325,14 @@ To do this:
 
 Et voilà! It should be working as expected.
 
-??? example (TODO)
+<!-- ??? example (TODO)
 
-    ![]()
+    ![]() -->
 
 [Add the Row to the Group]: /mechanics/groups/#adding-all-choices-in-a-row-to-a-group
 [Selected Choices from Group Id]: /mechanics/rows/#selected-choices-from-group-id
 
+--8<-- [end:groups]
 ## HTML
 ### Formatting
 <!-- See old/index.md for examples -->
@@ -1346,6 +1377,8 @@ Et voilà! It should be working as expected.
     hyperlinking and lots of other things, and the diff admonition shows where
     in the code the sanitizer makes exceptions, meaning you can add your own
     exceptions there.
+
+    The ICC+ viewer also allows this.
 
 The following are the default allowed tags that are rendered with the Viewer:
 
@@ -1421,7 +1454,7 @@ The following are the default allowed tags that are rendered with the Viewer:
     | [&lt;wbr&gt;]              | Defines a possible line-break                                                                       |
 
 [^1]: The ICC sanitizes hyperlinks by default, use the
-[modded Viewer](#modded-viewer) to enable it.
+[modded Viewer](#modded-viewer) or the ICC+ viewer to enable it.
 
 <!-- HTML tag URLs -->
 [&lt;address&gt;]: https://www.w3schools.com/tags/tag_address.asp
@@ -1540,10 +1573,10 @@ See the HTML tags that allow the `style` attribute [here](#allowed-attributes).
 [OR]: ../mechanics/ids-and-requirements/#one-of-these-is-selected-requirement
 [NOT]: ../mechanics/ids-and-requirements/#non-selected-choice
 [NOR]: ./#none-of-these-are-selected-requirement
+[See ID/Title List]: ../basics/#see-idtitle-list
 [choice_requires_another_choice]: #disabled-choices-via-selected-choice
 [CSS Legal Color Values]: https://www.w3schools.com/cssref/css_colors_legal.php
 [CSS Colors]: https://www.w3schools.com/cssref/css_colors.php
-[See ID/Title List]: ../basics/#see-idtitle-list
 [the Sidebar]: ../basics/#the-sidebar
 [u/Traveller-81]: https://www.reddit.com/user/Traveller-81
 [local images]: ../mechanics/images/#local-images

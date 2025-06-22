@@ -113,9 +113,9 @@ nav:
       - Groups: mechanics/groups.md
     - Styling:
       - styling/index.md
-      - Design (WIP): styling/design.md
+      # - Design (WIP): styling/design.md
       - Style Templates: styling/style-templates.md
-      - Colours (WIP): styling/colours.md
+      # - Colours (WIP): styling/colours.md
       - Backgrounds: styling/backgrounds.md
     - Creating Your CYOA:
       - creating-your-cyoa/index.md
@@ -144,7 +144,7 @@ markdown_extensions:
   - admonition # note boxes
   - attr_list # add html and css attributes to most stuff
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list # definitions like MediaWiki
   - footnotes # footnotes
@@ -170,6 +170,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.smartsymbols
   - pymdownx.snippets:
+      base_path: ["docs"]
       auto_append:
         - includes/abbreviations.md
   - pymdownx.tabbed:

@@ -352,9 +352,9 @@ relative to your Choices.
 
     ![](../images/94_image_right.png)
 
----
+## Reference
 
-Learn more about what you can do with Images in the [Reference].
+--8<-- "appendix/reference.md:images"
 
 <!-- URLs -->
 [Reference]: /appendix/reference/#images

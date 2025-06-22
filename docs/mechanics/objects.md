@@ -246,9 +246,9 @@ Choices how you like.
 
 ![](../images/130_reordering_choices.gif)
 
----
+## Reference
 
-Learn more what you can do with Objects in the [Reference].
+--8<-- "appendix/reference.md:choices"
 
 [sidebar_clean]: ../../Introduction/#clean-selected-choices
 [Objects per Row]: ../rows/#objects-per-row
@@ -256,3 +256,9 @@ Learn more what you can do with Objects in the [Reference].
 [score]: ../points-and-scores/
 [Non-Activatable?]: ../rows/#non-activatable
 [Reference]: /appendix/reference/#choices
+
+[See ID/Title List]: ../basics/#see-idtitle-list
+[AND]: ./#all-of-these-are-selected-requirement
+[OR]: ../mechanics/ids-and-requirements/#one-of-these-is-selected-requirement
+[NOT]: ../mechanics/ids-and-requirements/#non-selected-choice
+[NOR]: ./#none-of-these-are-selected-requirement

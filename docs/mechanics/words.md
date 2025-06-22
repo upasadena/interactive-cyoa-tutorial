@@ -71,9 +71,9 @@ and it would appear as:
 
     ![](../images/113_words_demonstration.gif)
 
----
+## Reference
 
-Learn more about what you can do with Words in the [Reference].
+--8<-- "appendix/reference.md:words"
 
 <!-- Footnotes -->
 [^1]: Credit to `lord_valmar` on Discord for this tip

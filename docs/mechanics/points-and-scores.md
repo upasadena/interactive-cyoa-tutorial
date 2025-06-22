@@ -315,9 +315,9 @@ You can multiply Points using an [Object Function](../objects/#functions).
 
 ### (TODO) Divide Points
 
----
+## Reference
 
-Learn more what you can do with Points and Scores in the [Reference].
+--8<-- "appendix/reference.md:points"
 
 <!-- Footnotes -->
 [^faywilds]: Credit to `faywilds` on Discord for this

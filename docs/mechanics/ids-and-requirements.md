@@ -448,10 +448,13 @@ writing requirements underneath each choice manually.
 * **Selected Id:** The ID(s) relevant to the requirement. It will display the
 Row/Choice title if one exists, otherwise it will display the ID.
 
----
+## IDs Reference
 
-Learn more about what you can do with [IDs][id-ref] and [Requirements][req-ref]
-in the [Reference].
+--8<-- "appendix/reference.md:ids"
+
+## Requirements Reference
+
+--8<-- "appendix/reference.md:requirements"
 
 <!-- References -->
 [^1]: [Tips and Pitfalls for Interactive CYOA Creators (Reddit)](https://www.reddit.com/r/InteractiveCYOA/comments/wrf0hl/tips_and_pitfalls_for_interactive_cyoa_creators/)

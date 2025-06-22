@@ -320,9 +320,9 @@ the Choices you can press the Button again.
 
     ![](../images/158_button_no_choice.gif)
 
----
+## Reference
 
-Learn more about what you can do with Buttons and Variables in the [Reference].
+--8<-- "appendix/reference.md:buttons"
 
 <!-- URLs -->
 [ID]: /mechanics/ids-and-requirements/#ids-unique-identifiers
