@@ -213,6 +213,7 @@ _Released on DATE at TIME UTC_
 * Added Dynamic Background stuff in the reference
 * Updated Modded Viewer to allow `#!html <div>`s now
 * Add to the Reference
+* Add new creators to the Resources
 * Got rid of the manual author insertion, as the new mkdocs-material seems to
   do that for you
 * Tidied up the progress indicator section by removing the bytes example and

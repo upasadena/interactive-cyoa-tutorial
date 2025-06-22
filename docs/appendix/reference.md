@@ -614,6 +614,25 @@ Simply put this in the `<head>` section:
 </script>
 ```
 
+### (TODO) Make Pages to separate your CYOA
+
+### (TODO) Make one-way Pages to separate your CYOA
+Unlike the above, this is a guide on how to make it so that the user cannot go
+back after advancing a page.
+
+
+1. For each row or group of rows in a "Page" you make them have a Selected
+Choice requirement, which means a "Next Page" choice needs to be selected to
+show the next page.
+2. At the end of each "Page" (the Rows inside of it), simply make a new Row
+with a Choice that has an Addon. Make the title of that Addon "Next Page" or
+something, and add a Non-Selected Choice requirement for the very choice that
+the Addon is attached to.
+3. All of the Rows above should have the Non-Selected Choice requirement for
+that Choice, meaning once it is selected they will disappear
+4. Do much the same for the next Rows, but also give them a Selected Choice
+requirement for the "Next Page" Choice above.
+
 ## Rows
 ### (EX TODO) Make a Row invisible
 If you want to make a Row invisible, simply add a [Selected Choice]
@@ -769,7 +788,7 @@ is also hidden. Each choice in this arbitrary group costs 1 of these points.
 
 This can be useful compared to the above if you wanted to have a dynamic 
 
-??? example
+??? example (TODO)
 
     …
 
@@ -1239,7 +1258,7 @@ other methods.
 
 ### (TODO) Make a DnD-style skill check plus an arbitrary number N
 
-### Create a button that picks a random Choice only once and permanently
+### (TODO) Create a button that picks a random Choice only once and permanently
 This makes it so that once you press the button not only does the button
 disappear, but you will be unable to deselect the chosen option.
 
@@ -1276,7 +1295,7 @@ To do this:
 
 Et voilà! It should be working as expected.
 
-??? example
+??? example (TODO)
 
     ![]()
 

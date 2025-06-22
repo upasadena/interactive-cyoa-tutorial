@@ -90,6 +90,12 @@ nav:
     - index.md
     - Introduction:
       - introduction/index.md
+    - Appendix:
+      - appendix/index.md
+      - Reference: appendix/reference.md
+      - Troubleshooting: appendix/troubleshooting.md
+      - Resources: appendix/resources.md
+      - About: appendix/about.md
     - Basics:
       - basics/index.md
     - Mechanics:
@@ -120,12 +126,6 @@ nav:
       - Static: publishing/static.md
       - Neocities: publishing/neocities.md
       - GitHub: publishing/github.md
-    - Appendix:
-      - appendix/index.md
-      - Reference: appendix/reference.md
-      - Troubleshooting: appendix/troubleshooting.md
-      - Resources: appendix/resources.md
-      - About: appendix/about.md
 
 extra:
   social:

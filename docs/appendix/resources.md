@@ -79,6 +79,11 @@ icon: material/bookmark-outline
 
 ## Other Creators
 
+* [NeoICC](https://github.com/sgvsbg8gv29ybgqk/neoicc) - An ideological
+  successor to the original Interactive CYOA Creator
+* [Interactive CYOA Engine](https://cyoaengine.neocities.org/) - May need to
+  edit files directly as the editor isn't done yet.
+* [Lt Ouroumov's CYOA Editor](https://github.com/ltouroumov/cyoa-editor)
 * [CYOA Maker](https://cyoa-maker.glitch.me/) – A creator that builds off of
   static images
 * [CYOA Generator](https://github.com/maxtepafray/cyoa-generator) – An
@@ -125,6 +130,8 @@ CYOAs. It was made by [u/PixelGMS], who is the creator of the
 * [nsfwcyoa] – A discord server for the [r/nsfwcyoa] subreddit.
   * Check out [#programming-and-interactives-tank] for discussion on
       Interactive CYOAs.
+* [CYOA 101](https://discord.gg/QNBKw6beu9) – A server for learning how to do
+  CYOAs, by Dragon's Whore.
 * [/CYOA/] – A discord server from 4chan.
 * [CYOA][CYOA-discord] – Another discord server from 4chan.
 
