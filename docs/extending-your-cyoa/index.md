@@ -479,7 +479,6 @@ Learn more about [HTML], [CSS], and [JavaScript] in the [Reference].
 [agregen]: https://agregen.gitlab.io/
 [Lt Ouroumov's Worm CYOA V6]: https://ltouroumov.github.io/worm-cyoa-v6-fork/viewer/
 [intcyoaenhancer]: https://greasyfork.org/en/scripts/438947-intcyoaenhancer
-[launchcode01dl's Modded CYOAs]: https://launchcode01dl.github.io/cyoa/
 [Reference]: /appendix/reference/
 [HTML]: /appendix/reference/#html
 [CSS]: /appendix/reference/#css
